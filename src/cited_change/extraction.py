@@ -54,11 +54,41 @@ def check_metadata(metadata: dict) -> None:
     parsed_date = Date.fromisoformat(metadata["date"])
     if parsed_date.isoformat() != metadata["date"]:
         raise ValueError("source date must be YYYY-MM-DD")
-    parsed_url = urlsplit(metadata["url"])
-    if parsed_url.scheme not in {"https", "http"} or not parsed_url.hostname:
-        raise ValueError("source url must be absolute HTTP(S)")
-    if parsed_url.username or parsed_url.password:
-        raise ValueError("source url must not include credentials")
+    source_kind = metadata.get("source_kind")
+    if source_kind == "local":
+        if metadata["url"] != "":
+            raise ValueError("local source url must be empty")
+        filename = metadata.get("filename")
+        if (not isinstance(filename, str) or not filename.strip() or
+                filename in {".", ".."} or re.search(r"[/\\\x00-\x1f\x7f]", filename)):
+            raise ValueError("local source filename must be a basename without control characters")
+        if metadata.get("format") not in ("text", "pdf"):
+            raise ValueError("local source format must be text or pdf")
+        warnings = metadata.get("extraction_warnings")
+        if not isinstance(warnings, list) or any(not isinstance(w, str) for w in warnings):
+            raise ValueError("local extraction_warnings must be a list of strings")
+        pages = metadata.get("pages")
+        if metadata["format"] == "pdf":
+            if not isinstance(pages, list) or not 1 <= len(pages) <= 50:
+                raise ValueError("local PDF pages must contain 1 to 50 page ranges")
+            previous_end = -2
+            for number, page in enumerate(pages, 1):
+                if (not isinstance(page, dict) or
+                        any(type(page.get(k)) is not int for k in ("number", "start", "end")) or
+                        page["number"] != number or page["start"] != previous_end + 2 or
+                        not page["start"] <= page["end"] <= 100_000):
+                    raise ValueError("local PDF page ranges must be ordered, numbered, bounded offsets")
+                previous_end = page["end"]
+        elif pages not in (None, []):
+            raise ValueError("local text sources must not declare PDF page ranges")
+    else:
+        if source_kind not in (None, "external"):
+            raise ValueError("source_kind must be local or external")
+        parsed_url = urlsplit(metadata["url"])
+        if parsed_url.scheme not in {"https", "http"} or not parsed_url.hostname:
+            raise ValueError("source url must be absolute HTTP(S)")
+        if parsed_url.username or parsed_url.password:
+            raise ValueError("source url must not include credentials")
     if not re.fullmatch(r"[0-9a-f]{64}", metadata["snapshot_sha256"]):
         raise ValueError("snapshot_sha256 must be a lowercase SHA-256 hex digest")
 

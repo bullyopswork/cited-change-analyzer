@@ -4,10 +4,10 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cited-change-analyzer"
-version = "0.1.0"
-description = "Grounded, deterministic comparisons of dated regulatory snapshots"
+version = "0.2.0"
+description = "Local TXT and PDF comparison with cited changes and optional own-key AI"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = ["pypdf>=6.21.1,<7", "psutil>=7,<8"]
 
 [project.scripts]
 cited-change = "cited_change.cli:main"
@@ -16,4 +16,4 @@ cited-change = "cited_change.cli:main"
 where = ["src"]
 
 [tool.setuptools.package-data]
-cited_change = ["resources/*.txt"]
+cited_change = ["resources/*.txt", "web/*", "web/**/*"]

@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useId, useMemo, useRef, useState } from 'react';
-import { categories, type CatalogEntry, type Change, type Evidence, type Snapshot, dataUrl, displayValue, evidenceParts, fetchJson, friendlyDate, isRecord, parseCatalog, parseComparison, sourceUrl } from './data';
+import { categories, type CatalogEntry, type Change, type Comparison, type Evidence, type Snapshot, dataUrl, displayValue, evidenceParts, fetchJson, friendlyDate, isRecord, parseCatalog, parseComparison, sourceUrl } from './data';
 import { downloadReport } from './reports';
+import { LocalWorkspace, localToken } from './LocalWorkspace';
 
 type Resource<T> = { path: string; status: 'loading' | 'ready' | 'error'; value?: T; error?: string };
 function useResource<T>(path: string | null, parse: (value: unknown) => T) {
@@ -20,10 +21,10 @@ function useResource<T>(path: string | null, parse: (value: unknown) => T) {
   return { ...(resource.path === path ? resource : { path: path ?? '', status: 'loading' as const }), retry: () => setAttempt((value) => value + 1) };
 }
 
-interface LocationState { id: string; change: string; view: 'compare' | 'evaluation' }
+interface LocationState { id: string; change: string; view: 'compare' | 'evaluation' | 'local' }
 function readLocation(): LocationState {
   const query = new URLSearchParams(window.location.search);
-  return { id: query.get('comparison') ?? '', change: query.get('change') ?? '', view: query.get('view') === 'evaluation' ? 'evaluation' : 'compare' };
+  return { id: query.get('comparison') ?? '', change: query.get('change') ?? '', view: query.get('view') === 'evaluation' ? 'evaluation' : query.get('view') === 'local' && localToken() ? 'local' : query.get('view') === 'compare' || query.has('comparison') || !localToken() ? 'compare' : 'local' };
 }
 function useLocation() {
   const [location, setLocation] = useState(readLocation);
@@ -32,7 +33,7 @@ function useLocation() {
     const url = new URL(window.location.href);
     (['comparison', 'change', 'view'] as const).forEach((key) => {
       const value = key === 'comparison' ? next.id : next[key];
-      if (value && !(key === 'view' && value === 'compare')) url.searchParams.set(key, value); else url.searchParams.delete(key);
+      if (value && !(key === 'view' && value === 'compare' && !localToken())) url.searchParams.set(key, value); else url.searchParams.delete(key);
     });
     window.history.replaceState(null, '', url);
     setLocation(next);
@@ -54,21 +55,23 @@ function SourcePanel({ side, snapshot, change }: { side: 'earlier' | 'later'; sn
   const markId = useId();
   const evidence = change?.[side === 'earlier' ? 'before_evidence' : 'after_evidence'];
   const parts = evidence ? evidenceParts(snapshot.text, evidence) : null;
-  const url = sourceUrl(snapshot.url);
+  const local = snapshot.source_kind === 'local';
+  const url = local ? undefined : sourceUrl(snapshot.url);
+  const pages = evidence && parts ? snapshot.pages?.filter((page) => evidence.start < page.end && evidence.end > page.start) : undefined;
   const jump = () => { markRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' }); markRef.current?.focus({ preventScroll: true }); };
   return <section className={`source-panel ${side}`} aria-labelledby={`${markId}-title`}>
     <header className="panel-header">
-      <div><span className="eyebrow">{side === 'earlier' ? '02 / Earlier text' : '03 / Later text'}</span><h2 id={`${markId}-title`}>{friendlyDate(snapshot.date)}</h2></div>
-      {url ? <a className="source-link" href={url} target="_blank" rel="noopener noreferrer" aria-label={`Open ${side} source dated ${snapshot.date} in a new tab`}>Source ↗</a> : <span className="muted small">Link unavailable</span>}
+      <div><span className="eyebrow">{side === 'earlier' ? '02 / Earlier text' : '03 / Later text'}</span><h2 id={`${markId}-title`}>{local ? snapshot.filename || 'Local document' : friendlyDate(snapshot.date)}</h2></div>
+      {url ? <a className="source-link" href={url} target="_blank" rel="noopener noreferrer" aria-label={`Open ${side} source dated ${snapshot.date} in a new tab`}>Source ↗</a> : <span className="muted small">{local ? `${snapshot.format?.toUpperCase() || 'Local'} file` : 'Link unavailable'}</span>}
     </header>
     <div className="evidence-bar">
-      {parts && parts[1] ? <><span><i className="evidence-dot" />Selected passage</span><button className="text-button" onClick={jump}>Jump to evidence ↓</button></> : <span>{evidence && !parts ? 'Evidence could not be matched' : evidence ? 'Evidence marks an insertion point' : change ? 'No cited passage on this side' : 'Select a change to see its evidence'}</span>}
+      {parts && parts[1] ? <><span><i className="evidence-dot" />Selected passage{pages?.length ? ` · Page${pages.length > 1 ? 's' : ''} ${pages.map((page) => page.number).join(', ')}` : ''}</span><button className="text-button" onClick={jump}>Jump to evidence ↓</button></> : <span>{evidence && !parts ? 'Evidence could not be matched' : evidence ? 'Evidence marks an insertion point' : change ? 'No cited passage on this side' : 'Select a change to see its evidence'}</span>}
     </div>
     {evidence && !parts && <p className="inline-warning" role="alert">The recorded quote or offsets do not match this snapshot. Highlighting is unavailable; review the source.</p>}
     <div className="document-scroll" tabIndex={0} role="region" aria-label={`${side} source text`}>
       {snapshot.text ? <div className="document-text">{parts ? <>{parts[0]}<mark id={markId} ref={markRef} tabIndex={-1}>{parts[1]}</mark>{parts[2]}</> : snapshot.text}</div> : <div className="absent"><h3>Section absent</h3><p>This dated snapshot contains no section text.</p></div>}
     </div>
-    <footer className="source-footer"><details><summary>Snapshot details</summary><p>Date: {snapshot.date}</p><p>SHA256: <code>{snapshot.snapshot_sha256 || 'Not provided'}</code></p>{url && <a href={url} target="_blank" rel="noopener noreferrer">{url}</a>}</details></footer>
+    <footer className="source-footer"><details><summary>Snapshot details</summary><p>{local ? 'Imported' : 'Date'}: {snapshot.date}</p>{local && <><p>Filename: {snapshot.filename}</p>{snapshot.pages && <p>Pages: {snapshot.pages.length}</p>}</>}{snapshot.extraction_warnings?.map((warning, index) => <p key={index}>{warning}</p>)}<p>SHA256: <code>{snapshot.snapshot_sha256 || 'Not provided'}</code></p>{url && <a href={url} target="_blank" rel="noopener noreferrer">{url}</a>}</details></footer>
   </section>;
 }
 
@@ -79,11 +82,16 @@ function EvidenceQuote({ label, evidence }: { label: string; evidence: Evidence 
 function ComparisonView({ entry, selectedId, onSelect }: { entry: CatalogEntry; selectedId: string; onSelect: (id: string) => void }) {
   const parser = useCallback((value: unknown) => parseComparison(value, entry), [entry]);
   const resource = useResource(entry.path, parser);
+  if (resource.status === 'loading') return <Notice title="Loading archived comparison…">Retrieving the two snapshots and recorded changes.</Notice>;
+  if (resource.status === 'error' || !resource.value) return <Notice title="Comparison unavailable" error retry={resource.retry}>{resource.error}</Notice>;
+  return <ReportView comparison={resource.value} selectedId={selectedId} onSelect={onSelect} />;
+}
+
+export function ReportView({ comparison, selectedId, onSelect }: { comparison: Comparison; selectedId: string; onSelect: (id: string) => void }) {
   const [category, setCategory] = useState('all');
   const [query, setQuery] = useState('');
   const [reviewOnly, setReviewOnly] = useState(false);
   const [downloadError, setDownloadError] = useState('');
-  const comparison = resource.value;
   const changes = comparison?.changes ?? [];
   const selected = changes.find((change) => change.id === selectedId) ?? changes[0];
   const filtered = changes.filter((change) => (category === 'all' || change.category === category) && (!reviewOnly || change.needs_review) &&
@@ -93,15 +101,13 @@ function ComparisonView({ entry, selectedId, onSelect }: { entry: CatalogEntry; 
     if (!comparison) return;
     try { downloadReport(comparison, format); setDownloadError(''); } catch { setDownloadError('The report could not be downloaded in this browser.'); }
   };
-  if (resource.status === 'loading') return <Notice title="Loading archived comparison…">Retrieving the two snapshots and recorded changes.</Notice>;
-  if (resource.status === 'error' || !comparison) return <Notice title="Comparison unavailable" error retry={resource.retry}>{resource.error}</Notice>;
   return <>
     <div className="comparison-heading">
-      <div><span className="eyebrow">{comparison.corpus}</span><h1>§ {comparison.section}</h1><p>{cleanTitle(comparison.title)}</p></div>
+      <div><span className="eyebrow">{comparison.corpus}</span><h1>{comparison.before.source_kind === 'local' ? 'Your document comparison' : `§ ${comparison.section}`}</h1><p>{cleanTitle(comparison.title)}</p></div>
       <div className="report-actions"><span className="small muted">Save this comparison</span><div><button className="button" onClick={() => download('json')}>JSON ↓</button><button className="button" onClick={() => download('html')}>HTML ↓</button></div></div>
     </div>
     {downloadError && <p className="inline-warning" role="alert">{downloadError}</p>}
-    <div className="comparison-meta"><span><b>{changes.length}</b> {changes.length === 1 ? 'change' : 'changes'}</span><span><b>{changes.filter((change) => change.needs_review).length}</b> need review</span><span>{methodLabel(comparison.analysis.method ?? entry.method)}</span><span className="evidence-note">Evidence linked to source, not a verified interpretation.</span></div>
+    <div className="comparison-meta"><span><b>{changes.length}</b> {changes.length === 1 ? 'change' : 'changes'}</span><span><b>{changes.filter((change) => change.needs_review).length}</b> need review</span><span>{methodLabel(comparison.analysis.method)}</span><span className="evidence-note">Evidence linked to source, not a verified interpretation.</span></div>
     {selectedId && !changes.some((change) => change.id === selectedId) && <p className="inline-warning" role="status">The linked change is not available. Showing the first recorded change.</p>}
     {comparison.warnings.length > 0 && <details className="warnings"><summary>{comparison.warnings.length} recorded {comparison.warnings.length === 1 ? 'warning' : 'warnings'}</summary>{comparison.warnings.map((warning, index) => <p key={index}>{displayValue(warning)}</p>)}</details>}
     <div className="review-grid">
@@ -114,7 +120,7 @@ function ComparisonView({ entry, selectedId, onSelect }: { entry: CatalogEntry; 
         <div className="result-count" role="status">Showing {filtered.length} of {changes.length} changes</div>
         {selected && !filtered.includes(selected) && <div className="hidden-selection">The selected change is hidden by filters. <button className="text-button" onClick={clearFilters}>Clear filters</button></div>}
         <div className="change-list">
-          {filtered.length === 0 ? <div className="empty-list"><h3>{changes.length ? 'No matching changes' : 'No changes recorded'}</h3><p>{changes.length ? 'Try another category or search term.' : 'The archive records no textual differences for this pair.'}</p>{changes.length > 0 && <button className="button" onClick={clearFilters}>Clear filters</button>}</div> : filtered.map((change) => <button key={change.id} className={`change-card ${selected?.id === change.id ? 'is-selected' : ''}`} onClick={() => onSelect(change.id)} aria-pressed={selected?.id === change.id}>
+          {filtered.length === 0 ? <div className="empty-list"><h3>{changes.length ? 'No matching changes' : 'No changes recorded'}</h3><p>{changes.length ? 'Try another category or search term.' : 'No textual differences were recorded for this pair.'}</p>{changes.length > 0 && <button className="button" onClick={clearFilters}>Clear filters</button>}</div> : filtered.map((change) => <button key={change.id} className={`change-card ${selected?.id === change.id ? 'is-selected' : ''}`} onClick={() => onSelect(change.id)} aria-pressed={selected?.id === change.id}>
             <span className="card-top"><span className={`category category-${change.category}`}>{change.category}</span><span className="change-number">{String(changes.indexOf(change) + 1).padStart(2, '0')}</span></span>
             <span className="change-summary">{change.summary}</span>{change.needs_review && <span className="review-tag">Needs review</span>}<span className="card-hint">{selected?.id === change.id ? 'Selected · evidence shown' : 'View cited passages →'}</span>
           </button>)}
@@ -186,6 +192,7 @@ function EvaluationView() {
 }
 
 export default function App() {
+  const [token] = useState(localToken);
   const catalogResource = useResource('catalog.json', parseCatalog);
   const [location, navigate] = useLocation();
   const catalog = catalogResource.value;
@@ -196,10 +203,12 @@ export default function App() {
   const selectEntry = (id: string) => navigate({ ...location, id, change: '' });
   return <div className="app-shell"><a className="skip-link" href="#main-content">Skip to main content</a>
     <header className="app-header"><a className="brand" href={import.meta.env.BASE_URL} aria-label="Cited Change Analyzer home"><span className="brand-mark" aria-hidden="true">[c]</span><span>Cited Change<br /><strong>Analyzer</strong></span></a><span className="brand-promise">What changed, with evidence.</span>
-      <nav className="view-nav" aria-label="Main views"><button aria-current={location.view === 'compare' ? 'page' : undefined} onClick={() => navigate({ ...location, view: 'compare' })}>Compare</button><button aria-current={location.view === 'evaluation' ? 'page' : undefined} onClick={() => navigate({ ...location, view: 'evaluation' })}>Evaluation</button></nav>
+      <nav className="view-nav" aria-label="Main views">{token && <button aria-current={location.view === 'local' ? 'page' : undefined} onClick={() => navigate({ ...location, view: 'local' })}>Your documents</button>}<button aria-current={location.view === 'compare' ? 'page' : undefined} onClick={() => navigate({ ...location, view: 'compare' })}>Explore examples</button><button aria-current={location.view === 'evaluation' ? 'page' : undefined} onClick={() => navigate({ ...location, view: 'evaluation' })}>Evaluation</button></nav>
     </header>
     <main id="main-content" tabIndex={-1}>
-      {location.view === 'evaluation' ? <EvaluationView /> : <>
+      {token && <div hidden={location.view !== 'local'}><LocalWorkspace token={token} /></div>}
+      {location.view === 'local' && token ? null : location.view === 'evaluation' ? <EvaluationView /> : <>
+        {!token && <aside className="install-banner"><div><strong>Compare your own TXT or PDF files locally</strong><p>This public demo displays archived examples. The v0.2 local preview compares your own files on your computer. Optional AI is experimental and uses only your own configured key.</p></div><a className="button" href="https://github.com/bullyopswork/cited-change-analyzer/releases/tag/v0.2.0" target="_blank" rel="noopener noreferrer">Install local app ↗</a></aside>}
         <div className="archive-bar"><div><span className="archive-badge"><i />Precomputed archive</span><p>41 CFR Part 301-10 · Explore available historical comparisons. No account or API key required.</p></div></div>
         {catalogResource.status === 'loading' ? <Notice title="Loading the comparison archive…" /> : catalogResource.status === 'error' ? <Notice title="Archive unavailable" error retry={catalogResource.retry}>{catalogResource.error}</Notice> : entries.length === 0 ? <Notice title="No archived comparisons yet">The catalog is available, but contains no comparison pairs.</Notice> : entry && <>
           <div className="archive-selectors"><div className="section-select"><label htmlFor="section">Section</label><select id="section" value={entry.section} onChange={(event) => { const next = entries.find((item) => item.section === event.target.value); if (next) selectEntry(next.id); }}>{sections.map(([section, title]) => <option key={section} value={section}>§ {section} · {cleanTitle(title)}</option>)}</select></div>
@@ -210,6 +219,6 @@ export default function App() {
         </>}
       </>}
     </main>
-    <footer className="app-footer"><span>Cited Change Analyzer</span><p>Textual comparison with dated source passages. Not legal advice. Review the source before relying on a change explanation.</p><span>41 CFR Part 301-10</span></footer>
+    <footer className="app-footer"><span>Cited Change Analyzer</span><p>Textual comparison with cited source passages. Not legal advice. Review the source before relying on a change explanation.</p><span>{token ? 'Local app · your files' : '41 CFR Part 301-10'}</span></footer>
   </div>;
 }

@@ -1,24 +1,39 @@
 # Cited Change Analyzer
 
-Compare historical document versions, understand the factual edits, and inspect the exact source passages behind each finding.
+Compare your own TXT and selectable text PDF documents on your computer. Inspect cited changes, then export a report. Optional AI explanations use your own OpenAI API key.
 
-[Open the public demo](https://cited-change-analyzer.ed3396.chatgpt.site) · [Evaluation record](data/evaluation/metrics.json) · [Architecture](docs/ARCHITECTURE.md)
+[Download v0.2](https://github.com/bullyopswork/cited-change-analyzer/releases/tag/v0.2.0) · [Install and use](docs/INSTALL.md) · [Explore public examples](https://cited-change-analyzer.ed3396.chatgpt.site) · [Architecture](docs/ARCHITECTURE.md)
 
-The hosted demo is public and works without an account, API key or payment. The same archive runs locally without an API key.
+The installed application processes files locally, with no account or API key required for text comparison. It contains the browser interface, so users do not need Node or Docker. The public website is an example archive with installation guidance, not a hosted upload service.
 
-![Document comparison with highlighted source evidence](docs/screenshots/desktop.png)
+**v0.2 verification status:** local comparison, package installation and automated own-key API behavior are implemented. A real OpenAI API call still requires a configured developer credential before the optional AI integration can be described as live verified. See the release notes for the final acceptance status. No owner credentials or funded public inference endpoint are included.
+
+![Installed local document comparison with highlighted source evidence](docs/screenshots/local-desktop.png)
 
 ## What it does
 
-1. Presents 40 real historical comparisons from 41 CFR Part 301-10, the transportation portion of the Federal Travel Regulation.
-2. Shows AI explanations beside earlier and later text, with exact Unicode source spans, version dates, original source links and snapshot hashes.
-3. Supports category filters, search, review flags, shareable comparison URLs, keyboard navigation and a responsive mobile layout.
-4. Exports JSON and a standalone HTML comparison report.
-5. Publishes a frozen 60 case benchmark, raw model outputs, separate source reviews, lexical baselines, timing and token records.
+1. Compares TXT, selectable text PDF and mixed TXT/PDF pairs through a local browser interface or command line.
+2. Shows extracted text, exact Unicode citation spans, local filenames, PDF page ranges and original file hashes. Users can inspect extraction before relying on findings.
+3. Supports filters, search, review flags, keyboard navigation and a responsive layout.
+4. Exports JSON and a standalone HTML report without saving documents to a permanent archive by default.
+5. Offers explicit, optional own-key AI with bounded source windows, conservative cost reservations and preservation of local results when analysis is incomplete.
+6. Includes the original 40 historical regulatory comparisons and frozen 60 case engineering benchmark as an example archive, separate from local document regression results.
 
-The demo serves precomputed real analyses. The analyzer itself does not make live model calls or accept document uploads.
+Local mode accepts files only on the user's loopback server. The public demo serves precomputed analyses and has no document processing or AI billing endpoint. Default local comparison makes no outside requests. AI mode sends extracted sections directly to OpenAI only after explicit consent, using the installer's credentials and provider account.
 
-## Run locally
+## Install the released tool
+
+Requirements: Python 3.11 or newer. Download the wheel from the [release page](https://github.com/bullyopswork/cited-change-analyzer/releases/tag/v0.2.0), install it in a Python virtual environment and launch `cited-change serve`.
+
+The browser opens on `127.0.0.1`. Select the earlier and revised files, then choose **Compare locally**. Node, Docker, source checkout and API access are not needed. See [platform specific installation, upgrade and uninstall instructions](docs/INSTALL.md).
+
+Supported limits: 10 MiB per file, 50 PDF pages, 100,000 extracted code points and 2,000 paragraphs. Complex or malformed PDFs are rejected under parser complexity and worker resource limits. No OCR, encrypted PDFs, Word files, layout/image comparison or collaboration is included.
+
+## Local document evaluation
+
+[34 synthetic TXT/PDF format and behavior checks](data/evaluation/local-documents-v02.json) validate exact citations, supported edits and unchanged controls. Fixtures and a replay script are public. These are development regression checks, not held out AI, legal or real world accuracy estimates. The fixtures exposed and corrected a lexical bug that treated the permission word “may” as the month May; that tuning is not presented as independent validation.
+
+## Developer archive preview
 
 Requirements: Python 3.11 or newer, Node 22 or newer, and npm. CI uses Python 3.12 and Node 24.
 
@@ -34,7 +49,7 @@ npm run build
 python -m http.server 8791 --bind 127.0.0.1 --directory dist
 ```
 
-Open http://127.0.0.1:8791. The published snapshots and cached model outputs are included, so this path needs no API key or model calls.
+Open http://127.0.0.1:8791. The published snapshots and cached model outputs are included, so this path needs no API key or model calls. This static preview shows the archive, not local file processing. To build the installable application, run `npm run build:package` and `python -m build`, then install the resulting wheel outside the checkout.
 
 ## Compare your own dated XML snapshots
 
@@ -88,10 +103,10 @@ An optional OpenAI Responses adapter is included for developers with an API key.
 python -m unittest discover -s tests -v
 npm --prefix frontend test
 npm --prefix frontend run typecheck
-npm run build
-cd frontend
-npx playwright install chromium
-npx playwright test
+npm run build:package
+python -m pip install .
+npm --prefix frontend exec playwright install chromium
+node scripts/test-local-browser.mjs
 ```
 
 Checks cover XML ingestion, failed fetch handling, exact quotes, Unicode offsets, moved text, safe reports, SQLite identity, model output rejection, API budget reservation, viewer interactions, desktop and mobile layout, keyboard navigation and real report downloads. Browser tests use an isolated temporary profile, never a personal browser profile. Evaluation replay makes no model calls.
@@ -102,6 +117,6 @@ The archive uses dated XML from the [eCFR API](https://www.ecfr.gov/reader-aids/
 
 Code is MIT licensed. Federal source text is attributed separately in [data/README.md](data/README.md); the code license does not claim ownership of that text. No private client documents, account credentials or personal browser data are included.
 
-[Mobile screenshot](docs/screenshots/mobile.png) · [Evaluation screenshot](docs/screenshots/evaluation.png) · [Short walkthrough](docs/demo/walkthrough.webm)
+[Local mobile screenshot](docs/screenshots/local-mobile.png) · [Local tool walkthrough](docs/demo/local-walkthrough.webm) · [Archive screenshot](docs/screenshots/desktop.png) · [Evaluation screenshot](docs/screenshots/evaluation.png) · [Original archive walkthrough](docs/demo/walkthrough.webm)
 
 Developed with AI assistance. This release is a focused document review tool and reproducible engineering case study, not a legal advice service.

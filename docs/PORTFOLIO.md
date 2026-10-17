@@ -2,9 +2,17 @@
 
 ## Short description
 
-Built a Python and TypeScript document comparison tool that explains factual edits with exact dated source evidence. Implemented XML ingestion, Unicode span validation, SQLite provenance, a responsive review interface and a reproducible evaluation with raw AI outputs and independent agent source reviews.
+Built an installable Python and TypeScript tool for comparing local TXT and selectable text PDF documents, with exact source highlights, PDF page provenance and report exports. Packaged the complete browser interface in a Python wheel, added bounded offline processing and optional user owned API integration, and retained a separate reproducible regulatory AI evaluation. Live provider verification of the optional v0.2 API path is still pending access to a developer credential.
 
-## Demonstration
+## Local application demonstration
+
+1. Install the released wheel in a clean Python environment, without Node or Docker.
+2. Launch the local browser interface and select two synthetic TXT or PDF files.
+3. Compare without an API key, inspect the extracted sources and select a cited change.
+4. Show PDF page references and export the report.
+5. Explain the explicit optional own-key API boundary and its current verification status.
+
+## Archive demonstration
 
 1. Open a real archived comparison and select a finding.
 2. Show its earlier and later quotations, version dates and original sources.

@@ -1,7 +1,7 @@
 export const categories = ['amount', 'date', 'requirement', 'wording', 'added', 'removed', 'editorial', 'moved'] as const;
 export type Category = typeof categories[number];
 export interface Evidence { start: number; end: number; quote: string }
-export interface Snapshot { date: string; url: string; snapshot_sha256: string; text: string }
+export interface Snapshot { date: string; url: string; snapshot_sha256: string; text: string; source_kind?: 'local'; filename?: string; format?: 'text' | 'pdf'; pages?: { number: number; start: number; end: number }[]; extraction_warnings?: string[] }
 export interface Change {
   id: string;
   category: Category;
@@ -79,7 +79,13 @@ function isEvidence(value: unknown): boolean {
     (value.start as number) >= 0 && (value.end as number) >= (value.start as number) && typeof value.quote === 'string');
 }
 function isSnapshot(value: unknown): boolean {
-  return isRecord(value) && hasStrings(value, ['date', 'url', 'snapshot_sha256', 'text']);
+  if (!isRecord(value) || !hasStrings(value, ['date', 'url', 'snapshot_sha256', 'text'])) return false;
+  if (value.source_kind !== undefined && value.source_kind !== 'local') return false;
+  if (value.filename !== undefined && (typeof value.filename !== 'string' || /[\\/]/.test(value.filename))) return false;
+  if (value.format !== undefined && value.format !== 'text' && value.format !== 'pdf') return false;
+  if (value.extraction_warnings !== undefined && (!Array.isArray(value.extraction_warnings) || !value.extraction_warnings.every((warning) => typeof warning === 'string'))) return false;
+  if (value.pages !== undefined && (!Array.isArray(value.pages) || !value.pages.every((page) => isRecord(page) && Number.isInteger(page.number) && (page.number as number) > 0 && Number.isInteger(page.start) && Number.isInteger(page.end) && (page.start as number) >= 0 && (page.end as number) >= (page.start as number) && (page.end as number) <= Array.from(value.text as string).length))) return false;
+  return true;
 }
 export function parseComparison(value: unknown, expected?: CatalogEntry): Comparison {
   if (!isRecord(value) || value.schema_version !== '1.0' || !hasStrings(value, ['id', 'section', 'title', 'corpus']) ||

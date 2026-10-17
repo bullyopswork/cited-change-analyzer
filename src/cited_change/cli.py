@@ -34,14 +34,14 @@ def parser() -> argparse.ArgumentParser:
     compare = commands.add_parser("compare", help="compare local dated snapshot files")
     compare.add_argument("--before", required=True)
     compare.add_argument("--after", required=True)
-    compare.add_argument("--before-date", required=True)
-    compare.add_argument("--after-date", required=True)
-    compare.add_argument("--before-url", required=True)
-    compare.add_argument("--after-url", required=True)
-    compare.add_argument("--section", required=True)
+    compare.add_argument("--before-date")
+    compare.add_argument("--after-date")
+    compare.add_argument("--before-url")
+    compare.add_argument("--after-url")
+    compare.add_argument("--section", default="local-documents")
     compare.add_argument("--title", default="")
     compare.add_argument("--corpus", default="")
-    compare.add_argument("--format", choices=("xml", "text"), default="xml")
+    compare.add_argument("--format", choices=("auto", "xml", "text"), default="auto")
     compare.add_argument("--output", help="validated JSON destination; otherwise stdout")
     compare.add_argument("--html", help="optional standalone HTML destination")
     compare.add_argument("--database", help="optional append-only SQLite provenance archive")
@@ -53,13 +53,41 @@ def parser() -> argparse.ArgumentParser:
     enrich.add_argument("--model", required=True, help="actual model that generated the saved output")
     enrich.add_argument("--provenance", help="optional saved metadata JSON (prompt version, usage, billing)")
     enrich.add_argument("--output", help="validated JSON destination; otherwise stdout")
+    serve = commands.add_parser("serve", help="launch the installed local browser application")
+    serve.add_argument("--port", type=int, default=8765)
+    serve.add_argument("--no-browser", action="store_true")
+    serve.add_argument("--web-root", help=argparse.SUPPRESS)
+    explain = commands.add_parser("explain", help="optional own-key AI for a local comparison report")
+    explain.add_argument("report")
+    explain.add_argument("--budget-ledger", required=True, help="persistent ledger for this explicitly authorized analysis")
+    explain.add_argument("--output", required=True)
+    explain.add_argument("--html")
+    explain.add_argument("--consent", action="store_true", help="send extracted sections directly to OpenAI using your own configured key")
     return root
 
 
 def main(argv: list[str] | None = None) -> int:
     args = parser().parse_args(argv)
     try:
-        if args.command == "fetch":
+        if args.command == "serve":
+            from .local_server import serve
+            if not 0 <= args.port <= 65535:
+                raise ValueError("port must be within 0..65535")
+            serve(port=args.port, open_browser=not args.no_browser, web_root=args.web_root)
+        elif args.command == "explain":
+            if not args.consent:
+                raise ValueError("--consent is required to send extracted document sections to OpenAI")
+            from .local_server import run_isolated
+            report = json.loads(_read(args.report).decode("utf-8"))
+            result = run_isolated("ai", {"report": report}, ledger_path=args.budget_ledger, timeout=180)
+            export_json(result, args.output)
+            if args.html:
+                export_html(result, args.html)
+            coverage = result.get("analysis", {}).get("ai_coverage", {})
+            available = coverage.get("status") != "unavailable"
+            print(json.dumps({"ok": available, "output": args.output, "ai_coverage": coverage}))
+            return 0 if available else 1
+        elif args.command == "fetch":
             raw = fetch_bytes(args.url)
             snapshot = extract_snapshot(raw, date=args.date, url=args.url)
             # Parse completely before writing; a failed fetch never creates empties.
@@ -68,13 +96,41 @@ def main(argv: list[str] | None = None) -> int:
                               **{key: snapshot[key] for key in ("date", "url", "snapshot_sha256", "byte_length")},
                               "sections": sorted(snapshot["sections"])}))
         elif args.command == "compare":
+            xml_auto = args.format == "auto" and Path(args.before).suffix.lower() == ".xml" and Path(args.after).suffix.lower() == ".xml"
+            if (args.format == "auto" and not xml_auto) or (args.format == "text" and not (args.before_url or args.after_url)):
+                from .local_server import run_isolated
+                report = run_isolated("compare", {"before_raw": _read(args.before), "before_filename": Path(args.before).name,
+                                                  "after_raw": _read(args.after), "after_filename": Path(args.after).name})
+                if args.database:
+                    connection = connect(args.database)
+                    try:
+                        saved = connection.execute('SELECT report_json FROM comparisons WHERE id=?', (report['id'],)).fetchone()
+                        if saved:
+                            previous = json.loads(saved[0])
+                            def stable_local(value):
+                                value = json.loads(json.dumps(value))
+                                for field in ('generated_at', 'latency_ms'):
+                                    value.get('analysis', {}).pop(field, None)
+                                return value
+                            if stable_local(previous) == stable_local(report):
+                                report = previous
+                        record_comparison(connection, report)
+                    finally:
+                        connection.close()
+                content = export_json(report, args.output)
+                if args.html:
+                    export_html(report, args.html)
+                print(json.dumps({"ok": True, "changes": len(report["changes"]), "output": args.output, "html": args.html}) if args.output else content, end="\n" if args.output else "")
+                return 0
+            if not all((args.before_date, args.after_date, args.before_url, args.after_url)):
+                raise ValueError("dated XML/text snapshots require both dates and source URLs; local TXT/PDF files use --format auto")
             sources = {}
             titles = {}
             for side in ("before", "after"):
                 raw = _read(getattr(args, side))
                 date = getattr(args, f"{side}_date")
                 url = getattr(args, f"{side}_url")
-                if args.format == "xml":
+                if args.format == "xml" or xml_auto:
                     snapshot = extract_snapshot(raw, date=date, url=url)
                     sources[side] = section_source(snapshot, args.section)
                     titles[side] = snapshot["sections"].get(args.section, {}).get("title", "")

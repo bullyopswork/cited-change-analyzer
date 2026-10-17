@@ -3,7 +3,7 @@ import fs from 'node:fs/promises';
 
 test('real archive renders sources, navigates findings and downloads exact reports', async ({ page }) => {
   const errors = []; page.on('pageerror', e => errors.push(e.message));
-  await page.goto('/');
+  await page.goto('/?view=compare');
   await expect(page.locator('.archive-size')).toHaveText('40 archived pairs');
   await expect(page.locator('.comparison-heading h1')).toBeVisible();
   await expect(page.locator('.source-panel')).toHaveCount(2);
@@ -33,7 +33,7 @@ test('real archive renders sources, navigates findings and downloads exact repor
 });
 
 test('search empty state and filters recover without losing the archive', async ({ page }) => {
-  await page.goto('/');
+  await page.goto('/?view=compare');
   await expect(page.locator('.comparison-heading h1')).toBeVisible();
   const input = page.getByRole('searchbox');
   await input.fill('this phrase deliberately does not occur 99z');
@@ -44,7 +44,7 @@ test('search empty state and filters recover without losing the archive', async 
 });
 
 test('keyboard skip navigation and evaluation work', async ({ page }) => {
-  await page.goto('/');
+  await page.goto('/?view=compare');
   await page.keyboard.press('Tab');
   await expect(page.getByRole('link', { name: 'Skip to main content' })).toBeFocused();
   await page.keyboard.press('Enter');
@@ -57,7 +57,7 @@ test('keyboard skip navigation and evaluation work', async ({ page }) => {
 
 test('mobile view stacks readable sources with no horizontal overflow', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
-  await page.goto('/');
+  await page.goto('/?view=compare');
   await expect(page.locator('.comparison-heading h1')).toBeVisible();
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBeTruthy();
   const earlier = await page.locator('.source-panel.earlier').boundingBox();
@@ -69,7 +69,7 @@ test('mobile view stacks readable sources with no horizontal overflow', async ({
 
 test('missing catalog gives a useful error and can be retried', async ({ page }) => {
   await page.route('**/data/catalog.json', route => route.fulfill({ status: 404, body: 'missing' }));
-  await page.goto('/');
+  await page.goto('/?view=compare');
   await expect(page.getByRole('heading', { name: 'Archive unavailable' })).toBeVisible();
   await page.unroute('**/data/catalog.json');
   await page.getByRole('button', { name: 'Try again' }).click();

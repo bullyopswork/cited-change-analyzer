@@ -2,6 +2,20 @@
 
 The application separates source identity, textual change detection, AI explanation and evaluation. A successful quote check is not a semantic accuracy judgment.
 
+## Installed local application, v0.2
+
+The Python wheel includes the built React interface and public example archive. `cited-change serve` binds only to 127.0.0.1 and injects a fresh session token into its uncached index. API requests require that token and an allowed Host and Origin. The public static Site does not inject a token and exposes no upload or model endpoint.
+
+TXT and PDF bytes cross only the user's loopback connection. An expendable spawned child extracts and compares them. Default comparison installs a Python audit hook that refuses outbound socket connections and DNS resolution. PDF parsing has context local decoder, aggregate content, reference count and work limits before text extraction. The parent watches worker RSS, enforces wall time and reaps a failed child. Linux also applies an address space bound; the RSS watchdog is sampled protection, not an instantaneous OS memory quota on every platform.
+
+Local snapshots preserve original file SHA256, safe basename, UTC import date, canonical displayed text and optional PDF page coordinates. They use source_kind local and an empty URL; the dated public source path retains its existing HTTP(S) validation. A PDF page coordinate refers to extracted text, not a visual annotation on the original page.
+
+Uploaded files and comparisons stay in process memory, capped at four jobs with completed idle expiry. Exports and explicit CLI archives are separate user directed persistence. No automatic document archive, telemetry or update check is added. Process memory may be swapped by the operating system.
+
+Optional own-key AI runs only after explicit consent in the local interface or CLI. The Python process reads OPENAI_API_KEY, explicit model/rates and cap from its local environment. Neither the key nor a substitute owner credential is exposed to browser code. At most eight bounded source windows are sent directly to the fixed OpenAI Responses endpoint. Source offsets are mapped back to the complete local texts; unsupported or uncovered changes remain in the local report and partial coverage is recorded. Persistent ledgers contain accounting only, with unknown requests conservatively reserved and no automatic retries.
+
+The original regulatory archive and frozen evaluation below remain separate from the new synthetic TXT/PDF regression set. Its source supported AI measurements do not establish accuracy on arbitrary user PDFs.
+
 ```mermaid
 flowchart LR
   A[Dated eCFR XML] --> B[Bounded retrieval and SHA256]

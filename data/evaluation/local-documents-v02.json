@@ -1,0 +1,282 @@
+{
+  "scope": "Synthetic local TXT/PDF regression checks. Not semantic, AI, legal, real-world or held-out accuracy.",
+  "fixture_sha256": "6c34454f56ab2740135687d37b30a9c12bc487f979dc1b6defaabb456f91d036",
+  "checks": 34,
+  "exact_citations": 34,
+  "expected_behavior": 34,
+  "ai_calls": 0,
+  "results": [
+    {
+      "case": "rate",
+      "formats": "txt/txt",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 1,
+      "elapsed_ms": 0.672
+    },
+    {
+      "case": "rate",
+      "formats": "pdf/pdf",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 1,
+      "elapsed_ms": 0.907
+    },
+    {
+      "case": "rate",
+      "formats": "txt/pdf",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 1,
+      "elapsed_ms": 0.344
+    },
+    {
+      "case": "deadline",
+      "formats": "txt/txt",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 1,
+      "elapsed_ms": 0.052
+    },
+    {
+      "case": "deadline",
+      "formats": "pdf/pdf",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 1,
+      "elapsed_ms": 0.604
+    },
+    {
+      "case": "deadline",
+      "formats": "txt/pdf",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 1,
+      "elapsed_ms": 0.371
+    },
+    {
+      "case": "requirement",
+      "formats": "txt/txt",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 1,
+      "elapsed_ms": 0.111
+    },
+    {
+      "case": "requirement",
+      "formats": "pdf/pdf",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 1,
+      "elapsed_ms": 0.577
+    },
+    {
+      "case": "requirement",
+      "formats": "txt/pdf",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 1,
+      "elapsed_ms": 0.305
+    },
+    {
+      "case": "addition",
+      "formats": "txt/txt",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 1,
+      "elapsed_ms": 0.043
+    },
+    {
+      "case": "addition",
+      "formats": "pdf/pdf",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 1,
+      "elapsed_ms": 0.789
+    },
+    {
+      "case": "addition",
+      "formats": "txt/pdf",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 1,
+      "elapsed_ms": 0.486
+    },
+    {
+      "case": "removal",
+      "formats": "txt/txt",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 1,
+      "elapsed_ms": 0.038
+    },
+    {
+      "case": "removal",
+      "formats": "pdf/pdf",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 1,
+      "elapsed_ms": 0.796
+    },
+    {
+      "case": "removal",
+      "formats": "txt/pdf",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 1,
+      "elapsed_ms": 0.295
+    },
+    {
+      "case": "reorder",
+      "formats": "txt/txt",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 1,
+      "elapsed_ms": 0.047
+    },
+    {
+      "case": "reorder",
+      "formats": "pdf/pdf",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 1,
+      "elapsed_ms": 1.317
+    },
+    {
+      "case": "reorder",
+      "formats": "txt/pdf",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 1,
+      "elapsed_ms": 0.656
+    },
+    {
+      "case": "wording",
+      "formats": "txt/txt",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 1,
+      "elapsed_ms": 0.078
+    },
+    {
+      "case": "wording",
+      "formats": "pdf/pdf",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 1,
+      "elapsed_ms": 0.581
+    },
+    {
+      "case": "wording",
+      "formats": "txt/pdf",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 1,
+      "elapsed_ms": 0.316
+    },
+    {
+      "case": "unchanged",
+      "formats": "txt/txt",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 0,
+      "elapsed_ms": 0.032
+    },
+    {
+      "case": "unchanged",
+      "formats": "pdf/pdf",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 0,
+      "elapsed_ms": 0.542
+    },
+    {
+      "case": "unchanged",
+      "formats": "txt/pdf",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 0,
+      "elapsed_ms": 0.3
+    },
+    {
+      "case": "whitespace",
+      "formats": "txt/txt",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 0,
+      "elapsed_ms": 0.029
+    },
+    {
+      "case": "whitespace",
+      "formats": "pdf/pdf",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 0,
+      "elapsed_ms": 0.907
+    },
+    {
+      "case": "whitespace",
+      "formats": "txt/pdf",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 0,
+      "elapsed_ms": 0.552
+    },
+    {
+      "case": "repeated",
+      "formats": "txt/txt",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 1,
+      "elapsed_ms": 0.046
+    },
+    {
+      "case": "repeated",
+      "formats": "pdf/pdf",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 1,
+      "elapsed_ms": 1.14
+    },
+    {
+      "case": "repeated",
+      "formats": "txt/pdf",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 1,
+      "elapsed_ms": 0.301
+    },
+    {
+      "case": "escaping",
+      "formats": "txt/txt",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 1,
+      "elapsed_ms": 0.062
+    },
+    {
+      "case": "escaping",
+      "formats": "pdf/pdf",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 1,
+      "elapsed_ms": 0.599
+    },
+    {
+      "case": "escaping",
+      "formats": "txt/pdf",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 1,
+      "elapsed_ms": 0.382
+    },
+    {
+      "case": "unicode",
+      "formats": "txt/txt",
+      "exact_citations": true,
+      "expected_behavior": true,
+      "changes": 1,
+      "elapsed_ms": 0.054
+    }
+  ]
+}

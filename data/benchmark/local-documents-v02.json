@@ -1,0 +1,17 @@
+{
+  "purpose": "Synthetic local document regression fixtures, not a real-world or held-out accuracy benchmark",
+  "cases": [
+    {"id":"rate","before":"Payment is $100.","after":"Payment is $150.","category":"amount","old":"$100","new":"$150"},
+    {"id":"deadline","before":"Effective January 1, 2025.","after":"Effective February 1, 2025.","category":"date","old":"January","new":"February"},
+    {"id":"requirement","before":"Employees may submit receipts.","after":"Employees must submit receipts.","category":"requirement","old":"may","new":"must"},
+    {"id":"addition","before":"Keep receipts.","after":"Keep receipts.\n\nRetain records for one year.","category":"added","new":"Retain records"},
+    {"id":"removal","before":"Keep receipts.\n\nRetain records for one year.","after":"Keep receipts.","category":"removed","old":"Retain records"},
+    {"id":"reorder","before":"First clause.\n\nSecond clause.\n\nThird clause.","after":"Second clause.\n\nFirst clause.\n\nThird clause.","category":"moved"},
+    {"id":"wording","before":"Send the report to Finance.","after":"Send the report to Operations.","category":"wording","old":"Finance","new":"Operations"},
+    {"id":"unchanged","before":"A policy with no edits.","after":"A policy with no edits.","unchanged":true},
+    {"id":"whitespace","before":"Keep  all receipts.\n\nFile monthly.","after":"Keep all receipts.\n\nFile monthly.","unchanged":true},
+    {"id":"repeated","before":"Keep this clause.\n\nKeep this clause.","after":"Keep this clause.","category":"removed","old":"Keep this clause."},
+    {"id":"escaping","before":"Literal <script>old</script> in a policy.","after":"Literal <script>new</script> in a policy.","category":"wording","old":"old","new":"new"},
+    {"id":"unicode","before":"🦉 Café policy amount is €20.","after":"🦉 Café policy amount is €30.","category":"amount","old":"€20","new":"€30","text_only":true}
+  ]
+}

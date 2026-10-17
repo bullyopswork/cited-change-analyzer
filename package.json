@@ -1,8 +1,8 @@
 {
   "name": "cited-change-analyzer",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "license": "MIT",
   "engines": {"node": ">=22"},
-  "scripts": {"build": "node scripts/build.mjs"}
+  "scripts": {"build": "node scripts/build.mjs", "build:package": "node scripts/build-package.mjs"}
 }

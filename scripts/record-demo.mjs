@@ -15,7 +15,7 @@ try {
   const context = await browser.newContext({ viewport: { width: 1440, height: 1000 }, recordVideo: { dir: staging, size: { width: 1440, height: 1000 } } });
   const page = await context.newPage();
   const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
-  await page.goto(base);
+  await page.goto(new URL('?view=compare', base).href);
   await page.locator('.comparison-heading h1').waitFor();
   await pause(3500);
   await page.screenshot({ path: path.join(screenshots, 'desktop.png'), fullPage: true });
@@ -43,11 +43,11 @@ try {
   await page.getByRole('button', { name: 'Development', exact: true }).click(); await pause(3500);
   await page.getByRole('button', { name: 'Held out', exact: true }).click(); await pause(2500);
   await page.getByRole('heading', { name: 'Why two coverage numbers?' }).scrollIntoViewIfNeeded(); await pause(3000);
-  await page.getByRole('button', { name: 'Compare', exact: true }).click(); await pause(2500);
+  await page.getByRole('button', { name: 'Explore examples', exact: true }).click(); await pause(2500);
   const video = page.video(); await context.close();
   const recorded = await video.path(); copyFileSync(recorded, path.join(staging, 'walkthrough.webm'));
   const mobile = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, deviceScaleFactor: 1 });
-  const mobilePage = await mobile.newPage(); await mobilePage.goto(base); await mobilePage.locator('.comparison-heading h1').waitFor();
+  const mobilePage = await mobile.newPage(); await mobilePage.goto(new URL('?view=compare', base).href); await mobilePage.locator('.comparison-heading h1').waitFor();
   await mobilePage.screenshot({ path: path.join(screenshots, 'mobile.png'), fullPage: true }); await mobile.close();
   console.log(JSON.stringify({ video: path.join(staging, 'walkthrough.webm'), screenshots }, null, 2));
 } finally { await browser.close(); }

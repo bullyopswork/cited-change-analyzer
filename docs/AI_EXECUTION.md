@@ -1,5 +1,15 @@
 # AI execution
 
+## v0.2 installed own-key workflow
+
+The local application supports explicit optional OpenAI Responses analysis using only the installer's own OPENAI_API_KEY. Model, current input/output prices and per-analysis application cap are explicit environment settings. See [installation and configuration](INSTALL.md). The server never returns the key to the interface. The public demo has no API backend and cannot spend the project owner's account credits.
+
+The new local integration is covered by offline configuration, window mapping, Unicode/PDF evidence, budget, failed/unknown transport, replay and result preservation tests. Live provider verification remains pending an available developer API credential. The earlier native Codex generation described below is not a substitute for that live API check.
+
+Windows are at most 20,000 source code points per side and eight calls per analysis. A persistent shared ledger bounds cost reservations, request count and deadline. Parent processing additionally has a 180 second outer wall limit. Source passages too large for a window or left uncovered by a model response remain deterministic findings with explicit partial coverage. A failed AI call never erases the local result. Exact citations do not establish factual or semantic correctness.
+
+Pricing reservations use caller supplied prices and conservative UTF8 bounds, not a promise of a provider enforced billing ceiling. The accounting path contains no document text or credentials. The existing tool never looks for ChatGPT OAuth credentials, and an agent sign-in is not offered as a reusable API key.
+
 ## Recorded generation
 
 Original analysis used `gpt-6.1-sol` with high reasoning through verified native Codex runs on the existing authenticated account. Each run received the frozen prompt and only its own source inputs. It did not receive reference labels or the other split's outputs. Separate fresh runs annotated references and reviewed predictions.

@@ -49,3 +49,20 @@ describe('downloaded report safety', () => {
     expect(html).toContain('not verify the explanation');
   });
 });
+
+
+describe('local snapshot metadata and exports', () => {
+  it('preserves optional local provenance and rejects invalid page coordinates and path names', () => {
+    const input = structuredClone(comparison);
+    input.before = { ...input.before, url: '', source_kind: 'local', filename: 'earlier.pdf', format: 'pdf', pages: [{ number: 1, start: 0, end: 15 }], extraction_warnings: ['Inspect reading order.'] };
+    expect(parseComparison(input).before).toEqual(input.before);
+    expect(() => parseComparison({ ...input, before: { ...input.before, filename: '/private/file.pdf' } })).toThrow();
+    expect(() => parseComparison({ ...input, before: { ...input.before, pages: [{ number: 1, start: 0, end: 999 }] } })).toThrow();
+    const html = htmlReport(input);
+    expect(html).toContain('Local document report.');
+    expect(html).toContain('Earlier text: earlier.pdf');
+    expect(html).toContain('Local pdf file');
+    expect(html).toContain('Inspect reading order.');
+    expect(html).not.toContain('Precomputed archive report.');
+  });
+});

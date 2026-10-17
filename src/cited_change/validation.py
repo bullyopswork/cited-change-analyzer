@@ -38,6 +38,22 @@ def validate(report: object) -> list[str]:
             errors.append(f"{side}.text must be a string")
         else:
             texts[side] = source["text"]
+            if source.get("source_kind") == "local":
+                text = source["text"]
+                if not text.strip() or len(text) > 100_000:
+                    errors.append(f"{side}: local source must contain 1 to 100000 text code points")
+                pages = source.get("pages")
+                if source.get("format") == "pdf" and isinstance(pages, list) and pages:
+                    # Metadata validation above checks types; keep this branch
+                    # defensive so malformed imported reports return errors.
+                    if all(isinstance(p, dict) and type(p.get("start")) is int and
+                           type(p.get("end")) is int for p in pages):
+                        if pages[-1]["end"] != len(text):
+                            errors.append(f"{side}: PDF page ranges must cover the complete source text")
+                        for page in pages[1:]:
+                            start = page["start"]
+                            if text[max(0, start - 2):start] != "\n\n":
+                                errors.append(f"{side}: PDF page separator does not match source text")
     changes = report.get("changes")
     if not isinstance(changes, list):
         errors.append("changes must be a list")

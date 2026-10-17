@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import copy
 import difflib
 import re
 import time
@@ -41,7 +42,9 @@ def _category(before: str, after: str) -> str:
     dates = r"\b(?:\d{4}-\d{2}-\d{2}|\d{1,2}/\d{1,2}/\d{2,4}|(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(?:,?\s+\d{4})?)\b"
     if re.findall(dates, before, re.I) != re.findall(dates, after, re.I):
         return "date"
-    if re.search(r"\b(?:\d{4}-\d{2}-\d{2}|\d{1,2}/\d{1,2}/\d{2,4}|January|February|March|April|May|June|July|August|September|October|November|December|20\d{2})\b", changed, re.I):
+    # A bare modal "may" is not the month May. Named calendar dates were
+    # checked above with a day; standalone month words remain lexical edits.
+    if re.search(r"\b(?:\d{4}-\d{2}-\d{2}|\d{1,2}/\d{1,2}/\d{2,4}|20\d{2})\b", changed, re.I):
         return "date"
     if re.search(r"[$€£]|\b\d[\d,.]*(?:%|\b)|\b(?:dollars?|cents?)\b", changed, re.I):
         return "amount"
@@ -127,10 +130,19 @@ def compare_texts(before: str, after: str, *, section: str, title: str = "",
                         else _category(prior["key"], later["key"]))
             add(category, prior, later)
     identifier = comparison_id or f"{section}__{before_metadata['date']}__{after_metadata['date']}"
+
+    def source(metadata: dict, text: str) -> dict:
+        keys = ["date", "url", "snapshot_sha256"]
+        if metadata.get("source_kind") == "local":
+            keys += ["source_kind", "filename", "format", "extraction_warnings"]
+            if "pages" in metadata:
+                keys.append("pages")
+        return {key: copy.deepcopy(metadata[key]) for key in keys} | {"text": text}
+
     return {"schema_version": "1.0", "id": identifier, "section": section,
             "title": title or section, "corpus": corpus,
-            "before": {key: before_metadata[key] for key in ("date", "url", "snapshot_sha256")} | {"text": before},
-            "after": {key: after_metadata[key] for key in ("date", "url", "snapshot_sha256")} | {"text": after},
+            "before": source(before_metadata, before),
+            "after": source(after_metadata, after),
             "changes": changes, "warnings": [],
             "analysis": {"method": "deterministic", "model": None, "prompt_version": None,
                          "generated_at": datetime.now(timezone.utc).isoformat(),
