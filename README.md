@@ -2,9 +2,9 @@
 
 Compare historical document versions, understand the factual edits, and inspect the exact source passages behind each finding.
 
-[Hosted demo, owner access currently required](https://cited-change-analyzer.ed3396.chatgpt.site) · [Evaluation record](data/evaluation/metrics.json) · [Architecture](docs/ARCHITECTURE.md)
+[Open the public demo](https://cited-change-analyzer.ed3396.chatgpt.site) · [Evaluation record](data/evaluation/metrics.json) · [Architecture](docs/ARCHITECTURE.md)
 
-The repository is public. The hosted version is deployed with owner access while its public access change awaits the Sites permission gate. The same archive runs locally without an API key.
+The hosted demo is public and works without an account, API key or payment. The same archive runs locally without an API key.
 
 ![Document comparison with highlighted source evidence](docs/screenshots/desktop.png)
 
@@ -16,7 +16,7 @@ The repository is public. The hosted version is deployed with owner access while
 4. Exports JSON and a standalone HTML comparison report.
 5. Publishes a frozen 60 case benchmark, raw model outputs, separate source reviews, lexical baselines, timing and token records.
 
-The demo serves precomputed real analyses. The analyzer itself does not make live model calls or accept document uploads. Hosting currently requires the owner's sign-in because the Site remains private.
+The demo serves precomputed real analyses. The analyzer itself does not make live model calls or accept document uploads.
 
 ## Run locally
 
