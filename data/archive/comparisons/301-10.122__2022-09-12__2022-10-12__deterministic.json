@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.122__2022-09-12__2022-10-12__deterministic",
+  "section": "301-10.122",
+  "title": "§ 301-10.122 What must I do with compensation an airline gives me if it denies me a seat on a plane?",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2022-09-12",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+    "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+    "text": "§ 301-10.122 What class of airline accommodations must I use?\n\nLink to an amendment published at 87 FR 55704, Sept. 12, 2022.\n\nFor official business travel, both domestic and international, you must use coach-class accommodations, except as provided under §§ 301-10.123 and 301-10.124."
+  },
+  "after": {
+    "date": "2022-10-12",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-10-12/title-41.xml?part=301-10",
+    "snapshot_sha256": "5af0a1c5b1ea546e201564970a3775086b58b576ff7c7f44a98a3a19ab32739a",
+    "text": "§ 301-10.122 What must I do with compensation an airline gives me if it denies me a seat on a plane?\n\nIf you are performing official travel and a carrier denies you a confirmed reserved seat on a plane, you must give your agency any payment you receive for liquidated damages. You must ensure the carrier shows the “Treasurer of the United States” as payee on the compensation check and then forward the payment to the appropriate agency official.\n\n[FTR Case 2020-300-1, 87 FR 55704, Sept. 12, 2022]"
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "wording",
+      "summary": "Paragraph wording revised.",
+      "before_evidence": {
+        "start": 0,
+        "end": 61,
+        "quote": "§ 301-10.122 What class of airline accommodations must I use?"
+      },
+      "after_evidence": {
+        "start": 0,
+        "end": 100,
+        "quote": "§ 301-10.122 What must I do with compensation an airline gives me if it denies me a seat on a plane?"
+      },
+      "needs_review": true,
+      "review_reason": "Lexical classification only; review legal and semantic significance.",
+      "method": "deterministic"
+    },
+    {
+      "id": "change-2",
+      "category": "date",
+      "summary": "Date-like wording changed.",
+      "before_evidence": {
+        "start": 63,
+        "end": 125,
+        "quote": "Link to an amendment published at 87 FR 55704, Sept. 12, 2022."
+      },
+      "after_evidence": {
+        "start": 102,
+        "end": 447,
+        "quote": "If you are performing official travel and a carrier denies you a confirmed reserved seat on a plane, you must give your agency any payment you receive for liquidated damages. You must ensure the carrier shows the “Treasurer of the United States” as payee on the compensation check and then forward the payment to the appropriate agency official."
+      },
+      "needs_review": true,
+      "review_reason": "Lexical classification only; review legal and semantic significance.",
+      "method": "deterministic"
+    },
+    {
+      "id": "change-3",
+      "category": "date",
+      "summary": "Date-like wording changed.",
+      "before_evidence": {
+        "start": 127,
+        "end": 285,
+        "quote": "For official business travel, both domestic and international, you must use coach-class accommodations, except as provided under §§ 301-10.123 and 301-10.124."
+      },
+      "after_evidence": {
+        "start": 449,
+        "end": 499,
+        "quote": "[FTR Case 2020-300-1, 87 FR 55704, Sept. 12, 2022]"
+      },
+      "needs_review": true,
+      "review_reason": "Lexical classification only; review legal and semantic significance.",
+      "method": "deterministic"
+    }
+  ],
+  "warnings": [],
+  "analysis": {
+    "method": "deterministic",
+    "model": null,
+    "prompt_version": null,
+    "generated_at": "2026-10-17T13:44:13.436179+00:00",
+    "latency_ms": 0.128,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cost_usd": 0,
+    "input_identity": "594b1e15525bd3fd86fbdb26fa80c2467dc79ec4464f38b006b76607beaa7599"
+  }
+}

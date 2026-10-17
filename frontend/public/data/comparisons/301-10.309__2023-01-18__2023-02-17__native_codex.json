@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.309__2023-01-18__2023-02-17__native_codex",
+  "section": "301-10.309",
+  "title": "§ 301-10.309 What will I be reimbursed if I am authorized to use common carrier transportation or a rental vehicle and I use a POV instead?",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2023-01-18",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2023-01-18/title-41.xml?part=301-10",
+    "snapshot_sha256": "91b1cf03eb7f169c7b08c978f66e50f2602bdb29bd5b0a6b517d0e7a50434e48",
+    "text": "§ 301-10.309 What will I be reimbursed if I am authorized to use common carrier transportation or a rental vehicle and I use a POV instead?\n\nLink to an amendment published at 88 FR 2845, Jan. 18, 2023.\n\nYou will be reimbursed the applicable POV rate on a mileage basis, plus per diem, not to exceed the total constructive cost of the authorized method of common carrier transportation plus per diem. Your agency must determine the constructive cost of transportation and per diem by common carrier under the rules in § 301-10.310.\n\n[FTR Amdt. 2015-03, 80 FR 27260, May 13, 2015]"
+  },
+  "after": {
+    "date": "2023-02-17",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2023-02-17/title-41.xml?part=301-10",
+    "snapshot_sha256": "8fd6b727665075f683249f9dc454046fde23ee2392a079a11dfaffe9399e106c",
+    "text": "§ 301-10.309 What will I be reimbursed if I am authorized to use common carrier transportation or a rental vehicle and I use a POV instead?\n\nYou will be reimbursed the applicable POV rate on a mileage basis, plus per diem and related travel expenses, not to exceed the total constructive cost of the authorized method of transportation. Your agency must determine the constructive cost in accordance with § 301-70.105(a).\n\n[88 FR 2845, Jan. 18, 2023]"
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "requirement",
+      "summary": "The POV reimbursement sentence adds related travel expenses and changes the ceiling from constructive common-carrier transportation cost plus per diem to the total constructive cost of the authorized transportation method.",
+      "before_evidence": {
+        "start": 203,
+        "end": 399,
+        "quote": "You will be reimbursed the applicable POV rate on a mileage basis, plus per diem, not to exceed the total constructive cost of the authorized method of common carrier transportation plus per diem."
+      },
+      "after_evidence": {
+        "start": 141,
+        "end": 336,
+        "quote": "You will be reimbursed the applicable POV rate on a mileage basis, plus per diem and related travel expenses, not to exceed the total constructive cost of the authorized method of transportation."
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-2",
+      "category": "requirement",
+      "summary": "The agency constructive-cost instruction changes from transportation and per diem by common carrier under § 301-10.310 to constructive cost in accordance with § 301-70.105(a).",
+      "before_evidence": {
+        "start": 400,
+        "end": 530,
+        "quote": "Your agency must determine the constructive cost of transportation and per diem by common carrier under the rules in § 301-10.310."
+      },
+      "after_evidence": {
+        "start": 337,
+        "end": 421,
+        "quote": "Your agency must determine the constructive cost in accordance with § 301-70.105(a)."
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-3",
+      "category": "editorial",
+      "summary": "The pending-amendment link is absent from the later snapshot.",
+      "before_evidence": {
+        "start": 141,
+        "end": 201,
+        "quote": "Link to an amendment published at 88 FR 2845, Jan. 18, 2023."
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-4",
+      "category": "editorial",
+      "summary": "The source note changes from FTR Amendment 2015-03 to the January 18, 2023 citation.",
+      "before_evidence": {
+        "start": 532,
+        "end": 578,
+        "quote": "[FTR Amdt. 2015-03, 80 FR 27260, May 13, 2015]"
+      },
+      "after_evidence": {
+        "start": 423,
+        "end": 450,
+        "quote": "[88 FR 2845, Jan. 18, 2023]"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    }
+  ],
+  "warnings": [],
+  "analysis": {
+    "method": "native_codex",
+    "model": "gpt-6.1-sol",
+    "prompt_version": "cca-grounded-v1",
+    "generated_at": "2026-10-17T13:50:54.545510+00:00",
+    "latency_ms": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "usage_available": false,
+    "latency_available": false,
+    "cost_usd": null,
+    "billing_basis": "Existing OpenAI account via native Codex. Credit dollar rate unavailable; not zero model usage.",
+    "input_identity": "dea6636897a01855c1704d408b58addcf004712021f3fa53cdc5e5ab22de687c"
+  }
+}

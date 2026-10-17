@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "frozen_at": "2026-10-17T13:43:14.216110+00:00",
+  "stage": "before_any_model_predictions",
+  "hashes": {
+    "data/benchmark/real-inputs-v2.json": "c853ca3f4c182c19ff884c712470126748f016fa8fb4088a3c3790ca75abce9f",
+    "data/benchmark/controlled-inputs.json": "2c944191709f355aa7e3560604677cbe60e3e0f84fd1e2c4a44b34dae2e8a8ec",
+    "data/benchmark/gold-real.json": "247b9fa929333fb20cec662a850360a09ee917f6ca7422aa6b41922647045430",
+    "data/benchmark/gold-controlled.json": "fe8077faf15f862d14b9165a70a6182e8f2e0e3fcefd3a987fc0c36a5073b4f5",
+    "prompts/cca-grounded-v1.txt": "7838962d91ec86337e3d5a9644cebaba434d2b366ac88bef97b350694b456ddd"
+  },
+  "case_count": 60,
+  "event_count": 128,
+  "splits": {
+    "development": 30,
+    "held_out": 30
+  },
+  "real_annotation": "Separate source-only Codex agent reference annotation, parent exact-quote checks; not human expert validation",
+  "controlled_annotation": "Explicit author-defined synthetic facts",
+  "limitations": [
+    "Curated small single-corpus benchmark, not representative regulatory or legal validation",
+    "Agent references and model use same model family, so correlated errors remain possible",
+    "No independent human expert labels",
+    "Input selection revised before inference to reduce amendment-notice-only cases; initial selection retained internally"
+  ],
+  "targets": {
+    "factual_precision": 0.95,
+    "factual_recall": 0.85,
+    "displayed_evidence_validity": 1.0,
+    "observed_unsupported_release_assertions": 0
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.2__2025-12-07__2025-12-08__deterministic",
+  "section": "301-10.2",
+  "title": "§ 301-10.2 Authorized transportation methods.",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2025-12-07",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-07/title-41.xml?part=301-10",
+    "snapshot_sha256": "c3af54ff8020830b5b2ed8f98ff704de6eed6572d063a744aacf9b652ce2fe53",
+    "text": "§ 301-10.2 What expenses are payable as transportation?\n\nFares, rental fees, mileage payments, and other expenses related to transportation."
+  },
+  "after": {
+    "date": "2025-12-08",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-08/title-41.xml?part=301-10",
+    "snapshot_sha256": "7c994b51abe2c310f493295de3fdecc36fe9e28c59567e38bac28e5ebe446d6a",
+    "text": "§ 301-10.2 Authorized transportation methods.\n\nAgencies may authorize the following transportation methods:\n\n(a) Common carrier transportation (including aircraft, train, bus, ship, or other transit system) under subpart B of this part;\n\n(b) Government vehicle under subpart C of this part;\n\n(c) Privately owned vehicle (POV) under subpart D of this part; or\n\n(d) Special conveyance (such as taxi, transportation network company, innovative mobility technology company, or commercial automobile) under subpart E of this part."
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "wording",
+      "summary": "Paragraph wording revised.",
+      "before_evidence": {
+        "start": 0,
+        "end": 55,
+        "quote": "§ 301-10.2 What expenses are payable as transportation?"
+      },
+      "after_evidence": {
+        "start": 0,
+        "end": 45,
+        "quote": "§ 301-10.2 Authorized transportation methods."
+      },
+      "needs_review": true,
+      "review_reason": "Lexical classification only; review legal and semantic significance.",
+      "method": "deterministic"
+    },
+    {
+      "id": "change-2",
+      "category": "date",
+      "summary": "Date-like wording changed.",
+      "before_evidence": {
+        "start": 57,
+        "end": 140,
+        "quote": "Fares, rental fees, mileage payments, and other expenses related to transportation."
+      },
+      "after_evidence": {
+        "start": 47,
+        "end": 107,
+        "quote": "Agencies may authorize the following transportation methods:"
+      },
+      "needs_review": true,
+      "review_reason": "Lexical classification only; review legal and semantic significance.",
+      "method": "deterministic"
+    },
+    {
+      "id": "change-3",
+      "category": "added",
+      "summary": "Paragraph text added.",
+      "before_evidence": null,
+      "after_evidence": {
+        "start": 109,
+        "end": 236,
+        "quote": "(a) Common carrier transportation (including aircraft, train, bus, ship, or other transit system) under subpart B of this part;"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    },
+    {
+      "id": "change-4",
+      "category": "added",
+      "summary": "Paragraph text added.",
+      "before_evidence": null,
+      "after_evidence": {
+        "start": 238,
+        "end": 290,
+        "quote": "(b) Government vehicle under subpart C of this part;"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    },
+    {
+      "id": "change-5",
+      "category": "added",
+      "summary": "Paragraph text added.",
+      "before_evidence": null,
+      "after_evidence": {
+        "start": 292,
+        "end": 358,
+        "quote": "(c) Privately owned vehicle (POV) under subpart D of this part; or"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    },
+    {
+      "id": "change-6",
+      "category": "added",
+      "summary": "Paragraph text added.",
+      "before_evidence": null,
+      "after_evidence": {
+        "start": 360,
+        "end": 525,
+        "quote": "(d) Special conveyance (such as taxi, transportation network company, innovative mobility technology company, or commercial automobile) under subpart E of this part."
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    }
+  ],
+  "warnings": [],
+  "analysis": {
+    "method": "deterministic",
+    "model": null,
+    "prompt_version": null,
+    "generated_at": "2026-10-17T13:44:13.433746+00:00",
+    "latency_ms": 0.069,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cost_usd": 0,
+    "input_identity": "2ef44f42cb8c2c3e69309e73a69285f967206556c01ed64df635a71e87afc200"
+  }
+}

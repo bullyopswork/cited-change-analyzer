@@ -1,0 +1,787 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "cca-grounded-v1",
+  "results": [
+    {
+      "id": "301-10.303__2020-07-02__2020-08-03",
+      "changes": [
+        {
+          "category": "editorial",
+          "summary": "The standalone notice linking to the July 2, 2020 amendment is absent in the after snapshot.",
+          "before_quote": "Link to an amendment published at 85 FR 39848, July 2, 2020.",
+          "after_quote": null,
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "The mileage website URL changes from HTTP to HTTPS.",
+          "before_quote": "http://www.gsa.gov/mileage",
+          "after_quote": "https://www.gsa.gov/mileage",
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "The source history adds the citation to 85 FR 39848, July 2, 2020.",
+          "before_quote": "[FTR Amdt. 2010-07, 75 FR 72967, Nov. 29, 2010]",
+          "after_quote": "[FTR Amdt. 2010-07, 75 FR 72967, Nov. 29, 2010, as amended at 85 FR 39848, July 2, 2020]",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "301-10.262__2024-02-16__2024-04-16",
+      "changes": [
+        {
+          "category": "editorial",
+          "summary": "The standalone notice linking to the February 16, 2024 amendment is absent in the after snapshot.",
+          "before_quote": "Link to an amendment published at 89 FR 12251, Feb. 16, 2024.",
+          "after_quote": null,
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "wording",
+          "summary": "Paragraph (a) replaces “his/her principal deputy” with “their principal deputy” for the senior legal official.",
+          "before_quote": "(a) Required use travelers. Your agency's senior legal official or his/her principal deputy",
+          "after_quote": "(a) Required use travelers. Your agency's senior legal official or their principal deputy",
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "wording",
+          "summary": "Paragraph (b) replaces “his/her principal deputy” with “their principal deputy” for the senior legal official.",
+          "before_quote": "(b) Senior Federal officials. If you are a senior Federal official, your agency's senior legal official or his/her principal deputy",
+          "after_quote": "(b) Senior Federal officials. If you are a senior Federal official, your agency's senior legal official or their principal deputy",
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "wording",
+          "summary": "Paragraph (c) replaces “his/her principal deputy” with “their principal deputy” for the sponsoring agency's senior legal official.",
+          "before_quote": "(c) Non-Federal travelers. If you are a non-Federal traveler, the senior legal official or his/her principal deputy",
+          "after_quote": "(c) Non-Federal travelers. If you are a non-Federal traveler, the senior legal official or their principal deputy",
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "wording",
+          "summary": "Paragraph (d) replaces “he/she delegates” with “they delegate” when referring to the travel-approving official.",
+          "before_quote": "(or anyone to whom he/she delegates this authority)",
+          "after_quote": "(or anyone to whom they delegate this authority)",
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "The source history adds FTR Case 2022-05 and the February 16, 2024 Federal Register citation.",
+          "before_quote": "[FTR Amdt. 2004-02, 69 FR 34304, June 21, 2004]",
+          "after_quote": "[FTR Amdt. 2004-02, 69 FR 34304, June 21, 2004, as amended by FTR Case 2022-05, 89 FR 12251, Feb. 16, 2024]",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "301-10.451__2022-04-22__2022-09-12",
+      "changes": [
+        {
+          "category": "editorial",
+          "summary": "The standalone notice linking to the April 22, 2022 amendment is absent in the after snapshot.",
+          "before_quote": "Link to an amendment published at 87 FR 24065, Apr. 22, 2022.",
+          "after_quote": null,
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "wording",
+          "summary": "The general-rule label replaces the spaced hyphen with an em dash.",
+          "before_quote": "(a) General rule - no.",
+          "after_quote": "(a) General rule—no.",
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "requirement",
+          "summary": "The exception now explicitly mentions reimbursement for CDW or theft insurance, “or both”; it also replaces “collision damage waiver” with “CDW” and “outside CONUS” with “OCONUS.”",
+          "before_quote": "(b) Exception. You will be reimbursed for collision damage waiver or theft insurance when you travel outside CONUS and such insurance is necessary because the rental or leasing agency requirements, foreign statute, or legal procedures could cause extreme difficulty for an employee involved in an accident.",
+          "after_quote": "(b) Exception. You will be reimbursed for CDW or theft insurance, or both, when you travel OCONUS and such insurance is necessary because the rental or leasing agency requirements, foreign statute, or legal procedures could cause extreme difficulty for an employee involved in an accident.",
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "The after snapshot adds a source-history citation for the 1998 text and the April 22, 2022 amendment.",
+          "before_quote": null,
+          "after_quote": "[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by 87 FR 24065, Apr. 22, 2022]",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "301-10.3__2018-02-20__2018-06-27",
+      "changes": [
+        {
+          "category": "wording",
+          "summary": "The special-conveyance cross-reference changes “Subpart E” to lowercase “subpart E.”",
+          "before_quote": "under Subpart E.",
+          "after_quote": "under subpart E.",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "301-10.400__2018-01-05__2018-02-20",
+      "changes": [
+        {
+          "category": "editorial",
+          "summary": "The standalone notice linking to an amendment at 82 FR 604 is absent in the after snapshot.",
+          "before_quote": "Link to an amendment published at 82 FR 604, Jan. 5, 2018.",
+          "after_quote": null,
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "requirement",
+          "summary": "Paragraph (a) replaces “Taxicabs” with “Taxis, TNCs, or innovative mobility technology companies” in the list of conveyances the agency may authorize or approve.",
+          "before_quote": "(a) Taxicabs as specified in §§ 301-10.420 through 301-10.421 of this chapter;",
+          "after_quote": "(a) Taxis, TNCs, or innovative mobility technology companies as specified in §§ 301-10.420 through 301-10.421 of this chapter;",
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "The after snapshot adds source-history citations, including FTR Amendment 2017-01 at 83 FR 604.",
+          "before_quote": null,
+          "after_quote": "[ FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 2017-01, 83 FR 604, Jan. 5, 2018]",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "301-10.110__2022-04-22__2022-09-12",
+      "changes": [
+        {
+          "category": "editorial",
+          "summary": "The after snapshot adds a notice linking to the September 12, 2022 amendment.",
+          "before_quote": null,
+          "after_quote": "Link to an amendment published at 87 FR 55704, Sept. 12, 2022.",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "301-10.135__2020-07-02__2020-08-03",
+      "changes": [
+        {
+          "category": "editorial",
+          "summary": "The standalone notice linking to the July 2, 2020 amendment is absent in the after snapshot.",
+          "before_quote": "Link to an amendment published at 85 FR 39848, July 2, 2020.",
+          "after_quote": null,
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "The air transportation agreements URL changes from HTTP to HTTPS.",
+          "before_quote": "http://www.gsa.gov/openskies",
+          "after_quote": "https://www.gsa.gov/openskies",
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "The FTR bulletins URL changes from the HTTP /bulletins address to the HTTPS /ftrbulletins address.",
+          "before_quote": "http://www.gsa.gov/bulletins",
+          "after_quote": "https://www.gsa.gov/ftrbulletins",
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "requirement",
+          "summary": "Paragraph (c) changes the named agencies from State, the United States Information Agency, the United States International Development Cooperation Agency, and the Arms Control Disarmament Agency to State or the United States Agency for International Development.",
+          "before_quote": "(c) You are an officer or employee of the Department of State, United States Information Agency, United States International Development Cooperation Agency, or the Arms Control Disarmament Agency, and your travel is paid with funds appropriated to one of these agencies, and your travel is between two places outside the United States; or",
+          "after_quote": "(c) You are an officer or employee of the Department of State or the United States Agency for International Development, and your travel is paid with funds appropriated to one of these agencies, and your travel is between two places outside the United States; or",
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "The source history adds 85 FR 39848, July 2, 2020.",
+          "before_quote": "[FTR Amdt. 74, 63 FR 63419, Nov. 13, 1998, as amended by FTR Amdt. 2009-02, 74 FR 2397, Jan. 15, 2009]",
+          "after_quote": "[FTR Amdt. 74, 63 FR 63419, Nov. 13, 1998, as amended by FTR Amdt. 2009-02, 74 FR 2397, Jan. 15, 2009; 85 FR 39848, July 2, 2020]",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "301-10.302__2025-12-07__2025-12-08",
+      "changes": [
+        {
+          "category": "removed",
+          "summary": "The before snapshot's distance-measurement heading and text are absent at this identifier in the after snapshot. They describe highway-guide or odometer measurements for automobiles and motorcycles, FAA charts for aircraft, explained detours, flight-time calculations when charts are inadequate, and nautical-to-statute-mile conversion.",
+          "before_quote": "§ 301-10.302 How do I determine distance measurements for my travel?\n\nIf you travel by The distance between your origin and destination is\n\nPrivately owned automobile or privately owned motorcycle As shown in paper or electronic standard highway mileage guides, or the actual miles driven as determined from odometer readings.\n\nPrivately owned aircraft As determined from charts issued by the Federal Aviation Administration (FAA). You may include in your travel claim with an explanation any additional air mileage resulting from a detour necessary due to adverse weather, mechanical difficulty, or other unusual conditions. If a required deviation is such that airway mileage charts are not adequate to determine distance, you may use the formula of flight time multiplied by cruising speed of the aircraft to determine distance. You must convert nautical miles to statute or regular miles when submitting a claim (1 nautical mile equals 1.15077945 statute miles).",
+          "after_quote": null,
+          "needs_review": true,
+          "review_reason": "The same identifier contains a different subject in the after snapshot; these excerpts do not establish where the former text went."
+        },
+        {
+          "category": "added",
+          "summary": "The after snapshot uses this identifier for allowable expenses beyond the POV mileage rate, listing parking, ferry, bridge, road, tunnel, and aircraft or airplane parking, landing, and tie-down fees as reimbursable in addition to mileage.",
+          "before_quote": null,
+          "after_quote": "§ 301-10.302 Allowable expenses beyond POV mileage rate.\n\nFollowing is a table listing the reimbursable and non-reimbursable expenses:\n\nTable 1 to § 301-10.302\n\nReimbursable expenses in addition to mileage allowance Non-reimbursable expenses included in the mileage allowance\n\nParking fees; ferry fees; bridge, road, and tunnel fees; and aircraft or airplane parking, landing, and tie-down fees",
+          "needs_review": true,
+          "review_reason": "The identifier is repurposed and the table is flattened into text; this reports only the supplied after snapshot, not a globally new entitlement."
+        },
+        {
+          "category": "added",
+          "summary": "The after snapshot lists repairs, depreciation, replacements, grease, oil, antifreeze, towage and similar speculative expenses, fuel, insurance, and state and Federal taxes as non-reimbursable expenses included in the mileage allowance.",
+          "before_quote": null,
+          "after_quote": "Non-reimbursable expenses included in the mileage allowance\n\nParking fees; ferry fees; bridge, road, and tunnel fees; and aircraft or airplane parking, landing, and tie-down fees Charges for repairs, depreciation, replacements, grease, oil, antifreeze, towage and similar speculative expenses, fuel, insurance, state and Federal taxes.",
+          "needs_review": true,
+          "review_reason": "The identifier is repurposed and the table is flattened into text; this reports only the supplied after snapshot, not a globally new restriction."
+        },
+        {
+          "category": "editorial",
+          "summary": "The before snapshot's source-history citation is absent in the after snapshot.",
+          "before_quote": "[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 108, 67 FR 57965, Sept. 13, 2002; FTR Amdt. 2005-05, 70 FR 61046, Oct. 20, 2005; FTR Amdt. 2010-04, 75 FR 59095, Sept. 27, 2010]",
+          "after_quote": null,
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": [
+        "Section 301-10.302 has different subjects across the supplied snapshots; alignment is uncertain. No repeal or global addition is inferred. The after table is represented as flattened text."
+      ]
+    },
+    {
+      "id": "301-10.160__2022-09-12__2022-10-12",
+      "changes": [
+        {
+          "category": "removed",
+          "summary": "The before snapshot's train-accommodation definitions are absent at this identifier in the after snapshot. They describe coach, slumber coach, first and business classes, including the treatment of business class as coach when only first and business are offered.",
+          "before_quote": "§ 301-10.160 What classes of train accommodations are available?\n\nLink to an amendment published at 87 FR 55705, Sept. 12, 2022.\n\n(a) Coach-class - The basic class of accommodations offered by a rail carrier to passengers that includes a level of service available to all passengers regardless of the fare paid. Coach-class includes reserved coach accommodations as well as slumber coach accommodations when overnight train travel is involved.\n\n(b) Slumber coach - Includes slumber coach accommodations on trains offering such accommodations, or the lowest level of sleeping accommodations available on a train that does not offer slumber coach accommodations.\n\n(c) Other than coach-class - Any class of accommodations above coach, e.g., first-class or business-class.\n\n(1) First-class - Includes bedrooms, roomettes, club service, parlor car accommodations or other premium accommodations.\n\n(2) Business-class - A class of extra fare train service that is offered above coach class, but is lower than first-class, as described above.\n\nNote to § 301-10.160:\n\nIf a train only has two classes of accommodations available, i.e., first and business class, then the business class is deemed to be classified as coach-class for purposes of official travel, as it is the lowest class offered.",
+          "after_quote": null,
+          "needs_review": true,
+          "review_reason": "The after snapshot uses the same identifier for a different subject; the excerpts do not establish whether the definitions appear elsewhere."
+        },
+        {
+          "category": "added",
+          "summary": "At this identifier, the after snapshot describes use of extra-fare train service when the agency determines it is more advantageous to the Government or required for security, with authorization or approval as other than coach under §§ 301-10.103(b) and (c).",
+          "before_quote": null,
+          "after_quote": "§ 301-10.160 When may I use extra-fare train service?\n\nYou may use extra-fare train service whenever your agency determines it is more advantageous to the Government or is required for security reasons. Use of extra-fare train service must be authorized or approved as other than coach class accommodations as provided in §§ 301-10.103(b) and 301-10.103(c).",
+          "needs_review": true,
+          "review_reason": "The identifier has changed subjects; this is a snapshot-only addition, not evidence of a globally new rule."
+        },
+        {
+          "category": "editorial",
+          "summary": "The source-history citation changes to FTR Case 2020-300-1, 87 FR 55705, September 12, 2022.",
+          "before_quote": "[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 108, 67 FR 57965, Sept. 13, 2002; FTR Amdt. 2009-06, 74 FR 55148, Oct. 27, 2009]",
+          "after_quote": "[FTR Case 2020-300-1, 87 FR 55705, Sept. 12, 2022]",
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "The standalone amendment-link notice is absent in the after snapshot.",
+          "before_quote": "Link to an amendment published at 87 FR 55705, Sept. 12, 2022.",
+          "after_quote": null,
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": [
+        "Section 301-10.160 changes subjects across these snapshots; alignment is uncertain and no repeal or global addition is inferred."
+      ]
+    },
+    {
+      "id": "301-10.301__2025-12-07__2025-12-08",
+      "changes": [
+        {
+          "category": "removed",
+          "summary": "The before snapshot's mileage-computation heading and instruction to multiply distance under § 301-10.302 by the applicable mileage rate are absent at this identifier in the after snapshot.",
+          "before_quote": "§ 301-10.301 How do I compute my mileage reimbursement?\n\nYou compute mileage reimbursement by multiplying the distance traveled, determined under § 301-10.302 of this subpart by the applicable mileage rate.",
+          "after_quote": null,
+          "needs_review": true,
+          "review_reason": "The identifier contains a different subject in the after snapshot; this does not establish removal of the computation rule elsewhere."
+        },
+        {
+          "category": "added",
+          "summary": "The after snapshot uses this identifier for reimbursement for advantageous POV use: a mileage rate based on the airplane, automobile, or motorcycle actually used, with rates published in an FTR bulletin and on the GSA mileage website.",
+          "before_quote": null,
+          "after_quote": "§ 301-10.301 Reimbursement for advantageous POV use.\n\nEmployees will be reimbursed an applicable mileage rate based on the type of POV actually used, including privately owned airplane, automobile, or motorcycle. These rates will be published in an FTR bulletin and displayed on the General Services Administration website at https://www.gsa.gov/mileage.",
+          "needs_review": true,
+          "review_reason": "The section identifier is repurposed; these excerpts do not establish that this text is globally new."
+        },
+        {
+          "category": "editorial",
+          "summary": "The before snapshot's source-history citation is absent in the after snapshot.",
+          "before_quote": "[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 2010-07, 75 FR 72967, Nov. 29, 2010]",
+          "after_quote": null,
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": [
+        "Section 301-10.301 has different subjects across the snapshots; alignment is uncertain. No repeal or global addition is inferred."
+      ]
+    },
+    {
+      "id": "301-10.108__2022-04-22__2022-09-12",
+      "changes": [
+        {
+          "category": "editorial",
+          "summary": "The after snapshot adds a notice linking to the September 12, 2022 amendment.",
+          "before_quote": null,
+          "after_quote": "Link to an amendment published at 87 FR 55704, Sept. 12, 2022.",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "301-10.201__2025-12-07__2025-12-08",
+      "changes": [
+        {
+          "category": "removed",
+          "summary": "The before snapshot's permitted-official-purposes heading and transportation list are absent at this identifier in the after snapshot. The list covers official-business locations, qualifying temporary lodging trips, specified sustenance, comfort or health destinations, and other agency-authorized uses under 31 U.S.C. 1344.",
+          "before_quote": "§ 301-10.201 For what purposes may I use a Government vehicle other than a Government aircraft?\n\nOnly for official purposes which include transportation:\n\n(a) Between places of official business;\n\n(b) Between such places and places of temporary lodging when public transportation is unavailable or its use is impractical;\n\n(c) Between either paragraph (a) or (b) of this section and restaurants, drug stores, barber shops, places of worship, cleaning establishments, and similar places necessary for the sustenance, comfort, or health of the employee to foster the continued efficient performance of Government business; or\n\n(d) As otherwise authorized by your agency under 31 U.S.C. 1344.",
+          "after_quote": null,
+          "needs_review": true,
+          "review_reason": "The identifier has a different subject in the after snapshot; the permitted-use text may be elsewhere, which these excerpts cannot establish."
+        },
+        {
+          "category": "added",
+          "summary": "The after snapshot uses this identifier for liability for unauthorized Government vehicle use, stating that employees are responsible for resulting costs and may face administrative and/or criminal liability for misuse of Government property.",
+          "before_quote": null,
+          "after_quote": "§ 301-10.201 Liability for unauthorized Government vehicle use.\n\nEmployees are responsible for any costs resulting from unauthorized use of a Government vehicle and may be subject to administrative and/or criminal liability for misuse of Government property.",
+          "needs_review": true,
+          "review_reason": "The identifier is repurposed; these excerpts do not establish a globally new liability rule."
+        }
+      ],
+      "warnings": [
+        "Section 301-10.201 has different subjects across the snapshots; alignment is uncertain. No repeal or global addition is inferred."
+      ]
+    },
+    {
+      "id": "301-10.113__2022-09-12__2022-10-12",
+      "changes": [
+        {
+          "category": "removed",
+          "summary": "The before snapshot's reservation-change heading and instructions to change or cancel reservations under agency prescriptions and report all changes under agency procedures, with possible liability for losses from failure to do so, are absent at this identifier in the after snapshot.",
+          "before_quote": "§ 301-10.113 What must I do if I change or do not use a common carrier reservation?\n\nLink to an amendment published at 87 FR 55704, Sept. 12, 2022.\n\nIf you know you will change or not use your reservation, you must take action to change or cancel it as prescribed by your agency. Also, you must report all changes of your reservation according to your agency's procedures in an effort to prevent losses to the Government. Failure to do so may subject you to liability for any resulting losses.",
+          "after_quote": null,
+          "needs_review": true,
+          "review_reason": "The after snapshot uses the same identifier for unauthorized non-contract service; these excerpts cannot establish the location or status of the reservation rule elsewhere."
+        },
+        {
+          "category": "added",
+          "summary": "At this identifier, the after snapshot addresses unauthorized non-contract service when contract service is available and no exception is met, stating responsibility for resulting additional costs or penalties incurred by the traveler.",
+          "before_quote": null,
+          "after_quote": "§ 301-10.113 What is my liability for unauthorized use of a non-contract carrier when contract service is available and I do not meet one of the exceptions for required use?\n\nYou are responsible for any additional costs or penalties incurred by you resulting from unauthorized use of non-contract service.",
+          "needs_review": true,
+          "review_reason": "The identifier has changed subjects; this is only a snapshot-level addition, not proof of a globally new rule."
+        },
+        {
+          "category": "editorial",
+          "summary": "The standalone amendment-link notice is absent in the after snapshot.",
+          "before_quote": "Link to an amendment published at 87 FR 55704, Sept. 12, 2022.",
+          "after_quote": null,
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "The after snapshot adds a source citation for FTR Case 2020-300-1.",
+          "before_quote": null,
+          "after_quote": "[FTR Case 2020-300-1, 87 FR 55704, Sept. 12, 2022]",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": [
+        "Section 301-10.113 has different subjects across the snapshots; alignment is uncertain. No repeal or global addition is inferred."
+      ]
+    },
+    {
+      "id": "301-10.130__2022-09-12__2022-10-12",
+      "changes": [
+        {
+          "category": "wording",
+          "summary": "The section line changes from the placeholder “§§ 301-10.130 xxx” to “§ 301-10.130 [Reserved]”.",
+          "before_quote": "§§ 301-10.130 xxx",
+          "after_quote": "§ 301-10.130 [Reserved]",
+          "needs_review": true,
+          "review_reason": "The before line contains a malformed placeholder and doubled section symbol; substantive prior content cannot be determined."
+        },
+        {
+          "category": "editorial",
+          "summary": "The standalone amendment-link notice is absent in the after snapshot.",
+          "before_quote": "Link to an amendment published at 87 FR 55705, Sept. 12, 2022.",
+          "after_quote": null,
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": [
+        "The before snapshot contains a malformed placeholder, not a usable statement of prior requirements."
+      ]
+    },
+    {
+      "id": "301-10.120__2022-09-12__2022-10-12",
+      "changes": [
+        {
+          "category": "wording",
+          "summary": "The placeholder section heading is replaced with a question about different airlines furnishing the same service at different fares.",
+          "before_quote": "§ 301-10.120 xxx",
+          "after_quote": "§ 301-10.120 What must I do when different airlines furnish the same service at different fares?",
+          "needs_review": true,
+          "review_reason": "The before heading is a placeholder, so correspondence with substantive prior text is uncertain."
+        },
+        {
+          "category": "added",
+          "summary": "The after snapshot contains an instruction to use the lowest cost service when there is no contract City Pair Program fare and carriers offer the same service between the same points for the same accommodations at different fares, unless the agency finds higher cost service more advantageous.",
+          "before_quote": null,
+          "after_quote": "When there is no contract City Pair Program fare and other carriers furnish the same service at different fares between the same points for the same type of accommodations, you must use the lowest cost service unless your agency determines that the use of higher cost service is more advantageous to the Government.",
+          "needs_review": true,
+          "review_reason": "The before snapshot contains only a placeholder and publication notice; this is text present only in the supplied after snapshot, not proof of a globally new requirement."
+        },
+        {
+          "category": "editorial",
+          "summary": "The standalone amendment-link notice is absent in the after snapshot.",
+          "before_quote": "Link to an amendment published at 87 FR 55704, Sept. 12, 2022.",
+          "after_quote": null,
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "The after snapshot adds the source citation for FTR Case 2020-300-1.",
+          "before_quote": null,
+          "after_quote": "[FTR Case 2020-300-1, 87 FR 55704, Sept. 12, 2022]",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": [
+        "The before snapshot contains an “xxx” placeholder; prior substantive text and section alignment cannot be established."
+      ]
+    },
+    {
+      "id": "301-10.105__2022-04-22__2022-09-12",
+      "changes": [
+        {
+          "category": "removed",
+          "summary": "The after snapshot is empty. The before section states basic common-carrier requirements: use contract carriers when available for mandatory city-pair users unless an approved exception applies; use coach or the stated ship accommodation level unless authorized otherwise; and use U.S. Flag service unless the cited exceptions apply.",
+          "before_quote": "§ 301-10.105 What are the basic requirements for using common carrier transportation?\n\nThe basic requirements for using common carrier transportation fall into three categories:\n\n(a) Using contract carriers, when available, and if your agency is a mandatory user of GSA's city-pair contracts for air passenger transportation services, unless you have an approved exception (see §§ 301-10.106 through 301-10.108 of this subpart);\n\n(b) Using coach-class service, unless other than coach-class service is authorized under § 301-10.123 or § 301-10.162, and when travelling by ship, using lowest first-class accommodations, unless other than lowest first-class accommodations are authorized under § 301-10.183 of this subpart; and\n\n(c) You must always use U.S. Flag Air Carrier (or ship) service for air passenger transportation or when travelling by ship, unless your travel circumstances meet one of the exceptions in §§ 301-10.135 through 301-10.138 or § 301-10.183 of this subpart.",
+          "after_quote": null,
+          "needs_review": true,
+          "review_reason": "The supplied after text is empty; this establishes absence only in this snapshot, not legal repeal or absence of equivalent text elsewhere."
+        },
+        {
+          "category": "editorial",
+          "summary": "The before snapshot's source-history citation is absent from the empty after snapshot.",
+          "before_quote": "[FTR Amdt. 2010-05, 75 FR 63103, Oct. 14, 2010]",
+          "after_quote": null,
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": [
+        "The after snapshot is empty; section alignment is unavailable. No repeal or absence of equivalent text elsewhere is inferred."
+      ]
+    },
+    {
+      "id": "301-10.124__2022-09-12__2022-10-12",
+      "changes": [
+        {
+          "category": "removed",
+          "summary": "The before snapshot's coach seating-upgrade heading and discussion are absent at this identifier in the after snapshot. They describe paid preferred coach seats, state that they are not a higher accommodation class, generally assign the cost to the traveler, and permit agency authorization and reimbursement under internal policy.",
+          "before_quote": "§ 301-10.124 What are coach-class Seating Upgrade Programs?\n\nLink to an amendment published at 87 FR 55704, Sept. 12, 2022.\n\nSometimes these programs are called “Coach Elite,” “Coach Plus,” “Preferred Coach” or some other identifier. Under these airline programs, a passenger may obtain for a fee a more desirable seat choice within the coach-class cabin. These airline upgrade or preferred seat choices are generally available for an annual fee, at an airport kiosk or gate or as a frequent flier perk. These coach upgrade options are not considered a new or higher class of accommodation since the seating is still in the coach cabin. However, the use of these upgraded/preferred coach seating options is generally a traveler's personal choice and therefore is at the traveler's personal expense. An agency travel authorization approving official or his/her designee (e.g., supervisor of the traveler) may authorize and reimburse the additional seat choice fee according to internal agency policy (see 301-70.102(k)).",
+          "after_quote": null,
+          "needs_review": true,
+          "review_reason": "The after snapshot uses this identifier for group or charter fares; these excerpts do not establish the status or location of seating-upgrade text elsewhere."
+        },
+        {
+          "category": "added",
+          "summary": "At this identifier, the after snapshot permits reduced group or charter fares when the agency determines cost effectiveness case by case before travel; it states that chartered aircraft follow Government-aircraft rules and identifies OMB Circular A-126 and 41 CFR part 102-33 for executive-branch determinations.",
+          "before_quote": null,
+          "after_quote": "§ 301-10.124 When may I use a reduced group or charter fare?\n\nYou may use a reduced group or charter fare when your agency has determined, on an individual case basis before your travel begins, that use of such a fare is cost effective. Chartered aircraft are subject to the same rules as Government aircraft, and agencies in the executive branch of the Federal Government are subject to the requirements of Office of Management and Budget (OMB) Circular A-126 and 41 CFR part 102-33 in making such cost effectiveness determinations.",
+          "needs_review": true,
+          "review_reason": "The identifier has changed subjects; these excerpts do not establish that the group or charter fare text is globally new."
+        },
+        {
+          "category": "editorial",
+          "summary": "The standalone amendment-link notice is absent in the after snapshot.",
+          "before_quote": "Link to an amendment published at 87 FR 55704, Sept. 12, 2022.",
+          "after_quote": null,
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "The source-history citation changes to FTR Case 2020-300-1, 87 FR 55704, September 12, 2022.",
+          "before_quote": "[FTR Amdt. 2009-06, 74 FR 55148, Oct. 27, 2009, as amended by FTR Amdt. 2010-07, 75 FR 72967, Nov. 29, 2010]",
+          "after_quote": "[FTR Case 2020-300-1, 87 FR 55704, Sept. 12, 2022]",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": [
+        "Section 301-10.124 has different subjects across the snapshots; alignment is uncertain. No repeal or global addition is inferred."
+      ]
+    },
+    {
+      "id": "301-10.107__2022-04-22__2022-09-12",
+      "changes": [
+        {
+          "category": "editorial",
+          "summary": "The after snapshot adds a notice linking to the September 12, 2022 amendment.",
+          "before_quote": null,
+          "after_quote": "Link to an amendment published at 87 FR 55704, Sept. 12, 2022.",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "301-10.261__2020-07-02__2020-08-03",
+      "changes": [
+        {
+          "category": "editorial",
+          "summary": "The standalone notice linking to the July 2, 2020 amendment is absent in the after snapshot.",
+          "before_quote": "Link to an amendment published at 85 FR 39848, July 2, 2020.",
+          "after_quote": null,
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "wording",
+          "summary": "The introductory line replaces a spaced hyphen with an em dash.",
+          "before_quote": "You may use Government aircraft -",
+          "after_quote": "You may use Government aircraft—",
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "wording",
+          "summary": "The official-travel introductory line replaces a spaced hyphen with an em dash.",
+          "before_quote": "(a) For official travel only when -",
+          "after_quote": "(a) For official travel only when—",
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "wording",
+          "summary": "The space-available-travel introductory line replaces a spaced hyphen with an em dash.",
+          "before_quote": "(c) For space available travel only when -",
+          "after_quote": "(c) For space available travel only when—",
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "The stated way to obtain the U.S. Government Aircraft Cost Accounting Guide changes from a GSA office mailing address to emailing aviationpolicy@gsa.gov.",
+          "before_quote": "“U.S. Government Aircraft Cost Accounting Guide,” available from the General Services Administration, Office of Governmentwide Policy, MTA, 1800 F Street, N.W., Washington, DC 20405.",
+          "after_quote": "“U.S. Government Aircraft Cost Accounting Guide,” available by emailing aviationpolicy@gsa.gov.",
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "The source history adds 85 FR 39848, July 2, 2020.",
+          "before_quote": "[FTR Amdt. 2004-02, 69 FR 34304, June 21, 2004, as amended by FTR Amdt. 2010-04, 75 FR 59095, Sept. 27, 2010]",
+          "after_quote": "[FTR Amdt. 2004-02, 69 FR 34304, June 21, 2004, as amended by FTR Amdt. 2010-04, 75 FR 59095, Sept. 27, 2010; 85 FR 39848, July 2, 2020]",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "301-10.310__2020-07-02__2020-08-03",
+      "changes": [
+        {
+          "category": "editorial",
+          "summary": "The standalone notice linking to the July 2, 2020 amendment is absent in the after snapshot.",
+          "before_quote": "Link to an amendment published at 85 FR 39848, July 2, 2020.",
+          "after_quote": null,
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "The FTR bulletin URL changes from HTTP to HTTPS.",
+          "before_quote": "http://www.gsa.gov/ftrbulletins",
+          "after_quote": "https://www.gsa.gov/ftrbulletins",
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "The source history adds 85 FR 39848, July 2, 2020.",
+          "before_quote": "[FTR Amdt. 2015-03, 80 FR 27260, May 13, 2015, as amended by 80 FR 27261, May 13, 2015; 80 FR 37996, July 2, 2015]",
+          "after_quote": "[FTR Amdt. 2015-03, 80 FR 27260, May 13, 2015, as amended by 80 FR 27261, May 13, 2015; 80 FR 37996, July 2, 2015; 85 FR 39848, July 2, 2020]",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "control-11",
+      "changes": [
+        {
+          "category": "requirement",
+          "summary": "Personal travel changes from allowed to not allowed.",
+          "before_quote": "Personal travel is allowed.",
+          "after_quote": "Personal travel is not allowed.",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "control-12",
+      "changes": [
+        {
+          "category": "requirement",
+          "summary": "The instruction changes from requiring meals to be claimed to requiring that they not be claimed.",
+          "before_quote": "Meals must be claimed.",
+          "after_quote": "Meals must not be claimed.",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "control-13",
+      "changes": [
+        {
+          "category": "moved",
+          "summary": "The form-submission sentence moves ahead of the receipt-retention sentence; the approval sentence remains last.",
+          "before_quote": "Keep the receipt.\n\nSubmit the form.",
+          "after_quote": "Submit the form.\n\nKeep the receipt.",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "control-14",
+      "changes": [
+        {
+          "category": "wording",
+          "summary": "Two consecutive copies of “Keep the receipt.” become one copy.",
+          "before_quote": "Keep the receipt.\n\nKeep the receipt.",
+          "after_quote": "Keep the receipt.",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "control-15",
+      "changes": [
+        {
+          "category": "requirement",
+          "summary": "The specified form changes from A to B.",
+          "before_quote": "Use form A.",
+          "after_quote": "Use form B.",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "control-16",
+      "changes": [
+        {
+          "category": "wording",
+          "summary": "The punctuation after “receipts” changes from a comma to a semicolon.",
+          "before_quote": "Keep receipts, then apply.",
+          "after_quote": "Keep receipts; then apply.",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "control-17",
+      "changes": [
+        {
+          "category": "amount",
+          "summary": "The stated ceiling changes from 100 € to 150 €.",
+          "before_quote": "🧾 Le plafond est de 100 €.",
+          "after_quote": "🧾 Le plafond est de 150 €.",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "control-18",
+      "changes": [
+        {
+          "category": "amount",
+          "summary": "The meal limit changes from $100 to $150.",
+          "before_quote": "Meals: limit $100.",
+          "after_quote": "Meals: limit $150.",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "control-19",
+      "changes": [
+        {
+          "category": "amount",
+          "summary": "The limit changes from $100 to $150.",
+          "before_quote": "Limit: $100.",
+          "after_quote": "Limit: $150.",
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "date",
+          "summary": "The deadline changes from July 1, 2025 to August 1, 2025.",
+          "before_quote": "Deadline: 2025-07-01.",
+          "after_quote": "Deadline: 2025-08-01.",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "control-20",
+      "changes": [],
+      "warnings": []
+    }
+  ]
+}

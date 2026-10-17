@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.113__2022-09-12__2022-10-12__deterministic",
+  "section": "301-10.113",
+  "title": "§ 301-10.113 What is my liability for unauthorized use of a non-contract carrier when contract service is available and I do not meet one of the exceptions for required use?",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2022-09-12",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+    "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+    "text": "§ 301-10.113 What must I do if I change or do not use a common carrier reservation?\n\nLink to an amendment published at 87 FR 55704, Sept. 12, 2022.\n\nIf you know you will change or not use your reservation, you must take action to change or cancel it as prescribed by your agency. Also, you must report all changes of your reservation according to your agency's procedures in an effort to prevent losses to the Government. Failure to do so may subject you to liability for any resulting losses."
+  },
+  "after": {
+    "date": "2022-10-12",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-10-12/title-41.xml?part=301-10",
+    "snapshot_sha256": "5af0a1c5b1ea546e201564970a3775086b58b576ff7c7f44a98a3a19ab32739a",
+    "text": "§ 301-10.113 What is my liability for unauthorized use of a non-contract carrier when contract service is available and I do not meet one of the exceptions for required use?\n\nYou are responsible for any additional costs or penalties incurred by you resulting from unauthorized use of non-contract service.\n\n[FTR Case 2020-300-1, 87 FR 55704, Sept. 12, 2022]"
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "requirement",
+      "summary": "Requirement or negation wording changed.",
+      "before_evidence": {
+        "start": 0,
+        "end": 83,
+        "quote": "§ 301-10.113 What must I do if I change or do not use a common carrier reservation?"
+      },
+      "after_evidence": {
+        "start": 0,
+        "end": 173,
+        "quote": "§ 301-10.113 What is my liability for unauthorized use of a non-contract carrier when contract service is available and I do not meet one of the exceptions for required use?"
+      },
+      "needs_review": true,
+      "review_reason": "Lexical classification only; review legal and semantic significance.",
+      "method": "deterministic"
+    },
+    {
+      "id": "change-2",
+      "category": "date",
+      "summary": "Date-like wording changed.",
+      "before_evidence": {
+        "start": 85,
+        "end": 147,
+        "quote": "Link to an amendment published at 87 FR 55704, Sept. 12, 2022."
+      },
+      "after_evidence": {
+        "start": 175,
+        "end": 305,
+        "quote": "You are responsible for any additional costs or penalties incurred by you resulting from unauthorized use of non-contract service."
+      },
+      "needs_review": true,
+      "review_reason": "Lexical classification only; review legal and semantic significance.",
+      "method": "deterministic"
+    },
+    {
+      "id": "change-3",
+      "category": "date",
+      "summary": "Date-like wording changed.",
+      "before_evidence": {
+        "start": 149,
+        "end": 493,
+        "quote": "If you know you will change or not use your reservation, you must take action to change or cancel it as prescribed by your agency. Also, you must report all changes of your reservation according to your agency's procedures in an effort to prevent losses to the Government. Failure to do so may subject you to liability for any resulting losses."
+      },
+      "after_evidence": {
+        "start": 307,
+        "end": 357,
+        "quote": "[FTR Case 2020-300-1, 87 FR 55704, Sept. 12, 2022]"
+      },
+      "needs_review": true,
+      "review_reason": "Lexical classification only; review legal and semantic significance.",
+      "method": "deterministic"
+    }
+  ],
+  "warnings": [],
+  "analysis": {
+    "method": "deterministic",
+    "model": null,
+    "prompt_version": null,
+    "generated_at": "2026-10-17T13:44:13.440434+00:00",
+    "latency_ms": 0.127,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cost_usd": 0,
+    "input_identity": "1dc6fabbfd4b658776ed089bb361b8733a83a80471eec5f96f3412214ef7947d"
+  }
+}

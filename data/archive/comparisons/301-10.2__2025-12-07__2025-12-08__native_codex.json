@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.2__2025-12-07__2025-12-08__native_codex",
+  "section": "301-10.2",
+  "title": "§ 301-10.2 Authorized transportation methods.",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2025-12-07",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-07/title-41.xml?part=301-10",
+    "snapshot_sha256": "c3af54ff8020830b5b2ed8f98ff704de6eed6572d063a744aacf9b652ce2fe53",
+    "text": "§ 301-10.2 What expenses are payable as transportation?\n\nFares, rental fees, mileage payments, and other expenses related to transportation."
+  },
+  "after": {
+    "date": "2025-12-08",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-08/title-41.xml?part=301-10",
+    "snapshot_sha256": "7c994b51abe2c310f493295de3fdecc36fe9e28c59567e38bac28e5ebe446d6a",
+    "text": "§ 301-10.2 Authorized transportation methods.\n\nAgencies may authorize the following transportation methods:\n\n(a) Common carrier transportation (including aircraft, train, bus, ship, or other transit system) under subpart B of this part;\n\n(b) Government vehicle under subpart C of this part;\n\n(c) Privately owned vehicle (POV) under subpart D of this part; or\n\n(d) Special conveyance (such as taxi, transportation network company, innovative mobility technology company, or commercial automobile) under subpart E of this part."
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "removed",
+      "summary": "The sentence listing fares, rental fees, mileage payments and other transportation-related expenses as payable transportation expenses is absent from the later snapshot.",
+      "before_evidence": {
+        "start": 57,
+        "end": 140,
+        "quote": "Fares, rental fees, mileage payments, and other expenses related to transportation."
+      },
+      "after_evidence": null,
+      "needs_review": true,
+      "review_reason": "The same section number covers different topics in these snapshots; the supplied text does not establish whether the former content moved elsewhere.; One-sided evidence overlaps a complex revision; review removal versus replacement.",
+      "method": "native_codex"
+    },
+    {
+      "id": "change-2",
+      "category": "added",
+      "summary": "The later snapshot lists common carriers, Government vehicles, privately owned vehicles, and special conveyances as methods agencies may authorize, with the applicable subparts.",
+      "before_evidence": null,
+      "after_evidence": {
+        "start": 47,
+        "end": 525,
+        "quote": "Agencies may authorize the following transportation methods:\n\n(a) Common carrier transportation (including aircraft, train, bus, ship, or other transit system) under subpart B of this part;\n\n(b) Government vehicle under subpart C of this part;\n\n(c) Privately owned vehicle (POV) under subpart D of this part; or\n\n(d) Special conveyance (such as taxi, transportation network company, innovative mobility technology company, or commercial automobile) under subpart E of this part."
+      },
+      "needs_review": true,
+      "review_reason": "The same section number covers different topics in these snapshots; the supplied text does not establish whether the former content moved elsewhere.; One-sided evidence overlaps a complex revision; review addition versus replacement.",
+      "method": "native_codex"
+    }
+  ],
+  "warnings": [
+    "Topic alignment differs across these snapshots. Absence here does not establish repeal or absence elsewhere."
+  ],
+  "analysis": {
+    "method": "native_codex",
+    "model": "gpt-6.1-sol",
+    "prompt_version": "cca-grounded-v1",
+    "generated_at": "2026-10-17T13:50:54.488127+00:00",
+    "latency_ms": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "usage_available": false,
+    "latency_available": false,
+    "cost_usd": null,
+    "billing_basis": "Existing OpenAI account via native Codex. Credit dollar rate unavailable; not zero model usage.",
+    "input_identity": "700e4e18585c6f2ff3973095603ef670a6fd7fdaa5cc012704fdd89ed4cfc7c2"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.130__2022-09-12__2022-10-12__native_codex",
+  "section": "301-10.130",
+  "title": "§ 301-10.130 [Reserved]",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2022-09-12",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+    "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+    "text": "§§ 301-10.130 xxx\n\nLink to an amendment published at 87 FR 55705, Sept. 12, 2022."
+  },
+  "after": {
+    "date": "2022-10-12",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-10-12/title-41.xml?part=301-10",
+    "snapshot_sha256": "5af0a1c5b1ea546e201564970a3775086b58b576ff7c7f44a98a3a19ab32739a",
+    "text": "§ 301-10.130 [Reserved]"
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "wording",
+      "summary": "The section line changes from the placeholder “§§ 301-10.130 xxx” to “§ 301-10.130 [Reserved]”.",
+      "before_evidence": {
+        "start": 0,
+        "end": 17,
+        "quote": "§§ 301-10.130 xxx"
+      },
+      "after_evidence": {
+        "start": 0,
+        "end": 23,
+        "quote": "§ 301-10.130 [Reserved]"
+      },
+      "needs_review": true,
+      "review_reason": "The before line contains a malformed placeholder and doubled section symbol; substantive prior content cannot be determined.",
+      "method": "native_codex"
+    },
+    {
+      "id": "change-2",
+      "category": "editorial",
+      "summary": "The standalone amendment-link notice is absent in the after snapshot.",
+      "before_evidence": {
+        "start": 19,
+        "end": 81,
+        "quote": "Link to an amendment published at 87 FR 55705, Sept. 12, 2022."
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    }
+  ],
+  "warnings": [
+    "The before snapshot contains a malformed placeholder, not a usable statement of prior requirements."
+  ],
+  "analysis": {
+    "method": "native_codex",
+    "model": "gpt-6.1-sol",
+    "prompt_version": "cca-grounded-v1",
+    "generated_at": "2026-10-17T13:50:54.830833+00:00",
+    "latency_ms": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "usage_available": false,
+    "latency_available": false,
+    "cost_usd": null,
+    "billing_basis": "Existing OpenAI account via native Codex. Credit dollar rate unavailable; not zero model usage.",
+    "input_identity": "a6576eae4b0f147fede4a4e27d22236c43987a4606492ac688804a63e373c945"
+  }
+}

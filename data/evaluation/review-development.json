@@ -1,0 +1,1610 @@
+{
+  "schema_version": "1.0",
+  "method": "independent agent source review",
+  "cases": [
+    {
+      "id": "301-10.114__2022-09-12__2022-10-12",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.114__2022-09-12__2022-10-12__e02"
+          ],
+          "reason": "Before expressly requires submitting unused GTRs/tickets/refund applications; that instruction is absent after. The summary limits absence to the snapshot, not repeal elsewhere."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.114__2022-09-12__2022-10-12__e03"
+          ],
+          "reason": "The later body expressly prohibits personal travel on contract passenger transportation; the former body concerns unused tickets. Added is a local-text claim, not a claim that the prohibition is globally new."
+        },
+        {
+          "index": 2,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The exact amendment-link notice disappears. Editorial is appropriate; no effective-date or legal-rule inference is made. This covers only the notice-removal half of grouped e04."
+        },
+        {
+          "index": 3,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The bracketed source note changes from Amendment 108 to Case 2020-300-1 as stated. This is citation history, not a new requirement, and only the citation-change half of e04."
+        }
+      ],
+      "missed_event_ids": [
+        "301-10.114__2022-09-12__2022-10-12__e01",
+        "301-10.114__2022-09-12__2022-10-12__e04"
+      ],
+      "reference_issues": [
+        "301-10.114__2022-09-12__2022-10-12__e04 combines two distinct editorial edits (amendment-link removal and source-history change). Split predictions collectively cover it, but neither fully describes both conjuncts; strict missed_event_ids reflects this grouping artifact, not missing metadata in the prediction set. Preserve the frozen grouping and count this event once in collective coverage."
+      ],
+      "covered_event_ids": [
+        "301-10.114__2022-09-12__2022-10-12__e02",
+        "301-10.114__2022-09-12__2022-10-12__e03",
+        "301-10.114__2022-09-12__2022-10-12__e04"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.114__2022-09-12__2022-10-12__e01",
+          "prediction_indices": [],
+          "complete": false,
+          "reason": "No prediction identifies the separate literal heading edit; body-rule descriptions are not automatically heading-change claims."
+        },
+        {
+          "event_id": "301-10.114__2022-09-12__2022-10-12__e02",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        },
+        {
+          "event_id": "301-10.114__2022-09-12__2022-10-12__e03",
+          "prediction_indices": [
+            1
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        },
+        {
+          "event_id": "301-10.114__2022-09-12__2022-10-12__e04",
+          "prediction_indices": [
+            2,
+            3
+          ],
+          "complete": true,
+          "reason": "Prediction 2 describes amendment-link removal and prediction 3 describes the distinct source-history change. Both are supported, informative, editorial findings; together they cover all conjuncts of the reference event. Neither individually earns a full-event strict match. These are complementary findings, not duplicate claims."
+        }
+      ]
+    },
+    {
+      "id": "301-10.452__2025-12-07__2025-12-08",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.452__2025-12-07__2025-12-08__e02"
+          ],
+          "reason": "The before heading supplies the personal-accident-insurance antecedent for the nonreimbursement sentence, and neither appears after. Local absence is supported, not global repeal."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.452__2025-12-07__2025-12-08__e03"
+          ],
+          "reason": "The later first sentence expressly makes employees responsible for additional costs of nonofficial Government-funded commercial rental-car use. Added correctly describes new text at this repurposed identifier; requirement is also a plausible overlapping category."
+        },
+        {
+          "index": 2,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.452__2025-12-07__2025-12-08__e04"
+          ],
+          "reason": "The later list identifies business locations, lodging qualified by unavailable/impractical public transportation, and employee-necessity establishments. The abbreviated summary is borne out by its full quoted list and does not assert unrestricted personal travel. Added describes this locally new list."
+        }
+      ],
+      "missed_event_ids": [
+        "301-10.452__2025-12-07__2025-12-08__e01"
+      ],
+      "reference_issues": [
+        "e03 and e04 use requirement for locally new material, whereas comparable repurposed-identifier rules and the signed-declaration control use added. The supplied files do not define exclusivity or precedence; added is independently defensible here. Frozen labels are retained."
+      ],
+      "covered_event_ids": [
+        "301-10.452__2025-12-07__2025-12-08__e02",
+        "301-10.452__2025-12-07__2025-12-08__e03",
+        "301-10.452__2025-12-07__2025-12-08__e04"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.452__2025-12-07__2025-12-08__e01",
+          "prediction_indices": [],
+          "complete": false,
+          "reason": "No prediction identifies the separate literal heading edit; body-rule descriptions are not automatically heading-change claims."
+        },
+        {
+          "event_id": "301-10.452__2025-12-07__2025-12-08__e02",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        },
+        {
+          "event_id": "301-10.452__2025-12-07__2025-12-08__e03",
+          "prediction_indices": [
+            1
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        },
+        {
+          "event_id": "301-10.452__2025-12-07__2025-12-08__e04",
+          "prediction_indices": [
+            2
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        }
+      ]
+    },
+    {
+      "id": "301-10.142__2025-12-07__2025-12-08",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.142__2025-12-07__2025-12-08__e02"
+          ],
+          "reason": "The before certification list contains identity, dates, route, itinerary and exception explanation or written approval; it is absent after. The summary does not claim certification requirements were abolished elsewhere."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.142__2025-12-07__2025-12-08__e03"
+          ],
+          "reason": "The later body expressly denies reimbursement for transportation costs from improper or unauthorized foreign-air-carrier service. Added is correct for newly present text at this identifier, without proving a globally new restriction."
+        }
+      ],
+      "missed_event_ids": [
+        "301-10.142__2025-12-07__2025-12-08__e01"
+      ],
+      "reference_issues": [],
+      "covered_event_ids": [
+        "301-10.142__2025-12-07__2025-12-08__e02",
+        "301-10.142__2025-12-07__2025-12-08__e03"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.142__2025-12-07__2025-12-08__e01",
+          "prediction_indices": [],
+          "complete": false,
+          "reason": "No prediction identifies the separate literal heading edit; body-rule descriptions are not automatically heading-change claims."
+        },
+        {
+          "event_id": "301-10.142__2025-12-07__2025-12-08__e02",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        },
+        {
+          "event_id": "301-10.142__2025-12-07__2025-12-08__e03",
+          "prediction_indices": [
+            1
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        }
+      ]
+    },
+    {
+      "id": "301-10.106__2020-07-02__2020-08-03",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.106__2020-07-02__2020-08-03__e01"
+          ],
+          "reason": "Only the listing link's protocol changes from http to https; the mandatory-fare rule and DC eligibility note remain. Editorial correctly classifies the link update."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The amendment-link notice is removed, an editorial metadata change. This alone does not describe e02's separate source-history addition."
+        },
+        {
+          "index": 2,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The bracketed note gains the July 2, 2020 amendment citation. The summary accurately treats it as a source note, not an operative date; it does not describe e02's notice removal."
+        }
+      ],
+      "missed_event_ids": [
+        "301-10.106__2020-07-02__2020-08-03__e02"
+      ],
+      "reference_issues": [
+        "301-10.106__2020-07-02__2020-08-03__e02 combines two distinct editorial edits (amendment-link removal and source-history change). Split predictions collectively cover it, but neither fully describes both conjuncts; strict missed_event_ids reflects this grouping artifact, not missing metadata in the prediction set. Preserve the frozen grouping and count this event once in collective coverage."
+      ],
+      "covered_event_ids": [
+        "301-10.106__2020-07-02__2020-08-03__e01",
+        "301-10.106__2020-07-02__2020-08-03__e02"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.106__2020-07-02__2020-08-03__e01",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        },
+        {
+          "event_id": "301-10.106__2020-07-02__2020-08-03__e02",
+          "prediction_indices": [
+            1,
+            2
+          ],
+          "complete": true,
+          "reason": "Prediction 1 describes amendment-link removal and prediction 2 describes the distinct source-history change. Both are supported, informative, editorial findings; together they cover all conjuncts of the reference event. Neither individually earns a full-event strict match. These are complementary findings, not duplicate claims."
+        }
+      ]
+    },
+    {
+      "id": "301-10.133__2025-12-07__2025-12-08",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": false,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.133__2025-12-07__2025-12-08__e02"
+          ],
+          "reason": "The summary accurately identifies the shift from carrier to service and the newly explicit certificate/exemption/regulation authorization condition. However, that condition changes the defined service's eligibility scope, so merely wording is not the appropriate semantic category."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.133__2025-12-07__2025-12-08__e03"
+          ],
+          "reason": "The later definition newly includes code-share service subject to title 14 and ticket identification of the U.S. carrier code and flight number. 'Qualifying' is a compression, not a claim that ticket identification is the sole condition. Added is defensible for this locally new sentence, overlapping the reference's requirement label."
+        }
+      ],
+      "missed_event_ids": [
+        "301-10.133__2025-12-07__2025-12-08__e01",
+        "301-10.133__2025-12-07__2025-12-08__e02"
+      ],
+      "reference_issues": [
+        "e03 labels code-share sentence inclusion requirement, while other newly present obligations use added. This structural-versus-semantic overlap is unresolved; added does not falsely imply a globally new permission.",
+        "e01 is a distinct literal heading edit. The body-definition summary does not explicitly report the heading, so no heading match is inferred."
+      ],
+      "covered_event_ids": [
+        "301-10.133__2025-12-07__2025-12-08__e03"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.133__2025-12-07__2025-12-08__e01",
+          "prediction_indices": [],
+          "complete": false,
+          "reason": "No prediction identifies the separate literal heading edit; body-rule descriptions are not automatically heading-change claims."
+        },
+        {
+          "event_id": "301-10.133__2025-12-07__2025-12-08__e02",
+          "prediction_indices": [
+            0
+          ],
+          "complete": false,
+          "reason": "The edit is factually described, but the wording category misses a scope-affecting definition or reimbursement change. It does not meet the correctly-categorized coverage condition."
+        },
+        {
+          "event_id": "301-10.133__2025-12-07__2025-12-08__e03",
+          "prediction_indices": [
+            1
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        }
+      ]
+    },
+    {
+      "id": "301-10.304__2022-04-22__2022-09-12",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": false,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.304__2022-04-22__2022-09-12__e01"
+          ],
+          "reason": "The flattened table's nonreimbursable column changes gasoline to fuel exactly as summarized. Fuel is broader than gasoline, so this affects the scope of included mileage expenses and is not merely wording; no particular external entitlement is inferred."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The April 22, 2022 amendment-link notice disappears. This editorial finding covers only the notice half of grouped e03."
+        },
+        {
+          "index": 2,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The source-history note appends the April 22, 2022 citation. No legal effective date is asserted; this covers only the citation half of grouped e03."
+        }
+      ],
+      "missed_event_ids": [
+        "301-10.304__2022-04-22__2022-09-12__e01",
+        "301-10.304__2022-04-22__2022-09-12__e02",
+        "301-10.304__2022-04-22__2022-09-12__e03"
+      ],
+      "reference_issues": [
+        "301-10.304__2022-04-22__2022-09-12__e03 combines two distinct editorial edits (amendment-link removal and source-history change). Split predictions collectively cover it, but neither fully describes both conjuncts; strict missed_event_ids reflects this grouping artifact, not missing metadata in the prediction set. Preserve the frozen grouping and count this event once in collective coverage."
+      ],
+      "covered_event_ids": [
+        "301-10.304__2022-04-22__2022-09-12__e03"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.304__2022-04-22__2022-09-12__e01",
+          "prediction_indices": [
+            0
+          ],
+          "complete": false,
+          "reason": "The edit is factually described, but the wording category misses a scope-affecting definition or reimbursement change. It does not meet the correctly-categorized coverage condition."
+        },
+        {
+          "event_id": "301-10.304__2022-04-22__2022-09-12__e02",
+          "prediction_indices": [],
+          "complete": false,
+          "reason": "No prediction reports the inserted separator space between flattened table cells (feesCharges to fees Charges)."
+        },
+        {
+          "event_id": "301-10.304__2022-04-22__2022-09-12__e03",
+          "prediction_indices": [
+            1,
+            2
+          ],
+          "complete": true,
+          "reason": "Prediction 1 describes amendment-link removal and prediction 2 describes the distinct source-history change. Both are supported, informative, editorial findings; together they cover all conjuncts of the reference event. Neither individually earns a full-event strict match. These are complementary findings, not duplicate claims."
+        }
+      ]
+    },
+    {
+      "id": "301-10.109__2022-04-22__2022-09-12",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.109__2022-04-22__2022-09-12__e01"
+          ],
+          "reason": "The after snapshot adds the September 12, 2022 publication-link notice, while the employee-liability sentence and heading are unchanged. This is metadata, not a new liability rule."
+        }
+      ],
+      "missed_event_ids": [],
+      "reference_issues": [],
+      "covered_event_ids": [
+        "301-10.109__2022-04-22__2022-09-12__e01"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.109__2022-04-22__2022-09-12__e01",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        }
+      ]
+    },
+    {
+      "id": "301-10.401__2022-04-22__2022-09-12",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": false,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.401__2022-04-22__2022-09-12__e01"
+          ],
+          "reason": "The reimbursable special-conveyance example changes Gasoline and oil to Fuel and oil. Because fuel is a broader expense class, this is a scope-affecting reimbursement change, not merely wording. The nonexclusive list limits any inference that all other fuels were previously forbidden."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The amendment-link notice disappears. Editorial is appropriate, but this does not describe grouped e02's new source note."
+        },
+        {
+          "index": 2,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "A bracketed source note naming the original provision and April 22, 2022 amendment is newly present. This is editorial history, not a newly effective obligation; it covers only one half of e02."
+        }
+      ],
+      "missed_event_ids": [
+        "301-10.401__2022-04-22__2022-09-12__e01",
+        "301-10.401__2022-04-22__2022-09-12__e02"
+      ],
+      "reference_issues": [
+        "301-10.401__2022-04-22__2022-09-12__e02 combines two distinct editorial edits (amendment-link removal and source-history change). Split predictions collectively cover it, but neither fully describes both conjuncts; strict missed_event_ids reflects this grouping artifact, not missing metadata in the prediction set. Preserve the frozen grouping and count this event once in collective coverage."
+      ],
+      "covered_event_ids": [
+        "301-10.401__2022-04-22__2022-09-12__e02"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.401__2022-04-22__2022-09-12__e01",
+          "prediction_indices": [
+            0
+          ],
+          "complete": false,
+          "reason": "The edit is factually described, but the wording category misses a scope-affecting definition or reimbursement change. It does not meet the correctly-categorized coverage condition."
+        },
+        {
+          "event_id": "301-10.401__2022-04-22__2022-09-12__e02",
+          "prediction_indices": [
+            1,
+            2
+          ],
+          "complete": true,
+          "reason": "Prediction 1 describes amendment-link removal and prediction 2 describes the distinct source-history change. Both are supported, informative, editorial findings; together they cover all conjuncts of the reference event. Neither individually earns a full-event strict match. These are complementary findings, not duplicate claims."
+        }
+      ]
+    },
+    {
+      "id": "301-10.2__2025-12-07__2025-12-08",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.2__2025-12-07__2025-12-08__e02"
+          ],
+          "reason": "The prior body lists payable transportation expenses; that sentence is not in the after text. The summary correctly limits the claim to snapshot absence."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.2__2025-12-07__2025-12-08__e03"
+          ],
+          "reason": "The later list expressly pairs common carriers with B, Government vehicles with C, POV with D, and special conveyances with E. The actual authorization-method edit is identified; examples are compressed rather than contradicted. Added is local, not an inference of newly established global authority."
+        }
+      ],
+      "missed_event_ids": [
+        "301-10.2__2025-12-07__2025-12-08__e01"
+      ],
+      "reference_issues": [],
+      "covered_event_ids": [
+        "301-10.2__2025-12-07__2025-12-08__e02",
+        "301-10.2__2025-12-07__2025-12-08__e03"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.2__2025-12-07__2025-12-08__e01",
+          "prediction_indices": [],
+          "complete": false,
+          "reason": "No prediction identifies the separate literal heading edit; body-rule descriptions are not automatically heading-change claims."
+        },
+        {
+          "event_id": "301-10.2__2025-12-07__2025-12-08__e02",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        },
+        {
+          "event_id": "301-10.2__2025-12-07__2025-12-08__e03",
+          "prediction_indices": [
+            1
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        }
+      ]
+    },
+    {
+      "id": "301-10.421__2018-01-05__2018-02-20",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.421__2018-01-05__2018-02-20__e01"
+          ],
+          "reason": "The heading expressly adds TNC and innovative-mobility-technology companies to its named tip services, and the agency-reasonable-amount body is unchanged. The summary makes a textual coverage claim, not a verified change in externally enforceable legal scope. Requirement is defensible because the only description of covered services is in the heading; the reference's editorial-only treatment is contestable."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.421__2018-01-05__2018-02-20__e02"
+          ],
+          "reason": "The pending-amendment notice is absent after. Editorial correctly avoids deriving a rule or effective date from publication metadata."
+        }
+      ],
+      "missed_event_ids": [],
+      "reference_issues": [
+        "e01 labels the changed service list editorial/substantive=false, but this list appears only in the heading and supplies the named services for the reasonable-tip provision. The textual scope implication is real; its independently enforceable legal effect is not established. The prediction's requirement label is defensible, not mechanically wrong because gold says editorial."
+      ],
+      "covered_event_ids": [
+        "301-10.421__2018-01-05__2018-02-20__e01",
+        "301-10.421__2018-01-05__2018-02-20__e02"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.421__2018-01-05__2018-02-20__e01",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        },
+        {
+          "event_id": "301-10.421__2018-01-05__2018-02-20__e02",
+          "prediction_indices": [
+            1
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        }
+      ]
+    },
+    {
+      "id": "301-10.121__2022-09-12__2022-10-12",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.121__2022-09-12__2022-10-12__e02"
+          ],
+          "reason": "The before body contains the four airline-accommodation definitions and the two-cabin classification note; none remains in the later body. The claim is local absence, not repeal of class definitions throughout the regulation."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.121__2022-09-12__2022-10-12__e03"
+          ],
+          "reason": "The later body says upgraded coach seating is generally personal choice/expense and allows the approving official to reimburse the seat fee under part 301-13 or agency policy. The summary preserves the general rule and exception, without implying automatic reimbursement."
+        },
+        {
+          "index": 2,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The amendment-link notice disappears, an editorial metadata edit. Only that conjunct of grouped e04 is described."
+        },
+        {
+          "index": 3,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The source note changes from Amendment 2009-06 to Case 2020-300-1. This accurately identifies citation history, but not e04's separate notice removal."
+        }
+      ],
+      "missed_event_ids": [
+        "301-10.121__2022-09-12__2022-10-12__e01",
+        "301-10.121__2022-09-12__2022-10-12__e04"
+      ],
+      "reference_issues": [
+        "301-10.121__2022-09-12__2022-10-12__e04 combines two distinct editorial edits (amendment-link removal and source-history change). Split predictions collectively cover it, but neither fully describes both conjuncts; strict missed_event_ids reflects this grouping artifact, not missing metadata in the prediction set. Preserve the frozen grouping and count this event once in collective coverage."
+      ],
+      "covered_event_ids": [
+        "301-10.121__2022-09-12__2022-10-12__e02",
+        "301-10.121__2022-09-12__2022-10-12__e03",
+        "301-10.121__2022-09-12__2022-10-12__e04"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.121__2022-09-12__2022-10-12__e01",
+          "prediction_indices": [],
+          "complete": false,
+          "reason": "No prediction identifies the separate literal heading edit; body-rule descriptions are not automatically heading-change claims."
+        },
+        {
+          "event_id": "301-10.121__2022-09-12__2022-10-12__e02",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        },
+        {
+          "event_id": "301-10.121__2022-09-12__2022-10-12__e03",
+          "prediction_indices": [
+            1
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        },
+        {
+          "event_id": "301-10.121__2022-09-12__2022-10-12__e04",
+          "prediction_indices": [
+            2,
+            3
+          ],
+          "complete": true,
+          "reason": "Prediction 2 describes amendment-link removal and prediction 3 describes the distinct source-history change. Both are supported, informative, editorial findings; together they cover all conjuncts of the reference event. Neither individually earns a full-event strict match. These are complementary findings, not duplicate claims."
+        }
+      ]
+    },
+    {
+      "id": "301-10.112__2025-12-07__2025-12-08",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.112__2025-12-07__2025-12-08__e02"
+          ],
+          "reason": "The prior fare-purchase conditions include an exception, authorization approval, anticipated use for the specified ticket types, and agency practicality/cost effectiveness; that list is absent after. 'Including' summarizes the list without asserting all fares share the conditional anticipated-use rule."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.112__2025-12-07__2025-12-08__e03"
+          ],
+          "reason": "The later body assigns extra costs or penalties to employees when they use a non-contract carrier despite available contract service and no authorized exception. The summary retains both triggers and makes only a local-added-text claim."
+        },
+        {
+          "index": 2,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.112__2025-12-07__2025-12-08__e04"
+          ],
+          "reason": "The FTR Case 2020-300-1 note is present before and absent after. Editorial is correct; the actual operation is removal, whereas the reference's generic 'updates' wording is imprecise."
+        }
+      ],
+      "missed_event_ids": [
+        "301-10.112__2025-12-07__2025-12-08__e01"
+      ],
+      "reference_issues": [
+        "e04 says source-history citation 'updates'; the actual after text contains no source note, so this is removal rather than replacement. Prediction 2 accurately describes removal. Frozen description is retained."
+      ],
+      "covered_event_ids": [
+        "301-10.112__2025-12-07__2025-12-08__e02",
+        "301-10.112__2025-12-07__2025-12-08__e03",
+        "301-10.112__2025-12-07__2025-12-08__e04"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.112__2025-12-07__2025-12-08__e01",
+          "prediction_indices": [],
+          "complete": false,
+          "reason": "No prediction identifies the separate literal heading edit; body-rule descriptions are not automatically heading-change claims."
+        },
+        {
+          "event_id": "301-10.112__2025-12-07__2025-12-08__e02",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        },
+        {
+          "event_id": "301-10.112__2025-12-07__2025-12-08__e03",
+          "prediction_indices": [
+            1
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        },
+        {
+          "event_id": "301-10.112__2025-12-07__2025-12-08__e04",
+          "prediction_indices": [
+            2
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        }
+      ]
+    },
+    {
+      "id": "301-10.420__2018-02-20__2018-06-27",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.420__2018-02-20__2018-06-27__e01"
+          ],
+          "reason": "Paragraph (a) corrects 'a taxis, TNCs, or ... companies' to singular service names and removes the extra conjunction. The authorization/reimbursement routes and conditions are unchanged; wording is appropriate."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.420__2018-02-20__2018-06-27__e02"
+          ],
+          "reason": "The restrictions lead-in changes 'when -' to 'when—'. This is an exact punctuation normalization, not a changed restriction."
+        }
+      ],
+      "missed_event_ids": [],
+      "reference_issues": [],
+      "covered_event_ids": [
+        "301-10.420__2018-02-20__2018-06-27__e01",
+        "301-10.420__2018-02-20__2018-06-27__e02"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.420__2018-02-20__2018-06-27__e01",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        },
+        {
+          "event_id": "301-10.420__2018-02-20__2018-06-27__e02",
+          "prediction_indices": [
+            1
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        }
+      ]
+    },
+    {
+      "id": "301-10.308__2018-01-05__2018-02-20",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.308__2018-01-05__2018-02-20__e01"
+          ],
+          "reason": "The former cap is taxi fare; the later cap is the agency-determined cost of one of taxi, TNC, or innovative-mobility transport. The summary captures the changed benchmark and agency determination without inventing a numerical cap."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.308__2018-01-05__2018-02-20__e02"
+          ],
+          "reason": "The amendment-link notice disappears. Editorial accurately characterizes removal of publication metadata."
+        },
+        {
+          "index": 2,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.308__2018-01-05__2018-02-20__e03"
+          ],
+          "reason": "The later text adds a source note for Amendment 2017-01, which is absent before. The summary identifies citation addition, not a new effective-date requirement."
+        }
+      ],
+      "missed_event_ids": [],
+      "reference_issues": [],
+      "covered_event_ids": [
+        "301-10.308__2018-01-05__2018-02-20__e01",
+        "301-10.308__2018-01-05__2018-02-20__e02",
+        "301-10.308__2018-01-05__2018-02-20__e03"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.308__2018-01-05__2018-02-20__e01",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        },
+        {
+          "event_id": "301-10.308__2018-01-05__2018-02-20__e02",
+          "prediction_indices": [
+            1
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        },
+        {
+          "event_id": "301-10.308__2018-01-05__2018-02-20__e03",
+          "prediction_indices": [
+            2
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        }
+      ]
+    },
+    {
+      "id": "301-10.180__2020-07-02__2020-08-03",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.180__2020-07-02__2020-08-03__e01"
+          ],
+          "reason": "The statute citation changes from 46 U.S.C. App. Sec. 1241 to 46 U.S.C. § 55302, while the flag-ship availability/mission-necessity instruction is identical. Editorial is warranted by the supplied text; no outside equivalence of statutes is assumed."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The amendment-link notice disappears. Editorial is correct, but this is only the first conjunct of grouped e02."
+        },
+        {
+          "index": 2,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "A bracketed source note including the July 2, 2020 amendment appears after and not before. This identifies citation addition, only the second conjunct of e02."
+        }
+      ],
+      "missed_event_ids": [
+        "301-10.180__2020-07-02__2020-08-03__e02"
+      ],
+      "reference_issues": [
+        "301-10.180__2020-07-02__2020-08-03__e02 combines two distinct editorial edits (amendment-link removal and source-history change). Split predictions collectively cover it, but neither fully describes both conjuncts; strict missed_event_ids reflects this grouping artifact, not missing metadata in the prediction set. Preserve the frozen grouping and count this event once in collective coverage."
+      ],
+      "covered_event_ids": [
+        "301-10.180__2020-07-02__2020-08-03__e01",
+        "301-10.180__2020-07-02__2020-08-03__e02"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.180__2020-07-02__2020-08-03__e01",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        },
+        {
+          "event_id": "301-10.180__2020-07-02__2020-08-03__e02",
+          "prediction_indices": [
+            1,
+            2
+          ],
+          "complete": true,
+          "reason": "Prediction 1 describes amendment-link removal and prediction 2 describes the distinct source-history change. Both are supported, informative, editorial findings; together they cover all conjuncts of the reference event. Neither individually earns a full-event strict match. These are complementary findings, not duplicate claims."
+        }
+      ]
+    },
+    {
+      "id": "301-10.309__2023-01-18__2023-02-17",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.309__2023-01-18__2023-02-17__e01"
+          ],
+          "reason": "The later reimbursement sentence adds related travel expenses and recasts the cap from authorized common-carrier transportation plus per diem to total constructive cost of the authorized method. The summary does not resolve unprovided cross-reference formulas or invent dollar effects."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.309__2023-01-18__2023-02-17__e02"
+          ],
+          "reason": "The agency cost instruction and its cross-reference change from common-carrier transportation/per diem under 301-10.310 to constructive cost under 301-70.105(a). Requirement is appropriate because this changes the prescribed determination rule, not just a citation in source history."
+        },
+        {
+          "index": 2,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The amendment-link notice disappears, an editorial change. It does not itself cover e03's distinct source-note update."
+        },
+        {
+          "index": 3,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The note changes from Amendment 2015-03 to the January 18, 2023 Federal Register citation. This is source history, and covers only that conjunct of grouped e03."
+        }
+      ],
+      "missed_event_ids": [
+        "301-10.309__2023-01-18__2023-02-17__e03"
+      ],
+      "reference_issues": [
+        "301-10.309__2023-01-18__2023-02-17__e03 combines two distinct editorial edits (amendment-link removal and source-history change). Split predictions collectively cover it, but neither fully describes both conjuncts; strict missed_event_ids reflects this grouping artifact, not missing metadata in the prediction set. Preserve the frozen grouping and count this event once in collective coverage."
+      ],
+      "covered_event_ids": [
+        "301-10.309__2023-01-18__2023-02-17__e01",
+        "301-10.309__2023-01-18__2023-02-17__e02",
+        "301-10.309__2023-01-18__2023-02-17__e03"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.309__2023-01-18__2023-02-17__e01",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        },
+        {
+          "event_id": "301-10.309__2023-01-18__2023-02-17__e02",
+          "prediction_indices": [
+            1
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        },
+        {
+          "event_id": "301-10.309__2023-01-18__2023-02-17__e03",
+          "prediction_indices": [
+            2,
+            3
+          ],
+          "complete": true,
+          "reason": "Prediction 2 describes amendment-link removal and prediction 3 describes the distinct source-history change. Both are supported, informative, editorial findings; together they cover all conjuncts of the reference event. Neither individually earns a full-event strict match. These are complementary findings, not duplicate claims."
+        }
+      ]
+    },
+    {
+      "id": "301-10.161__2022-09-12__2022-10-12",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.161__2022-09-12__2022-10-12__e02"
+          ],
+          "reason": "The before coach-class train rule, including the agency-authorized other-than-coach exception, is absent after. The summary does not assert global removal of the rule."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.161__2022-09-12__2022-10-12__e03"
+          ],
+          "reason": "The later permission retains all stated qualifiers: lowest sleeping class meeting mission needs, required overnight travel, and agency advantage determination. Added is correct at this repurposed identifier."
+        },
+        {
+          "index": 2,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The amendment-link notice disappears. The metadata edit is editorial; only one half of grouped e04 is described."
+        },
+        {
+          "index": 3,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The source note changes from Amendment 2009-06 to Case 2020-300-1 as stated. This is editorial and covers only the source-history half of grouped e04."
+        }
+      ],
+      "missed_event_ids": [
+        "301-10.161__2022-09-12__2022-10-12__e01",
+        "301-10.161__2022-09-12__2022-10-12__e04"
+      ],
+      "reference_issues": [
+        "301-10.161__2022-09-12__2022-10-12__e04 combines two distinct editorial edits (amendment-link removal and source-history change). Split predictions collectively cover it, but neither fully describes both conjuncts; strict missed_event_ids reflects this grouping artifact, not missing metadata in the prediction set. Preserve the frozen grouping and count this event once in collective coverage."
+      ],
+      "covered_event_ids": [
+        "301-10.161__2022-09-12__2022-10-12__e02",
+        "301-10.161__2022-09-12__2022-10-12__e03",
+        "301-10.161__2022-09-12__2022-10-12__e04"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.161__2022-09-12__2022-10-12__e01",
+          "prediction_indices": [],
+          "complete": false,
+          "reason": "No prediction identifies the separate literal heading edit; body-rule descriptions are not automatically heading-change claims."
+        },
+        {
+          "event_id": "301-10.161__2022-09-12__2022-10-12__e02",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        },
+        {
+          "event_id": "301-10.161__2022-09-12__2022-10-12__e03",
+          "prediction_indices": [
+            1
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        },
+        {
+          "event_id": "301-10.161__2022-09-12__2022-10-12__e04",
+          "prediction_indices": [
+            2,
+            3
+          ],
+          "complete": true,
+          "reason": "Prediction 2 describes amendment-link removal and prediction 3 describes the distinct source-history change. Both are supported, informative, editorial findings; together they cover all conjuncts of the reference event. Neither individually earns a full-event strict match. These are complementary findings, not duplicate claims."
+        }
+      ]
+    },
+    {
+      "id": "301-10.300__2025-12-07__2025-12-08",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.300__2025-12-07__2025-12-08__e02"
+          ],
+          "reason": "The before body says POV official travel is allowed when authorized by the agency. That permission statement is absent after; no claim is made that agency authorization is unnecessary elsewhere."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The later opening mentions multiplying distance and the applicable mileage rate but is grammatically defective. The summary correctly reports the defect rather than silently repairing a formula. It covers only the computation-introduction portion of broad e03."
+        },
+        {
+          "index": 2,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The later table allows paper/electronic highway guides or actual odometer miles for automobile/motorcycle distance. This is a specific supported local addition, but only one component of e03."
+        },
+        {
+          "index": 3,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The aircraft row gives FAA charts, explanatory detour mileage for unusual conditions, and flight-time times cruising-speed when charts cannot determine a required deviation. The summary retains the chart-inadequacy trigger and does not claim unrestricted use of that alternative. It covers the aircraft-method portion, not all of e03."
+        },
+        {
+          "index": 4,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The later row explicitly requires nautical-mile conversion for claims and gives 1 nautical mile = 1.15077945 statute miles. The summary states that exact addition, only the conversion component of e03."
+        }
+      ],
+      "missed_event_ids": [
+        "301-10.300__2025-12-07__2025-12-08__e01",
+        "301-10.300__2025-12-07__2025-12-08__e03"
+      ],
+      "reference_issues": [
+        "e03 groups a malformed computation introduction, road-distance methods, aircraft-distance methods, and a mandatory conversion into one event. No individual prediction covers all components; predictions 1–4 collectively do. The malformed multiplication must not be silently repaired."
+      ],
+      "covered_event_ids": [
+        "301-10.300__2025-12-07__2025-12-08__e02",
+        "301-10.300__2025-12-07__2025-12-08__e03"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.300__2025-12-07__2025-12-08__e01",
+          "prediction_indices": [],
+          "complete": false,
+          "reason": "No prediction identifies the separate literal heading edit; body-rule descriptions are not automatically heading-change claims."
+        },
+        {
+          "event_id": "301-10.300__2025-12-07__2025-12-08__e02",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        },
+        {
+          "event_id": "301-10.300__2025-12-07__2025-12-08__e03",
+          "prediction_indices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "complete": true,
+          "reason": "Predictions 1, 2, 3, and 4 respectively cover the malformed calculation introduction, road-distance sources, FAA/detour/alternative aircraft methods, and exact nautical-to-statute conversion. Their union covers e03; none individually does. No repaired formula is credited."
+        }
+      ]
+    },
+    {
+      "id": "301-10.122__2022-09-12__2022-10-12",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.122__2022-09-12__2022-10-12__e02"
+          ],
+          "reason": "The before domestic/international official-air-travel coach-class rule and cited exceptions are absent after. Local absence is supported, not verified repeal."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.122__2022-09-12__2022-10-12__e03"
+          ],
+          "reason": "The later body requires an official traveler denied a confirmed seat to remit liquidated damages, ensure the Treasury payee, and forward payment to the proper official. The summary preserves the triggers and all three actions without making a global novelty claim."
+        },
+        {
+          "index": 2,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The amendment-link notice disappears. This editorial finding only describes the removal half of grouped e04."
+        },
+        {
+          "index": 3,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The Case 2020-300-1 source note is newly present. Editorial is appropriate; this only describes the source-history half of grouped e04."
+        }
+      ],
+      "missed_event_ids": [
+        "301-10.122__2022-09-12__2022-10-12__e01",
+        "301-10.122__2022-09-12__2022-10-12__e04"
+      ],
+      "reference_issues": [
+        "301-10.122__2022-09-12__2022-10-12__e04 combines two distinct editorial edits (amendment-link removal and source-history change). Split predictions collectively cover it, but neither fully describes both conjuncts; strict missed_event_ids reflects this grouping artifact, not missing metadata in the prediction set. Preserve the frozen grouping and count this event once in collective coverage."
+      ],
+      "covered_event_ids": [
+        "301-10.122__2022-09-12__2022-10-12__e02",
+        "301-10.122__2022-09-12__2022-10-12__e03",
+        "301-10.122__2022-09-12__2022-10-12__e04"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.122__2022-09-12__2022-10-12__e01",
+          "prediction_indices": [],
+          "complete": false,
+          "reason": "No prediction identifies the separate literal heading edit; body-rule descriptions are not automatically heading-change claims."
+        },
+        {
+          "event_id": "301-10.122__2022-09-12__2022-10-12__e02",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        },
+        {
+          "event_id": "301-10.122__2022-09-12__2022-10-12__e03",
+          "prediction_indices": [
+            1
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        },
+        {
+          "event_id": "301-10.122__2022-09-12__2022-10-12__e04",
+          "prediction_indices": [
+            2,
+            3
+          ],
+          "complete": true,
+          "reason": "Prediction 2 describes amendment-link removal and prediction 3 describes the distinct source-history change. Both are supported, informative, editorial findings; together they cover all conjuncts of the reference event. Neither individually earns a full-event strict match. These are complementary findings, not duplicate claims."
+        }
+      ]
+    },
+    {
+      "id": "301-10.450__2022-04-22__2022-09-12",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.450__2022-04-22__2022-09-12__e01"
+          ],
+          "reason": "New paragraph (f) expressly limits rental cars to official purposes and gives the summarized business, qualifying-lodging, and employee-necessity routes. Added is a defensible structural category for a new paragraph, though its restriction is substantive and requirement is also plausible."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The amendment-link notice is removed. This is editorial metadata, only one conjunct of grouped e02."
+        },
+        {
+          "index": 2,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The source note appends the April 22, 2022 amendment citation. Editorial correctly distinguishes it from the operative paragraph addition; it covers only the second conjunct of e02."
+        }
+      ],
+      "missed_event_ids": [
+        "301-10.450__2022-04-22__2022-09-12__e02"
+      ],
+      "reference_issues": [
+        "e01 calls a wholly new paragraph requirement; added is also a correct structural description, consistent with the signed-declaration addition control. Semantic significance is substantive despite this category overlap.",
+        "301-10.450__2022-04-22__2022-09-12__e02 combines two distinct editorial edits (amendment-link removal and source-history change). Split predictions collectively cover it, but neither fully describes both conjuncts; strict missed_event_ids reflects this grouping artifact, not missing metadata in the prediction set. Preserve the frozen grouping and count this event once in collective coverage."
+      ],
+      "covered_event_ids": [
+        "301-10.450__2022-04-22__2022-09-12__e01",
+        "301-10.450__2022-04-22__2022-09-12__e02"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.450__2022-04-22__2022-09-12__e01",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        },
+        {
+          "event_id": "301-10.450__2022-04-22__2022-09-12__e02",
+          "prediction_indices": [
+            1,
+            2
+          ],
+          "complete": true,
+          "reason": "Prediction 1 describes amendment-link removal and prediction 2 describes the distinct source-history change. Both are supported, informative, editorial findings; together they cover all conjuncts of the reference event. Neither individually earns a full-event strict match. These are complementary findings, not duplicate claims."
+        }
+      ]
+    },
+    {
+      "id": "control-01",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "control-01-event-1"
+          ],
+          "reason": "The only source edit replaces $100 with $150 in the reimbursement limit; amount and the direction of change are exact."
+        }
+      ],
+      "missed_event_ids": [],
+      "reference_issues": [],
+      "covered_event_ids": [
+        "control-01-event-1"
+      ],
+      "coverage": [
+        {
+          "event_id": "control-01-event-1",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        }
+      ]
+    },
+    {
+      "id": "control-02",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "control-02-event-1"
+          ],
+          "reason": "The allowed share changes from 20% to 25% exactly. Amount correctly describes a percentage-value change."
+        }
+      ],
+      "missed_event_ids": [],
+      "reference_issues": [],
+      "covered_event_ids": [
+        "control-02-event-1"
+      ],
+      "coverage": [
+        {
+          "event_id": "control-02-event-1",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        }
+      ]
+    },
+    {
+      "id": "control-03",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "control-03-event-1"
+          ],
+          "reason": "The policy application date moves from 2025-07-01 to 2025-08-01 exactly; date is appropriate and no publication date is being mistaken for an operative date."
+        }
+      ],
+      "missed_event_ids": [],
+      "reference_issues": [],
+      "covered_event_ids": [
+        "control-03-event-1"
+      ],
+      "coverage": [
+        {
+          "event_id": "control-03-event-1",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        }
+      ]
+    },
+    {
+      "id": "control-04",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "control-04-event-1"
+          ],
+          "reason": "The form-submission deadline changes from July 15 to August 15, 2025. Date is appropriate and preserves the year and deadline character."
+        }
+      ],
+      "missed_event_ids": [],
+      "reference_issues": [],
+      "covered_event_ids": [
+        "control-04-event-1"
+      ],
+      "coverage": [
+        {
+          "event_id": "control-04-event-1",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        }
+      ]
+    },
+    {
+      "id": "control-05",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "control-05-event-1"
+          ],
+          "reason": "May becomes must for obtaining approval. Requirement correctly captures a change from permission to obligation."
+        }
+      ],
+      "missed_event_ids": [],
+      "reference_issues": [],
+      "covered_event_ids": [
+        "control-05-event-1"
+      ],
+      "coverage": [
+        {
+          "event_id": "control-05-event-1",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        }
+      ]
+    },
+    {
+      "id": "control-06",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "control-06-event-1"
+          ],
+          "reason": "Parking changes from expressly excepted to expressly included in claimable travel costs. Requirement captures the changed coverage, not a mere stylistic rewrite."
+        }
+      ],
+      "missed_event_ids": [],
+      "reference_issues": [],
+      "covered_event_ids": [
+        "control-06-event-1"
+      ],
+      "coverage": [
+        {
+          "event_id": "control-06-event-1",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        }
+      ]
+    },
+    {
+      "id": "control-07",
+      "predictions": [],
+      "missed_event_ids": [],
+      "reference_issues": [
+        "Reference correctly has no factual event for spacing/line-wrap normalization; zero predictions is appropriate, not a missed fact."
+      ],
+      "covered_event_ids": [],
+      "coverage": []
+    },
+    {
+      "id": "control-08",
+      "predictions": [],
+      "missed_event_ids": [],
+      "reference_issues": [
+        "Reference correctly has no factual event for spacing/line-wrap normalization; zero predictions is appropriate, not a missed fact."
+      ],
+      "covered_event_ids": [],
+      "coverage": []
+    },
+    {
+      "id": "control-09",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "control-09-event-1"
+          ],
+          "reason": "The entire signed-declaration instruction is newly added after the unchanged receipt sentence. Added is a correct local-text category, even though the new sentence is also an obligation."
+        }
+      ],
+      "missed_event_ids": [],
+      "reference_issues": [],
+      "covered_event_ids": [
+        "control-09-event-1"
+      ],
+      "coverage": [
+        {
+          "event_id": "control-09-event-1",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        }
+      ]
+    },
+    {
+      "id": "control-10",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "control-10-event-1"
+          ],
+          "reason": "The signed-declaration instruction disappears while the receipt instruction remains. Removed correctly describes the actual edit without implying anything beyond the provided policy text."
+        }
+      ],
+      "missed_event_ids": [],
+      "reference_issues": [],
+      "covered_event_ids": [
+        "control-10-event-1"
+      ],
+      "coverage": [
+        {
+          "event_id": "control-10-event-1",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The cited prediction identifies this complete event and is independently supported, informative, and correctly categorized. Event credit is unique, irrespective of overlapping descriptions."
+        }
+      ]
+    }
+  ]
+}

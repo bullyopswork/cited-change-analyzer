@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.301__2025-12-07__2025-12-08__deterministic",
+  "section": "301-10.301",
+  "title": "§ 301-10.301 Reimbursement for advantageous POV use.",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2025-12-07",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-07/title-41.xml?part=301-10",
+    "snapshot_sha256": "c3af54ff8020830b5b2ed8f98ff704de6eed6572d063a744aacf9b652ce2fe53",
+    "text": "§ 301-10.301 How do I compute my mileage reimbursement?\n\nYou compute mileage reimbursement by multiplying the distance traveled, determined under § 301-10.302 of this subpart by the applicable mileage rate.\n\n[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 2010-07, 75 FR 72967, Nov. 29, 2010]"
+  },
+  "after": {
+    "date": "2025-12-08",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-08/title-41.xml?part=301-10",
+    "snapshot_sha256": "7c994b51abe2c310f493295de3fdecc36fe9e28c59567e38bac28e5ebe446d6a",
+    "text": "§ 301-10.301 Reimbursement for advantageous POV use.\n\nEmployees will be reimbursed an applicable mileage rate based on the type of POV actually used, including privately owned airplane, automobile, or motorcycle. These rates will be published in an FTR bulletin and displayed on the General Services Administration website at https://www.gsa.gov/mileage."
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "wording",
+      "summary": "Paragraph wording revised.",
+      "before_evidence": {
+        "start": 0,
+        "end": 55,
+        "quote": "§ 301-10.301 How do I compute my mileage reimbursement?"
+      },
+      "after_evidence": {
+        "start": 0,
+        "end": 52,
+        "quote": "§ 301-10.301 Reimbursement for advantageous POV use."
+      },
+      "needs_review": true,
+      "review_reason": "Lexical classification only; review legal and semantic significance.",
+      "method": "deterministic"
+    },
+    {
+      "id": "change-2",
+      "category": "amount",
+      "summary": "Numeric or amount wording changed.",
+      "before_evidence": {
+        "start": 57,
+        "end": 206,
+        "quote": "You compute mileage reimbursement by multiplying the distance traveled, determined under § 301-10.302 of this subpart by the applicable mileage rate."
+      },
+      "after_evidence": {
+        "start": 54,
+        "end": 354,
+        "quote": "Employees will be reimbursed an applicable mileage rate based on the type of POV actually used, including privately owned airplane, automobile, or motorcycle. These rates will be published in an FTR bulletin and displayed on the General Services Administration website at https://www.gsa.gov/mileage."
+      },
+      "needs_review": true,
+      "review_reason": "Lexical classification only; review legal and semantic significance.",
+      "method": "deterministic"
+    },
+    {
+      "id": "change-3",
+      "category": "removed",
+      "summary": "Paragraph text removed.",
+      "before_evidence": {
+        "start": 208,
+        "end": 310,
+        "quote": "[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 2010-07, 75 FR 72967, Nov. 29, 2010]"
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    }
+  ],
+  "warnings": [],
+  "analysis": {
+    "method": "deterministic",
+    "model": null,
+    "prompt_version": null,
+    "generated_at": "2026-10-17T13:44:13.439790+00:00",
+    "latency_ms": 0.098,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cost_usd": 0,
+    "input_identity": "32f6db88d0208fe03232e5a5844b1cf9dd1407c2f23fe7209ac227912d698257"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.262__2024-02-16__2024-04-16__native_codex",
+  "section": "301-10.262",
+  "title": "§ 301-10.262 How will my agency authorize travel on Government aircraft?",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2024-02-16",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2024-02-16/title-41.xml?part=301-10",
+    "snapshot_sha256": "05f472c1b43fe1f0d4c04bda0d4d61e0683ecde3031674244acf43e727cfd2a6",
+    "text": "§ 301-10.262 How will my agency authorize travel on Government aircraft?\n\nLink to an amendment published at 89 FR 12251, Feb. 16, 2024.\n\nYour agency will authorize your travel on Government aircraft as follows:\n\n(a) Required use travelers. Your agency's senior legal official or his/her principal deputy must authorize your required-use travel on a trip-by-trip basis, in advance, in writing, and in compliance with the agency's written policies describing the special circumstances under which the agency will require a traveler to use Government aircraft, unless—\n\n(1) You are an agency head and the President has determined that all your travel (or your travel in specified categories) qualifies as required-use travel; or\n\n(2) You are not an agency head, and your agency head has determined in writing that all of your travel, or your travel in specified categories, qualifies as required-use travel. Such written explanation must state the specific basis for the determination.\n\nNote to § 301-10.262(a):\n\nIn an emergency situation, prior verbal approval for required-use travel with an after-the-fact written authorization is permitted.\n\n(b) Senior Federal officials. If you are a senior Federal official, your agency's senior legal official or his/her principal deputy must authorize all your travel on Government aircraft in advance and in writing, except for required use travel authorized under paragraphs (a)(1) and (a)(2) of this section. In an emergency situation, prior verbal approval with an after-the-fact written authorization by your agency's senior legal official is permitted. Senior Federal officials who are crewmembers or qualified non-crewmembers on a flight in which they are also traveling (i.e., being transported from point to point) are considered travelers and must be authorized to travel on Government aircraft according to this paragraph.\n\n(c) Non-Federal travelers. If you are a non-Federal traveler, the senior legal official or his/her principal deputy in the agency sponsoring your travel must authorize you to fly on Government aircraft in advance and in writing. In an emergency situation, prior verbal approval with an after-the-fact written authorization by your sponsoring agency's senior legal official is permitted.\n\n(d) All other Federal travelers. Your designated travel-approving official (or anyone to whom he/she delegates this authority), who must be at least one organizational level above you, must authorize your travel on Government aircraft, in advance and in writing. Prior verbal approval with an after-the-fact written authorization by your agency's designated travel approving official is permitted in an emergency situation. If you hold a blanket travel authorization for official travel that authorizes travel on Government aircraft, it must define the circumstances that must be met for using Government aircraft and must comply with this regulation and any additional agency policies. Travel on Government aircraft that does not meet the circumstances specified in the blanket travel authorization must be authorized on a trip-by-trip basis in accordance with this regulation and other applicable agency policies. Check with your designated travel approving official for information on your agency's policy.\n\n[FTR Amdt. 2004-02, 69 FR 34304, June 21, 2004]"
+  },
+  "after": {
+    "date": "2024-04-16",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-16/title-41.xml?part=301-10",
+    "snapshot_sha256": "c3af54ff8020830b5b2ed8f98ff704de6eed6572d063a744aacf9b652ce2fe53",
+    "text": "§ 301-10.262 How will my agency authorize travel on Government aircraft?\n\nYour agency will authorize your travel on Government aircraft as follows:\n\n(a) Required use travelers. Your agency's senior legal official or their principal deputy must authorize your required-use travel on a trip-by-trip basis, in advance, in writing, and in compliance with the agency's written policies describing the special circumstances under which the agency will require a traveler to use Government aircraft, unless—\n\n(1) You are an agency head and the President has determined that all your travel (or your travel in specified categories) qualifies as required-use travel; or\n\n(2) You are not an agency head, and your agency head has determined in writing that all of your travel, or your travel in specified categories, qualifies as required-use travel. Such written explanation must state the specific basis for the determination.\n\nNote to § 301-10.262(a):\n\nIn an emergency situation, prior verbal approval for required-use travel with an after-the-fact written authorization is permitted.\n\n(b) Senior Federal officials. If you are a senior Federal official, your agency's senior legal official or their principal deputy must authorize all your travel on Government aircraft in advance and in writing, except for required use travel authorized under paragraphs (a)(1) and (a)(2) of this section. In an emergency situation, prior verbal approval with an after-the-fact written authorization by your agency's senior legal official is permitted. Senior Federal officials who are crewmembers or qualified non-crewmembers on a flight in which they are also traveling (i.e., being transported from point to point) are considered travelers and must be authorized to travel on Government aircraft according to this paragraph.\n\n(c) Non-Federal travelers. If you are a non-Federal traveler, the senior legal official or their principal deputy in the agency sponsoring your travel must authorize you to fly on Government aircraft in advance and in writing. In an emergency situation, prior verbal approval with an after-the-fact written authorization by your sponsoring agency's senior legal official is permitted.\n\n(d) All other Federal travelers. Your designated travel-approving official (or anyone to whom they delegate this authority), who must be at least one organizational level above you, must authorize your travel on Government aircraft, in advance and in writing. Prior verbal approval with an after-the-fact written authorization by your agency's designated travel approving official is permitted in an emergency situation. If you hold a blanket travel authorization for official travel that authorizes travel on Government aircraft, it must define the circumstances that must be met for using Government aircraft and must comply with this regulation and any additional agency policies. Travel on Government aircraft that does not meet the circumstances specified in the blanket travel authorization must be authorized on a trip-by-trip basis in accordance with this regulation and other applicable agency policies. Check with your designated travel approving official for information on your agency's policy.\n\n[FTR Amdt. 2004-02, 69 FR 34304, June 21, 2004, as amended by FTR Case 2022-05, 89 FR 12251, Feb. 16, 2024]"
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "editorial",
+      "summary": "The standalone notice linking to the February 16, 2024 amendment is absent in the after snapshot.",
+      "before_evidence": {
+        "start": 74,
+        "end": 135,
+        "quote": "Link to an amendment published at 89 FR 12251, Feb. 16, 2024."
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-2",
+      "category": "wording",
+      "summary": "Paragraph (a) replaces “his/her principal deputy” with “their principal deputy” for the senior legal official.",
+      "before_evidence": {
+        "start": 212,
+        "end": 303,
+        "quote": "(a) Required use travelers. Your agency's senior legal official or his/her principal deputy"
+      },
+      "after_evidence": {
+        "start": 149,
+        "end": 238,
+        "quote": "(a) Required use travelers. Your agency's senior legal official or their principal deputy"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-3",
+      "category": "wording",
+      "summary": "Paragraph (b) replaces “his/her principal deputy” with “their principal deputy” for the senior legal official.",
+      "before_evidence": {
+        "start": 1143,
+        "end": 1274,
+        "quote": "(b) Senior Federal officials. If you are a senior Federal official, your agency's senior legal official or his/her principal deputy"
+      },
+      "after_evidence": {
+        "start": 1078,
+        "end": 1207,
+        "quote": "(b) Senior Federal officials. If you are a senior Federal official, your agency's senior legal official or their principal deputy"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-4",
+      "category": "wording",
+      "summary": "Paragraph (c) replaces “his/her principal deputy” with “their principal deputy” for the sponsoring agency's senior legal official.",
+      "before_evidence": {
+        "start": 1873,
+        "end": 1988,
+        "quote": "(c) Non-Federal travelers. If you are a non-Federal traveler, the senior legal official or his/her principal deputy"
+      },
+      "after_evidence": {
+        "start": 1806,
+        "end": 1919,
+        "quote": "(c) Non-Federal travelers. If you are a non-Federal traveler, the senior legal official or their principal deputy"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-5",
+      "category": "wording",
+      "summary": "Paragraph (d) replaces “he/she delegates” with “they delegate” when referring to the travel-approving official.",
+      "before_evidence": {
+        "start": 2336,
+        "end": 2387,
+        "quote": "(or anyone to whom he/she delegates this authority)"
+      },
+      "after_evidence": {
+        "start": 2267,
+        "end": 2315,
+        "quote": "(or anyone to whom they delegate this authority)"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-6",
+      "category": "editorial",
+      "summary": "The source history adds FTR Case 2022-05 and the February 16, 2024 Federal Register citation.",
+      "before_evidence": {
+        "start": 3272,
+        "end": 3319,
+        "quote": "[FTR Amdt. 2004-02, 69 FR 34304, June 21, 2004]"
+      },
+      "after_evidence": {
+        "start": 3200,
+        "end": 3307,
+        "quote": "[FTR Amdt. 2004-02, 69 FR 34304, June 21, 2004, as amended by FTR Case 2022-05, 89 FR 12251, Feb. 16, 2024]"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    }
+  ],
+  "warnings": [],
+  "analysis": {
+    "method": "native_codex",
+    "model": "gpt-6.1-sol",
+    "prompt_version": "cca-grounded-v1",
+    "generated_at": "2026-10-17T13:50:54.748376+00:00",
+    "latency_ms": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "usage_available": false,
+    "latency_available": false,
+    "cost_usd": null,
+    "billing_basis": "Existing OpenAI account via native Codex. Credit dollar rate unavailable; not zero model usage.",
+    "input_identity": "d2edf50888f4b76b671c3fbb956953651e1ac8034dd78869ca774e0c8de32af0"
+  }
+}

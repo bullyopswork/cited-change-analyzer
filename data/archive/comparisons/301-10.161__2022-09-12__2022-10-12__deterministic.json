@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.161__2022-09-12__2022-10-12__deterministic",
+  "section": "301-10.161",
+  "title": "§ 301-10.161 When may I use sleeping accommodations aboard train service?",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2022-09-12",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+    "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+    "text": "§ 301-10.161 What class of train accommodations must I use?\n\nLink to an amendment published at 87 FR 55705, Sept. 12, 2022.\n\nYou must use coach-class accommodations for all train travel, except when your agency authorizes other than coach-class service.\n\n[FTR Amdt. 2009-06, 74 FR 55148, Oct. 27, 2009]"
+  },
+  "after": {
+    "date": "2022-10-12",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-10-12/title-41.xml?part=301-10",
+    "snapshot_sha256": "5af0a1c5b1ea546e201564970a3775086b58b576ff7c7f44a98a3a19ab32739a",
+    "text": "§ 301-10.161 When may I use sleeping accommodations aboard train service?\n\nYou may use the lowest class of sleeping accommodations aboard a train that meets your mission needs when overnight travel is required, and your agency determines it is advantageous to the Government.\n\n[FTR Case 2020-300-1, 87 FR 55705, Sept. 12, 2022]"
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "date",
+      "summary": "Date-like wording changed.",
+      "before_evidence": {
+        "start": 0,
+        "end": 59,
+        "quote": "§ 301-10.161 What class of train accommodations must I use?"
+      },
+      "after_evidence": {
+        "start": 0,
+        "end": 73,
+        "quote": "§ 301-10.161 When may I use sleeping accommodations aboard train service?"
+      },
+      "needs_review": true,
+      "review_reason": "Lexical classification only; review legal and semantic significance.",
+      "method": "deterministic"
+    },
+    {
+      "id": "change-2",
+      "category": "date",
+      "summary": "Date-like wording changed.",
+      "before_evidence": {
+        "start": 61,
+        "end": 123,
+        "quote": "Link to an amendment published at 87 FR 55705, Sept. 12, 2022."
+      },
+      "after_evidence": {
+        "start": 75,
+        "end": 275,
+        "quote": "You may use the lowest class of sleeping accommodations aboard a train that meets your mission needs when overnight travel is required, and your agency determines it is advantageous to the Government."
+      },
+      "needs_review": true,
+      "review_reason": "Lexical classification only; review legal and semantic significance.",
+      "method": "deterministic"
+    },
+    {
+      "id": "change-3",
+      "category": "date",
+      "summary": "Date-like wording changed.",
+      "before_evidence": {
+        "start": 125,
+        "end": 253,
+        "quote": "You must use coach-class accommodations for all train travel, except when your agency authorizes other than coach-class service."
+      },
+      "after_evidence": {
+        "start": 277,
+        "end": 327,
+        "quote": "[FTR Case 2020-300-1, 87 FR 55705, Sept. 12, 2022]"
+      },
+      "needs_review": true,
+      "review_reason": "Lexical classification only; review legal and semantic significance.",
+      "method": "deterministic"
+    },
+    {
+      "id": "change-4",
+      "category": "removed",
+      "summary": "Paragraph text removed.",
+      "before_evidence": {
+        "start": 255,
+        "end": 302,
+        "quote": "[FTR Amdt. 2009-06, 74 FR 55148, Oct. 27, 2009]"
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    }
+  ],
+  "warnings": [],
+  "analysis": {
+    "method": "deterministic",
+    "model": null,
+    "prompt_version": null,
+    "generated_at": "2026-10-17T13:44:13.435725+00:00",
+    "latency_ms": 0.09,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cost_usd": 0,
+    "input_identity": "369c97827fb07d0ec4e229067b5e400d89368d1ba84d734edffd82f071dddb33"
+  }
+}

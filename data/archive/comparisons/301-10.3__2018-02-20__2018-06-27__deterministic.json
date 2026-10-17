@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.3__2018-02-20__2018-06-27__deterministic",
+  "section": "301-10.3",
+  "title": "§ 301-10.3 What methods of transportation may my agency authorize me to use?",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2018-02-20",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2018-02-20/title-41.xml?part=301-10",
+    "snapshot_sha256": "fb3f0e29064d512b297bb8998a82d923b2a6830f42beed302cadfe0ab0b35494",
+    "text": "§ 301-10.3 What methods of transportation may my agency authorize me to use?\n\nYour agency may authorize:\n\n(a) Common carrier transportation (e.g., aircraft, train, bus, ship, or other transit system) under subpart B;\n\n(b) Government vehicle under subpart C;\n\n(c) POV under subpart D; or\n\n(d) Special conveyance (e.g., taxi, TNC, innovative mobility technology company, or commercial automobile) under Subpart E.\n\n[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 2010-02, 75 FR 24435, May 5, 2010; FTR Amdt. 2017-01, 83 FR 604, Jan. 5, 2018]"
+  },
+  "after": {
+    "date": "2018-06-27",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2018-06-27/title-41.xml?part=301-10",
+    "snapshot_sha256": "93a51d7ae7b5c256bff18bb8eaaf81581cfd5122c021f28507fde87184d101e8",
+    "text": "§ 301-10.3 What methods of transportation may my agency authorize me to use?\n\nYour agency may authorize:\n\n(a) Common carrier transportation (e.g., aircraft, train, bus, ship, or other transit system) under subpart B;\n\n(b) Government vehicle under subpart C;\n\n(c) POV under subpart D; or\n\n(d) Special conveyance (e.g., taxi, TNC, innovative mobility technology company, or commercial automobile) under subpart E.\n\n[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 2010-02, 75 FR 24435, May 5, 2010; FTR Amdt. 2017-01, 83 FR 604, Jan. 5, 2018]"
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "editorial",
+      "summary": "Case or punctuation changed; significance needs review.",
+      "before_evidence": {
+        "start": 288,
+        "end": 411,
+        "quote": "(d) Special conveyance (e.g., taxi, TNC, innovative mobility technology company, or commercial automobile) under Subpart E."
+      },
+      "after_evidence": {
+        "start": 288,
+        "end": 411,
+        "quote": "(d) Special conveyance (e.g., taxi, TNC, innovative mobility technology company, or commercial automobile) under subpart E."
+      },
+      "needs_review": true,
+      "review_reason": "Lexical classification only; review legal and semantic significance.",
+      "method": "deterministic"
+    }
+  ],
+  "warnings": [],
+  "analysis": {
+    "method": "deterministic",
+    "model": null,
+    "prompt_version": null,
+    "generated_at": "2026-10-17T13:44:13.437882+00:00",
+    "latency_ms": 0.065,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cost_usd": 0,
+    "input_identity": "9a9c46d64ea49fa8622039ec67e78114918ca74095ab1481823104a6d7d91c9b"
+  }
+}

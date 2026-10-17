@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.3__2018-02-20__2018-06-27__native_codex",
+  "section": "301-10.3",
+  "title": "§ 301-10.3 What methods of transportation may my agency authorize me to use?",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2018-02-20",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2018-02-20/title-41.xml?part=301-10",
+    "snapshot_sha256": "fb3f0e29064d512b297bb8998a82d923b2a6830f42beed302cadfe0ab0b35494",
+    "text": "§ 301-10.3 What methods of transportation may my agency authorize me to use?\n\nYour agency may authorize:\n\n(a) Common carrier transportation (e.g., aircraft, train, bus, ship, or other transit system) under subpart B;\n\n(b) Government vehicle under subpart C;\n\n(c) POV under subpart D; or\n\n(d) Special conveyance (e.g., taxi, TNC, innovative mobility technology company, or commercial automobile) under Subpart E.\n\n[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 2010-02, 75 FR 24435, May 5, 2010; FTR Amdt. 2017-01, 83 FR 604, Jan. 5, 2018]"
+  },
+  "after": {
+    "date": "2018-06-27",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2018-06-27/title-41.xml?part=301-10",
+    "snapshot_sha256": "93a51d7ae7b5c256bff18bb8eaaf81581cfd5122c021f28507fde87184d101e8",
+    "text": "§ 301-10.3 What methods of transportation may my agency authorize me to use?\n\nYour agency may authorize:\n\n(a) Common carrier transportation (e.g., aircraft, train, bus, ship, or other transit system) under subpart B;\n\n(b) Government vehicle under subpart C;\n\n(c) POV under subpart D; or\n\n(d) Special conveyance (e.g., taxi, TNC, innovative mobility technology company, or commercial automobile) under subpart E.\n\n[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 2010-02, 75 FR 24435, May 5, 2010; FTR Amdt. 2017-01, 83 FR 604, Jan. 5, 2018]"
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "wording",
+      "summary": "The special-conveyance cross-reference changes “Subpart E” to lowercase “subpart E.”",
+      "before_evidence": {
+        "start": 395,
+        "end": 411,
+        "quote": "under Subpart E."
+      },
+      "after_evidence": {
+        "start": 395,
+        "end": 411,
+        "quote": "under subpart E."
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    }
+  ],
+  "warnings": [],
+  "analysis": {
+    "method": "native_codex",
+    "model": "gpt-6.1-sol",
+    "prompt_version": "cca-grounded-v1",
+    "generated_at": "2026-10-17T13:50:54.757906+00:00",
+    "latency_ms": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "usage_available": false,
+    "latency_available": false,
+    "cost_usd": null,
+    "billing_basis": "Existing OpenAI account via native Codex. Credit dollar rate unavailable; not zero model usage.",
+    "input_identity": "f780edef2623213b1cfc3cc9e2179aed481fd08073343002decad76af0a4429f"
+  }
+}

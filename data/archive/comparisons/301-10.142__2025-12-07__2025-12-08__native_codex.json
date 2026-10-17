@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.142__2025-12-07__2025-12-08__native_codex",
+  "section": "301-10.142",
+  "title": "§ 301-10.142 Liability for improper or unauthorized foreign air carrier use.",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2025-12-07",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-07/title-41.xml?part=301-10",
+    "snapshot_sha256": "c3af54ff8020830b5b2ed8f98ff704de6eed6572d063a744aacf9b652ce2fe53",
+    "text": "§ 301-10.142 What must the certification include?\n\nThe certification must include:\n\n(a) Your name;\n\n(b) The dates that you traveled;\n\n(c) The origin and the destination of your travel;\n\n(d) A detailed itinerary of your travel, name of the air carrier and flight number for each leg of the trip; and\n\n(e) A statement explaining why you met one of the exceptions in § 301-10.135, § 301-10.136, or § 301-10.137 or a copy of your agency's written approval that foreign air carrier service was deemed a matter of necessity in accordance with § 301-10.138."
+  },
+  "after": {
+    "date": "2025-12-08",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-08/title-41.xml?part=301-10",
+    "snapshot_sha256": "7c994b51abe2c310f493295de3fdecc36fe9e28c59567e38bac28e5ebe446d6a",
+    "text": "§ 301-10.142 Liability for improper or unauthorized foreign air carrier use.\n\nEmployees will not be reimbursed for transportation costs incurred through improper or unauthorized use of foreign air carrier service."
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "removed",
+      "summary": "The certification-content list, covering traveler identity, travel dates, route, itinerary and exception explanation or agency approval, is absent from the later snapshot.",
+      "before_evidence": {
+        "start": 51,
+        "end": 550,
+        "quote": "The certification must include:\n\n(a) Your name;\n\n(b) The dates that you traveled;\n\n(c) The origin and the destination of your travel;\n\n(d) A detailed itinerary of your travel, name of the air carrier and flight number for each leg of the trip; and\n\n(e) A statement explaining why you met one of the exceptions in § 301-10.135, § 301-10.136, or § 301-10.137 or a copy of your agency's written approval that foreign air carrier service was deemed a matter of necessity in accordance with § 301-10.138."
+      },
+      "after_evidence": null,
+      "needs_review": true,
+      "review_reason": "The same section number covers different topics in these snapshots; the supplied text does not establish whether the former content moved elsewhere.; One-sided evidence overlaps a complex revision; review removal versus replacement.",
+      "method": "native_codex"
+    },
+    {
+      "id": "change-2",
+      "category": "added",
+      "summary": "The later snapshot states that transportation costs from improper or unauthorized foreign air carrier use will not be reimbursed.",
+      "before_evidence": null,
+      "after_evidence": {
+        "start": 78,
+        "end": 213,
+        "quote": "Employees will not be reimbursed for transportation costs incurred through improper or unauthorized use of foreign air carrier service."
+      },
+      "needs_review": true,
+      "review_reason": "The same section number covers different topics in these snapshots; the supplied text does not establish whether the former content moved elsewhere.; One-sided evidence overlaps a complex revision; review addition versus replacement.",
+      "method": "native_codex"
+    }
+  ],
+  "warnings": [
+    "Topic alignment differs across these snapshots. Absence here does not establish repeal or absence elsewhere."
+  ],
+  "analysis": {
+    "method": "native_codex",
+    "model": "gpt-6.1-sol",
+    "prompt_version": "cca-grounded-v1",
+    "generated_at": "2026-10-17T13:50:54.474780+00:00",
+    "latency_ms": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "usage_available": false,
+    "latency_available": false,
+    "cost_usd": null,
+    "billing_basis": "Existing OpenAI account via native Codex. Credit dollar rate unavailable; not zero model usage.",
+    "input_identity": "6b57f34df19d5993aba9d8ced2d3ae8c657e7c0c2f784df96a40425c6c18747b"
+  }
+}

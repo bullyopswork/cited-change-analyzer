@@ -1,0 +1,1632 @@
+{
+  "schema_version": "1.0",
+  "method": "independent agent source review",
+  "cases": [
+    {
+      "id": "301-10.303__2020-07-02__2020-08-03",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The standalone 85 FR 39848 amendment notice is present before and absent after. This is publication metadata; it covers only the notice half of grouped e02."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.303__2020-07-02__2020-08-03__e01"
+          ],
+          "reason": "The mileage information URL changes exactly from http to https, with the mileage-rate rule unchanged."
+        },
+        {
+          "index": 2,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The after source history adds 85 FR 39848, July 2, 2020. This is the citation half of grouped e02, not a deadline change."
+        }
+      ],
+      "missed_event_ids": [],
+      "covered_event_ids": [
+        "301-10.303__2020-07-02__2020-08-03__e01",
+        "301-10.303__2020-07-02__2020-08-03__e02"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.303__2020-07-02__2020-08-03__e01",
+          "prediction_indices": [
+            1
+          ],
+          "complete": true,
+          "reason": "Finding 1 fully describes the scheme change."
+        },
+        {
+          "event_id": "301-10.303__2020-07-02__2020-08-03__e02",
+          "prediction_indices": [
+            0,
+            2
+          ],
+          "complete": true,
+          "reason": "Notice removal and source-history addition are both described, by separate findings; neither alone covers this conjunction."
+        }
+      ],
+      "reference_issues": [
+        "Granularity: e02 groups notice removal and source-history addition. Both are grounded, but each raw finding describes only one conjunct; collective coverage is needed."
+      ]
+    },
+    {
+      "id": "301-10.262__2024-02-16__2024-04-16",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The February 16, 2024 notice disappears; this is only the notice half of grouped e02."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "Paragraph (a) changes his/her principal deputy to their principal deputy, with approval conditions unchanged. This alone does not cover all four paragraphs in e01."
+        },
+        {
+          "index": 2,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "Paragraph (b) makes exactly the stated his/her to their substitution; it covers only this part of e01."
+        },
+        {
+          "index": 3,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "Paragraph (c) makes exactly the stated his/her to their substitution for the sponsoring agency official; it covers only this part of e01."
+        },
+        {
+          "index": 4,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "Paragraph (d) replaces he/she delegates with they delegate, without changing delegated authority. It covers only this part of e01."
+        },
+        {
+          "index": 5,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The after citation adds FTR Case 2022-05 and 89 FR 12251. It is only the citation half of grouped e02."
+        }
+      ],
+      "missed_event_ids": [],
+      "covered_event_ids": [
+        "301-10.262__2024-02-16__2024-04-16__e01",
+        "301-10.262__2024-02-16__2024-04-16__e02"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.262__2024-02-16__2024-04-16__e01",
+          "prediction_indices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "complete": true,
+          "reason": "The four findings collectively describe all substitutions in paragraphs (a), (b), (c) and (d); no individual finding describes all four."
+        },
+        {
+          "event_id": "301-10.262__2024-02-16__2024-04-16__e02",
+          "prediction_indices": [
+            0,
+            5
+          ],
+          "complete": true,
+          "reason": "Notice disappearance plus updated source history fully cover the grouped metadata event."
+        }
+      ],
+      "reference_issues": [
+        "Granularity: e01 groups four independently localized pronoun edits; e02 groups notice removal and citation update. Strict single-finding matching cannot cover these groups, although the union can."
+      ]
+    },
+    {
+      "id": "301-10.451__2022-04-22__2022-09-12",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The April 22, 2022 amendment notice disappears; this covers only the notice half of e03."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.451__2022-04-22__2022-09-12__e02"
+          ],
+          "reason": "The spaced hyphen in General rule - no becomes an em dash. Wording is a defensible surface-edit category, overlapping editorial; no operative scope is claimed."
+        },
+        {
+          "index": 2,
+          "supported": true,
+          "category_correct": false,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.451__2022-04-22__2022-09-12__e01"
+          ],
+          "reason": "All stated text changes are supported: CDW, OCONUS and or both. However requirement implies a demonstrated rule-scope change; the former or need not be exclusive, so these excerpts establish explicit clarification, not a newly created combined-insurance entitlement. Category is ambiguous, and wording would be better supported."
+        },
+        {
+          "index": 3,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "A source-history citation appears where none was supplied before; the cited 1998 text and 2022 amendment are exact. This is the citation half of e03."
+        }
+      ],
+      "missed_event_ids": [],
+      "covered_event_ids": [
+        "301-10.451__2022-04-22__2022-09-12__e01",
+        "301-10.451__2022-04-22__2022-09-12__e02",
+        "301-10.451__2022-04-22__2022-09-12__e03"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.451__2022-04-22__2022-09-12__e01",
+          "prediction_indices": [
+            2
+          ],
+          "complete": true,
+          "reason": "Finding 2 describes CDW, OCONUS and or both; the unchanged conditions are grounded in the paired quotations. Matching is independent of the disputed category."
+        },
+        {
+          "event_id": "301-10.451__2022-04-22__2022-09-12__e02",
+          "prediction_indices": [
+            1
+          ],
+          "complete": true,
+          "reason": "The general-rule punctuation edit is fully described."
+        },
+        {
+          "event_id": "301-10.451__2022-04-22__2022-09-12__e03",
+          "prediction_indices": [
+            0,
+            3
+          ],
+          "complete": true,
+          "reason": "The notice disappears and the source history appears; both metadata conjuncts are represented."
+        }
+      ],
+      "reference_issues": [
+        "The reference itself flags or both as ambiguous. The excerpts prove a clarification but do not resolve whether the former or already included combined coverage; a newly created entitlement is not established.",
+        "Taxonomy: punctuation wording and editorial overlap. The model accurately describes the punctuation edit, so its wording label is accepted independently of the frozen editorial label.",
+        "Granularity: e03 joins two separately localized metadata edits."
+      ]
+    },
+    {
+      "id": "301-10.3__2018-02-20__2018-06-27",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.3__2018-02-20__2018-06-27__e01"
+          ],
+          "reason": "Only capitalization of Subpart E changes. Wording accurately identifies a surface textual edit; editorial is also appropriate, without a substantive distinction established here."
+        }
+      ],
+      "missed_event_ids": [],
+      "covered_event_ids": [
+        "301-10.3__2018-02-20__2018-06-27__e01"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.3__2018-02-20__2018-06-27__e01",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The single capitalization edit is fully described."
+        }
+      ],
+      "reference_issues": [
+        "Taxonomy: lowercase-only edits can reasonably be wording or editorial; the factual edit is unambiguous and no legal-scope change is supported."
+      ]
+    },
+    {
+      "id": "301-10.400__2018-01-05__2018-02-20",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The notice literally cites 82 FR 604 and is removed; the prediction correctly preserves the supplied number rather than silently correcting it. It is only the notice part of e02."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.400__2018-01-05__2018-02-20__e01"
+          ],
+          "reason": "Paragraph (a) explicitly replaces Taxicabs with Taxis, TNCs, or innovative mobility technology companies in the authorization list. Requirement is appropriate to the stated list change, without asserting these services were previously globally prohibited."
+        },
+        {
+          "index": 2,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The after source history adds the quoted citations including FTR Amendment 2017-01 at 83 FR 604. This is only the citation part of e02."
+        }
+      ],
+      "missed_event_ids": [],
+      "covered_event_ids": [
+        "301-10.400__2018-01-05__2018-02-20__e01",
+        "301-10.400__2018-01-05__2018-02-20__e02"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.400__2018-01-05__2018-02-20__e01",
+          "prediction_indices": [
+            1
+          ],
+          "complete": true,
+          "reason": "The authorization-list replacement is fully described."
+        },
+        {
+          "event_id": "301-10.400__2018-01-05__2018-02-20__e02",
+          "prediction_indices": [
+            0,
+            2
+          ],
+          "complete": true,
+          "reason": "Both the notice removal and the added citation are described."
+        }
+      ],
+      "reference_issues": [
+        "Source inconsistency: the removed notice literally says 82 FR 604 while the added history says 83 FR 604. These supplied texts do not establish which publication number is historically correct; both predictions accurately report their own source.",
+        "Granularity: e02 groups notice removal and added citation."
+      ]
+    },
+    {
+      "id": "301-10.110__2022-04-22__2022-09-12",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.110__2022-04-22__2022-09-12__e01"
+          ],
+          "reason": "Only an amendment-link notice is added; the operative No remains unchanged. Editorial is appropriate and no travel permission change is asserted."
+        }
+      ],
+      "missed_event_ids": [],
+      "covered_event_ids": [
+        "301-10.110__2022-04-22__2022-09-12__e01"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.110__2022-04-22__2022-09-12__e01",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The sole notice addition is fully described."
+        }
+      ],
+      "reference_issues": []
+    },
+    {
+      "id": "301-10.135__2020-07-02__2020-08-03",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.135__2020-07-02__2020-08-03__e03"
+          ],
+          "reason": "The standalone July 2, 2020 notice disappears, exactly as stated."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The Open Skies URL changes only from HTTP to HTTPS; this is one of the two URL edits grouped in e02."
+        },
+        {
+          "index": 2,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The bulletin URL changes from http /bulletins to https /ftrbulletins, exactly as stated; this is the other part of e02."
+        },
+        {
+          "index": 3,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.135__2020-07-02__2020-08-03__e01"
+          ],
+          "reason": "The before and after agency lists are reproduced accurately. A requirement/exception-list textual change is supported, without inferring agency succession or eliminating the unchanged funding and foreign-to-foreign conditions."
+        },
+        {
+          "index": 4,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.135__2020-07-02__2020-08-03__e04"
+          ],
+          "reason": "The after source-history citation adds exactly 85 FR 39848, July 2, 2020; no new operative date is asserted."
+        }
+      ],
+      "missed_event_ids": [],
+      "covered_event_ids": [
+        "301-10.135__2020-07-02__2020-08-03__e01",
+        "301-10.135__2020-07-02__2020-08-03__e02",
+        "301-10.135__2020-07-02__2020-08-03__e03",
+        "301-10.135__2020-07-02__2020-08-03__e04"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.135__2020-07-02__2020-08-03__e01",
+          "prediction_indices": [
+            3
+          ],
+          "complete": true,
+          "reason": "The complete old/new agency lists are explicitly described, with unchanged conditions grounded in the quotations."
+        },
+        {
+          "event_id": "301-10.135__2020-07-02__2020-08-03__e02",
+          "prediction_indices": [
+            1,
+            2
+          ],
+          "complete": true,
+          "reason": "Open Skies scheme and bulletin scheme/path changes are separately described and collectively cover both URLs."
+        },
+        {
+          "event_id": "301-10.135__2020-07-02__2020-08-03__e03",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The notice removal is fully described."
+        },
+        {
+          "event_id": "301-10.135__2020-07-02__2020-08-03__e04",
+          "prediction_indices": [
+            4
+          ],
+          "complete": true,
+          "reason": "The source-history update is fully described."
+        }
+      ],
+      "reference_issues": [
+        "Granularity: e02 groups two URL edits while the notice and history are separate events. Collective URL coverage is complete; neither single URL prediction covers both.",
+        "Agency succession or broader legal effects cannot be established from the changed agency names alone."
+      ]
+    },
+    {
+      "id": "301-10.302__2025-12-07__2025-12-08",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.302__2025-12-07__2025-12-08__e02"
+          ],
+          "reason": "The old heading and complete quoted distance table are absent at this identifier after the change. The summary identifies highway/odometer, FAA charts, detours, fallback flight-time computation and conversion; the full quote grounds the detailed formula. Removed is snapshot-local, not a claim of legal repeal."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The reimbursable column lists exactly the named fees in addition to mileage. Added is limited to the repurposed identifier. This covers only the reimbursable half of e03 and supplies the new heading topic for collective e01."
+        },
+        {
+          "index": 2,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The non-reimbursable column contains exactly the listed expenses included in mileage. The flattened table is interpreted using its headers, not as making the preceding parking fees non-reimbursable. This covers only the second half of e03."
+        },
+        {
+          "index": 3,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.302__2025-12-07__2025-12-08__e04"
+          ],
+          "reason": "The old source-history citation has no counterpart in the after text. This is an editorial metadata removal."
+        }
+      ],
+      "missed_event_ids": [],
+      "covered_event_ids": [
+        "301-10.302__2025-12-07__2025-12-08__e01",
+        "301-10.302__2025-12-07__2025-12-08__e02",
+        "301-10.302__2025-12-07__2025-12-08__e03",
+        "301-10.302__2025-12-07__2025-12-08__e04"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.302__2025-12-07__2025-12-08__e01",
+          "prediction_indices": [
+            0,
+            1
+          ],
+          "complete": true,
+          "reason": "Finding 0 explicitly identifies the removed distance-measurement heading; finding 1 identifies the new allowable-expenses topic and quotes its heading. Together they describe the heading replacement, not merely unrelated body edits."
+        },
+        {
+          "event_id": "301-10.302__2025-12-07__2025-12-08__e02",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The old distance-rule table is expressly absent and its components are identified; the full quoted passage grounds the precise fallback and conversion."
+        },
+        {
+          "event_id": "301-10.302__2025-12-07__2025-12-08__e03",
+          "prediction_indices": [
+            1,
+            2
+          ],
+          "complete": true,
+          "reason": "The two findings cover respectively the reimbursable-beyond-mileage and included/not-separately-reimbursable expense columns; neither half alone covers the grouped table event."
+        },
+        {
+          "event_id": "301-10.302__2025-12-07__2025-12-08__e04",
+          "prediction_indices": [
+            3
+          ],
+          "complete": true,
+          "reason": "The source-history absence is expressly described."
+        }
+      ],
+      "reference_issues": [
+        "Granularity: e03 combines reimbursable and non-reimbursable columns. Two findings collectively cover both; neither single column fully matches.",
+        "The flattened table loses layout; header-based column interpretation is reasonable but should not be mistaken for independently verified visual table structure.",
+        "The heading event is recoverable collectively from the explicit old-heading removal plus the described/quoted new heading topic, not from either finding alone."
+      ]
+    },
+    {
+      "id": "301-10.160__2022-09-12__2022-10-12",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.160__2022-09-12__2022-10-12__e02"
+          ],
+          "reason": "The train-class definitions and the two-class train note are absent at this identifier; the quoted passage contains the full class set, including other-than-coach. The summary describes the removed definitions and note, not global repeal."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.160__2022-09-12__2022-10-12__e03"
+          ],
+          "reason": "The new local text permits extra-fare service for advantage or security and requires other-than-coach authorization/approval under the cited paragraphs. All conditions are accurately described."
+        },
+        {
+          "index": 2,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The source history changes to the exact FTR Case 2020-300-1 and 87 FR 55705 citation. This is only the citation part of e04."
+        },
+        {
+          "index": 3,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The amendment-link notice disappears. This is only the notice part of e04."
+        }
+      ],
+      "missed_event_ids": [
+        "301-10.160__2022-09-12__2022-10-12__e01"
+      ],
+      "covered_event_ids": [
+        "301-10.160__2022-09-12__2022-10-12__e02",
+        "301-10.160__2022-09-12__2022-10-12__e03",
+        "301-10.160__2022-09-12__2022-10-12__e04"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.160__2022-09-12__2022-10-12__e01",
+          "prediction_indices": [
+            0,
+            1
+          ],
+          "complete": false,
+          "reason": "The quotations contain the changed headings, but the summaries describe removal of definitions and addition of a train rule, not the distinct heading edit. A heading change cannot be credited solely from contextual quoted headings."
+        },
+        {
+          "event_id": "301-10.160__2022-09-12__2022-10-12__e02",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "Removal of the full class-definition set and the two-class note is described and grounded."
+        },
+        {
+          "event_id": "301-10.160__2022-09-12__2022-10-12__e03",
+          "prediction_indices": [
+            1
+          ],
+          "complete": true,
+          "reason": "All permission and authorization conditions for extra-fare service are described."
+        },
+        {
+          "event_id": "301-10.160__2022-09-12__2022-10-12__e04",
+          "prediction_indices": [
+            2,
+            3
+          ],
+          "complete": true,
+          "reason": "Source-history replacement and notice disappearance collectively cover the metadata conjunction."
+        }
+      ],
+      "reference_issues": [
+        "The frozen heading event is separate from body-rule replacement. Its headings appear in contextual quotes, but no summary actually identifies the heading edit; e01 remains uncovered.",
+        "Granularity: e04 joins source-history and notice edits reported in separate findings."
+      ]
+    },
+    {
+      "id": "301-10.301__2025-12-07__2025-12-08",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.301__2025-12-07__2025-12-08__e02"
+          ],
+          "reason": "The mileage-computation heading and distance-times-rate instruction, including the 301-10.302 reference, are absent locally. No claim is made about that rule elsewhere."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.301__2025-12-07__2025-12-08__e03"
+          ],
+          "reason": "The new local text provides a rate for the POV actually used and publication in an FTR bulletin and on the GSA site. The summary accurately describes the new topic and all material components."
+        },
+        {
+          "index": 2,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.301__2025-12-07__2025-12-08__e04"
+          ],
+          "reason": "The before source-history citation disappears; editorial correctly describes metadata absence."
+        }
+      ],
+      "missed_event_ids": [],
+      "covered_event_ids": [
+        "301-10.301__2025-12-07__2025-12-08__e01",
+        "301-10.301__2025-12-07__2025-12-08__e02",
+        "301-10.301__2025-12-07__2025-12-08__e03",
+        "301-10.301__2025-12-07__2025-12-08__e04"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.301__2025-12-07__2025-12-08__e01",
+          "prediction_indices": [
+            0,
+            1
+          ],
+          "complete": true,
+          "reason": "Finding 0 explicitly describes the removed mileage-computation heading; finding 1 names the new advantageous-POV-use topic and quotes its heading. Together they cover both sides of the heading replacement."
+        },
+        {
+          "event_id": "301-10.301__2025-12-07__2025-12-08__e02",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The distance-times-rate formula and cross-reference removal are fully described."
+        },
+        {
+          "event_id": "301-10.301__2025-12-07__2025-12-08__e03",
+          "prediction_indices": [
+            1
+          ],
+          "complete": true,
+          "reason": "The new POV-type rate and both publication channels are described."
+        },
+        {
+          "event_id": "301-10.301__2025-12-07__2025-12-08__e04",
+          "prediction_indices": [
+            2
+          ],
+          "complete": true,
+          "reason": "The citation disappearance is fully described."
+        }
+      ],
+      "reference_issues": [
+        "The separately labeled heading edit is collectively described across the explicit old-heading removal and new heading topic; no single raw finding fully describes both heading sides."
+      ]
+    },
+    {
+      "id": "301-10.108__2022-04-22__2022-09-12",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.108__2022-04-22__2022-09-12__e01"
+          ],
+          "reason": "The only change is the addition of the September 12, 2022 amendment-link notice. Non-contract-fare conditions are unchanged."
+        }
+      ],
+      "missed_event_ids": [],
+      "covered_event_ids": [
+        "301-10.108__2022-04-22__2022-09-12__e01"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.108__2022-04-22__2022-09-12__e01",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The sole notice addition is fully described."
+        }
+      ],
+      "reference_issues": []
+    },
+    {
+      "id": "301-10.201__2025-12-07__2025-12-08",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.201__2025-12-07__2025-12-08__e02"
+          ],
+          "reason": "The official-purposes heading and list disappear locally. The quoted list and summary identify business travel, conditional lodging, sustenance/comfort/health stops and the statutory agency authorization route, without asserting repeal elsewhere."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.201__2025-12-07__2025-12-08__e03"
+          ],
+          "reason": "The after text makes employees responsible for unauthorized-use costs and allows administrative and/or criminal liability. The prediction preserves may rather than asserting certain criminal liability, and limits the addition to this identifier."
+        }
+      ],
+      "missed_event_ids": [],
+      "covered_event_ids": [
+        "301-10.201__2025-12-07__2025-12-08__e01",
+        "301-10.201__2025-12-07__2025-12-08__e02",
+        "301-10.201__2025-12-07__2025-12-08__e03"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.201__2025-12-07__2025-12-08__e01",
+          "prediction_indices": [
+            0,
+            1
+          ],
+          "complete": true,
+          "reason": "Finding 0 expressly describes the removed official-purposes heading; finding 1 names the new liability-for-unauthorized-use topic and quotes its heading. Both heading sides are collectively covered."
+        },
+        {
+          "event_id": "301-10.201__2025-12-07__2025-12-08__e02",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The official-purposes rule and its four classes of permitted use are described as locally absent."
+        },
+        {
+          "event_id": "301-10.201__2025-12-07__2025-12-08__e03",
+          "prediction_indices": [
+            1
+          ],
+          "complete": true,
+          "reason": "Costs and possible administrative/criminal liability are both described."
+        }
+      ],
+      "reference_issues": [
+        "The separately labeled heading edit is collectively described across the explicit old-heading removal and new liability heading topic."
+      ]
+    },
+    {
+      "id": "301-10.113__2022-09-12__2022-10-12",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.113__2022-09-12__2022-10-12__e02"
+          ],
+          "reason": "The reservation heading and change/cancel/report instructions with possible loss liability disappear locally. The description preserves the agency procedures and contingent liability rather than claiming global repeal."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.113__2022-09-12__2022-10-12__e03"
+          ],
+          "reason": "The new heading supplies contract availability/no-exception context, and the body assigns resulting additional costs or penalties to the traveler. Both are correctly summarized as local after content."
+        },
+        {
+          "index": 2,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The amendment notice disappears; this covers only the notice part of e04."
+        },
+        {
+          "index": 3,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The FTR Case 2020-300-1 source citation is added; this covers only the source-history part of e04."
+        }
+      ],
+      "missed_event_ids": [],
+      "covered_event_ids": [
+        "301-10.113__2022-09-12__2022-10-12__e01",
+        "301-10.113__2022-09-12__2022-10-12__e02",
+        "301-10.113__2022-09-12__2022-10-12__e03",
+        "301-10.113__2022-09-12__2022-10-12__e04"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.113__2022-09-12__2022-10-12__e01",
+          "prediction_indices": [
+            0,
+            1
+          ],
+          "complete": true,
+          "reason": "Finding 0 explicitly identifies the removed reservation-change heading; finding 1 describes the new unauthorized-non-contract heading topic and its contract-availability/no-exception qualifiers, grounding both sides collectively."
+        },
+        {
+          "event_id": "301-10.113__2022-09-12__2022-10-12__e02",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "Change/cancel, reporting and potential losses liability are described as locally absent."
+        },
+        {
+          "event_id": "301-10.113__2022-09-12__2022-10-12__e03",
+          "prediction_indices": [
+            1
+          ],
+          "complete": true,
+          "reason": "Responsibility for additional costs or penalties is fully described."
+        },
+        {
+          "event_id": "301-10.113__2022-09-12__2022-10-12__e04",
+          "prediction_indices": [
+            2,
+            3
+          ],
+          "complete": true,
+          "reason": "Notice disappearance and source citation addition are both described; neither alone covers their replacement."
+        }
+      ],
+      "reference_issues": [
+        "Granularity: the heading replacement spans the removed-heading and new-topic findings; the notice-to-citation replacement spans two metadata findings. Strict matches are preserved separately from those collective matches."
+      ]
+    },
+    {
+      "id": "301-10.130__2022-09-12__2022-10-12",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The supplied placeholder line with double section sign and xxx is replaced by a single-sign Reserved line. Wording is a defensible surface-edit category; no prior operative rule is claimed. The notice removal part of e01 is not covered by this finding."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The amendment-link notice is absent after; this is the second part of grouped e01, not a substantive repeal."
+        }
+      ],
+      "missed_event_ids": [],
+      "covered_event_ids": [
+        "301-10.130__2022-09-12__2022-10-12__e01"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.130__2022-09-12__2022-10-12__e01",
+          "prediction_indices": [
+            0,
+            1
+          ],
+          "complete": true,
+          "reason": "The placeholder-to-Reserved heading replacement and notice disappearance are both described. Neither single finding covers both components."
+        }
+      ],
+      "reference_issues": [
+        "The before text literally uses a double section sign and xxx placeholder. It does not establish an operative rule whose legal repeal could be inferred.",
+        "Granularity: the single reference event combines heading replacement and notice removal; neither raw finding alone covers the conjunction."
+      ]
+    },
+    {
+      "id": "301-10.120__2022-09-12__2022-10-12",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.120__2022-09-12__2022-10-12__e01"
+          ],
+          "reason": "The literal xxx heading is replaced by the quoted different-fares question. Wording is defensible for this heading replacement, overlapping editorial without implying enactment."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.120__2022-09-12__2022-10-12__e02"
+          ],
+          "reason": "The after body requires lowest cost only when no contract City Pair fare and otherwise comparable service exist, with the stated agency-advantage exception. Added accurately concerns the supplied snapshot, not a globally new enactment."
+        },
+        {
+          "index": 2,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The amendment notice is removed; this is the notice half of e03."
+        },
+        {
+          "index": 3,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The FTR Case 2020-300-1 source citation is added; this is the citation half of e03."
+        }
+      ],
+      "missed_event_ids": [],
+      "covered_event_ids": [
+        "301-10.120__2022-09-12__2022-10-12__e01",
+        "301-10.120__2022-09-12__2022-10-12__e02",
+        "301-10.120__2022-09-12__2022-10-12__e03"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.120__2022-09-12__2022-10-12__e01",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The old placeholder and new heading are both explicitly described."
+        },
+        {
+          "event_id": "301-10.120__2022-09-12__2022-10-12__e02",
+          "prediction_indices": [
+            1
+          ],
+          "complete": true,
+          "reason": "All lowest-cost conditions and the higher-cost exception are described."
+        },
+        {
+          "event_id": "301-10.120__2022-09-12__2022-10-12__e03",
+          "prediction_indices": [
+            2,
+            3
+          ],
+          "complete": true,
+          "reason": "The notice removal and added source history collectively cover the metadata event."
+        }
+      ],
+      "reference_issues": [
+        "The xxx placeholder is not an operative prior rule, so local appearance of the body does not prove a new global enactment.",
+        "Taxonomy: wording and editorial both fit this explicitly non-operative heading edit; e03 groups two metadata edits."
+      ]
+    },
+    {
+      "id": "301-10.105__2022-04-22__2022-09-12",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.105__2022-04-22__2022-09-12__e01"
+          ],
+          "reason": "The after snapshot is truly empty, and the before common-carrier requirements are correctly summarized with their exceptions. The whole-section absence is explicit, so e01 is fully described even though a separate finding localizes the citation disappearance."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The specific before source-history citation is absent from the empty after text. It is supported editorial detail within the already-described whole-section absence, not an additional reference event or second credit for e01."
+        }
+      ],
+      "missed_event_ids": [],
+      "covered_event_ids": [
+        "301-10.105__2022-04-22__2022-09-12__e01"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.105__2022-04-22__2022-09-12__e01",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "Finding 0 expressly states the after snapshot is empty and identifies the absent before requirements. Finding 1 is redundant citation localization, not a second matched event."
+        }
+      ],
+      "reference_issues": [
+        "Granularity: e01 is whole-section absence, including source history in its quotation. Finding 0 explicitly reports the empty after snapshot; finding 1 only adds citation detail within that same event and receives no duplicate strict match."
+      ]
+    },
+    {
+      "id": "301-10.124__2022-09-12__2022-10-12",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.124__2022-09-12__2022-10-12__e02"
+          ],
+          "reason": "The old heading and full quoted seating-upgrade discussion disappear locally. The summary accurately identifies paid preferred seats, retained coach classification, personal-expense default and agency-policy reimbursement; the quote includes the fee/perk modes and official/designee. No repeal elsewhere is asserted."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.124__2022-09-12__2022-10-12__e03"
+          ],
+          "reason": "The after text permits group/charter fares subject to individual pretravel cost-effectiveness, applies Government-aircraft rules to chartered aircraft and cites OMB A-126/41 CFR 102-33 for executive agencies. The summary accurately covers all components."
+        },
+        {
+          "index": 2,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The amendment-link notice is absent; this is only the notice half of e04."
+        },
+        {
+          "index": 3,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The source-history citation changes to the exact stated FTR Case and Federal Register citation; this is only the citation half of e04."
+        }
+      ],
+      "missed_event_ids": [],
+      "covered_event_ids": [
+        "301-10.124__2022-09-12__2022-10-12__e01",
+        "301-10.124__2022-09-12__2022-10-12__e02",
+        "301-10.124__2022-09-12__2022-10-12__e03",
+        "301-10.124__2022-09-12__2022-10-12__e04"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.124__2022-09-12__2022-10-12__e01",
+          "prediction_indices": [
+            0,
+            1
+          ],
+          "complete": true,
+          "reason": "Finding 0 expressly identifies the removed coach-upgrade heading; finding 1 describes the new reduced-group/charter-fare subject and quotes the new heading. Both sides are covered collectively."
+        },
+        {
+          "event_id": "301-10.124__2022-09-12__2022-10-12__e02",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The whole upgrade discussion is explicitly locally absent and its material rule components are described; the full quote grounds the fee/perk and official/designee detail."
+        },
+        {
+          "event_id": "301-10.124__2022-09-12__2022-10-12__e03",
+          "prediction_indices": [
+            1
+          ],
+          "complete": true,
+          "reason": "Pretravel individual cost-effectiveness, Government-aircraft rules and executive-agency authorities are all covered."
+        },
+        {
+          "event_id": "301-10.124__2022-09-12__2022-10-12__e04",
+          "prediction_indices": [
+            2,
+            3
+          ],
+          "complete": true,
+          "reason": "Notice disappearance and source-history replacement are both described."
+        }
+      ],
+      "reference_issues": [
+        "Granularity: the explicit removed heading and new heading topic collectively cover e01; the two metadata findings collectively cover e04.",
+        "The removal summary is compressed, but it expressly removes the whole discussion and quotes the complete fee/perk and official/designee passage; those details are not credited from an unrelated contextual quote."
+      ]
+    },
+    {
+      "id": "301-10.107__2022-04-22__2022-09-12",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.107__2022-04-22__2022-09-12__e01"
+          ],
+          "reason": "The only supplied edit is the addition of the September 12, 2022 amendment notice; no operative city-pair exception changes."
+        }
+      ],
+      "missed_event_ids": [],
+      "covered_event_ids": [
+        "301-10.107__2022-04-22__2022-09-12__e01"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.107__2022-04-22__2022-09-12__e01",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The sole notice addition is fully described."
+        }
+      ],
+      "reference_issues": []
+    },
+    {
+      "id": "301-10.261__2020-07-02__2020-08-03",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.261__2020-07-02__2020-08-03__e03"
+          ],
+          "reason": "The standalone July 2, 2020 notice disappears; no requirement change is inferred."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "The main introduction changes its spaced hyphen to an em dash. Wording accurately identifies a surface edit; it covers only one of three introductions in e02."
+        },
+        {
+          "index": 2,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "Paragraph (a) changes its spaced hyphen to an em dash, one part of grouped e02."
+        },
+        {
+          "index": 3,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [],
+          "reason": "Paragraph (c) changes its spaced hyphen to an em dash, the remaining part of grouped e02."
+        },
+        {
+          "index": 4,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.261__2020-07-02__2020-08-03__e01"
+          ],
+          "reason": "The Guide contact changes from the exact GSA mailing address to aviationpolicy@gsa.gov. Editorial is appropriate for the contact update, with the cost-comparison rule unchanged."
+        },
+        {
+          "index": 5,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.261__2020-07-02__2020-08-03__e04"
+          ],
+          "reason": "The source-history citation adds exactly 85 FR 39848, July 2, 2020. It does not establish a changed travel deadline."
+        }
+      ],
+      "missed_event_ids": [],
+      "covered_event_ids": [
+        "301-10.261__2020-07-02__2020-08-03__e01",
+        "301-10.261__2020-07-02__2020-08-03__e02",
+        "301-10.261__2020-07-02__2020-08-03__e03",
+        "301-10.261__2020-07-02__2020-08-03__e04"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.261__2020-07-02__2020-08-03__e01",
+          "prediction_indices": [
+            4
+          ],
+          "complete": true,
+          "reason": "The exact postal-to-email contact replacement is described."
+        },
+        {
+          "event_id": "301-10.261__2020-07-02__2020-08-03__e02",
+          "prediction_indices": [
+            1,
+            2,
+            3
+          ],
+          "complete": true,
+          "reason": "All three introduction punctuation edits are separately described, covering the grouped event collectively."
+        },
+        {
+          "event_id": "301-10.261__2020-07-02__2020-08-03__e03",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The notice disappearance is fully described."
+        },
+        {
+          "event_id": "301-10.261__2020-07-02__2020-08-03__e04",
+          "prediction_indices": [
+            5
+          ],
+          "complete": true,
+          "reason": "The citation update is fully described."
+        }
+      ],
+      "reference_issues": [
+        "Granularity: e02 groups three punctuation edits localized by three findings. Wording is accepted as a defensible surface-edit label despite the frozen editorial category."
+      ]
+    },
+    {
+      "id": "301-10.310__2020-07-02__2020-08-03",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.310__2020-07-02__2020-08-03__e02"
+          ],
+          "reason": "The July 2, 2020 amendment notice disappears, exactly as stated."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.310__2020-07-02__2020-08-03__e01"
+          ],
+          "reason": "The FTR bulletin URL changes from HTTP to HTTPS; the constructive mileage limits and unusual-circumstances allowance remain unchanged."
+        },
+        {
+          "index": 2,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "301-10.310__2020-07-02__2020-08-03__e03"
+          ],
+          "reason": "The source history adds exactly 85 FR 39848, July 2, 2020; this is citation metadata."
+        }
+      ],
+      "missed_event_ids": [],
+      "covered_event_ids": [
+        "301-10.310__2020-07-02__2020-08-03__e01",
+        "301-10.310__2020-07-02__2020-08-03__e02",
+        "301-10.310__2020-07-02__2020-08-03__e03"
+      ],
+      "coverage": [
+        {
+          "event_id": "301-10.310__2020-07-02__2020-08-03__e01",
+          "prediction_indices": [
+            1
+          ],
+          "complete": true,
+          "reason": "The URL scheme change is described."
+        },
+        {
+          "event_id": "301-10.310__2020-07-02__2020-08-03__e02",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The notice removal is described."
+        },
+        {
+          "event_id": "301-10.310__2020-07-02__2020-08-03__e03",
+          "prediction_indices": [
+            2
+          ],
+          "complete": true,
+          "reason": "The source-history update is described."
+        }
+      ],
+      "reference_issues": []
+    },
+    {
+      "id": "control-11",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "control-11-event-1"
+          ],
+          "reason": "The inserted not reverses personal travel from allowed to prohibited; requirement correctly captures the operative polarity change."
+        }
+      ],
+      "missed_event_ids": [],
+      "covered_event_ids": [
+        "control-11-event-1"
+      ],
+      "coverage": [
+        {
+          "event_id": "control-11-event-1",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The permission-to-prohibition reversal is fully described."
+        }
+      ],
+      "reference_issues": []
+    },
+    {
+      "id": "control-12",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "control-12-event-1"
+          ],
+          "reason": "The inserted not changes a requirement to claim meals into a prohibition on claiming them. Both the summary and requirement category accurately capture the reversal."
+        }
+      ],
+      "missed_event_ids": [],
+      "covered_event_ids": [
+        "control-12-event-1"
+      ],
+      "coverage": [
+        {
+          "event_id": "control-12-event-1",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The mandatory-claim-to-no-claim reversal is fully described."
+        }
+      ],
+      "reference_issues": []
+    },
+    {
+      "id": "control-13",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "control-13-event-1"
+          ],
+          "reason": "The form and receipt sentences exchange order without changed wording, while Await approval remains last. One moved finding fully describes this single order-change event."
+        }
+      ],
+      "missed_event_ids": [],
+      "covered_event_ids": [
+        "control-13-event-1"
+      ],
+      "coverage": [
+        {
+          "event_id": "control-13-event-1",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The swapped instruction order is fully described; only one order-change event is credited."
+        }
+      ],
+      "reference_issues": []
+    },
+    {
+      "id": "control-14",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "control-14-event-1"
+          ],
+          "reason": "Two identical adjacent receipt instructions become one. Wording is defensible for deduplication that leaves the actual obligation unchanged; removed is also a valid structural category. There is no unsupported claim that the receipt duty itself is repealed."
+        }
+      ],
+      "missed_event_ids": [],
+      "covered_event_ids": [
+        "control-14-event-1"
+      ],
+      "coverage": [
+        {
+          "event_id": "control-14-event-1",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The loss of one repeated copy is precisely described, regardless of overlapping wording/removed classifications."
+        }
+      ],
+      "reference_issues": [
+        "Taxonomy: removing a duplicate line is structurally removed but also non-substantive wording/deduplication because the receipt obligation persists. The prediction accurately states two copies become one."
+      ]
+    },
+    {
+      "id": "control-15",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "control-15-event-1"
+          ],
+          "reason": "Use form A changes to Use form B, while the dollar limit is unchanged. Requirement is independently defensible because the directive changes which form must be used; matching the gold wording category mechanically would miss this operative scope effect."
+        }
+      ],
+      "missed_event_ids": [],
+      "covered_event_ids": [
+        "control-15-event-1"
+      ],
+      "coverage": [
+        {
+          "event_id": "control-15-event-1",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The form identifier replacement is precisely described; the category disagreement does not erase factual coverage."
+        }
+      ],
+      "reference_issues": [
+        "Category defect/ambiguity: the frozen label calls Use form A to Use form B wording, but the actual imperative changes which form is to be used. Requirement is independently defensible; no external form equivalence evidence permits treating this as purely non-operative."
+      ]
+    },
+    {
+      "id": "control-16",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "control-16-event-1"
+          ],
+          "reason": "A comma becomes a semicolon with the same receipt/apply instructions. Wording is a defensible surface-edit label, overlapping editorial without changing the obligation."
+        }
+      ],
+      "missed_event_ids": [],
+      "covered_event_ids": [
+        "control-16-event-1"
+      ],
+      "coverage": [
+        {
+          "event_id": "control-16-event-1",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The comma-to-semicolon replacement is fully described."
+        }
+      ],
+      "reference_issues": [
+        "Taxonomy: comma-to-semicolon is both a surface wording edit and editorial; no source-semantic basis requires treating the accurate wording prediction as wrong."
+      ]
+    },
+    {
+      "id": "control-17",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "control-17-event-1"
+          ],
+          "reason": "The French ceiling changes from 100 euros to 150 euros; the emoji and surrounding wording remain unchanged. Amount is correct."
+        }
+      ],
+      "missed_event_ids": [],
+      "covered_event_ids": [
+        "control-17-event-1"
+      ],
+      "coverage": [
+        {
+          "event_id": "control-17-event-1",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The French amount change is fully described."
+        }
+      ],
+      "reference_issues": []
+    },
+    {
+      "id": "control-18",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "control-18-event-1"
+          ],
+          "reason": "Only the meals limit changes from $100 to $150. The meal-specific quote and summary avoid confusing the unchanged hotel $100 limit."
+        }
+      ],
+      "missed_event_ids": [],
+      "covered_event_ids": [
+        "control-18-event-1"
+      ],
+      "coverage": [
+        {
+          "event_id": "control-18-event-1",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The meals-specific amount change is fully described and hotel limit is not falsely changed."
+        }
+      ],
+      "reference_issues": []
+    },
+    {
+      "id": "control-19",
+      "predictions": [
+        {
+          "index": 0,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "control-19-event-1"
+          ],
+          "reason": "The limit changes exactly from $100 to $150 and is correctly classified amount."
+        },
+        {
+          "index": 1,
+          "supported": true,
+          "category_correct": true,
+          "informative": true,
+          "matched_event_ids": [
+            "control-19-event-2"
+          ],
+          "reason": "The deadline changes exactly from 2025-07-01 to 2025-08-01; the month names and year are correctly summarized and date is appropriate."
+        }
+      ],
+      "missed_event_ids": [],
+      "covered_event_ids": [
+        "control-19-event-1",
+        "control-19-event-2"
+      ],
+      "coverage": [
+        {
+          "event_id": "control-19-event-1",
+          "prediction_indices": [
+            0
+          ],
+          "complete": true,
+          "reason": "The amount change is fully described."
+        },
+        {
+          "event_id": "control-19-event-2",
+          "prediction_indices": [
+            1
+          ],
+          "complete": true,
+          "reason": "The complete dated deadline change is fully described."
+        }
+      ],
+      "reference_issues": []
+    },
+    {
+      "id": "control-20",
+      "predictions": [],
+      "missed_event_ids": [],
+      "covered_event_ids": [],
+      "coverage": [],
+      "reference_issues": []
+    }
+  ]
+}

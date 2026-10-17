@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.261__2020-07-02__2020-08-03__native_codex",
+  "section": "301-10.261",
+  "title": "§ 301-10.261 When may I use a Government aircraft for travel?",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2020-07-02",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2020-07-02/title-41.xml?part=301-10",
+    "snapshot_sha256": "e81459a34ebf058b059bfb645be495ebb4bab5257388c0fcc171637a7a9cac5a",
+    "text": "§ 301-10.261 When may I use a Government aircraft for travel?\n\nLink to an amendment published at 85 FR 39848, July 2, 2020.\n\nYou may use Government aircraft -\n\n(a) For official travel only when -\n\n(1) No scheduled commercial airline service is reasonably available (i.e., able to meet your departure and/or arrival requirements within a 24-hour period, unless you demonstrate that extraordinary circumstances require a shorter period) to fulfill your agency's travel requirement; or\n\n(2) The cost of using a Government aircraft is less than the cost of the city-pair fare for scheduled commercial airline service or the cost of the lowest available full coach fare if a city-pair fare is not available to you. The cost of non-productive or lost work time while in travel status and certain other costs should be considered when comparing the cost of using a Government aircraft in lieu of scheduled commercial airline service. Additional information on costs included in this cost comparison may be found in the “U.S. Government Aircraft Cost Accounting Guide,” available from the General Services Administration, Office of Governmentwide Policy, MTA, 1800 F Street, N.W., Washington, DC 20405.\n\n(b) For required-use travel only when you are required to use Government aircraft for bona fide communications (e.g., 24-hour secure communications) or security reasons (e.g., highly unusual circumstances that present a clear and present danger) or exceptional scheduling requirements (e.g., a national emergency or other compelling operational considerations). Required use travel may include travel for official, personal, or political purposes, but must be approved in accordance with §§ 301-10.262(a) and 301-70.803(a).\n\n(c) For space available travel only when -\n\n(1) The aircraft is already scheduled for use for an official purpose, and your use of the aircraft does not require a larger aircraft or result in more than minor additional cost to the Government; or\n\n(2) You are a Federal traveler or a dependent of a Federal traveler stationed by the Government in a remote location not accessible to commercial airline service and authorized to use Government aircraft; or\n\n(3) You are authorized to travel on a space available basis under 10 U.S.C. 2648 and regulations implementing that statute.\n\n[FTR Amdt. 2004-02, 69 FR 34304, June 21, 2004, as amended by FTR Amdt. 2010-04, 75 FR 59095, Sept. 27, 2010]"
+  },
+  "after": {
+    "date": "2020-08-03",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2020-08-03/title-41.xml?part=301-10",
+    "snapshot_sha256": "b64700698b62bd9505c7c3a2c6a652759c92866b5e35727d991a19a499d0bbe7",
+    "text": "§ 301-10.261 When may I use a Government aircraft for travel?\n\nYou may use Government aircraft—\n\n(a) For official travel only when—\n\n(1) No scheduled commercial airline service is reasonably available (i.e., able to meet your departure and/or arrival requirements within a 24-hour period, unless you demonstrate that extraordinary circumstances require a shorter period) to fulfill your agency's travel requirement; or\n\n(2) The cost of using a Government aircraft is less than the cost of the city-pair fare for scheduled commercial airline service or the cost of the lowest available full coach fare if a city-pair fare is not available to you. The cost of non-productive or lost work time while in travel status and certain other costs should be considered when comparing the cost of using a Government aircraft in lieu of scheduled commercial airline service. Additional information on costs included in this cost comparison may be found in the “U.S. Government Aircraft Cost Accounting Guide,” available by emailing aviationpolicy@gsa.gov.\n\n(b) For required-use travel only when you are required to use Government aircraft for bona fide communications (e.g., 24-hour secure communications) or security reasons (e.g., highly unusual circumstances that present a clear and present danger) or exceptional scheduling requirements (e.g., a national emergency or other compelling operational considerations). Required use travel may include travel for official, personal, or political purposes, but must be approved in accordance with §§ 301-10.262(a) and 301-70.803(a).\n\n(c) For space available travel only when—\n\n(1) The aircraft is already scheduled for use for an official purpose, and your use of the aircraft does not require a larger aircraft or result in more than minor additional cost to the Government; or\n\n(2) You are a Federal traveler or a dependent of a Federal traveler stationed by the Government in a remote location not accessible to commercial airline service and authorized to use Government aircraft; or\n\n(3) You are authorized to travel on a space available basis under 10 U.S.C. 2648 and regulations implementing that statute.\n\n[FTR Amdt. 2004-02, 69 FR 34304, June 21, 2004, as amended by FTR Amdt. 2010-04, 75 FR 59095, Sept. 27, 2010; 85 FR 39848, July 2, 2020]"
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "editorial",
+      "summary": "The standalone notice linking to the July 2, 2020 amendment is absent in the after snapshot.",
+      "before_evidence": {
+        "start": 63,
+        "end": 123,
+        "quote": "Link to an amendment published at 85 FR 39848, July 2, 2020."
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-2",
+      "category": "wording",
+      "summary": "The introductory line replaces a spaced hyphen with an em dash.",
+      "before_evidence": {
+        "start": 125,
+        "end": 158,
+        "quote": "You may use Government aircraft -"
+      },
+      "after_evidence": {
+        "start": 63,
+        "end": 95,
+        "quote": "You may use Government aircraft—"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-3",
+      "category": "wording",
+      "summary": "The official-travel introductory line replaces a spaced hyphen with an em dash.",
+      "before_evidence": {
+        "start": 160,
+        "end": 195,
+        "quote": "(a) For official travel only when -"
+      },
+      "after_evidence": {
+        "start": 97,
+        "end": 131,
+        "quote": "(a) For official travel only when—"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-4",
+      "category": "wording",
+      "summary": "The space-available-travel introductory line replaces a spaced hyphen with an em dash.",
+      "before_evidence": {
+        "start": 1721,
+        "end": 1763,
+        "quote": "(c) For space available travel only when -"
+      },
+      "after_evidence": {
+        "start": 1570,
+        "end": 1611,
+        "quote": "(c) For space available travel only when—"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-5",
+      "category": "editorial",
+      "summary": "The stated way to obtain the U.S. Government Aircraft Cost Accounting Guide changes from a GSA office mailing address to emailing aviationpolicy@gsa.gov.",
+      "before_evidence": {
+        "start": 1012,
+        "end": 1194,
+        "quote": "“U.S. Government Aircraft Cost Accounting Guide,” available from the General Services Administration, Office of Governmentwide Policy, MTA, 1800 F Street, N.W., Washington, DC 20405."
+      },
+      "after_evidence": {
+        "start": 948,
+        "end": 1043,
+        "quote": "“U.S. Government Aircraft Cost Accounting Guide,” available by emailing aviationpolicy@gsa.gov."
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-6",
+      "category": "editorial",
+      "summary": "The source history adds 85 FR 39848, July 2, 2020.",
+      "before_evidence": {
+        "start": 2302,
+        "end": 2411,
+        "quote": "[FTR Amdt. 2004-02, 69 FR 34304, June 21, 2004, as amended by FTR Amdt. 2010-04, 75 FR 59095, Sept. 27, 2010]"
+      },
+      "after_evidence": {
+        "start": 2150,
+        "end": 2286,
+        "quote": "[FTR Amdt. 2004-02, 69 FR 34304, June 21, 2004, as amended by FTR Amdt. 2010-04, 75 FR 59095, Sept. 27, 2010; 85 FR 39848, July 2, 2020]"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    }
+  ],
+  "warnings": [],
+  "analysis": {
+    "method": "native_codex",
+    "model": "gpt-6.1-sol",
+    "prompt_version": "cca-grounded-v1",
+    "generated_at": "2026-10-17T13:50:54.921914+00:00",
+    "latency_ms": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "usage_available": false,
+    "latency_available": false,
+    "cost_usd": null,
+    "billing_basis": "Existing OpenAI account via native Codex. Credit dollar rate unavailable; not zero model usage.",
+    "input_identity": "21fdd655b5ad08c2f7d58ebb7307be22b848275cdf7ca8d8b9e76b3f80cc3bfd"
+  }
+}

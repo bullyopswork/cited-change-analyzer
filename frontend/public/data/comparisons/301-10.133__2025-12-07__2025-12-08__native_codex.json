@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.133__2025-12-07__2025-12-08__native_codex",
+  "section": "301-10.133",
+  "title": "§ 301-10.133 U.S. flag air carrier service.",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2025-12-07",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-07/title-41.xml?part=301-10",
+    "snapshot_sha256": "c3af54ff8020830b5b2ed8f98ff704de6eed6572d063a744aacf9b652ce2fe53",
+    "text": "§ 301-10.133 What is a U.S. flag air carrier?\n\nAn air carrier which holds a certificate under 49 U.S.C. 41102 but does not include a foreign air carrier operating under a permit."
+  },
+  "after": {
+    "date": "2025-12-08",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-08/title-41.xml?part=301-10",
+    "snapshot_sha256": "7c994b51abe2c310f493295de3fdecc36fe9e28c59567e38bac28e5ebe446d6a",
+    "text": "§ 301-10.133 U.S. flag air carrier service.\n\nU.S. flag air carrier service is service provided on an air carrier holding a certificate under 49 U.S.C. 41102 (excluding a foreign air carrier operating under a permit), and which service is authorized by the carrier's certificate or by exemption or regulation. This also includes service provided under a code share agreement with a foreign air carrier in accordance with title 14, Code of Federal Regulations, when the ticket identifies the U.S. flag air carrier's designator code and flight number."
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "wording",
+      "summary": "The definition changes from a certificated U.S. flag air carrier to U.S. flag air carrier service, adding that the service must be authorized by the certificate, exemption, or regulation.",
+      "before_evidence": {
+        "start": 47,
+        "end": 178,
+        "quote": "An air carrier which holds a certificate under 49 U.S.C. 41102 but does not include a foreign air carrier operating under a permit."
+      },
+      "after_evidence": {
+        "start": 45,
+        "end": 308,
+        "quote": "U.S. flag air carrier service is service provided on an air carrier holding a certificate under 49 U.S.C. 41102 (excluding a foreign air carrier operating under a permit), and which service is authorized by the carrier's certificate or by exemption or regulation."
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-2",
+      "category": "added",
+      "summary": "The definition also includes qualifying foreign-carrier code-share service when the ticket identifies the U.S. carrier designator code and flight number.",
+      "before_evidence": null,
+      "after_evidence": {
+        "start": 309,
+        "end": 548,
+        "quote": "This also includes service provided under a code share agreement with a foreign air carrier in accordance with title 14, Code of Federal Regulations, when the ticket identifies the U.S. flag air carrier's designator code and flight number."
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    }
+  ],
+  "warnings": [],
+  "analysis": {
+    "method": "native_codex",
+    "model": "gpt-6.1-sol",
+    "prompt_version": "cca-grounded-v1",
+    "generated_at": "2026-10-17T13:50:54.480525+00:00",
+    "latency_ms": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "usage_available": false,
+    "latency_available": false,
+    "cost_usd": null,
+    "billing_basis": "Existing OpenAI account via native Codex. Credit dollar rate unavailable; not zero model usage.",
+    "input_identity": "be16cae82fed0ea0b36c293a2c16c383cf14ccae4915fb286cc6b24455ca6bf8"
+  }
+}

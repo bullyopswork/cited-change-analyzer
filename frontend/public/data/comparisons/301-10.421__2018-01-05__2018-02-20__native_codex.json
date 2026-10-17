@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.421__2018-01-05__2018-02-20__native_codex",
+  "section": "301-10.421",
+  "title": "§ 301-10.421 How much will my agency reimburse me for a tip to a taxi, TNC, innovative mobility technology company, shuttle service, courtesy transportation driver, or valet parking attendant?",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2018-01-05",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2018-01-05/title-41.xml?part=301-10",
+    "snapshot_sha256": "09c77061fa8273cca52cf552de93c0085864908cd0aea2768e9450c2f9a7a4a1",
+    "text": "§ 301-10.421 How much will my agency reimburse me for a tip to a taxi, shuttle service, courtesy transportation driver, or valet parking attendant?\n\nLink to an amendment published at 82 FR 604, Jan. 5, 2018.\n\nAn amount which your agency determines to be reasonable."
+  },
+  "after": {
+    "date": "2018-02-20",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2018-02-20/title-41.xml?part=301-10",
+    "snapshot_sha256": "fb3f0e29064d512b297bb8998a82d923b2a6830f42beed302cadfe0ab0b35494",
+    "text": "§ 301-10.421 How much will my agency reimburse me for a tip to a taxi, TNC, innovative mobility technology company, shuttle service, courtesy transportation driver, or valet parking attendant?\n\nAn amount which your agency determines to be reasonable."
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "requirement",
+      "summary": "The heading adds TNCs and innovative mobility technology companies to the services covered by the reasonable-tip reimbursement provision; the reimbursement amount sentence is unchanged.",
+      "before_evidence": {
+        "start": 0,
+        "end": 147,
+        "quote": "§ 301-10.421 How much will my agency reimburse me for a tip to a taxi, shuttle service, courtesy transportation driver, or valet parking attendant?"
+      },
+      "after_evidence": {
+        "start": 0,
+        "end": 192,
+        "quote": "§ 301-10.421 How much will my agency reimburse me for a tip to a taxi, TNC, innovative mobility technology company, shuttle service, courtesy transportation driver, or valet parking attendant?"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-2",
+      "category": "editorial",
+      "summary": "The pending-amendment link is absent from the later snapshot.",
+      "before_evidence": {
+        "start": 149,
+        "end": 207,
+        "quote": "Link to an amendment published at 82 FR 604, Jan. 5, 2018."
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    }
+  ],
+  "warnings": [],
+  "analysis": {
+    "method": "native_codex",
+    "model": "gpt-6.1-sol",
+    "prompt_version": "cca-grounded-v1",
+    "generated_at": "2026-10-17T13:50:54.489033+00:00",
+    "latency_ms": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "usage_available": false,
+    "latency_available": false,
+    "cost_usd": null,
+    "billing_basis": "Existing OpenAI account via native Codex. Credit dollar rate unavailable; not zero model usage.",
+    "input_identity": "41e4697f316ed667a7e90aba594ad74ab0228ef2047c18726b4c4b0336c3b0f2"
+  }
+}

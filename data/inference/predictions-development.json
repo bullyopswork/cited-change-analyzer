@@ -1,0 +1,747 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "cca-grounded-v1",
+  "results": [
+    {
+      "id": "301-10.114__2022-09-12__2022-10-12",
+      "changes": [
+        {
+          "category": "removed",
+          "summary": "The instruction to submit unused transportation requests, ticket coupons, e-tickets, or refund applications to the agency is absent from the later snapshot.",
+          "before_quote": "You must submit any unused GTR(s), unused ticket coupons, unused e-tickets, or refund applications to your agency in accordance with your agency's procedures.",
+          "after_quote": null,
+          "needs_review": true,
+          "review_reason": "The same section number covers different topics in these snapshots; the supplied text does not establish whether the former content moved elsewhere."
+        },
+        {
+          "category": "added",
+          "summary": "The later snapshot states that contract passenger transportation service may not be used for personal travel.",
+          "before_quote": null,
+          "after_quote": "No, you may not use contract passenger transportation service for personal travel.",
+          "needs_review": true,
+          "review_reason": "The same section number covers different topics in these snapshots; the supplied text does not establish whether the former content moved elsewhere."
+        },
+        {
+          "category": "editorial",
+          "summary": "The pending-amendment link is absent from the later snapshot.",
+          "before_quote": "Link to an amendment published at 87 FR 55704, Sept. 12, 2022.",
+          "after_quote": null,
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "The source note changes from FTR Amendment 108 to FTR Case 2020-300-1.",
+          "before_quote": "[FTR Amdt. 108, 67 FR 57964, Sept. 13, 2002]",
+          "after_quote": "[FTR Case 2020-300-1, 87 FR 55704, Sept. 12, 2022]",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": [
+        "Topic alignment differs across these snapshots. Absence here does not establish repeal or absence elsewhere."
+      ]
+    },
+    {
+      "id": "301-10.452__2025-12-07__2025-12-08",
+      "changes": [
+        {
+          "category": "removed",
+          "summary": "The statement that personal accident insurance is a non-reimbursable personal expense is absent from the later snapshot.",
+          "before_quote": "No. That is a personal expense and is not reimbursable.",
+          "after_quote": null,
+          "needs_review": true,
+          "review_reason": "The same section number covers different topics in these snapshots; the supplied text does not establish whether the former content moved elsewhere."
+        },
+        {
+          "category": "added",
+          "summary": "The later snapshot makes employees responsible for additional costs from using a Government-funded commercial rental automobile for nonofficial purposes.",
+          "before_quote": null,
+          "after_quote": "Employees are responsible for any additional costs resulting from using a Government-funded commercial rental automobile for other than official purposes.",
+          "needs_review": true,
+          "review_reason": "The same section number covers different topics in these snapshots; the supplied text does not establish whether the former content moved elsewhere."
+        },
+        {
+          "category": "added",
+          "summary": "The later snapshot lists official-purpose transportation between business locations, qualifying temporary lodging, and listed places for employee sustenance, comfort, or health.",
+          "before_quote": null,
+          "after_quote": "Official purposes which include transportation:\n\n(a) Between places of official business;\n\n(b) Between such places and places of temporary lodging when public transportation is unavailable or its use is impractical; or\n\n(c) Between either paragraph (a) or (b) of this section and restaurants, drug stores, barber shops/hair stylists, places of worship, cleaning establishments, and similar places necessary for the sustenance, comfort, or health of the employee to foster the continued efficient performance of Government business.",
+          "needs_review": true,
+          "review_reason": "The same section number covers different topics in these snapshots; the supplied text does not establish whether the former content moved elsewhere."
+        }
+      ],
+      "warnings": [
+        "Topic alignment differs across these snapshots. Absence here does not establish repeal or absence elsewhere."
+      ]
+    },
+    {
+      "id": "301-10.142__2025-12-07__2025-12-08",
+      "changes": [
+        {
+          "category": "removed",
+          "summary": "The certification-content list, covering traveler identity, travel dates, route, itinerary and exception explanation or agency approval, is absent from the later snapshot.",
+          "before_quote": "The certification must include:\n\n(a) Your name;\n\n(b) The dates that you traveled;\n\n(c) The origin and the destination of your travel;\n\n(d) A detailed itinerary of your travel, name of the air carrier and flight number for each leg of the trip; and\n\n(e) A statement explaining why you met one of the exceptions in § 301-10.135, § 301-10.136, or § 301-10.137 or a copy of your agency's written approval that foreign air carrier service was deemed a matter of necessity in accordance with § 301-10.138.",
+          "after_quote": null,
+          "needs_review": true,
+          "review_reason": "The same section number covers different topics in these snapshots; the supplied text does not establish whether the former content moved elsewhere."
+        },
+        {
+          "category": "added",
+          "summary": "The later snapshot states that transportation costs from improper or unauthorized foreign air carrier use will not be reimbursed.",
+          "before_quote": null,
+          "after_quote": "Employees will not be reimbursed for transportation costs incurred through improper or unauthorized use of foreign air carrier service.",
+          "needs_review": true,
+          "review_reason": "The same section number covers different topics in these snapshots; the supplied text does not establish whether the former content moved elsewhere."
+        }
+      ],
+      "warnings": [
+        "Topic alignment differs across these snapshots. Absence here does not establish repeal or absence elsewhere."
+      ]
+    },
+    {
+      "id": "301-10.106__2020-07-02__2020-08-03",
+      "changes": [
+        {
+          "category": "editorial",
+          "summary": "The city-pair-fare listing URL changes from HTTP to HTTPS.",
+          "before_quote": "http://www.gsa.gov/citypairs.",
+          "after_quote": "https://www.gsa.gov/citypairs.",
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "The pending-amendment link is absent from the later snapshot.",
+          "before_quote": "Link to an amendment published at 85 FR 39848, July 2, 2020.",
+          "after_quote": null,
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "The source note adds the July 2, 2020 amendment citation.",
+          "before_quote": "[FTR Amdt. 2006-04, 71 FR 49374, Aug. 23, 2006]",
+          "after_quote": "[FTR Amdt. 2006-04, 71 FR 49374, Aug. 23, 2006, as amended at 85 FR 39848, July 2, 2020]",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "301-10.133__2025-12-07__2025-12-08",
+      "changes": [
+        {
+          "category": "wording",
+          "summary": "The definition changes from a certificated U.S. flag air carrier to U.S. flag air carrier service, adding that the service must be authorized by the certificate, exemption, or regulation.",
+          "before_quote": "An air carrier which holds a certificate under 49 U.S.C. 41102 but does not include a foreign air carrier operating under a permit.",
+          "after_quote": "U.S. flag air carrier service is service provided on an air carrier holding a certificate under 49 U.S.C. 41102 (excluding a foreign air carrier operating under a permit), and which service is authorized by the carrier's certificate or by exemption or regulation.",
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "added",
+          "summary": "The definition also includes qualifying foreign-carrier code-share service when the ticket identifies the U.S. carrier designator code and flight number.",
+          "before_quote": null,
+          "after_quote": "This also includes service provided under a code share agreement with a foreign air carrier in accordance with title 14, Code of Federal Regulations, when the ticket identifies the U.S. flag air carrier's designator code and flight number.",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "301-10.304__2022-04-22__2022-09-12",
+      "changes": [
+        {
+          "category": "wording",
+          "summary": "The non-reimbursable expenses included in the mileage allowance list uses fuel in place of gasoline.",
+          "before_quote": "gasoline, insurance, state and Federal taxes.",
+          "after_quote": "fuel, insurance, state and Federal taxes.",
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "The pending-amendment link is absent from the later snapshot.",
+          "before_quote": "Link to an amendment published at 87 FR 24065, Apr. 22, 2022.",
+          "after_quote": null,
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "The source note adds the April 22, 2022 amendment citation.",
+          "before_quote": "[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 108, 67 FR 57965, Sept. 13, 2002]",
+          "after_quote": "[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 108, 67 FR 57965, Sept. 13, 2002; 87 FR 24065, Apr. 22, 2022]",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "301-10.109__2022-04-22__2022-09-12",
+      "changes": [
+        {
+          "category": "editorial",
+          "summary": "A pending-amendment link is added; the liability sentence is unchanged.",
+          "before_quote": null,
+          "after_quote": "Link to an amendment published at 87 FR 55704, Sept. 12, 2022.",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "301-10.401__2022-04-22__2022-09-12",
+      "changes": [
+        {
+          "category": "wording",
+          "summary": "The listed reimbursable special-conveyance expense changes from gasoline and oil to fuel and oil.",
+          "before_quote": "(a) Gasoline and oil;",
+          "after_quote": "(a) Fuel and oil;",
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "The pending-amendment link is absent from the later snapshot.",
+          "before_quote": "Link to an amendment published at 87 FR 24065, Apr. 22, 2022.",
+          "after_quote": null,
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "A source note identifying the original provision and the April 22, 2022 amendment is added.",
+          "before_quote": null,
+          "after_quote": "[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by 87 FR 24065, Apr. 22, 2022]",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "301-10.2__2025-12-07__2025-12-08",
+      "changes": [
+        {
+          "category": "removed",
+          "summary": "The sentence listing fares, rental fees, mileage payments and other transportation-related expenses as payable transportation expenses is absent from the later snapshot.",
+          "before_quote": "Fares, rental fees, mileage payments, and other expenses related to transportation.",
+          "after_quote": null,
+          "needs_review": true,
+          "review_reason": "The same section number covers different topics in these snapshots; the supplied text does not establish whether the former content moved elsewhere."
+        },
+        {
+          "category": "added",
+          "summary": "The later snapshot lists common carriers, Government vehicles, privately owned vehicles, and special conveyances as methods agencies may authorize, with the applicable subparts.",
+          "before_quote": null,
+          "after_quote": "Agencies may authorize the following transportation methods:\n\n(a) Common carrier transportation (including aircraft, train, bus, ship, or other transit system) under subpart B of this part;\n\n(b) Government vehicle under subpart C of this part;\n\n(c) Privately owned vehicle (POV) under subpart D of this part; or\n\n(d) Special conveyance (such as taxi, transportation network company, innovative mobility technology company, or commercial automobile) under subpart E of this part.",
+          "needs_review": true,
+          "review_reason": "The same section number covers different topics in these snapshots; the supplied text does not establish whether the former content moved elsewhere."
+        }
+      ],
+      "warnings": [
+        "Topic alignment differs across these snapshots. Absence here does not establish repeal or absence elsewhere."
+      ]
+    },
+    {
+      "id": "301-10.421__2018-01-05__2018-02-20",
+      "changes": [
+        {
+          "category": "requirement",
+          "summary": "The heading adds TNCs and innovative mobility technology companies to the services covered by the reasonable-tip reimbursement provision; the reimbursement amount sentence is unchanged.",
+          "before_quote": "§ 301-10.421 How much will my agency reimburse me for a tip to a taxi, shuttle service, courtesy transportation driver, or valet parking attendant?",
+          "after_quote": "§ 301-10.421 How much will my agency reimburse me for a tip to a taxi, TNC, innovative mobility technology company, shuttle service, courtesy transportation driver, or valet parking attendant?",
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "The pending-amendment link is absent from the later snapshot.",
+          "before_quote": "Link to an amendment published at 82 FR 604, Jan. 5, 2018.",
+          "after_quote": null,
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "301-10.121__2022-09-12__2022-10-12",
+      "changes": [
+        {
+          "category": "removed",
+          "summary": "The available-air-accommodation definitions and the note classifying two-cabin aircraft are absent from the later snapshot.",
+          "before_quote": "Airlines are constantly updating their offerings. However, for the purposes of this regulation, the classes of available air accommodations are identified and defined as follows:\n\n(a) Coach-class. The basic class of accommodation by airlines that is normally the lowest fare offered regardless of airline terminology used. For reference purposes only, coach-class may also be referred to by airlines as “tourist class,” “economy class,” or as “single class” when the airline offers only one class of accommodations to all travelers.\n\n(b) Other than coach-class. Any class of accommodations above coach-class, e.g., first-class or business-class.\n\n(1) First-class. The highest class of accommodation offered by the airlines in terms of cost and amenities. This is generally termed “first-class” by airlines and reservation systems.\n\n(2) Business-class. A class of accommodation offered by airlines that is higher than coach and lower than first-class, in both cost and amenities. This class of accommodation is generally referred to as “business, business elite, business first, world business, connoisseur, or envoy” depending on the airline.\n\nNote to § 301-10.121:\n\nIf an airline flight has only two classes of accommodations available, i.e., two “cabins”, with two distinctly different seating types (such as girth and pitch) and the front cabin is termed “business-class” or higher by the airline and the tickets are fare-coded as business-class, then the front of the cabin is deemed to be other than coach-class. Alternatively, if an airline flight has only two cabins available but equips both with one type of seating, (i.e., seating girth and pitch are the same in both cabins), and the seats in the front of the airplane are fare coded as full-fare economy class, and only restricted economy fares are available in the back of the aircraft, then the entire aircraft is to be classified as coach-class seating. In this second situation, qualifying for other than coach-class travel is not required to purchase a non-restricted economy fare seat in the front of the aircraft as the entire aircraft is considered “coach-class.”",
+          "after_quote": null,
+          "needs_review": true,
+          "review_reason": "The same section number covers different topics in these snapshots; the supplied text does not establish whether the former content moved elsewhere."
+        },
+        {
+          "category": "added",
+          "summary": "The later snapshot describes upgraded coach seating as generally a personal expense, with agency approval of the additional seat choice fee under part 301-13 or internal agency policy.",
+          "before_quote": null,
+          "after_quote": "Use of upgraded coach class seating options is generally a traveler's personal choice and therefore is at the traveler's personal expense. However, your agency approving official may approve reimbursement of the additional seat choice fee according to part 301-13 of this chapter or internal agency policy (see § 301-70.102(k)).",
+          "needs_review": true,
+          "review_reason": "The same section number covers different topics in these snapshots; the supplied text does not establish whether the former content moved elsewhere."
+        },
+        {
+          "category": "editorial",
+          "summary": "The pending-amendment link is absent from the later snapshot.",
+          "before_quote": "Link to an amendment published at 87 FR 55704, Sept. 12, 2022.",
+          "after_quote": null,
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "The source note changes from FTR Amendment 2009-06 to FTR Case 2020-300-1.",
+          "before_quote": "[FTR Amdt. 2009-06, 74 FR 55147, Oct. 27, 2009]",
+          "after_quote": "[FTR Case 2020-300-1, 87 FR 55704, Sept. 12, 2022]",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": [
+        "Topic alignment differs across these snapshots. Absence here does not establish repeal or absence elsewhere."
+      ]
+    },
+    {
+      "id": "301-10.112__2025-12-07__2025-12-08",
+      "changes": [
+        {
+          "category": "removed",
+          "summary": "The conditions for purchasing non-contract fares, including an exception, travel-authorization approval, anticipated ticket use and an agency practicality and cost-effectiveness determination, are absent from the later snapshot.",
+          "before_quote": "(a) Before purchasing a non-contract fare you must meet one of the exception requirements listed in § 301-10.111 and show approval on your travel authorization to use a non-contract fare; and\n\n(b) If the non-contract fare is non-refundable, restricted, or has specific eligibility requirements, you must know or reasonably anticipate, based on your planned trip, that you will use the ticket; and\n\n(c) Your agency must determine that the proposed non-contract transportation is practical and cost effective for the Government.",
+          "after_quote": null,
+          "needs_review": true,
+          "review_reason": "The same section number covers different topics in these snapshots; the supplied text does not establish whether the former content moved elsewhere."
+        },
+        {
+          "category": "added",
+          "summary": "The later snapshot assigns employees additional costs or penalties for non-contract carrier use when contract service is available and no authorized exception applies.",
+          "before_quote": null,
+          "after_quote": "Employees are responsible for any additional costs or penalties incurred by using a non-contract carrier when contract service is available and no authorized exception applies.",
+          "needs_review": true,
+          "review_reason": "The same section number covers different topics in these snapshots; the supplied text does not establish whether the former content moved elsewhere."
+        },
+        {
+          "category": "editorial",
+          "summary": "The FTR Case 2020-300-1 source note is absent from the later snapshot.",
+          "before_quote": "[FTR Case 2020-300-1, 87 FR 55704, Sept. 12, 2022]",
+          "after_quote": null,
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": [
+        "Topic alignment differs across these snapshots. Absence here does not establish repeal or absence elsewhere."
+      ]
+    },
+    {
+      "id": "301-10.420__2018-02-20__2018-06-27",
+      "changes": [
+        {
+          "category": "wording",
+          "summary": "The fare-plus-tip introduction changes the service list from plural forms and an extra or to singular taxi, TNC, and innovative mobility technology company wording.",
+          "before_quote": "for use of a taxis, TNCs, or innovative mobility technology companies, shuttle service or other courtesy transportation",
+          "after_quote": "for use of a taxi, TNC, innovative mobility technology company, shuttle service or other courtesy transportation",
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "The restrictions introduction replaces the spaced hyphen after when with an em dash.",
+          "before_quote": "under this paragraph when -",
+          "after_quote": "under this paragraph when—",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "301-10.308__2018-01-05__2018-02-20",
+      "changes": [
+        {
+          "category": "requirement",
+          "summary": "The parking-reimbursement ceiling changes from taxi fare to the agency-determined cost of a taxi, TNC fare, or innovative mobility technology company to and from the terminal.",
+          "before_quote": "Your agency may reimburse your parking fee as an allowable transportation expense not to exceed the cost of taxi fare to/from the terminal.",
+          "after_quote": "Your agency may reimburse your parking fee as an allowable transportation expense not to exceed the cost of one of the following to/from the terminal as determined by your agency:\n\n(a) The cost of a taxi.\n\n(b) The cost of a TNC fare.\n\n(c) The cost of using an innovative mobility technology company.",
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "The pending-amendment link is absent from the later snapshot.",
+          "before_quote": "Link to an amendment published at 82 FR 604, Jan. 5, 2018.",
+          "after_quote": null,
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "An FTR Amendment 2017-01 source note is added.",
+          "before_quote": null,
+          "after_quote": "[FTR Amdt. 2017-01, 83 FR 604, Jan. 5, 2018]",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "301-10.180__2020-07-02__2020-08-03",
+      "changes": [
+        {
+          "category": "editorial",
+          "summary": "The statutory citation changes from 46 U.S.C. App. Sec. 1241 to 46 U.S.C. § 55302; the U.S.-flag-ship instruction is unchanged.",
+          "before_quote": "(See 46 U.S.C. App. Sec. 1241.)",
+          "after_quote": "(See 46 U.S.C. § 55302.)",
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "The pending-amendment link is absent from the later snapshot.",
+          "before_quote": "Link to an amendment published at 85 FR 39848, July 2, 2020.",
+          "after_quote": null,
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "A source note including the July 2, 2020 amendment is added.",
+          "before_quote": null,
+          "after_quote": "[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended at 85 FR 39848, July 2, 2020]",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "301-10.309__2023-01-18__2023-02-17",
+      "changes": [
+        {
+          "category": "requirement",
+          "summary": "The POV reimbursement sentence adds related travel expenses and changes the ceiling from constructive common-carrier transportation cost plus per diem to the total constructive cost of the authorized transportation method.",
+          "before_quote": "You will be reimbursed the applicable POV rate on a mileage basis, plus per diem, not to exceed the total constructive cost of the authorized method of common carrier transportation plus per diem.",
+          "after_quote": "You will be reimbursed the applicable POV rate on a mileage basis, plus per diem and related travel expenses, not to exceed the total constructive cost of the authorized method of transportation.",
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "requirement",
+          "summary": "The agency constructive-cost instruction changes from transportation and per diem by common carrier under § 301-10.310 to constructive cost in accordance with § 301-70.105(a).",
+          "before_quote": "Your agency must determine the constructive cost of transportation and per diem by common carrier under the rules in § 301-10.310.",
+          "after_quote": "Your agency must determine the constructive cost in accordance with § 301-70.105(a).",
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "The pending-amendment link is absent from the later snapshot.",
+          "before_quote": "Link to an amendment published at 88 FR 2845, Jan. 18, 2023.",
+          "after_quote": null,
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "The source note changes from FTR Amendment 2015-03 to the January 18, 2023 citation.",
+          "before_quote": "[FTR Amdt. 2015-03, 80 FR 27260, May 13, 2015]",
+          "after_quote": "[88 FR 2845, Jan. 18, 2023]",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "301-10.161__2022-09-12__2022-10-12",
+      "changes": [
+        {
+          "category": "removed",
+          "summary": "The general coach-class instruction for train travel, with agency authorization for other-than-coach service, is absent from the later snapshot.",
+          "before_quote": "You must use coach-class accommodations for all train travel, except when your agency authorizes other than coach-class service.",
+          "after_quote": null,
+          "needs_review": true,
+          "review_reason": "The same section number covers different topics in these snapshots; the supplied text does not establish whether the former content moved elsewhere."
+        },
+        {
+          "category": "added",
+          "summary": "The later snapshot permits the lowest sleeping-accommodation class meeting mission needs when overnight train travel is required and the agency finds it advantageous to the Government.",
+          "before_quote": null,
+          "after_quote": "You may use the lowest class of sleeping accommodations aboard a train that meets your mission needs when overnight travel is required, and your agency determines it is advantageous to the Government.",
+          "needs_review": true,
+          "review_reason": "The same section number covers different topics in these snapshots; the supplied text does not establish whether the former content moved elsewhere."
+        },
+        {
+          "category": "editorial",
+          "summary": "The pending-amendment link is absent from the later snapshot.",
+          "before_quote": "Link to an amendment published at 87 FR 55705, Sept. 12, 2022.",
+          "after_quote": null,
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "The source note changes from FTR Amendment 2009-06 to FTR Case 2020-300-1.",
+          "before_quote": "[FTR Amdt. 2009-06, 74 FR 55148, Oct. 27, 2009]",
+          "after_quote": "[FTR Case 2020-300-1, 87 FR 55705, Sept. 12, 2022]",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": [
+        "Topic alignment differs across these snapshots. Absence here does not establish repeal or absence elsewhere."
+      ]
+    },
+    {
+      "id": "301-10.300__2025-12-07__2025-12-08",
+      "changes": [
+        {
+          "category": "removed",
+          "summary": "The statement that POV use for official travel is allowed when the agency authorizes it is absent from the later snapshot.",
+          "before_quote": "When authorized by your agency.",
+          "after_quote": null,
+          "needs_review": true,
+          "review_reason": "The same section number covers different topics in these snapshots; the supplied text does not establish whether the former content moved elsewhere."
+        },
+        {
+          "category": "added",
+          "summary": "The later snapshot introduces a mileage-reimbursement calculation sentence mentioning distance traveled and the applicable mileage rate, but the stated multiplication is grammatically incomplete.",
+          "before_quote": null,
+          "after_quote": "Employees compute mileage reimbursement by multiplying the distance traveled, determined by the applicable mileage rate as follows:",
+          "needs_review": true,
+          "review_reason": "The sentence does not clearly specify both multiplication factors; no corrected formula is inferred."
+        },
+        {
+          "category": "added",
+          "summary": "The later snapshot gives highway mileage guides or actual odometer miles as distance sources for privately owned automobile or motorcycle travel.",
+          "before_quote": null,
+          "after_quote": "Privately owned automobile or privately owned motorcycle As shown in paper or electronic standard highway mileage guides, or the actual miles driven as determined from odometer readings.",
+          "needs_review": true,
+          "review_reason": "The same section number covers different topics in these snapshots; the supplied text does not establish whether the former content moved elsewhere."
+        },
+        {
+          "category": "added",
+          "summary": "The later snapshot gives FAA charts as the aircraft distance source and permits explanations of additional detour mileage and flight-time-times-cruising-speed distance determination when charts are inadequate for a required deviation.",
+          "before_quote": null,
+          "after_quote": "Privately owned aircraft As determined from charts issued by the Federal Aviation Administration (FAA). Employees may include in their travel claim an explanation addressing any additional air mileage resulting from a detour necessary due to adverse weather, mechanical difficulty, or other unusual conditions. If a required deviation is such that airway mileage charts are not adequate to determine distance, employees may use the formula of flight time multiplied by cruising speed of the aircraft to determine distance.",
+          "needs_review": true,
+          "review_reason": "The same section number covers different topics in these snapshots; the supplied text does not establish whether the former content moved elsewhere."
+        },
+        {
+          "category": "added",
+          "summary": "The later snapshot requires conversion of nautical miles to statute or regular miles for claims and supplies the conversion factor 1.15077945.",
+          "before_quote": null,
+          "after_quote": "Employees must convert nautical miles to statute or regular miles when submitting a claim (1 nautical mile equals 1.15077945 statute miles).",
+          "needs_review": true,
+          "review_reason": "The same section number covers different topics in these snapshots; the supplied text does not establish whether the former content moved elsewhere."
+        }
+      ],
+      "warnings": [
+        "Topic alignment differs across these snapshots. Absence here does not establish repeal or absence elsewhere.",
+        "The added mileage-calculation introduction is malformed; its intended formula is uncertain."
+      ]
+    },
+    {
+      "id": "301-10.122__2022-09-12__2022-10-12",
+      "changes": [
+        {
+          "category": "removed",
+          "summary": "The coach-class instruction for domestic and international official air travel, with the cited exceptions, is absent from the later snapshot.",
+          "before_quote": "For official business travel, both domestic and international, you must use coach-class accommodations, except as provided under §§ 301-10.123 and 301-10.124.",
+          "after_quote": null,
+          "needs_review": true,
+          "review_reason": "The same section number covers different topics in these snapshots; the supplied text does not establish whether the former content moved elsewhere."
+        },
+        {
+          "category": "added",
+          "summary": "The later snapshot requires travelers denied a confirmed reserved seat during official travel to give the agency liquidated-damages payments, have the compensation check made payable to the Treasurer of the United States, and forward it to the appropriate official.",
+          "before_quote": null,
+          "after_quote": "If you are performing official travel and a carrier denies you a confirmed reserved seat on a plane, you must give your agency any payment you receive for liquidated damages. You must ensure the carrier shows the “Treasurer of the United States” as payee on the compensation check and then forward the payment to the appropriate agency official.",
+          "needs_review": true,
+          "review_reason": "The same section number covers different topics in these snapshots; the supplied text does not establish whether the former content moved elsewhere."
+        },
+        {
+          "category": "editorial",
+          "summary": "The pending-amendment link is absent from the later snapshot.",
+          "before_quote": "Link to an amendment published at 87 FR 55704, Sept. 12, 2022.",
+          "after_quote": null,
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "An FTR Case 2020-300-1 source note is added.",
+          "before_quote": null,
+          "after_quote": "[FTR Case 2020-300-1, 87 FR 55704, Sept. 12, 2022]",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": [
+        "Topic alignment differs across these snapshots. Absence here does not establish repeal or absence elsewhere."
+      ]
+    },
+    {
+      "id": "301-10.450__2022-04-22__2022-09-12",
+      "changes": [
+        {
+          "category": "added",
+          "summary": "Paragraph (f) states that rental cars are only for official purposes and lists transportation among business locations, qualifying temporary lodging, and specified places for employee sustenance, comfort, or health.",
+          "before_quote": null,
+          "after_quote": "(f) A rental car is to be used only for official purposes, which include transportation:\n\n(1) Between places of official business;\n\n(2) Between such places and places of temporary lodging when public transportation is unavailable or its use is impractical; or\n\n(3) Between either subparagraph (1) or (2) of this paragraph and restaurants, drug stores, barber shops, places of worship, cleaning establishments, and similar places necessary for the sustenance, comfort, or health of the employee to foster the continued efficient performance of Government business.",
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "The pending-amendment link is absent from the later snapshot.",
+          "before_quote": "Link to an amendment published at 87 FR 24065, Apr. 22, 2022.",
+          "after_quote": null,
+          "needs_review": false,
+          "review_reason": null
+        },
+        {
+          "category": "editorial",
+          "summary": "The source note adds the April 22, 2022 amendment citation.",
+          "before_quote": "[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 2010-05, 75 FR 63103, Oct. 14, 2010; FTR Amdt. 2015-03, 80 FR 27261, May 13, 2015]",
+          "after_quote": "[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 2010-05, 75 FR 63103, Oct. 14, 2010; FTR Amdt. 2015-03, 80 FR 27261, May 13, 2015; 87 FR 24065, Apr. 22, 2022]",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "control-01",
+      "changes": [
+        {
+          "category": "amount",
+          "summary": "The reimbursement limit changes from $100 to $150.",
+          "before_quote": "The reimbursement limit is $100.",
+          "after_quote": "The reimbursement limit is $150.",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "control-02",
+      "changes": [
+        {
+          "category": "amount",
+          "summary": "The allowed share changes from 20% to 25%.",
+          "before_quote": "The allowed share is 20%.",
+          "after_quote": "The allowed share is 25%.",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "control-03",
+      "changes": [
+        {
+          "category": "date",
+          "summary": "The policy application date changes from July 1, 2025 to August 1, 2025.",
+          "before_quote": "This policy applies on 2025-07-01.",
+          "after_quote": "This policy applies on 2025-08-01.",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "control-04",
+      "changes": [
+        {
+          "category": "date",
+          "summary": "The form-submission deadline changes from July 15, 2025 to August 15, 2025.",
+          "before_quote": "Submit the form by July 15, 2025.",
+          "after_quote": "Submit the form by August 15, 2025.",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "control-05",
+      "changes": [
+        {
+          "category": "requirement",
+          "summary": "Obtaining approval changes from permitted to required.",
+          "before_quote": "Employees may obtain approval.",
+          "after_quote": "Employees must obtain approval.",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "control-06",
+      "changes": [
+        {
+          "category": "requirement",
+          "summary": "Parking changes from excluded to included in the travel costs covered by claims.",
+          "before_quote": "Claims include travel costs except parking.",
+          "after_quote": "Claims include travel costs including parking.",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "control-07",
+      "changes": [],
+      "warnings": []
+    },
+    {
+      "id": "control-08",
+      "changes": [],
+      "warnings": []
+    },
+    {
+      "id": "control-09",
+      "changes": [
+        {
+          "category": "added",
+          "summary": "An instruction to submit a signed declaration is added.",
+          "before_quote": null,
+          "after_quote": "Submit a signed declaration.",
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "control-10",
+      "changes": [
+        {
+          "category": "removed",
+          "summary": "The instruction to submit a signed declaration is absent from the later snapshot.",
+          "before_quote": "Submit a signed declaration.",
+          "after_quote": null,
+          "needs_review": false,
+          "review_reason": null
+        }
+      ],
+      "warnings": []
+    }
+  ]
+}

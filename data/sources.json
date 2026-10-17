@@ -1,0 +1,121 @@
+{
+  "corpus": "41 CFR Part 301-10",
+  "retrieved_at": "2026-10-17T13:37:51.463412+00:00",
+  "metadata_url": "https://www.ecfr.gov/api/versioner/v1/versions/title-41.json?part=301-10",
+  "metadata_sha256": "804de982d5c046506d622af768b364cc3680c9b207afd30825e3d87cea964782",
+  "snapshots": [
+    {
+      "date": "2018-01-05",
+      "url": "https://www.ecfr.gov/api/versioner/v1/full/2018-01-05/title-41.xml?part=301-10",
+      "sha256": "09c77061fa8273cca52cf552de93c0085864908cd0aea2768e9450c2f9a7a4a1",
+      "bytes": 102847,
+      "sections": 82,
+      "path": "raw/2018-01-05.xml"
+    },
+    {
+      "date": "2018-02-20",
+      "url": "https://www.ecfr.gov/api/versioner/v1/full/2018-02-20/title-41.xml?part=301-10",
+      "sha256": "fb3f0e29064d512b297bb8998a82d923b2a6830f42beed302cadfe0ab0b35494",
+      "bytes": 103649,
+      "sections": 82,
+      "path": "raw/2018-02-20.xml"
+    },
+    {
+      "date": "2018-06-27",
+      "url": "https://www.ecfr.gov/api/versioner/v1/full/2018-06-27/title-41.xml?part=301-10",
+      "sha256": "93a51d7ae7b5c256bff18bb8eaaf81581cfd5122c021f28507fde87184d101e8",
+      "bytes": 103647,
+      "sections": 82,
+      "path": "raw/2018-06-27.xml"
+    },
+    {
+      "date": "2020-07-02",
+      "url": "https://www.ecfr.gov/api/versioner/v1/full/2020-07-02/title-41.xml?part=301-10",
+      "sha256": "e81459a34ebf058b059bfb645be495ebb4bab5257388c0fcc171637a7a9cac5a",
+      "bytes": 104241,
+      "sections": 82,
+      "path": "raw/2020-07-02.xml"
+    },
+    {
+      "date": "2020-08-03",
+      "url": "https://www.ecfr.gov/api/versioner/v1/full/2020-08-03/title-41.xml?part=301-10",
+      "sha256": "b64700698b62bd9505c7c3a2c6a652759c92866b5e35727d991a19a499d0bbe7",
+      "bytes": 103784,
+      "sections": 82,
+      "path": "raw/2020-08-03.xml"
+    },
+    {
+      "date": "2022-04-22",
+      "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-04-22/title-41.xml?part=301-10",
+      "sha256": "700c4a608dea9d91d043f8b1dfcc65ce876a398bf2960ef7a503b0b38218bd2e",
+      "bytes": 104184,
+      "sections": 82,
+      "path": "raw/2022-04-22.xml"
+    },
+    {
+      "date": "2022-09-12",
+      "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+      "sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+      "bytes": 110491,
+      "sections": 89,
+      "path": "raw/2022-09-12.xml"
+    },
+    {
+      "date": "2022-10-12",
+      "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-10-12/title-41.xml?part=301-10",
+      "sha256": "5af0a1c5b1ea546e201564970a3775086b58b576ff7c7f44a98a3a19ab32739a",
+      "bytes": 93744,
+      "sections": 83,
+      "path": "raw/2022-10-12.xml"
+    },
+    {
+      "date": "2023-01-18",
+      "url": "https://www.ecfr.gov/api/versioner/v1/full/2023-01-18/title-41.xml?part=301-10",
+      "sha256": "91b1cf03eb7f169c7b08c978f66e50f2602bdb29bd5b0a6b517d0e7a50434e48",
+      "bytes": 93843,
+      "sections": 83,
+      "path": "raw/2023-01-18.xml"
+    },
+    {
+      "date": "2023-02-17",
+      "url": "https://www.ecfr.gov/api/versioner/v1/full/2023-02-17/title-41.xml?part=301-10",
+      "sha256": "8fd6b727665075f683249f9dc454046fde23ee2392a079a11dfaffe9399e106c",
+      "bytes": 93678,
+      "sections": 83,
+      "path": "raw/2023-02-17.xml"
+    },
+    {
+      "date": "2024-02-16",
+      "url": "https://www.ecfr.gov/api/versioner/v1/full/2024-02-16/title-41.xml?part=301-10",
+      "sha256": "05f472c1b43fe1f0d4c04bda0d4d61e0683ecde3031674244acf43e727cfd2a6",
+      "bytes": 93932,
+      "sections": 83,
+      "path": "raw/2024-02-16.xml"
+    },
+    {
+      "date": "2024-04-16",
+      "url": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-16/title-41.xml?part=301-10",
+      "sha256": "c3af54ff8020830b5b2ed8f98ff704de6eed6572d063a744aacf9b652ce2fe53",
+      "bytes": 93759,
+      "sections": 83,
+      "path": "raw/2024-04-16.xml"
+    },
+    {
+      "date": "2025-12-07",
+      "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-07/title-41.xml?part=301-10",
+      "sha256": "c3af54ff8020830b5b2ed8f98ff704de6eed6572d063a744aacf9b652ce2fe53",
+      "bytes": 93759,
+      "sections": 83,
+      "path": "raw/2025-12-07.xml"
+    },
+    {
+      "date": "2025-12-08",
+      "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-08/title-41.xml?part=301-10",
+      "sha256": "7c994b51abe2c310f493295de3fdecc36fe9e28c59567e38bac28e5ebe446d6a",
+      "bytes": 57432,
+      "sections": 56,
+      "path": "raw/2025-12-08.xml"
+    }
+  ],
+  "fetch_errors": []
+}

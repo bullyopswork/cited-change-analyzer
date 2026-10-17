@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.309__2023-01-18__2023-02-17__deterministic",
+  "section": "301-10.309",
+  "title": "§ 301-10.309 What will I be reimbursed if I am authorized to use common carrier transportation or a rental vehicle and I use a POV instead?",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2023-01-18",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2023-01-18/title-41.xml?part=301-10",
+    "snapshot_sha256": "91b1cf03eb7f169c7b08c978f66e50f2602bdb29bd5b0a6b517d0e7a50434e48",
+    "text": "§ 301-10.309 What will I be reimbursed if I am authorized to use common carrier transportation or a rental vehicle and I use a POV instead?\n\nLink to an amendment published at 88 FR 2845, Jan. 18, 2023.\n\nYou will be reimbursed the applicable POV rate on a mileage basis, plus per diem, not to exceed the total constructive cost of the authorized method of common carrier transportation plus per diem. Your agency must determine the constructive cost of transportation and per diem by common carrier under the rules in § 301-10.310.\n\n[FTR Amdt. 2015-03, 80 FR 27260, May 13, 2015]"
+  },
+  "after": {
+    "date": "2023-02-17",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2023-02-17/title-41.xml?part=301-10",
+    "snapshot_sha256": "8fd6b727665075f683249f9dc454046fde23ee2392a079a11dfaffe9399e106c",
+    "text": "§ 301-10.309 What will I be reimbursed if I am authorized to use common carrier transportation or a rental vehicle and I use a POV instead?\n\nYou will be reimbursed the applicable POV rate on a mileage basis, plus per diem and related travel expenses, not to exceed the total constructive cost of the authorized method of transportation. Your agency must determine the constructive cost in accordance with § 301-70.105(a).\n\n[88 FR 2845, Jan. 18, 2023]"
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "date",
+      "summary": "Date-like wording changed.",
+      "before_evidence": {
+        "start": 141,
+        "end": 201,
+        "quote": "Link to an amendment published at 88 FR 2845, Jan. 18, 2023."
+      },
+      "after_evidence": {
+        "start": 141,
+        "end": 421,
+        "quote": "You will be reimbursed the applicable POV rate on a mileage basis, plus per diem and related travel expenses, not to exceed the total constructive cost of the authorized method of transportation. Your agency must determine the constructive cost in accordance with § 301-70.105(a)."
+      },
+      "needs_review": true,
+      "review_reason": "Lexical classification only; review legal and semantic significance.",
+      "method": "deterministic"
+    },
+    {
+      "id": "change-2",
+      "category": "date",
+      "summary": "Date-like wording changed.",
+      "before_evidence": {
+        "start": 203,
+        "end": 530,
+        "quote": "You will be reimbursed the applicable POV rate on a mileage basis, plus per diem, not to exceed the total constructive cost of the authorized method of common carrier transportation plus per diem. Your agency must determine the constructive cost of transportation and per diem by common carrier under the rules in § 301-10.310."
+      },
+      "after_evidence": {
+        "start": 423,
+        "end": 450,
+        "quote": "[88 FR 2845, Jan. 18, 2023]"
+      },
+      "needs_review": true,
+      "review_reason": "Lexical classification only; review legal and semantic significance.",
+      "method": "deterministic"
+    },
+    {
+      "id": "change-3",
+      "category": "removed",
+      "summary": "Paragraph text removed.",
+      "before_evidence": {
+        "start": 532,
+        "end": 578,
+        "quote": "[FTR Amdt. 2015-03, 80 FR 27260, May 13, 2015]"
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    }
+  ],
+  "warnings": [],
+  "analysis": {
+    "method": "deterministic",
+    "model": null,
+    "prompt_version": null,
+    "generated_at": "2026-10-17T13:44:13.435525+00:00",
+    "latency_ms": 0.114,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cost_usd": 0,
+    "input_identity": "c49180d6ada38b93d90ee1eafac1cc2850bd785c2c9c80a00fdf85a70102ddd7"
+  }
+}

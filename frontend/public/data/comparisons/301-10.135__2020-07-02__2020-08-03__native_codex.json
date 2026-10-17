@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.135__2020-07-02__2020-08-03__native_codex",
+  "section": "301-10.135",
+  "title": "§ 301-10.135 When must I travel using U.S. flag air carrier service?",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2020-07-02",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2020-07-02/title-41.xml?part=301-10",
+    "snapshot_sha256": "e81459a34ebf058b059bfb645be495ebb4bab5257388c0fcc171637a7a9cac5a",
+    "text": "§ 301-10.135 When must I travel using U.S. flag air carrier service?\n\nLink to an amendment published at 85 FR 39848, July 2, 2020.\n\nYou are required by 49 U.S.C. 40118, commonly referred to as the “Fly America Act,” to use U.S. flag air carrier service for all air travel funded by the U.S. Government, except as provided in §§ 301-10.136 and 301-10.137 or when one of the following exceptions applies:\n\n(a) Use of a foreign air carrier is determined to be a matter of necessity in accordance with § 301-10.138; or\n\n(b) The transportation is provided under a bilateral or multilateral air transportation agreement to which the United States Government and the government of a foreign country are parties, and which the Department of Transportation has determined meets the requirements of the Fly America Act.\n\n(1) Information on bilateral or multilateral air transportation agreements impacting United States Government procured transportation can be accessed at http://www.gsa.gov/openskies; and\n\n(2) If determined appropriate, GSA may periodically issue FTR Bulletins providing further guidance on bilateral or multilateral air transportation agreements impacting United States Government procured transportation. These bulletins may be accessed at http://www.gsa.gov/bulletins.\n\n(c) You are an officer or employee of the Department of State, United States Information Agency, United States International Development Cooperation Agency, or the Arms Control Disarmament Agency, and your travel is paid with funds appropriated to one of these agencies, and your travel is between two places outside the United States; or\n\n(d) No U.S. flag air carrier provides service on a particular leg of the route, in which case foreign air carrier service may be used, but only to or from the nearest interchange point on a usually traveled route to connect with U.S. flag air carrier service; or\n\n(e) A U.S. flag air carrier involuntarily reroutes your travel on a foreign air carrier; or\n\n(f) Service on a foreign air carrier would be three hours or less, and use of the U.S. flag air carrier would at least double your en route travel time; or\n\n(g) When the costs of transportation are reimbursed in full by a third party, such as a foreign government, international agency, or other organization.\n\n[FTR Amdt. 74, 63 FR 63419, Nov. 13, 1998, as amended by FTR Amdt. 2009-02, 74 FR 2397, Jan. 15, 2009]"
+  },
+  "after": {
+    "date": "2020-08-03",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2020-08-03/title-41.xml?part=301-10",
+    "snapshot_sha256": "b64700698b62bd9505c7c3a2c6a652759c92866b5e35727d991a19a499d0bbe7",
+    "text": "§ 301-10.135 When must I travel using U.S. flag air carrier service?\n\nYou are required by 49 U.S.C. 40118, commonly referred to as the “Fly America Act,” to use U.S. flag air carrier service for all air travel funded by the U.S. Government, except as provided in §§ 301-10.136 and 301-10.137 or when one of the following exceptions applies:\n\n(a) Use of a foreign air carrier is determined to be a matter of necessity in accordance with § 301-10.138; or\n\n(b) The transportation is provided under a bilateral or multilateral air transportation agreement to which the United States Government and the government of a foreign country are parties, and which the Department of Transportation has determined meets the requirements of the Fly America Act.\n\n(1) Information on bilateral or multilateral air transportation agreements impacting United States Government procured transportation can be accessed at https://www.gsa.gov/openskies; and\n\n(2) If determined appropriate, GSA may periodically issue FTR Bulletins providing further guidance on bilateral or multilateral air transportation agreements impacting United States Government procured transportation. These bulletins may be accessed at https://www.gsa.gov/ftrbulletins.\n\n(c) You are an officer or employee of the Department of State or the United States Agency for International Development, and your travel is paid with funds appropriated to one of these agencies, and your travel is between two places outside the United States; or\n\n(d) No U.S. flag air carrier provides service on a particular leg of the route, in which case foreign air carrier service may be used, but only to or from the nearest interchange point on a usually traveled route to connect with U.S. flag air carrier service; or\n\n(e) A U.S. flag air carrier involuntarily reroutes your travel on a foreign air carrier; or\n\n(f) Service on a foreign air carrier would be three hours or less, and use of the U.S. flag air carrier would at least double your en route travel time; or\n\n(g) When the costs of transportation are reimbursed in full by a third party, such as a foreign government, international agency, or other organization.\n\n[FTR Amdt. 74, 63 FR 63419, Nov. 13, 1998, as amended by FTR Amdt. 2009-02, 74 FR 2397, Jan. 15, 2009; 85 FR 39848, July 2, 2020]"
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "editorial",
+      "summary": "The standalone notice linking to the July 2, 2020 amendment is absent in the after snapshot.",
+      "before_evidence": {
+        "start": 70,
+        "end": 130,
+        "quote": "Link to an amendment published at 85 FR 39848, July 2, 2020."
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-2",
+      "category": "editorial",
+      "summary": "The air transportation agreements URL changes from HTTP to HTTPS.",
+      "before_evidence": {
+        "start": 964,
+        "end": 992,
+        "quote": "http://www.gsa.gov/openskies"
+      },
+      "after_evidence": {
+        "start": 902,
+        "end": 931,
+        "quote": "https://www.gsa.gov/openskies"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-3",
+      "category": "editorial",
+      "summary": "The FTR bulletins URL changes from the HTTP /bulletins address to the HTTPS /ftrbulletins address.",
+      "before_evidence": {
+        "start": 1252,
+        "end": 1280,
+        "quote": "http://www.gsa.gov/bulletins"
+      },
+      "after_evidence": {
+        "start": 1191,
+        "end": 1223,
+        "quote": "https://www.gsa.gov/ftrbulletins"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-4",
+      "category": "requirement",
+      "summary": "Paragraph (c) changes the named agencies from State, the United States Information Agency, the United States International Development Cooperation Agency, and the Arms Control Disarmament Agency to State or the United States Agency for International Development.",
+      "before_evidence": {
+        "start": 1283,
+        "end": 1621,
+        "quote": "(c) You are an officer or employee of the Department of State, United States Information Agency, United States International Development Cooperation Agency, or the Arms Control Disarmament Agency, and your travel is paid with funds appropriated to one of these agencies, and your travel is between two places outside the United States; or"
+      },
+      "after_evidence": {
+        "start": 1226,
+        "end": 1488,
+        "quote": "(c) You are an officer or employee of the Department of State or the United States Agency for International Development, and your travel is paid with funds appropriated to one of these agencies, and your travel is between two places outside the United States; or"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-5",
+      "category": "editorial",
+      "summary": "The source history adds 85 FR 39848, July 2, 2020.",
+      "before_evidence": {
+        "start": 2291,
+        "end": 2393,
+        "quote": "[FTR Amdt. 74, 63 FR 63419, Nov. 13, 1998, as amended by FTR Amdt. 2009-02, 74 FR 2397, Jan. 15, 2009]"
+      },
+      "after_evidence": {
+        "start": 2158,
+        "end": 2287,
+        "quote": "[FTR Amdt. 74, 63 FR 63419, Nov. 13, 1998, as amended by FTR Amdt. 2009-02, 74 FR 2397, Jan. 15, 2009; 85 FR 39848, July 2, 2020]"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    }
+  ],
+  "warnings": [],
+  "analysis": {
+    "method": "native_codex",
+    "model": "gpt-6.1-sol",
+    "prompt_version": "cca-grounded-v1",
+    "generated_at": "2026-10-17T13:50:54.805618+00:00",
+    "latency_ms": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "usage_available": false,
+    "latency_available": false,
+    "cost_usd": null,
+    "billing_basis": "Existing OpenAI account via native Codex. Credit dollar rate unavailable; not zero model usage.",
+    "input_identity": "bef8212b51d943b0b296118016e2f5a418061ab0a352a62b91b6bf27b003990f"
+  }
+}

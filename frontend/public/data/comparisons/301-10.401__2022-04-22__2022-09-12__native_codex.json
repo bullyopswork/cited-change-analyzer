@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.401__2022-04-22__2022-09-12__native_codex",
+  "section": "301-10.401",
+  "title": "§ 301-10.401 What types of charges are reimbursable for use of a special conveyance?",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2022-04-22",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-04-22/title-41.xml?part=301-10",
+    "snapshot_sha256": "700c4a608dea9d91d043f8b1dfcc65ce876a398bf2960ef7a503b0b38218bd2e",
+    "text": "§ 301-10.401 What types of charges are reimbursable for use of a special conveyance?\n\nLink to an amendment published at 87 FR 24065, Apr. 22, 2022.\n\nActual expenses that your agency determines are necessary, including, but not limited to:\n\n(a) Gasoline and oil;\n\n(b) Rental of a garage, hangar, or boathouse;\n\n(c) Feeding and stabling of horses;\n\n(d) Per diem of operator; and\n\n(e) Ferriage, tolls, etc."
+  },
+  "after": {
+    "date": "2022-09-12",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+    "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+    "text": "§ 301-10.401 What types of charges are reimbursable for use of a special conveyance?\n\nActual expenses that your agency determines are necessary, including, but not limited to:\n\n(a) Fuel and oil;\n\n(b) Rental of a garage, hangar, or boathouse;\n\n(c) Feeding and stabling of horses;\n\n(d) Per diem of operator; and\n\n(e) Ferriage, tolls, etc.\n\n[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by 87 FR 24065, Apr. 22, 2022]"
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "wording",
+      "summary": "The listed reimbursable special-conveyance expense changes from gasoline and oil to fuel and oil.",
+      "before_evidence": {
+        "start": 240,
+        "end": 261,
+        "quote": "(a) Gasoline and oil;"
+      },
+      "after_evidence": {
+        "start": 177,
+        "end": 194,
+        "quote": "(a) Fuel and oil;"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-2",
+      "category": "editorial",
+      "summary": "The pending-amendment link is absent from the later snapshot.",
+      "before_evidence": {
+        "start": 86,
+        "end": 147,
+        "quote": "Link to an amendment published at 87 FR 24065, Apr. 22, 2022."
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-3",
+      "category": "editorial",
+      "summary": "A source note identifying the original provision and the April 22, 2022 amendment is added.",
+      "before_evidence": null,
+      "after_evidence": {
+        "start": 338,
+        "end": 421,
+        "quote": "[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by 87 FR 24065, Apr. 22, 2022]"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    }
+  ],
+  "warnings": [],
+  "analysis": {
+    "method": "native_codex",
+    "model": "gpt-6.1-sol",
+    "prompt_version": "cca-grounded-v1",
+    "generated_at": "2026-10-17T13:50:54.487091+00:00",
+    "latency_ms": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "usage_available": false,
+    "latency_available": false,
+    "cost_usd": null,
+    "billing_basis": "Existing OpenAI account via native Codex. Credit dollar rate unavailable; not zero model usage.",
+    "input_identity": "498afcfaf94f3c76c3345e6b4de1d3a188d5bac5d919fa437700bf3cdee356c4"
+  }
+}

@@ -1,0 +1,575 @@
+{
+  "schema_version": "1.0",
+  "cases": [
+    {
+      "id": "301-10.114__2022-09-12__2022-10-12",
+      "section": "301-10.114",
+      "title": "§ 301-10.114 May I use contract passenger transportation service for personal travel?",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2022-09-12",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+        "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+        "text": "§ 301-10.114 What must I do with unused Government Transportation Request(s) (GTR(s)), ticket(s) or refund application(s)?\n\nLink to an amendment published at 87 FR 55704, Sept. 12, 2022.\n\nYou must submit any unused GTR(s), unused ticket coupons, unused e-tickets, or refund applications to your agency in accordance with your agency's procedures.\n\n[FTR Amdt. 108, 67 FR 57964, Sept. 13, 2002]"
+      },
+      "after": {
+        "date": "2022-10-12",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-10-12/title-41.xml?part=301-10",
+        "snapshot_sha256": "5af0a1c5b1ea546e201564970a3775086b58b576ff7c7f44a98a3a19ab32739a",
+        "text": "§ 301-10.114 May I use contract passenger transportation service for personal travel?\n\nNo, you may not use contract passenger transportation service for personal travel.\n\n[FTR Case 2020-300-1, 87 FR 55704, Sept. 12, 2022]"
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.452__2025-12-07__2025-12-08",
+      "section": "301-10.452",
+      "title": "§ 301-10.452 Liability for unauthorized rental automobile use.",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2025-12-07",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-07/title-41.xml?part=301-10",
+        "snapshot_sha256": "c3af54ff8020830b5b2ed8f98ff704de6eed6572d063a744aacf9b652ce2fe53",
+        "text": "§ 301-10.452 May I be reimbursed for personal accident insurance?\n\nNo. That is a personal expense and is not reimbursable."
+      },
+      "after": {
+        "date": "2025-12-08",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-08/title-41.xml?part=301-10",
+        "snapshot_sha256": "7c994b51abe2c310f493295de3fdecc36fe9e28c59567e38bac28e5ebe446d6a",
+        "text": "§ 301-10.452 Liability for unauthorized rental automobile use.\n\nEmployees are responsible for any additional costs resulting from using a Government-funded commercial rental automobile for other than official purposes. Official purposes which include transportation:\n\n(a) Between places of official business;\n\n(b) Between such places and places of temporary lodging when public transportation is unavailable or its use is impractical; or\n\n(c) Between either paragraph (a) or (b) of this section and restaurants, drug stores, barber shops/hair stylists, places of worship, cleaning establishments, and similar places necessary for the sustenance, comfort, or health of the employee to foster the continued efficient performance of Government business."
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.142__2025-12-07__2025-12-08",
+      "section": "301-10.142",
+      "title": "§ 301-10.142 Liability for improper or unauthorized foreign air carrier use.",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2025-12-07",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-07/title-41.xml?part=301-10",
+        "snapshot_sha256": "c3af54ff8020830b5b2ed8f98ff704de6eed6572d063a744aacf9b652ce2fe53",
+        "text": "§ 301-10.142 What must the certification include?\n\nThe certification must include:\n\n(a) Your name;\n\n(b) The dates that you traveled;\n\n(c) The origin and the destination of your travel;\n\n(d) A detailed itinerary of your travel, name of the air carrier and flight number for each leg of the trip; and\n\n(e) A statement explaining why you met one of the exceptions in § 301-10.135, § 301-10.136, or § 301-10.137 or a copy of your agency's written approval that foreign air carrier service was deemed a matter of necessity in accordance with § 301-10.138."
+      },
+      "after": {
+        "date": "2025-12-08",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-08/title-41.xml?part=301-10",
+        "snapshot_sha256": "7c994b51abe2c310f493295de3fdecc36fe9e28c59567e38bac28e5ebe446d6a",
+        "text": "§ 301-10.142 Liability for improper or unauthorized foreign air carrier use.\n\nEmployees will not be reimbursed for transportation costs incurred through improper or unauthorized use of foreign air carrier service."
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.106__2020-07-02__2020-08-03",
+      "section": "301-10.106",
+      "title": "§ 301-10.106 When must I use a contract city-pair fare?",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2020-07-02",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2020-07-02/title-41.xml?part=301-10",
+        "snapshot_sha256": "e81459a34ebf058b059bfb645be495ebb4bab5257388c0fcc171637a7a9cac5a",
+        "text": "§ 301-10.106 When must I use a contract city-pair fare?\n\nLink to an amendment published at 85 FR 39848, July 2, 2020.\n\nIf you are a civilian employee of an agency as defined in § 301-1.1 of this chapter, you must always use a contract city-pair fare for scheduled air passenger transportation service unless one of the limited exceptions in § 301-10.107 exist. An Internet listing of contract city-pair fares is available at http://www.gsa.gov/citypairs.\n\nNote to § 301-10.106:\n\nEmployees of the Government of the District of Columbia, with the exception of the District of Columbia Courts, are not eligible to use contract city-pair fares even though these employees otherwise may be covered by the FTR.\n\n[FTR Amdt. 2006-04, 71 FR 49374, Aug. 23, 2006]"
+      },
+      "after": {
+        "date": "2020-08-03",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2020-08-03/title-41.xml?part=301-10",
+        "snapshot_sha256": "b64700698b62bd9505c7c3a2c6a652759c92866b5e35727d991a19a499d0bbe7",
+        "text": "§ 301-10.106 When must I use a contract city-pair fare?\n\nIf you are a civilian employee of an agency as defined in § 301-1.1 of this chapter, you must always use a contract city-pair fare for scheduled air passenger transportation service unless one of the limited exceptions in § 301-10.107 exist. An Internet listing of contract city-pair fares is available at https://www.gsa.gov/citypairs.\n\nNote to § 301-10.106:\n\nEmployees of the Government of the District of Columbia, with the exception of the District of Columbia Courts, are not eligible to use contract city-pair fares even though these employees otherwise may be covered by the FTR.\n\n[FTR Amdt. 2006-04, 71 FR 49374, Aug. 23, 2006, as amended at 85 FR 39848, July 2, 2020]"
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.133__2025-12-07__2025-12-08",
+      "section": "301-10.133",
+      "title": "§ 301-10.133 U.S. flag air carrier service.",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2025-12-07",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-07/title-41.xml?part=301-10",
+        "snapshot_sha256": "c3af54ff8020830b5b2ed8f98ff704de6eed6572d063a744aacf9b652ce2fe53",
+        "text": "§ 301-10.133 What is a U.S. flag air carrier?\n\nAn air carrier which holds a certificate under 49 U.S.C. 41102 but does not include a foreign air carrier operating under a permit."
+      },
+      "after": {
+        "date": "2025-12-08",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-08/title-41.xml?part=301-10",
+        "snapshot_sha256": "7c994b51abe2c310f493295de3fdecc36fe9e28c59567e38bac28e5ebe446d6a",
+        "text": "§ 301-10.133 U.S. flag air carrier service.\n\nU.S. flag air carrier service is service provided on an air carrier holding a certificate under 49 U.S.C. 41102 (excluding a foreign air carrier operating under a permit), and which service is authorized by the carrier's certificate or by exemption or regulation. This also includes service provided under a code share agreement with a foreign air carrier in accordance with title 14, Code of Federal Regulations, when the ticket identifies the U.S. flag air carrier's designator code and flight number."
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.304__2022-04-22__2022-09-12",
+      "section": "301-10.304",
+      "title": "§ 301-10.304 What expenses are allowable in addition to the POV mileage rate allowances?",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2022-04-22",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-04-22/title-41.xml?part=301-10",
+        "snapshot_sha256": "700c4a608dea9d91d043f8b1dfcc65ce876a398bf2960ef7a503b0b38218bd2e",
+        "text": "§ 301-10.304 What expenses are allowable in addition to the POV mileage rate allowances?\n\nLink to an amendment published at 87 FR 24065, Apr. 22, 2022.\n\nFollowing is a chart listing the reimbursable and non-reimbursable expenses:\n\nReimbursable expenses in addition to mileage allowance Non-reimbursable expenses included in the mileage allowance\n\nParking fees; ferry fees; bridge, road, and tunnel fees; and aircraft or airplane parking, landing, and tie-down feesCharges for repairs, depreciation, replacements, grease, oil, antifreeze, towage and similar speculative expenses, gasoline, insurance, state and Federal taxes.\n\n[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 108, 67 FR 57965, Sept. 13, 2002]"
+      },
+      "after": {
+        "date": "2022-09-12",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+        "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+        "text": "§ 301-10.304 What expenses are allowable in addition to the POV mileage rate allowances?\n\nFollowing is a chart listing the reimbursable and non-reimbursable expenses:\n\nReimbursable expenses in addition to mileage allowance Non-reimbursable expenses included in the mileage allowance\n\nParking fees; ferry fees; bridge, road, and tunnel fees; and aircraft or airplane parking, landing, and tie-down fees Charges for repairs, depreciation, replacements, grease, oil, antifreeze, towage and similar speculative expenses, fuel, insurance, state and Federal taxes.\n\n[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 108, 67 FR 57965, Sept. 13, 2002; 87 FR 24065, Apr. 22, 2022]"
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.109__2022-04-22__2022-09-12",
+      "section": "301-10.109",
+      "title": "§ 301-10.109 What is my liability for unauthorized use of a non-contract carrier when contract service is available and I do not meet one of the exceptions for required use?",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2022-04-22",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-04-22/title-41.xml?part=301-10",
+        "snapshot_sha256": "700c4a608dea9d91d043f8b1dfcc65ce876a398bf2960ef7a503b0b38218bd2e",
+        "text": "§ 301-10.109 What is my liability for unauthorized use of a non-contract carrier when contract service is available and I do not meet one of the exceptions for required use?\n\nAny additional costs or penalties incurred by you resulting from unauthorized use of non-contract service are borne by you."
+      },
+      "after": {
+        "date": "2022-09-12",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+        "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+        "text": "§ 301-10.109 What is my liability for unauthorized use of a non-contract carrier when contract service is available and I do not meet one of the exceptions for required use?\n\nLink to an amendment published at 87 FR 55704, Sept. 12, 2022.\n\nAny additional costs or penalties incurred by you resulting from unauthorized use of non-contract service are borne by you."
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.401__2022-04-22__2022-09-12",
+      "section": "301-10.401",
+      "title": "§ 301-10.401 What types of charges are reimbursable for use of a special conveyance?",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2022-04-22",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-04-22/title-41.xml?part=301-10",
+        "snapshot_sha256": "700c4a608dea9d91d043f8b1dfcc65ce876a398bf2960ef7a503b0b38218bd2e",
+        "text": "§ 301-10.401 What types of charges are reimbursable for use of a special conveyance?\n\nLink to an amendment published at 87 FR 24065, Apr. 22, 2022.\n\nActual expenses that your agency determines are necessary, including, but not limited to:\n\n(a) Gasoline and oil;\n\n(b) Rental of a garage, hangar, or boathouse;\n\n(c) Feeding and stabling of horses;\n\n(d) Per diem of operator; and\n\n(e) Ferriage, tolls, etc."
+      },
+      "after": {
+        "date": "2022-09-12",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+        "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+        "text": "§ 301-10.401 What types of charges are reimbursable for use of a special conveyance?\n\nActual expenses that your agency determines are necessary, including, but not limited to:\n\n(a) Fuel and oil;\n\n(b) Rental of a garage, hangar, or boathouse;\n\n(c) Feeding and stabling of horses;\n\n(d) Per diem of operator; and\n\n(e) Ferriage, tolls, etc.\n\n[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by 87 FR 24065, Apr. 22, 2022]"
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.2__2025-12-07__2025-12-08",
+      "section": "301-10.2",
+      "title": "§ 301-10.2 Authorized transportation methods.",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2025-12-07",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-07/title-41.xml?part=301-10",
+        "snapshot_sha256": "c3af54ff8020830b5b2ed8f98ff704de6eed6572d063a744aacf9b652ce2fe53",
+        "text": "§ 301-10.2 What expenses are payable as transportation?\n\nFares, rental fees, mileage payments, and other expenses related to transportation."
+      },
+      "after": {
+        "date": "2025-12-08",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-08/title-41.xml?part=301-10",
+        "snapshot_sha256": "7c994b51abe2c310f493295de3fdecc36fe9e28c59567e38bac28e5ebe446d6a",
+        "text": "§ 301-10.2 Authorized transportation methods.\n\nAgencies may authorize the following transportation methods:\n\n(a) Common carrier transportation (including aircraft, train, bus, ship, or other transit system) under subpart B of this part;\n\n(b) Government vehicle under subpart C of this part;\n\n(c) Privately owned vehicle (POV) under subpart D of this part; or\n\n(d) Special conveyance (such as taxi, transportation network company, innovative mobility technology company, or commercial automobile) under subpart E of this part."
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.421__2018-01-05__2018-02-20",
+      "section": "301-10.421",
+      "title": "§ 301-10.421 How much will my agency reimburse me for a tip to a taxi, TNC, innovative mobility technology company, shuttle service, courtesy transportation driver, or valet parking attendant?",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2018-01-05",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2018-01-05/title-41.xml?part=301-10",
+        "snapshot_sha256": "09c77061fa8273cca52cf552de93c0085864908cd0aea2768e9450c2f9a7a4a1",
+        "text": "§ 301-10.421 How much will my agency reimburse me for a tip to a taxi, shuttle service, courtesy transportation driver, or valet parking attendant?\n\nLink to an amendment published at 82 FR 604, Jan. 5, 2018.\n\nAn amount which your agency determines to be reasonable."
+      },
+      "after": {
+        "date": "2018-02-20",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2018-02-20/title-41.xml?part=301-10",
+        "snapshot_sha256": "fb3f0e29064d512b297bb8998a82d923b2a6830f42beed302cadfe0ab0b35494",
+        "text": "§ 301-10.421 How much will my agency reimburse me for a tip to a taxi, TNC, innovative mobility technology company, shuttle service, courtesy transportation driver, or valet parking attendant?\n\nAn amount which your agency determines to be reasonable."
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.121__2022-09-12__2022-10-12",
+      "section": "301-10.121",
+      "title": "§ 301-10.121 When may I use coach class seating upgrade programs?",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2022-09-12",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+        "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+        "text": "§ 301-10.121 What classes of airline accommodations are available?\n\nLink to an amendment published at 87 FR 55704, Sept. 12, 2022.\n\nAirlines are constantly updating their offerings. However, for the purposes of this regulation, the classes of available air accommodations are identified and defined as follows:\n\n(a) Coach-class. The basic class of accommodation by airlines that is normally the lowest fare offered regardless of airline terminology used. For reference purposes only, coach-class may also be referred to by airlines as “tourist class,” “economy class,” or as “single class” when the airline offers only one class of accommodations to all travelers.\n\n(b) Other than coach-class. Any class of accommodations above coach-class, e.g., first-class or business-class.\n\n(1) First-class. The highest class of accommodation offered by the airlines in terms of cost and amenities. This is generally termed “first-class” by airlines and reservation systems.\n\n(2) Business-class. A class of accommodation offered by airlines that is higher than coach and lower than first-class, in both cost and amenities. This class of accommodation is generally referred to as “business, business elite, business first, world business, connoisseur, or envoy” depending on the airline.\n\nNote to § 301-10.121:\n\nIf an airline flight has only two classes of accommodations available, i.e., two “cabins”, with two distinctly different seating types (such as girth and pitch) and the front cabin is termed “business-class” or higher by the airline and the tickets are fare-coded as business-class, then the front of the cabin is deemed to be other than coach-class. Alternatively, if an airline flight has only two cabins available but equips both with one type of seating, (i.e., seating girth and pitch are the same in both cabins), and the seats in the front of the airplane are fare coded as full-fare economy class, and only restricted economy fares are available in the back of the aircraft, then the entire aircraft is to be classified as coach-class seating. In this second situation, qualifying for other than coach-class travel is not required to purchase a non-restricted economy fare seat in the front of the aircraft as the entire aircraft is considered “coach-class.”\n\n[FTR Amdt. 2009-06, 74 FR 55147, Oct. 27, 2009]"
+      },
+      "after": {
+        "date": "2022-10-12",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-10-12/title-41.xml?part=301-10",
+        "snapshot_sha256": "5af0a1c5b1ea546e201564970a3775086b58b576ff7c7f44a98a3a19ab32739a",
+        "text": "§ 301-10.121 When may I use coach class seating upgrade programs?\n\nUse of upgraded coach class seating options is generally a traveler's personal choice and therefore is at the traveler's personal expense. However, your agency approving official may approve reimbursement of the additional seat choice fee according to part 301-13 of this chapter or internal agency policy (see § 301-70.102(k)).\n\n[FTR Case 2020-300-1, 87 FR 55704, Sept. 12, 2022]"
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.112__2025-12-07__2025-12-08",
+      "section": "301-10.112",
+      "title": "§ 301-10.112 Liability for unauthorized non-contract carrier use.",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2025-12-07",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-07/title-41.xml?part=301-10",
+        "snapshot_sha256": "c3af54ff8020830b5b2ed8f98ff704de6eed6572d063a744aacf9b652ce2fe53",
+        "text": "§ 301-10.112 What requirements must be met to use a non-contract fare?\n\n(a) Before purchasing a non-contract fare you must meet one of the exception requirements listed in § 301-10.111 and show approval on your travel authorization to use a non-contract fare; and\n\n(b) If the non-contract fare is non-refundable, restricted, or has specific eligibility requirements, you must know or reasonably anticipate, based on your planned trip, that you will use the ticket; and\n\n(c) Your agency must determine that the proposed non-contract transportation is practical and cost effective for the Government.\n\n[FTR Case 2020-300-1, 87 FR 55704, Sept. 12, 2022]"
+      },
+      "after": {
+        "date": "2025-12-08",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-08/title-41.xml?part=301-10",
+        "snapshot_sha256": "7c994b51abe2c310f493295de3fdecc36fe9e28c59567e38bac28e5ebe446d6a",
+        "text": "§ 301-10.112 Liability for unauthorized non-contract carrier use.\n\nEmployees are responsible for any additional costs or penalties incurred by using a non-contract carrier when contract service is available and no authorized exception applies."
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.420__2018-02-20__2018-06-27",
+      "section": "301-10.420",
+      "title": "§ 301-10.420 When may I use a taxi, TNC, innovative mobility technology company, shuttle service or other courtesy transportation?",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2018-02-20",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2018-02-20/title-41.xml?part=301-10",
+        "snapshot_sha256": "fb3f0e29064d512b297bb8998a82d923b2a6830f42beed302cadfe0ab0b35494",
+        "text": "§ 301-10.420 When may I use a taxi, TNC, innovative mobility technology company, shuttle service or other courtesy transportation?\n\n(a) When authorized and approved by your agency, your transportation expenses in the performance of official travel are reimbursable for the usual fare plus tip for use of a taxis, TNCs, or innovative mobility technology companies, shuttle service or other courtesy transportation (if charges result), in the following manner:\n\n(1) At your official station. (i) From your residence or other authorized point of departure, e.g., residence to airport;\n\n(ii) To your residence or other authorized point of return, e.g., airport to residence;\n\n(iii) From your residence to your office on the day you depart the official station on official TDY that requires at least one night's lodging; or\n\n(iv) From your office to your residence on the day you return to the official station from an official TDY assignment that required at least one night's lodging.\n\n(2) At your TDY location. (i) From the TDY transit system station to your place of lodging or place of official business and return;\n\n(ii) To, from, and between your places of lodging and official business;\n\n(iii) Between places of official business; or\n\n(iv) To obtain meals at the nearest available place when the nature and location of the official business or the lodging at a TDY location are such that meals cannot be obtained there. You must attach a statement or include electronic remarks with your travel voucher explaining why such transportation was necessary.\n\n(b) Courtesy transportation. You should use courtesy transportation service furnished by hotels/motels to the maximum extent possible as a first source of transportation between a place of lodging at the TDY station and a common carrier terminal. You will be reimbursed for tips when you use courtesy transportation service.\n\n(c) Restrictions. When appropriate, your agency will restrict or place a monetary limit on the amount of reimbursement for the use of taxis, TNCs, or innovative mobility technology companies under this paragraph when -\n\n(1) Suitable Government or common carrier transportation service, including shuttle service, is available for all or part of the distance involved; or\n\n(2) Courtesy transportation service is provided by hotels/motels between the place of lodging at the TDY station and the common carrier terminal.\n\n[FTR Amdt. 2010-02, 75 FR 24435, May 5, 2010, as amended by FTR Amdt. 2017-01, 83 FR 604, Jan. 5, 2018]"
+      },
+      "after": {
+        "date": "2018-06-27",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2018-06-27/title-41.xml?part=301-10",
+        "snapshot_sha256": "93a51d7ae7b5c256bff18bb8eaaf81581cfd5122c021f28507fde87184d101e8",
+        "text": "§ 301-10.420 When may I use a taxi, TNC, innovative mobility technology company, shuttle service or other courtesy transportation?\n\n(a) When authorized and approved by your agency, your transportation expenses in the performance of official travel are reimbursable for the usual fare plus tip for use of a taxi, TNC, innovative mobility technology company, shuttle service or other courtesy transportation (if charges result), in the following manner:\n\n(1) At your official station. (i) From your residence or other authorized point of departure, e.g., residence to airport;\n\n(ii) To your residence or other authorized point of return, e.g., airport to residence;\n\n(iii) From your residence to your office on the day you depart the official station on official TDY that requires at least one night's lodging; or\n\n(iv) From your office to your residence on the day you return to the official station from an official TDY assignment that required at least one night's lodging.\n\n(2) At your TDY location. (i) From the TDY transit system station to your place of lodging or place of official business and return;\n\n(ii) To, from, and between your places of lodging and official business;\n\n(iii) Between places of official business; or\n\n(iv) To obtain meals at the nearest available place when the nature and location of the official business or the lodging at a TDY location are such that meals cannot be obtained there. You must attach a statement or include electronic remarks with your travel voucher explaining why such transportation was necessary.\n\n(b) Courtesy transportation. You should use courtesy transportation service furnished by hotels/motels to the maximum extent possible as a first source of transportation between a place of lodging at the TDY station and a common carrier terminal. You will be reimbursed for tips when you use courtesy transportation service.\n\n(c) Restrictions. When appropriate, your agency will restrict or place a monetary limit on the amount of reimbursement for the use of taxis, TNCs, or innovative mobility technology companies under this paragraph when—\n\n(1) Suitable Government or common carrier transportation service, including shuttle service, is available for all or part of the distance involved; or\n\n(2) Courtesy transportation service is provided by hotels/motels between the place of lodging at the TDY station and the common carrier terminal.\n\n[FTR Amdt. 2010-02, 75 FR 24435, May 5, 2010, as amended by FTR Amdt. 2017-01, 83 FR 604, Jan. 5, 2018]"
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.308__2018-01-05__2018-02-20",
+      "section": "301-10.308",
+      "title": "§ 301-10.308 What will I be reimbursed if I park my POV at a common carrier terminal while I am away from my official station?",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2018-01-05",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2018-01-05/title-41.xml?part=301-10",
+        "snapshot_sha256": "09c77061fa8273cca52cf552de93c0085864908cd0aea2768e9450c2f9a7a4a1",
+        "text": "§ 301-10.308 What will I be reimbursed if I park my POV at a common carrier terminal while I am away from my official station?\n\nLink to an amendment published at 82 FR 604, Jan. 5, 2018.\n\nYour agency may reimburse your parking fee as an allowable transportation expense not to exceed the cost of taxi fare to/from the terminal."
+      },
+      "after": {
+        "date": "2018-02-20",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2018-02-20/title-41.xml?part=301-10",
+        "snapshot_sha256": "fb3f0e29064d512b297bb8998a82d923b2a6830f42beed302cadfe0ab0b35494",
+        "text": "§ 301-10.308 What will I be reimbursed if I park my POV at a common carrier terminal while I am away from my official station?\n\nYour agency may reimburse your parking fee as an allowable transportation expense not to exceed the cost of one of the following to/from the terminal as determined by your agency:\n\n(a) The cost of a taxi.\n\n(b) The cost of a TNC fare.\n\n(c) The cost of using an innovative mobility technology company.\n\n[FTR Amdt. 2017-01, 83 FR 604, Jan. 5, 2018]"
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.180__2020-07-02__2020-08-03",
+      "section": "301-10.180",
+      "title": "§ 301-10.180 Must I travel by a U.S. flag ship?",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2020-07-02",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2020-07-02/title-41.xml?part=301-10",
+        "snapshot_sha256": "e81459a34ebf058b059bfb645be495ebb4bab5257388c0fcc171637a7a9cac5a",
+        "text": "§ 301-10.180 Must I travel by a U.S. flag ship?\n\nLink to an amendment published at 85 FR 39848, July 2, 2020.\n\nYes, when a U.S. flag ship is available unless the necessity of the mission requires the use of a foreign ship. (See 46 U.S.C. App. Sec. 1241.)"
+      },
+      "after": {
+        "date": "2020-08-03",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2020-08-03/title-41.xml?part=301-10",
+        "snapshot_sha256": "b64700698b62bd9505c7c3a2c6a652759c92866b5e35727d991a19a499d0bbe7",
+        "text": "§ 301-10.180 Must I travel by a U.S. flag ship?\n\nYes, when a U.S. flag ship is available unless the necessity of the mission requires the use of a foreign ship. (See 46 U.S.C. § 55302.)\n\n[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended at 85 FR 39848, July 2, 2020]"
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.309__2023-01-18__2023-02-17",
+      "section": "301-10.309",
+      "title": "§ 301-10.309 What will I be reimbursed if I am authorized to use common carrier transportation or a rental vehicle and I use a POV instead?",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2023-01-18",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2023-01-18/title-41.xml?part=301-10",
+        "snapshot_sha256": "91b1cf03eb7f169c7b08c978f66e50f2602bdb29bd5b0a6b517d0e7a50434e48",
+        "text": "§ 301-10.309 What will I be reimbursed if I am authorized to use common carrier transportation or a rental vehicle and I use a POV instead?\n\nLink to an amendment published at 88 FR 2845, Jan. 18, 2023.\n\nYou will be reimbursed the applicable POV rate on a mileage basis, plus per diem, not to exceed the total constructive cost of the authorized method of common carrier transportation plus per diem. Your agency must determine the constructive cost of transportation and per diem by common carrier under the rules in § 301-10.310.\n\n[FTR Amdt. 2015-03, 80 FR 27260, May 13, 2015]"
+      },
+      "after": {
+        "date": "2023-02-17",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2023-02-17/title-41.xml?part=301-10",
+        "snapshot_sha256": "8fd6b727665075f683249f9dc454046fde23ee2392a079a11dfaffe9399e106c",
+        "text": "§ 301-10.309 What will I be reimbursed if I am authorized to use common carrier transportation or a rental vehicle and I use a POV instead?\n\nYou will be reimbursed the applicable POV rate on a mileage basis, plus per diem and related travel expenses, not to exceed the total constructive cost of the authorized method of transportation. Your agency must determine the constructive cost in accordance with § 301-70.105(a).\n\n[88 FR 2845, Jan. 18, 2023]"
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.161__2022-09-12__2022-10-12",
+      "section": "301-10.161",
+      "title": "§ 301-10.161 When may I use sleeping accommodations aboard train service?",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2022-09-12",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+        "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+        "text": "§ 301-10.161 What class of train accommodations must I use?\n\nLink to an amendment published at 87 FR 55705, Sept. 12, 2022.\n\nYou must use coach-class accommodations for all train travel, except when your agency authorizes other than coach-class service.\n\n[FTR Amdt. 2009-06, 74 FR 55148, Oct. 27, 2009]"
+      },
+      "after": {
+        "date": "2022-10-12",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-10-12/title-41.xml?part=301-10",
+        "snapshot_sha256": "5af0a1c5b1ea546e201564970a3775086b58b576ff7c7f44a98a3a19ab32739a",
+        "text": "§ 301-10.161 When may I use sleeping accommodations aboard train service?\n\nYou may use the lowest class of sleeping accommodations aboard a train that meets your mission needs when overnight travel is required, and your agency determines it is advantageous to the Government.\n\n[FTR Case 2020-300-1, 87 FR 55705, Sept. 12, 2022]"
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.300__2025-12-07__2025-12-08",
+      "section": "301-10.300",
+      "title": "§ 301-10.300 Determining and computing mileage reimbursement.",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2025-12-07",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-07/title-41.xml?part=301-10",
+        "snapshot_sha256": "c3af54ff8020830b5b2ed8f98ff704de6eed6572d063a744aacf9b652ce2fe53",
+        "text": "§ 301-10.300 When may I use a POV for official travel?\n\nWhen authorized by your agency."
+      },
+      "after": {
+        "date": "2025-12-08",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-08/title-41.xml?part=301-10",
+        "snapshot_sha256": "7c994b51abe2c310f493295de3fdecc36fe9e28c59567e38bac28e5ebe446d6a",
+        "text": "§ 301-10.300 Determining and computing mileage reimbursement.\n\nEmployees compute mileage reimbursement by multiplying the distance traveled, determined by the applicable mileage rate as follows:\n\nTable 1 to § 301-10.300\n\nIf travel is by The distance between origin and destination is\n\nPrivately owned automobile or privately owned motorcycle As shown in paper or electronic standard highway mileage guides, or the actual miles driven as determined from odometer readings.\n\nPrivately owned aircraft As determined from charts issued by the Federal Aviation Administration (FAA). Employees may include in their travel claim an explanation addressing any additional air mileage resulting from a detour necessary due to adverse weather, mechanical difficulty, or other unusual conditions. If a required deviation is such that airway mileage charts are not adequate to determine distance, employees may use the formula of flight time multiplied by cruising speed of the aircraft to determine distance. Employees must convert nautical miles to statute or regular miles when submitting a claim (1 nautical mile equals 1.15077945 statute miles)."
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.122__2022-09-12__2022-10-12",
+      "section": "301-10.122",
+      "title": "§ 301-10.122 What must I do with compensation an airline gives me if it denies me a seat on a plane?",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2022-09-12",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+        "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+        "text": "§ 301-10.122 What class of airline accommodations must I use?\n\nLink to an amendment published at 87 FR 55704, Sept. 12, 2022.\n\nFor official business travel, both domestic and international, you must use coach-class accommodations, except as provided under §§ 301-10.123 and 301-10.124."
+      },
+      "after": {
+        "date": "2022-10-12",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-10-12/title-41.xml?part=301-10",
+        "snapshot_sha256": "5af0a1c5b1ea546e201564970a3775086b58b576ff7c7f44a98a3a19ab32739a",
+        "text": "§ 301-10.122 What must I do with compensation an airline gives me if it denies me a seat on a plane?\n\nIf you are performing official travel and a carrier denies you a confirmed reserved seat on a plane, you must give your agency any payment you receive for liquidated damages. You must ensure the carrier shows the “Treasurer of the United States” as payee on the compensation check and then forward the payment to the appropriate agency official.\n\n[FTR Case 2020-300-1, 87 FR 55704, Sept. 12, 2022]"
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.450__2022-04-22__2022-09-12",
+      "section": "301-10.450",
+      "title": "§ 301-10.450 What are the policies when authorized to rent a vehicle for official travel?",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2022-04-22",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-04-22/title-41.xml?part=301-10",
+        "snapshot_sha256": "700c4a608dea9d91d043f8b1dfcc65ce876a398bf2960ef7a503b0b38218bd2e",
+        "text": "§ 301-10.450 What are the policies when authorized to rent a vehicle for official travel?\n\nLink to an amendment published at 87 FR 24065, Apr. 22, 2022.\n\n(a) Your agency must determine that use of a rental vehicle is advantageous to the Government and must specifically authorize such use.\n\n(b) When authorized to use a rental vehicle, you should consider renting a vehicle from a vendor that participates in the Defense Travel Management Office (DTMO) U.S. Government Car Rental Agreement to avail yourself of the Agreement's benefits, including the insurance and damage liability provisions, unless you are OCONUS and no agreement is in place for your TDY location. The advantages of renting a car through the DTMO rental car program are:\n\n(1) Rental car agreements are pre-negotiated;\n\n(2) The agreement includes automatic unlimited mileage and collision damage insurance; and\n\n(3) The rates established by the car rental agreement cannot be exceeded by the vendor.\n\n(c) Travelers must use the least expensive compact car available, unless an exception for another class of vehicle is approved. Agencies should approve these exceptions on a limited basis and must indicate on the travel authorization the reason for the exception. Your agency may authorize the use of other than a compact car if any of the following apply:\n\n(1) When use of other than a compact car is necessary to accommodate a medical disability or other special need.\n\n(i) A disability must be certified annually in a written statement by a competent medical authority. However, if the disability is a lifelong condition, then a one-time certification statement is required. Certification statements must include at a minimum:\n\n(A) A written statement by a competent medical authority stating that special accommodation is necessary;\n\n(B) An approximate duration of the special accommodation; and\n\n(ii) A special need must be certified annually in writing according to your agency's procedures. However, if the special need is a lifelong condition, then a one-time certification statement is required;\n\n(iii) If you are authorized under § 301-13.3(a) to have an attendant accompany you, your agency may authorize the use of other than a compact car if deemed necessary by your agency.\n\n(2) When required because of agency mission, consistent with your agency's internal procedures pursuant to § 301-70.102(i).\n\n(3) When the cost of other than a compact car is less than or equal to the cost of the least expensive compact car.\n\n(4) When additional room is required to accommodate multiple employees authorized to travel together in the same rental vehicle.\n\n(5) When travelers must carry a large amount of Government material incident to their official business, and a compact rental vehicle does not contain sufficient space.\n\n(6) When necessary for safety reasons, such as during severe weather or having to travel on rough or difficult terrain.\n\n(d) Travelers are not to be reimbursed for purchasing pre-paid refueling options for rental cars. Therefore, travelers should refuel prior to returning the rental vehicle to the drop-off location. However, if it is not possible to refuel completely prior to returning the vehicle because of safety issues or the location of closest fueling station, travelers will be reimbursed for vendor refueling charges.\n\n(e) Travelers will not be reimbursed for fees associated with rental car loyalty points or the transfer of points charged by car companies.\n\n[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 2010-05, 75 FR 63103, Oct. 14, 2010; FTR Amdt. 2015-03, 80 FR 27261, May 13, 2015]"
+      },
+      "after": {
+        "date": "2022-09-12",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+        "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+        "text": "§ 301-10.450 What are the policies when authorized to rent a vehicle for official travel?\n\n(a) Your agency must determine that use of a rental vehicle is advantageous to the Government and must specifically authorize such use.\n\n(b) When authorized to use a rental vehicle, you should consider renting a vehicle from a vendor that participates in the Defense Travel Management Office (DTMO) U.S. Government Car Rental Agreement to avail yourself of the Agreement's benefits, including the insurance and damage liability provisions, unless you are OCONUS and no agreement is in place for your TDY location. The advantages of renting a car through the DTMO rental car program are:\n\n(1) Rental car agreements are pre-negotiated;\n\n(2) The agreement includes automatic unlimited mileage and collision damage insurance; and\n\n(3) The rates established by the car rental agreement cannot be exceeded by the vendor.\n\n(c) Travelers must use the least expensive compact car available, unless an exception for another class of vehicle is approved. Agencies should approve these exceptions on a limited basis and must indicate on the travel authorization the reason for the exception. Your agency may authorize the use of other than a compact car if any of the following apply:\n\n(1) When use of other than a compact car is necessary to accommodate a medical disability or other special need.\n\n(i) A disability must be certified annually in a written statement by a competent medical authority. However, if the disability is a lifelong condition, then a one-time certification statement is required. Certification statements must include at a minimum:\n\n(A) A written statement by a competent medical authority stating that special accommodation is necessary;\n\n(B) An approximate duration of the special accommodation; and\n\n(ii) A special need must be certified annually in writing according to your agency's procedures. However, if the special need is a lifelong condition, then a one-time certification statement is required;\n\n(iii) If you are authorized under § 301-13.3(a) to have an attendant accompany you, your agency may authorize the use of other than a compact car if deemed necessary by your agency.\n\n(2) When required because of agency mission, consistent with your agency's internal procedures pursuant to § 301-70.102(i).\n\n(3) When the cost of other than a compact car is less than or equal to the cost of the least expensive compact car.\n\n(4) When additional room is required to accommodate multiple employees authorized to travel together in the same rental vehicle.\n\n(5) When travelers must carry a large amount of Government material incident to their official business, and a compact rental vehicle does not contain sufficient space.\n\n(6) When necessary for safety reasons, such as during severe weather or having to travel on rough or difficult terrain.\n\n(d) Travelers are not to be reimbursed for purchasing pre-paid refueling options for rental cars. Therefore, travelers should refuel prior to returning the rental vehicle to the drop-off location. However, if it is not possible to refuel completely prior to returning the vehicle because of safety issues or the location of closest fueling station, travelers will be reimbursed for vendor refueling charges.\n\n(e) Travelers will not be reimbursed for fees associated with rental car loyalty points or the transfer of points charged by car companies.\n\n(f) A rental car is to be used only for official purposes, which include transportation:\n\n(1) Between places of official business;\n\n(2) Between such places and places of temporary lodging when public transportation is unavailable or its use is impractical; or\n\n(3) Between either subparagraph (1) or (2) of this paragraph and restaurants, drug stores, barber shops, places of worship, cleaning establishments, and similar places necessary for the sustenance, comfort, or health of the employee to foster the continued efficient performance of Government business.\n\n[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 2010-05, 75 FR 63103, Oct. 14, 2010; FTR Amdt. 2015-03, 80 FR 27261, May 13, 2015; 87 FR 24065, Apr. 22, 2022]"
+      },
+      "kind": "real"
+    },
+    {
+      "id": "control-01",
+      "section": "control-01",
+      "title": "Synthetic control 1",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "174c959c662f798f451cb771557b504bf505b47015c19a2544e632f1b8fc3a4c",
+        "text": "The reimbursement limit is $100."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "af0892882b772b919352d687c84b7386f4a9a8c274b2273ca18c0e84bf33bfd2",
+        "text": "The reimbursement limit is $150."
+      },
+      "kind": "controlled"
+    },
+    {
+      "id": "control-02",
+      "section": "control-02",
+      "title": "Synthetic control 2",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "3680ef9042a498390af18341c374aecfda1d049112c85fe61711d7082a15ef2d",
+        "text": "The allowed share is 20%."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "2cf4b09ddb4d1e2385484134749a367df13df25216bd0f26a49a34390c5747b7",
+        "text": "The allowed share is 25%."
+      },
+      "kind": "controlled"
+    },
+    {
+      "id": "control-03",
+      "section": "control-03",
+      "title": "Synthetic control 3",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "fd4602b533b8a203622f048d79b8095ec4d06066ba737c3c9d55a2666c24724b",
+        "text": "This policy applies on 2025-07-01."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "d2e788f61133f633eff9e40835032f02628e2f392911c1ec663522261a801cd5",
+        "text": "This policy applies on 2025-08-01."
+      },
+      "kind": "controlled"
+    },
+    {
+      "id": "control-04",
+      "section": "control-04",
+      "title": "Synthetic control 4",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "4d89e597f4cce055a52cc8f48b990e1e72378ede95a2449eed742dbd895cd9bf",
+        "text": "Submit the form by July 15, 2025."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "cae42a18f6764069d4327a1240254a2a413d2949d5e9505a5ebfc52992823cc3",
+        "text": "Submit the form by August 15, 2025."
+      },
+      "kind": "controlled"
+    },
+    {
+      "id": "control-05",
+      "section": "control-05",
+      "title": "Synthetic control 5",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "2d47e739d2c155765e1d37750d01e00ac7f6ec6782fa52f41d81db587ce8597e",
+        "text": "Employees may obtain approval."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "7def89803ee9211c82492bdbe897c52492ea6d67553525c6ae5eb74167c72c6b",
+        "text": "Employees must obtain approval."
+      },
+      "kind": "controlled"
+    },
+    {
+      "id": "control-06",
+      "section": "control-06",
+      "title": "Synthetic control 6",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "fbc1f94816b800c3b7b94bd61873d08f6a1a9297efb83a5f9a0211cdb0305b99",
+        "text": "Claims include travel costs except parking."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "8769fbf962fbcd02ff14f644d9b30853623c5212397076c67297a7f4ba089eeb",
+        "text": "Claims include travel costs including parking."
+      },
+      "kind": "controlled"
+    },
+    {
+      "id": "control-07",
+      "section": "control-07",
+      "title": "Synthetic control 7",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "e3c654b4cb0a437e22078bad14f1c2cd953611aa7b8fb3db10a8f44a99e857d5",
+        "text": "Keep   the receipt."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "f65b0456b8c672319cf005c5b65c950d14ff7352e6e6846fd57625effe9289c9",
+        "text": "Keep the receipt."
+      },
+      "kind": "controlled"
+    },
+    {
+      "id": "control-08",
+      "section": "control-08",
+      "title": "Synthetic control 8",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "181119c030f31b0dd63e1bb181617e55bdad938f079f0b88d21f4624c02c8e01",
+        "text": "Use the\napproved form."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "060a719fb1ddb959f0795f842469d224b4758e2503792c98bc2c394e665f4d18",
+        "text": "Use the approved form."
+      },
+      "kind": "controlled"
+    },
+    {
+      "id": "control-09",
+      "section": "control-09",
+      "title": "Synthetic control 9",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "f65b0456b8c672319cf005c5b65c950d14ff7352e6e6846fd57625effe9289c9",
+        "text": "Keep the receipt."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "c2cf8e1b4ea8ab85497dea30c780067303bd9f06a76132594118f7a2c4dc2690",
+        "text": "Keep the receipt.\n\nSubmit a signed declaration."
+      },
+      "kind": "controlled"
+    },
+    {
+      "id": "control-10",
+      "section": "control-10",
+      "title": "Synthetic control 10",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "c2cf8e1b4ea8ab85497dea30c780067303bd9f06a76132594118f7a2c4dc2690",
+        "text": "Keep the receipt.\n\nSubmit a signed declaration."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "f65b0456b8c672319cf005c5b65c950d14ff7352e6e6846fd57625effe9289c9",
+        "text": "Keep the receipt."
+      },
+      "kind": "controlled"
+    }
+  ]
+}

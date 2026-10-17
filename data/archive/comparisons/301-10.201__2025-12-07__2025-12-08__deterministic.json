@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.201__2025-12-07__2025-12-08__deterministic",
+  "section": "301-10.201",
+  "title": "§ 301-10.201 Liability for unauthorized Government vehicle use.",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2025-12-07",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-07/title-41.xml?part=301-10",
+    "snapshot_sha256": "c3af54ff8020830b5b2ed8f98ff704de6eed6572d063a744aacf9b652ce2fe53",
+    "text": "§ 301-10.201 For what purposes may I use a Government vehicle other than a Government aircraft?\n\nOnly for official purposes which include transportation:\n\n(a) Between places of official business;\n\n(b) Between such places and places of temporary lodging when public transportation is unavailable or its use is impractical;\n\n(c) Between either paragraph (a) or (b) of this section and restaurants, drug stores, barber shops, places of worship, cleaning establishments, and similar places necessary for the sustenance, comfort, or health of the employee to foster the continued efficient performance of Government business; or\n\n(d) As otherwise authorized by your agency under 31 U.S.C. 1344."
+  },
+  "after": {
+    "date": "2025-12-08",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-08/title-41.xml?part=301-10",
+    "snapshot_sha256": "7c994b51abe2c310f493295de3fdecc36fe9e28c59567e38bac28e5ebe446d6a",
+    "text": "§ 301-10.201 Liability for unauthorized Government vehicle use.\n\nEmployees are responsible for any costs resulting from unauthorized use of a Government vehicle and may be subject to administrative and/or criminal liability for misuse of Government property."
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "date",
+      "summary": "Date-like wording changed.",
+      "before_evidence": {
+        "start": 0,
+        "end": 95,
+        "quote": "§ 301-10.201 For what purposes may I use a Government vehicle other than a Government aircraft?"
+      },
+      "after_evidence": {
+        "start": 0,
+        "end": 63,
+        "quote": "§ 301-10.201 Liability for unauthorized Government vehicle use."
+      },
+      "needs_review": true,
+      "review_reason": "Lexical classification only; review legal and semantic significance.",
+      "method": "deterministic"
+    },
+    {
+      "id": "change-2",
+      "category": "date",
+      "summary": "Date-like wording changed.",
+      "before_evidence": {
+        "start": 97,
+        "end": 153,
+        "quote": "Only for official purposes which include transportation:"
+      },
+      "after_evidence": {
+        "start": 65,
+        "end": 258,
+        "quote": "Employees are responsible for any costs resulting from unauthorized use of a Government vehicle and may be subject to administrative and/or criminal liability for misuse of Government property."
+      },
+      "needs_review": true,
+      "review_reason": "Lexical classification only; review legal and semantic significance.",
+      "method": "deterministic"
+    },
+    {
+      "id": "change-3",
+      "category": "removed",
+      "summary": "Paragraph text removed.",
+      "before_evidence": {
+        "start": 155,
+        "end": 195,
+        "quote": "(a) Between places of official business;"
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    },
+    {
+      "id": "change-4",
+      "category": "removed",
+      "summary": "Paragraph text removed.",
+      "before_evidence": {
+        "start": 197,
+        "end": 321,
+        "quote": "(b) Between such places and places of temporary lodging when public transportation is unavailable or its use is impractical;"
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    },
+    {
+      "id": "change-5",
+      "category": "removed",
+      "summary": "Paragraph text removed.",
+      "before_evidence": {
+        "start": 323,
+        "end": 623,
+        "quote": "(c) Between either paragraph (a) or (b) of this section and restaurants, drug stores, barber shops, places of worship, cleaning establishments, and similar places necessary for the sustenance, comfort, or health of the employee to foster the continued efficient performance of Government business; or"
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    },
+    {
+      "id": "change-6",
+      "category": "removed",
+      "summary": "Paragraph text removed.",
+      "before_evidence": {
+        "start": 625,
+        "end": 689,
+        "quote": "(d) As otherwise authorized by your agency under 31 U.S.C. 1344."
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    }
+  ],
+  "warnings": [],
+  "analysis": {
+    "method": "deterministic",
+    "model": null,
+    "prompt_version": null,
+    "generated_at": "2026-10-17T13:44:13.440181+00:00",
+    "latency_ms": 0.078,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cost_usd": 0,
+    "input_identity": "d915d1afafb066f4db7d7b0298dce4e942fe5cb898e5211300a1075e9260d8f7"
+  }
+}

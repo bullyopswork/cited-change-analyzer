@@ -1,0 +1,297 @@
+{
+  "schema_version": "1.0",
+  "annotation_method": "Explicit author-controlled fixtures, not real regulation",
+  "cases": [
+    {
+      "id": "control-01",
+      "expected": [
+        {
+          "id": "control-01-event-1",
+          "category": "amount",
+          "description": "Reimbursement limit changes from $100 to $150.",
+          "before_quote": "$100",
+          "after_quote": "$150",
+          "substantive": true
+        }
+      ],
+      "notes": [],
+      "ambiguous": false
+    },
+    {
+      "id": "control-02",
+      "expected": [
+        {
+          "id": "control-02-event-1",
+          "category": "amount",
+          "description": "Allowed share changes from 20% to 25%.",
+          "before_quote": "20%",
+          "after_quote": "25%",
+          "substantive": true
+        }
+      ],
+      "notes": [],
+      "ambiguous": false
+    },
+    {
+      "id": "control-03",
+      "expected": [
+        {
+          "id": "control-03-event-1",
+          "category": "date",
+          "description": "Application date moves from July 1 to August 1, 2025.",
+          "before_quote": "2025-07-01",
+          "after_quote": "2025-08-01",
+          "substantive": true
+        }
+      ],
+      "notes": [],
+      "ambiguous": false
+    },
+    {
+      "id": "control-04",
+      "expected": [
+        {
+          "id": "control-04-event-1",
+          "category": "date",
+          "description": "Submission date changes from July 15 to August 15, 2025.",
+          "before_quote": "July 15, 2025",
+          "after_quote": "August 15, 2025",
+          "substantive": true
+        }
+      ],
+      "notes": [],
+      "ambiguous": false
+    },
+    {
+      "id": "control-05",
+      "expected": [
+        {
+          "id": "control-05-event-1",
+          "category": "requirement",
+          "description": "Approval wording changes from may to must.",
+          "before_quote": "may obtain approval",
+          "after_quote": "must obtain approval",
+          "substantive": true
+        }
+      ],
+      "notes": [],
+      "ambiguous": false
+    },
+    {
+      "id": "control-06",
+      "expected": [
+        {
+          "id": "control-06-event-1",
+          "category": "requirement",
+          "description": "Parking changes from an exception to an included cost.",
+          "before_quote": "except parking",
+          "after_quote": "including parking",
+          "substantive": true
+        }
+      ],
+      "notes": [],
+      "ambiguous": false
+    },
+    {
+      "id": "control-07",
+      "expected": [],
+      "notes": [
+        "Spacing only, no factual change expected."
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "control-08",
+      "expected": [],
+      "notes": [
+        "Line wrapping only, no factual change expected."
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "control-09",
+      "expected": [
+        {
+          "id": "control-09-event-1",
+          "category": "added",
+          "description": "A signed declaration instruction is added.",
+          "before_quote": null,
+          "after_quote": "Submit a signed declaration.",
+          "substantive": true
+        }
+      ],
+      "notes": [],
+      "ambiguous": false
+    },
+    {
+      "id": "control-10",
+      "expected": [
+        {
+          "id": "control-10-event-1",
+          "category": "removed",
+          "description": "The signed declaration instruction is removed.",
+          "before_quote": "Submit a signed declaration.",
+          "after_quote": null,
+          "substantive": true
+        }
+      ],
+      "notes": [],
+      "ambiguous": false
+    },
+    {
+      "id": "control-11",
+      "expected": [
+        {
+          "id": "control-11-event-1",
+          "category": "requirement",
+          "description": "Personal travel changes from allowed to not allowed.",
+          "before_quote": "Personal travel is allowed.",
+          "after_quote": "Personal travel is not allowed.",
+          "substantive": true
+        }
+      ],
+      "notes": [],
+      "ambiguous": false
+    },
+    {
+      "id": "control-12",
+      "expected": [
+        {
+          "id": "control-12-event-1",
+          "category": "requirement",
+          "description": "Meals change from must be claimed to must not be claimed.",
+          "before_quote": "Meals must be claimed.",
+          "after_quote": "Meals must not be claimed.",
+          "substantive": true
+        }
+      ],
+      "notes": [],
+      "ambiguous": false
+    },
+    {
+      "id": "control-13",
+      "expected": [
+        {
+          "id": "control-13-event-1",
+          "category": "moved",
+          "description": "Receipt and form instructions exchange order without changed wording.",
+          "before_quote": "Keep the receipt.\n\nSubmit the form.",
+          "after_quote": "Submit the form.\n\nKeep the receipt.",
+          "substantive": false
+        }
+      ],
+      "notes": [
+        "Either moved paragraph is an acceptable localization of this single order-change event."
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "control-14",
+      "expected": [
+        {
+          "id": "control-14-event-1",
+          "category": "removed",
+          "description": "One repeated receipt instruction is removed.",
+          "before_quote": "Keep the receipt.",
+          "after_quote": null,
+          "substantive": true
+        }
+      ],
+      "notes": [
+        "Gold quote intentionally repeated; a predicted unique contextual span may localize it."
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "control-15",
+      "expected": [
+        {
+          "id": "control-15-event-1",
+          "category": "wording",
+          "description": "The form identifier changes from A to B, not the amount.",
+          "before_quote": "Use form A.",
+          "after_quote": "Use form B.",
+          "substantive": true
+        }
+      ],
+      "notes": [],
+      "ambiguous": false
+    },
+    {
+      "id": "control-16",
+      "expected": [
+        {
+          "id": "control-16-event-1",
+          "category": "editorial",
+          "description": "A comma changes to a semicolon.",
+          "before_quote": "Keep receipts, then apply.",
+          "after_quote": "Keep receipts; then apply.",
+          "substantive": false
+        }
+      ],
+      "notes": [],
+      "ambiguous": false
+    },
+    {
+      "id": "control-17",
+      "expected": [
+        {
+          "id": "control-17-event-1",
+          "category": "amount",
+          "description": "The amount changes from 100 euros to 150 euros.",
+          "before_quote": "100 €",
+          "after_quote": "150 €",
+          "substantive": true
+        }
+      ],
+      "notes": [],
+      "ambiguous": false
+    },
+    {
+      "id": "control-18",
+      "expected": [
+        {
+          "id": "control-18-event-1",
+          "category": "amount",
+          "description": "The meals limit rises from $100 to $150; the hotel limit is unchanged.",
+          "before_quote": "Meals: limit $100.",
+          "after_quote": "Meals: limit $150.",
+          "substantive": true
+        }
+      ],
+      "notes": [],
+      "ambiguous": false
+    },
+    {
+      "id": "control-19",
+      "expected": [
+        {
+          "id": "control-19-event-1",
+          "category": "amount",
+          "description": "The limit changes from $100 to $150.",
+          "before_quote": "Limit: $100.",
+          "after_quote": "Limit: $150.",
+          "substantive": true
+        },
+        {
+          "id": "control-19-event-2",
+          "category": "date",
+          "description": "The deadline changes from July 1 to August 1, 2025.",
+          "before_quote": "2025-07-01",
+          "after_quote": "2025-08-01",
+          "substantive": true
+        }
+      ],
+      "notes": [],
+      "ambiguous": false
+    },
+    {
+      "id": "control-20",
+      "expected": [],
+      "notes": [
+        "Identical text with numbers and a date is a negative control."
+      ],
+      "ambiguous": false
+    }
+  ]
+}

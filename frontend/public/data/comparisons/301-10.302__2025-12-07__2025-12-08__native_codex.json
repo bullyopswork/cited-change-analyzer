@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.302__2025-12-07__2025-12-08__native_codex",
+  "section": "301-10.302",
+  "title": "§ 301-10.302 Allowable expenses beyond POV mileage rate.",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2025-12-07",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-07/title-41.xml?part=301-10",
+    "snapshot_sha256": "c3af54ff8020830b5b2ed8f98ff704de6eed6572d063a744aacf9b652ce2fe53",
+    "text": "§ 301-10.302 How do I determine distance measurements for my travel?\n\nIf you travel by The distance between your origin and destination is\n\nPrivately owned automobile or privately owned motorcycle As shown in paper or electronic standard highway mileage guides, or the actual miles driven as determined from odometer readings.\n\nPrivately owned aircraft As determined from charts issued by the Federal Aviation Administration (FAA). You may include in your travel claim with an explanation any additional air mileage resulting from a detour necessary due to adverse weather, mechanical difficulty, or other unusual conditions. If a required deviation is such that airway mileage charts are not adequate to determine distance, you may use the formula of flight time multiplied by cruising speed of the aircraft to determine distance. You must convert nautical miles to statute or regular miles when submitting a claim (1 nautical mile equals 1.15077945 statute miles).\n\n[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 108, 67 FR 57965, Sept. 13, 2002; FTR Amdt. 2005-05, 70 FR 61046, Oct. 20, 2005; FTR Amdt. 2010-04, 75 FR 59095, Sept. 27, 2010]"
+  },
+  "after": {
+    "date": "2025-12-08",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-08/title-41.xml?part=301-10",
+    "snapshot_sha256": "7c994b51abe2c310f493295de3fdecc36fe9e28c59567e38bac28e5ebe446d6a",
+    "text": "§ 301-10.302 Allowable expenses beyond POV mileage rate.\n\nFollowing is a table listing the reimbursable and non-reimbursable expenses:\n\nTable 1 to § 301-10.302\n\nReimbursable expenses in addition to mileage allowance Non-reimbursable expenses included in the mileage allowance\n\nParking fees; ferry fees; bridge, road, and tunnel fees; and aircraft or airplane parking, landing, and tie-down fees Charges for repairs, depreciation, replacements, grease, oil, antifreeze, towage and similar speculative expenses, fuel, insurance, state and Federal taxes."
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "removed",
+      "summary": "The before snapshot's distance-measurement heading and text are absent at this identifier in the after snapshot. They describe highway-guide or odometer measurements for automobiles and motorcycles, FAA charts for aircraft, explained detours, flight-time calculations when charts are inadequate, and nautical-to-statute-mile conversion.",
+      "before_evidence": {
+        "start": 0,
+        "end": 966,
+        "quote": "§ 301-10.302 How do I determine distance measurements for my travel?\n\nIf you travel by The distance between your origin and destination is\n\nPrivately owned automobile or privately owned motorcycle As shown in paper or electronic standard highway mileage guides, or the actual miles driven as determined from odometer readings.\n\nPrivately owned aircraft As determined from charts issued by the Federal Aviation Administration (FAA). You may include in your travel claim with an explanation any additional air mileage resulting from a detour necessary due to adverse weather, mechanical difficulty, or other unusual conditions. If a required deviation is such that airway mileage charts are not adequate to determine distance, you may use the formula of flight time multiplied by cruising speed of the aircraft to determine distance. You must convert nautical miles to statute or regular miles when submitting a claim (1 nautical mile equals 1.15077945 statute miles)."
+      },
+      "after_evidence": null,
+      "needs_review": true,
+      "review_reason": "The same identifier contains a different subject in the after snapshot; these excerpts do not establish where the former text went.; One-sided evidence overlaps a complex revision; review removal versus replacement.",
+      "method": "native_codex"
+    },
+    {
+      "id": "change-2",
+      "category": "added",
+      "summary": "The after snapshot uses this identifier for allowable expenses beyond the POV mileage rate, listing parking, ferry, bridge, road, tunnel, and aircraft or airplane parking, landing, and tie-down fees as reimbursable in addition to mileage.",
+      "before_evidence": null,
+      "after_evidence": {
+        "start": 0,
+        "end": 394,
+        "quote": "§ 301-10.302 Allowable expenses beyond POV mileage rate.\n\nFollowing is a table listing the reimbursable and non-reimbursable expenses:\n\nTable 1 to § 301-10.302\n\nReimbursable expenses in addition to mileage allowance Non-reimbursable expenses included in the mileage allowance\n\nParking fees; ferry fees; bridge, road, and tunnel fees; and aircraft or airplane parking, landing, and tie-down fees"
+      },
+      "needs_review": true,
+      "review_reason": "The identifier is repurposed and the table is flattened into text; this reports only the supplied after snapshot, not a globally new entitlement.; One-sided evidence overlaps a complex revision; review addition versus replacement.",
+      "method": "native_codex"
+    },
+    {
+      "id": "change-3",
+      "category": "added",
+      "summary": "The after snapshot lists repairs, depreciation, replacements, grease, oil, antifreeze, towage and similar speculative expenses, fuel, insurance, and state and Federal taxes as non-reimbursable expenses included in the mileage allowance.",
+      "before_evidence": null,
+      "after_evidence": {
+        "start": 216,
+        "end": 551,
+        "quote": "Non-reimbursable expenses included in the mileage allowance\n\nParking fees; ferry fees; bridge, road, and tunnel fees; and aircraft or airplane parking, landing, and tie-down fees Charges for repairs, depreciation, replacements, grease, oil, antifreeze, towage and similar speculative expenses, fuel, insurance, state and Federal taxes."
+      },
+      "needs_review": true,
+      "review_reason": "The identifier is repurposed and the table is flattened into text; this reports only the supplied after snapshot, not a globally new restriction.; One-sided evidence overlaps a complex revision; review addition versus replacement.",
+      "method": "native_codex"
+    },
+    {
+      "id": "change-4",
+      "category": "editorial",
+      "summary": "The before snapshot's source-history citation is absent in the after snapshot.",
+      "before_evidence": {
+        "start": 968,
+        "end": 1162,
+        "quote": "[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 108, 67 FR 57965, Sept. 13, 2002; FTR Amdt. 2005-05, 70 FR 61046, Oct. 20, 2005; FTR Amdt. 2010-04, 75 FR 59095, Sept. 27, 2010]"
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    }
+  ],
+  "warnings": [
+    "Section 301-10.302 has different subjects across the supplied snapshots; alignment is uncertain. No repeal or global addition is inferred. The after table is represented as flattened text."
+  ],
+  "analysis": {
+    "method": "native_codex",
+    "model": "gpt-6.1-sol",
+    "prompt_version": "cca-grounded-v1",
+    "generated_at": "2026-10-17T13:50:54.816325+00:00",
+    "latency_ms": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "usage_available": false,
+    "latency_available": false,
+    "cost_usd": null,
+    "billing_basis": "Existing OpenAI account via native Codex. Credit dollar rate unavailable; not zero model usage.",
+    "input_identity": "f1bdc667d3624b00f20a4dbcdb012ceed8758b1183451af8e7364ba5ce1fa7c1"
+  }
+}

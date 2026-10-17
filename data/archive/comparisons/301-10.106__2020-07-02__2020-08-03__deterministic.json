@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.106__2020-07-02__2020-08-03__deterministic",
+  "section": "301-10.106",
+  "title": "§ 301-10.106 When must I use a contract city-pair fare?",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2020-07-02",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2020-07-02/title-41.xml?part=301-10",
+    "snapshot_sha256": "e81459a34ebf058b059bfb645be495ebb4bab5257388c0fcc171637a7a9cac5a",
+    "text": "§ 301-10.106 When must I use a contract city-pair fare?\n\nLink to an amendment published at 85 FR 39848, July 2, 2020.\n\nIf you are a civilian employee of an agency as defined in § 301-1.1 of this chapter, you must always use a contract city-pair fare for scheduled air passenger transportation service unless one of the limited exceptions in § 301-10.107 exist. An Internet listing of contract city-pair fares is available at http://www.gsa.gov/citypairs.\n\nNote to § 301-10.106:\n\nEmployees of the Government of the District of Columbia, with the exception of the District of Columbia Courts, are not eligible to use contract city-pair fares even though these employees otherwise may be covered by the FTR.\n\n[FTR Amdt. 2006-04, 71 FR 49374, Aug. 23, 2006]"
+  },
+  "after": {
+    "date": "2020-08-03",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2020-08-03/title-41.xml?part=301-10",
+    "snapshot_sha256": "b64700698b62bd9505c7c3a2c6a652759c92866b5e35727d991a19a499d0bbe7",
+    "text": "§ 301-10.106 When must I use a contract city-pair fare?\n\nIf you are a civilian employee of an agency as defined in § 301-1.1 of this chapter, you must always use a contract city-pair fare for scheduled air passenger transportation service unless one of the limited exceptions in § 301-10.107 exist. An Internet listing of contract city-pair fares is available at https://www.gsa.gov/citypairs.\n\nNote to § 301-10.106:\n\nEmployees of the Government of the District of Columbia, with the exception of the District of Columbia Courts, are not eligible to use contract city-pair fares even though these employees otherwise may be covered by the FTR.\n\n[FTR Amdt. 2006-04, 71 FR 49374, Aug. 23, 2006, as amended at 85 FR 39848, July 2, 2020]"
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "date",
+      "summary": "Date-like wording changed.",
+      "before_evidence": {
+        "start": 57,
+        "end": 117,
+        "quote": "Link to an amendment published at 85 FR 39848, July 2, 2020."
+      },
+      "after_evidence": {
+        "start": 57,
+        "end": 393,
+        "quote": "If you are a civilian employee of an agency as defined in § 301-1.1 of this chapter, you must always use a contract city-pair fare for scheduled air passenger transportation service unless one of the limited exceptions in § 301-10.107 exist. An Internet listing of contract city-pair fares is available at https://www.gsa.gov/citypairs."
+      },
+      "needs_review": true,
+      "review_reason": "Lexical classification only; review legal and semantic significance.",
+      "method": "deterministic"
+    },
+    {
+      "id": "change-2",
+      "category": "removed",
+      "summary": "Paragraph text removed.",
+      "before_evidence": {
+        "start": 119,
+        "end": 454,
+        "quote": "If you are a civilian employee of an agency as defined in § 301-1.1 of this chapter, you must always use a contract city-pair fare for scheduled air passenger transportation service unless one of the limited exceptions in § 301-10.107 exist. An Internet listing of contract city-pair fares is available at http://www.gsa.gov/citypairs."
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    },
+    {
+      "id": "change-3",
+      "category": "date",
+      "summary": "Date-like wording changed.",
+      "before_evidence": {
+        "start": 706,
+        "end": 753,
+        "quote": "[FTR Amdt. 2006-04, 71 FR 49374, Aug. 23, 2006]"
+      },
+      "after_evidence": {
+        "start": 645,
+        "end": 733,
+        "quote": "[FTR Amdt. 2006-04, 71 FR 49374, Aug. 23, 2006, as amended at 85 FR 39848, July 2, 2020]"
+      },
+      "needs_review": true,
+      "review_reason": "Lexical classification only; review legal and semantic significance.",
+      "method": "deterministic"
+    }
+  ],
+  "warnings": [],
+  "analysis": {
+    "method": "deterministic",
+    "model": null,
+    "prompt_version": null,
+    "generated_at": "2026-10-17T13:44:13.432668+00:00",
+    "latency_ms": 0.117,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cost_usd": 0,
+    "input_identity": "d23401e54e1d9fa9d474a56be71ed9653a952182cd35dde16b2e14e6f5074b66"
+  }
+}

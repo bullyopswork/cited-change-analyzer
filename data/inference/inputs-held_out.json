@@ -1,0 +1,575 @@
+{
+  "schema_version": "1.0",
+  "cases": [
+    {
+      "id": "301-10.303__2020-07-02__2020-08-03",
+      "section": "301-10.303",
+      "title": "§ 301-10.303 What am I reimbursed when use of POV is determined by my agency to be advantageous to the Government?",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2020-07-02",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2020-07-02/title-41.xml?part=301-10",
+        "snapshot_sha256": "e81459a34ebf058b059bfb645be495ebb4bab5257388c0fcc171637a7a9cac5a",
+        "text": "§ 301-10.303 What am I reimbursed when use of POV is determined by my agency to be advantageous to the Government?\n\nLink to an amendment published at 85 FR 39848, July 2, 2020.\n\nYou will be reimbursed an applicable mileage rate based on the type of POV you actually use (privately owned airplane, privately owned automobile, privately owned motorcycle). These rates will be published in an FTR bulletin and are also displayed on GSA's Web site (http://www.gsa.gov/mileage).\n\n[FTR Amdt. 2010-07, 75 FR 72967, Nov. 29, 2010]"
+      },
+      "after": {
+        "date": "2020-08-03",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2020-08-03/title-41.xml?part=301-10",
+        "snapshot_sha256": "b64700698b62bd9505c7c3a2c6a652759c92866b5e35727d991a19a499d0bbe7",
+        "text": "§ 301-10.303 What am I reimbursed when use of POV is determined by my agency to be advantageous to the Government?\n\nYou will be reimbursed an applicable mileage rate based on the type of POV you actually use (privately owned airplane, privately owned automobile, privately owned motorcycle). These rates will be published in an FTR bulletin and are also displayed on GSA's Web site (https://www.gsa.gov/mileage).\n\n[FTR Amdt. 2010-07, 75 FR 72967, Nov. 29, 2010, as amended at 85 FR 39848, July 2, 2020]"
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.262__2024-02-16__2024-04-16",
+      "section": "301-10.262",
+      "title": "§ 301-10.262 How will my agency authorize travel on Government aircraft?",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2024-02-16",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2024-02-16/title-41.xml?part=301-10",
+        "snapshot_sha256": "05f472c1b43fe1f0d4c04bda0d4d61e0683ecde3031674244acf43e727cfd2a6",
+        "text": "§ 301-10.262 How will my agency authorize travel on Government aircraft?\n\nLink to an amendment published at 89 FR 12251, Feb. 16, 2024.\n\nYour agency will authorize your travel on Government aircraft as follows:\n\n(a) Required use travelers. Your agency's senior legal official or his/her principal deputy must authorize your required-use travel on a trip-by-trip basis, in advance, in writing, and in compliance with the agency's written policies describing the special circumstances under which the agency will require a traveler to use Government aircraft, unless—\n\n(1) You are an agency head and the President has determined that all your travel (or your travel in specified categories) qualifies as required-use travel; or\n\n(2) You are not an agency head, and your agency head has determined in writing that all of your travel, or your travel in specified categories, qualifies as required-use travel. Such written explanation must state the specific basis for the determination.\n\nNote to § 301-10.262(a):\n\nIn an emergency situation, prior verbal approval for required-use travel with an after-the-fact written authorization is permitted.\n\n(b) Senior Federal officials. If you are a senior Federal official, your agency's senior legal official or his/her principal deputy must authorize all your travel on Government aircraft in advance and in writing, except for required use travel authorized under paragraphs (a)(1) and (a)(2) of this section. In an emergency situation, prior verbal approval with an after-the-fact written authorization by your agency's senior legal official is permitted. Senior Federal officials who are crewmembers or qualified non-crewmembers on a flight in which they are also traveling (i.e., being transported from point to point) are considered travelers and must be authorized to travel on Government aircraft according to this paragraph.\n\n(c) Non-Federal travelers. If you are a non-Federal traveler, the senior legal official or his/her principal deputy in the agency sponsoring your travel must authorize you to fly on Government aircraft in advance and in writing. In an emergency situation, prior verbal approval with an after-the-fact written authorization by your sponsoring agency's senior legal official is permitted.\n\n(d) All other Federal travelers. Your designated travel-approving official (or anyone to whom he/she delegates this authority), who must be at least one organizational level above you, must authorize your travel on Government aircraft, in advance and in writing. Prior verbal approval with an after-the-fact written authorization by your agency's designated travel approving official is permitted in an emergency situation. If you hold a blanket travel authorization for official travel that authorizes travel on Government aircraft, it must define the circumstances that must be met for using Government aircraft and must comply with this regulation and any additional agency policies. Travel on Government aircraft that does not meet the circumstances specified in the blanket travel authorization must be authorized on a trip-by-trip basis in accordance with this regulation and other applicable agency policies. Check with your designated travel approving official for information on your agency's policy.\n\n[FTR Amdt. 2004-02, 69 FR 34304, June 21, 2004]"
+      },
+      "after": {
+        "date": "2024-04-16",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-16/title-41.xml?part=301-10",
+        "snapshot_sha256": "c3af54ff8020830b5b2ed8f98ff704de6eed6572d063a744aacf9b652ce2fe53",
+        "text": "§ 301-10.262 How will my agency authorize travel on Government aircraft?\n\nYour agency will authorize your travel on Government aircraft as follows:\n\n(a) Required use travelers. Your agency's senior legal official or their principal deputy must authorize your required-use travel on a trip-by-trip basis, in advance, in writing, and in compliance with the agency's written policies describing the special circumstances under which the agency will require a traveler to use Government aircraft, unless—\n\n(1) You are an agency head and the President has determined that all your travel (or your travel in specified categories) qualifies as required-use travel; or\n\n(2) You are not an agency head, and your agency head has determined in writing that all of your travel, or your travel in specified categories, qualifies as required-use travel. Such written explanation must state the specific basis for the determination.\n\nNote to § 301-10.262(a):\n\nIn an emergency situation, prior verbal approval for required-use travel with an after-the-fact written authorization is permitted.\n\n(b) Senior Federal officials. If you are a senior Federal official, your agency's senior legal official or their principal deputy must authorize all your travel on Government aircraft in advance and in writing, except for required use travel authorized under paragraphs (a)(1) and (a)(2) of this section. In an emergency situation, prior verbal approval with an after-the-fact written authorization by your agency's senior legal official is permitted. Senior Federal officials who are crewmembers or qualified non-crewmembers on a flight in which they are also traveling (i.e., being transported from point to point) are considered travelers and must be authorized to travel on Government aircraft according to this paragraph.\n\n(c) Non-Federal travelers. If you are a non-Federal traveler, the senior legal official or their principal deputy in the agency sponsoring your travel must authorize you to fly on Government aircraft in advance and in writing. In an emergency situation, prior verbal approval with an after-the-fact written authorization by your sponsoring agency's senior legal official is permitted.\n\n(d) All other Federal travelers. Your designated travel-approving official (or anyone to whom they delegate this authority), who must be at least one organizational level above you, must authorize your travel on Government aircraft, in advance and in writing. Prior verbal approval with an after-the-fact written authorization by your agency's designated travel approving official is permitted in an emergency situation. If you hold a blanket travel authorization for official travel that authorizes travel on Government aircraft, it must define the circumstances that must be met for using Government aircraft and must comply with this regulation and any additional agency policies. Travel on Government aircraft that does not meet the circumstances specified in the blanket travel authorization must be authorized on a trip-by-trip basis in accordance with this regulation and other applicable agency policies. Check with your designated travel approving official for information on your agency's policy.\n\n[FTR Amdt. 2004-02, 69 FR 34304, June 21, 2004, as amended by FTR Case 2022-05, 89 FR 12251, Feb. 16, 2024]"
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.451__2022-04-22__2022-09-12",
+      "section": "301-10.451",
+      "title": "§ 301-10.451 May I be reimbursed for the cost of collision damage waiver (CDW) or theft insurance?",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2022-04-22",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-04-22/title-41.xml?part=301-10",
+        "snapshot_sha256": "700c4a608dea9d91d043f8b1dfcc65ce876a398bf2960ef7a503b0b38218bd2e",
+        "text": "§ 301-10.451 May I be reimbursed for the cost of collision damage waiver (CDW) or theft insurance?\n\nLink to an amendment published at 87 FR 24065, Apr. 22, 2022.\n\n(a) General rule - no. You will not be reimbursed for CDW or theft insurance for travel within CONUS for the following reasons:\n\n(1) The Government is a self-insurer.\n\n(2) Rental vehicles available under agreement(s) with the Government includes full coverage insurance for damages resulting from an accident while performing official travel.\n\n(3) Any deductible amount paid by you may be reimbursed directly to you or directly to the rental agency if the damage occurred while you were performing official business.\n\n(b) Exception. You will be reimbursed for collision damage waiver or theft insurance when you travel outside CONUS and such insurance is necessary because the rental or leasing agency requirements, foreign statute, or legal procedures could cause extreme difficulty for an employee involved in an accident."
+      },
+      "after": {
+        "date": "2022-09-12",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+        "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+        "text": "§ 301-10.451 May I be reimbursed for the cost of collision damage waiver (CDW) or theft insurance?\n\n(a) General rule—no. You will not be reimbursed for CDW or theft insurance for travel within CONUS for the following reasons:\n\n(1) The Government is a self-insurer.\n\n(2) Rental vehicles available under agreement(s) with the Government includes full coverage insurance for damages resulting from an accident while performing official travel.\n\n(3) Any deductible amount paid by you may be reimbursed directly to you or directly to the rental agency if the damage occurred while you were performing official business.\n\n(b) Exception. You will be reimbursed for CDW or theft insurance, or both, when you travel OCONUS and such insurance is necessary because the rental or leasing agency requirements, foreign statute, or legal procedures could cause extreme difficulty for an employee involved in an accident.\n\n[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by 87 FR 24065, Apr. 22, 2022]"
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.3__2018-02-20__2018-06-27",
+      "section": "301-10.3",
+      "title": "§ 301-10.3 What methods of transportation may my agency authorize me to use?",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2018-02-20",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2018-02-20/title-41.xml?part=301-10",
+        "snapshot_sha256": "fb3f0e29064d512b297bb8998a82d923b2a6830f42beed302cadfe0ab0b35494",
+        "text": "§ 301-10.3 What methods of transportation may my agency authorize me to use?\n\nYour agency may authorize:\n\n(a) Common carrier transportation (e.g., aircraft, train, bus, ship, or other transit system) under subpart B;\n\n(b) Government vehicle under subpart C;\n\n(c) POV under subpart D; or\n\n(d) Special conveyance (e.g., taxi, TNC, innovative mobility technology company, or commercial automobile) under Subpart E.\n\n[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 2010-02, 75 FR 24435, May 5, 2010; FTR Amdt. 2017-01, 83 FR 604, Jan. 5, 2018]"
+      },
+      "after": {
+        "date": "2018-06-27",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2018-06-27/title-41.xml?part=301-10",
+        "snapshot_sha256": "93a51d7ae7b5c256bff18bb8eaaf81581cfd5122c021f28507fde87184d101e8",
+        "text": "§ 301-10.3 What methods of transportation may my agency authorize me to use?\n\nYour agency may authorize:\n\n(a) Common carrier transportation (e.g., aircraft, train, bus, ship, or other transit system) under subpart B;\n\n(b) Government vehicle under subpart C;\n\n(c) POV under subpart D; or\n\n(d) Special conveyance (e.g., taxi, TNC, innovative mobility technology company, or commercial automobile) under subpart E.\n\n[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 2010-02, 75 FR 24435, May 5, 2010; FTR Amdt. 2017-01, 83 FR 604, Jan. 5, 2018]"
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.400__2018-01-05__2018-02-20",
+      "section": "301-10.400",
+      "title": "§ 301-10.400 What types of special conveyances may my agency authorize me to use?",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2018-01-05",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2018-01-05/title-41.xml?part=301-10",
+        "snapshot_sha256": "09c77061fa8273cca52cf552de93c0085864908cd0aea2768e9450c2f9a7a4a1",
+        "text": "§ 301-10.400 What types of special conveyances may my agency authorize me to use?\n\nLink to an amendment published at 82 FR 604, Jan. 5, 2018.\n\nYour agency may authorize/approve use of:\n\n(a) Taxicabs as specified in §§ 301-10.420 through 301-10.421 of this chapter;\n\n(b) Commercial rental automobiles as specified in §§ 301-10.450 through 301-10.453 of this chapter; or\n\n(c) Any other special conveyance when determined to be advantageous to the Government."
+      },
+      "after": {
+        "date": "2018-02-20",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2018-02-20/title-41.xml?part=301-10",
+        "snapshot_sha256": "fb3f0e29064d512b297bb8998a82d923b2a6830f42beed302cadfe0ab0b35494",
+        "text": "§ 301-10.400 What types of special conveyances may my agency authorize me to use?\n\nYour agency may authorize/approve use of:\n\n(a) Taxis, TNCs, or innovative mobility technology companies as specified in §§ 301-10.420 through 301-10.421 of this chapter;\n\n(b) Commercial rental automobiles as specified in §§ 301-10.450 through 301-10.453 of this chapter; or\n\n(c) Any other special conveyance when determined to be advantageous to the Government.\n\n[ FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 2017-01, 83 FR 604, Jan. 5, 2018]"
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.110__2022-04-22__2022-09-12",
+      "section": "301-10.110",
+      "title": "§ 301-10.110 May I use contract passenger transportation service for personal travel?",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2022-04-22",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-04-22/title-41.xml?part=301-10",
+        "snapshot_sha256": "700c4a608dea9d91d043f8b1dfcc65ce876a398bf2960ef7a503b0b38218bd2e",
+        "text": "§ 301-10.110 May I use contract passenger transportation service for personal travel?\n\nNo."
+      },
+      "after": {
+        "date": "2022-09-12",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+        "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+        "text": "§ 301-10.110 May I use contract passenger transportation service for personal travel?\n\nLink to an amendment published at 87 FR 55704, Sept. 12, 2022.\n\nNo."
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.135__2020-07-02__2020-08-03",
+      "section": "301-10.135",
+      "title": "§ 301-10.135 When must I travel using U.S. flag air carrier service?",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2020-07-02",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2020-07-02/title-41.xml?part=301-10",
+        "snapshot_sha256": "e81459a34ebf058b059bfb645be495ebb4bab5257388c0fcc171637a7a9cac5a",
+        "text": "§ 301-10.135 When must I travel using U.S. flag air carrier service?\n\nLink to an amendment published at 85 FR 39848, July 2, 2020.\n\nYou are required by 49 U.S.C. 40118, commonly referred to as the “Fly America Act,” to use U.S. flag air carrier service for all air travel funded by the U.S. Government, except as provided in §§ 301-10.136 and 301-10.137 or when one of the following exceptions applies:\n\n(a) Use of a foreign air carrier is determined to be a matter of necessity in accordance with § 301-10.138; or\n\n(b) The transportation is provided under a bilateral or multilateral air transportation agreement to which the United States Government and the government of a foreign country are parties, and which the Department of Transportation has determined meets the requirements of the Fly America Act.\n\n(1) Information on bilateral or multilateral air transportation agreements impacting United States Government procured transportation can be accessed at http://www.gsa.gov/openskies; and\n\n(2) If determined appropriate, GSA may periodically issue FTR Bulletins providing further guidance on bilateral or multilateral air transportation agreements impacting United States Government procured transportation. These bulletins may be accessed at http://www.gsa.gov/bulletins.\n\n(c) You are an officer or employee of the Department of State, United States Information Agency, United States International Development Cooperation Agency, or the Arms Control Disarmament Agency, and your travel is paid with funds appropriated to one of these agencies, and your travel is between two places outside the United States; or\n\n(d) No U.S. flag air carrier provides service on a particular leg of the route, in which case foreign air carrier service may be used, but only to or from the nearest interchange point on a usually traveled route to connect with U.S. flag air carrier service; or\n\n(e) A U.S. flag air carrier involuntarily reroutes your travel on a foreign air carrier; or\n\n(f) Service on a foreign air carrier would be three hours or less, and use of the U.S. flag air carrier would at least double your en route travel time; or\n\n(g) When the costs of transportation are reimbursed in full by a third party, such as a foreign government, international agency, or other organization.\n\n[FTR Amdt. 74, 63 FR 63419, Nov. 13, 1998, as amended by FTR Amdt. 2009-02, 74 FR 2397, Jan. 15, 2009]"
+      },
+      "after": {
+        "date": "2020-08-03",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2020-08-03/title-41.xml?part=301-10",
+        "snapshot_sha256": "b64700698b62bd9505c7c3a2c6a652759c92866b5e35727d991a19a499d0bbe7",
+        "text": "§ 301-10.135 When must I travel using U.S. flag air carrier service?\n\nYou are required by 49 U.S.C. 40118, commonly referred to as the “Fly America Act,” to use U.S. flag air carrier service for all air travel funded by the U.S. Government, except as provided in §§ 301-10.136 and 301-10.137 or when one of the following exceptions applies:\n\n(a) Use of a foreign air carrier is determined to be a matter of necessity in accordance with § 301-10.138; or\n\n(b) The transportation is provided under a bilateral or multilateral air transportation agreement to which the United States Government and the government of a foreign country are parties, and which the Department of Transportation has determined meets the requirements of the Fly America Act.\n\n(1) Information on bilateral or multilateral air transportation agreements impacting United States Government procured transportation can be accessed at https://www.gsa.gov/openskies; and\n\n(2) If determined appropriate, GSA may periodically issue FTR Bulletins providing further guidance on bilateral or multilateral air transportation agreements impacting United States Government procured transportation. These bulletins may be accessed at https://www.gsa.gov/ftrbulletins.\n\n(c) You are an officer or employee of the Department of State or the United States Agency for International Development, and your travel is paid with funds appropriated to one of these agencies, and your travel is between two places outside the United States; or\n\n(d) No U.S. flag air carrier provides service on a particular leg of the route, in which case foreign air carrier service may be used, but only to or from the nearest interchange point on a usually traveled route to connect with U.S. flag air carrier service; or\n\n(e) A U.S. flag air carrier involuntarily reroutes your travel on a foreign air carrier; or\n\n(f) Service on a foreign air carrier would be three hours or less, and use of the U.S. flag air carrier would at least double your en route travel time; or\n\n(g) When the costs of transportation are reimbursed in full by a third party, such as a foreign government, international agency, or other organization.\n\n[FTR Amdt. 74, 63 FR 63419, Nov. 13, 1998, as amended by FTR Amdt. 2009-02, 74 FR 2397, Jan. 15, 2009; 85 FR 39848, July 2, 2020]"
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.302__2025-12-07__2025-12-08",
+      "section": "301-10.302",
+      "title": "§ 301-10.302 Allowable expenses beyond POV mileage rate.",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2025-12-07",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-07/title-41.xml?part=301-10",
+        "snapshot_sha256": "c3af54ff8020830b5b2ed8f98ff704de6eed6572d063a744aacf9b652ce2fe53",
+        "text": "§ 301-10.302 How do I determine distance measurements for my travel?\n\nIf you travel by The distance between your origin and destination is\n\nPrivately owned automobile or privately owned motorcycle As shown in paper or electronic standard highway mileage guides, or the actual miles driven as determined from odometer readings.\n\nPrivately owned aircraft As determined from charts issued by the Federal Aviation Administration (FAA). You may include in your travel claim with an explanation any additional air mileage resulting from a detour necessary due to adverse weather, mechanical difficulty, or other unusual conditions. If a required deviation is such that airway mileage charts are not adequate to determine distance, you may use the formula of flight time multiplied by cruising speed of the aircraft to determine distance. You must convert nautical miles to statute or regular miles when submitting a claim (1 nautical mile equals 1.15077945 statute miles).\n\n[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 108, 67 FR 57965, Sept. 13, 2002; FTR Amdt. 2005-05, 70 FR 61046, Oct. 20, 2005; FTR Amdt. 2010-04, 75 FR 59095, Sept. 27, 2010]"
+      },
+      "after": {
+        "date": "2025-12-08",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-08/title-41.xml?part=301-10",
+        "snapshot_sha256": "7c994b51abe2c310f493295de3fdecc36fe9e28c59567e38bac28e5ebe446d6a",
+        "text": "§ 301-10.302 Allowable expenses beyond POV mileage rate.\n\nFollowing is a table listing the reimbursable and non-reimbursable expenses:\n\nTable 1 to § 301-10.302\n\nReimbursable expenses in addition to mileage allowance Non-reimbursable expenses included in the mileage allowance\n\nParking fees; ferry fees; bridge, road, and tunnel fees; and aircraft or airplane parking, landing, and tie-down fees Charges for repairs, depreciation, replacements, grease, oil, antifreeze, towage and similar speculative expenses, fuel, insurance, state and Federal taxes."
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.160__2022-09-12__2022-10-12",
+      "section": "301-10.160",
+      "title": "§ 301-10.160 When may I use extra-fare train service?",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2022-09-12",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+        "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+        "text": "§ 301-10.160 What classes of train accommodations are available?\n\nLink to an amendment published at 87 FR 55705, Sept. 12, 2022.\n\n(a) Coach-class - The basic class of accommodations offered by a rail carrier to passengers that includes a level of service available to all passengers regardless of the fare paid. Coach-class includes reserved coach accommodations as well as slumber coach accommodations when overnight train travel is involved.\n\n(b) Slumber coach - Includes slumber coach accommodations on trains offering such accommodations, or the lowest level of sleeping accommodations available on a train that does not offer slumber coach accommodations.\n\n(c) Other than coach-class - Any class of accommodations above coach, e.g., first-class or business-class.\n\n(1) First-class - Includes bedrooms, roomettes, club service, parlor car accommodations or other premium accommodations.\n\n(2) Business-class - A class of extra fare train service that is offered above coach class, but is lower than first-class, as described above.\n\nNote to § 301-10.160:\n\nIf a train only has two classes of accommodations available, i.e., first and business class, then the business class is deemed to be classified as coach-class for purposes of official travel, as it is the lowest class offered.\n\n[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 108, 67 FR 57965, Sept. 13, 2002; FTR Amdt. 2009-06, 74 FR 55148, Oct. 27, 2009]"
+      },
+      "after": {
+        "date": "2022-10-12",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-10-12/title-41.xml?part=301-10",
+        "snapshot_sha256": "5af0a1c5b1ea546e201564970a3775086b58b576ff7c7f44a98a3a19ab32739a",
+        "text": "§ 301-10.160 When may I use extra-fare train service?\n\nYou may use extra-fare train service whenever your agency determines it is more advantageous to the Government or is required for security reasons. Use of extra-fare train service must be authorized or approved as other than coach class accommodations as provided in §§ 301-10.103(b) and 301-10.103(c).\n\n[FTR Case 2020-300-1, 87 FR 55705, Sept. 12, 2022]"
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.301__2025-12-07__2025-12-08",
+      "section": "301-10.301",
+      "title": "§ 301-10.301 Reimbursement for advantageous POV use.",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2025-12-07",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-07/title-41.xml?part=301-10",
+        "snapshot_sha256": "c3af54ff8020830b5b2ed8f98ff704de6eed6572d063a744aacf9b652ce2fe53",
+        "text": "§ 301-10.301 How do I compute my mileage reimbursement?\n\nYou compute mileage reimbursement by multiplying the distance traveled, determined under § 301-10.302 of this subpart by the applicable mileage rate.\n\n[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 2010-07, 75 FR 72967, Nov. 29, 2010]"
+      },
+      "after": {
+        "date": "2025-12-08",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-08/title-41.xml?part=301-10",
+        "snapshot_sha256": "7c994b51abe2c310f493295de3fdecc36fe9e28c59567e38bac28e5ebe446d6a",
+        "text": "§ 301-10.301 Reimbursement for advantageous POV use.\n\nEmployees will be reimbursed an applicable mileage rate based on the type of POV actually used, including privately owned airplane, automobile, or motorcycle. These rates will be published in an FTR bulletin and displayed on the General Services Administration website at https://www.gsa.gov/mileage."
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.108__2022-04-22__2022-09-12",
+      "section": "301-10.108",
+      "title": "§ 301-10.108 What requirements must be met to use a non-contract fare?",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2022-04-22",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-04-22/title-41.xml?part=301-10",
+        "snapshot_sha256": "700c4a608dea9d91d043f8b1dfcc65ce876a398bf2960ef7a503b0b38218bd2e",
+        "text": "§ 301-10.108 What requirements must be met to use a non-contract fare?\n\n(a) Before purchasing a non-contract fare you must meet one of the exception requirements listed in § 301-10.107 and show approval on your travel authorization to use a non-contract fare; and\n\n(b) If the non-contract fare is non-refundable, restricted, or has specific eligibility requirements, you must know or reasonably anticipate, based on your planned trip, that you will use the ticket; and\n\n(c) Your agency must determine that the proposed non-contract transportation is practical and cost effective for the Government.\n\nNote to § 301-10.108:\n\nCarrier preference is not a valid reason for using a non-contract fare.\n\n[FTR Amdt. 2006-04, 71 FR 49374, Aug. 23, 2006]"
+      },
+      "after": {
+        "date": "2022-09-12",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+        "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+        "text": "§ 301-10.108 What requirements must be met to use a non-contract fare?\n\nLink to an amendment published at 87 FR 55704, Sept. 12, 2022.\n\n(a) Before purchasing a non-contract fare you must meet one of the exception requirements listed in § 301-10.107 and show approval on your travel authorization to use a non-contract fare; and\n\n(b) If the non-contract fare is non-refundable, restricted, or has specific eligibility requirements, you must know or reasonably anticipate, based on your planned trip, that you will use the ticket; and\n\n(c) Your agency must determine that the proposed non-contract transportation is practical and cost effective for the Government.\n\nNote to § 301-10.108:\n\nCarrier preference is not a valid reason for using a non-contract fare.\n\n[FTR Amdt. 2006-04, 71 FR 49374, Aug. 23, 2006]"
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.201__2025-12-07__2025-12-08",
+      "section": "301-10.201",
+      "title": "§ 301-10.201 Liability for unauthorized Government vehicle use.",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2025-12-07",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-07/title-41.xml?part=301-10",
+        "snapshot_sha256": "c3af54ff8020830b5b2ed8f98ff704de6eed6572d063a744aacf9b652ce2fe53",
+        "text": "§ 301-10.201 For what purposes may I use a Government vehicle other than a Government aircraft?\n\nOnly for official purposes which include transportation:\n\n(a) Between places of official business;\n\n(b) Between such places and places of temporary lodging when public transportation is unavailable or its use is impractical;\n\n(c) Between either paragraph (a) or (b) of this section and restaurants, drug stores, barber shops, places of worship, cleaning establishments, and similar places necessary for the sustenance, comfort, or health of the employee to foster the continued efficient performance of Government business; or\n\n(d) As otherwise authorized by your agency under 31 U.S.C. 1344."
+      },
+      "after": {
+        "date": "2025-12-08",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-08/title-41.xml?part=301-10",
+        "snapshot_sha256": "7c994b51abe2c310f493295de3fdecc36fe9e28c59567e38bac28e5ebe446d6a",
+        "text": "§ 301-10.201 Liability for unauthorized Government vehicle use.\n\nEmployees are responsible for any costs resulting from unauthorized use of a Government vehicle and may be subject to administrative and/or criminal liability for misuse of Government property."
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.113__2022-09-12__2022-10-12",
+      "section": "301-10.113",
+      "title": "§ 301-10.113 What is my liability for unauthorized use of a non-contract carrier when contract service is available and I do not meet one of the exceptions for required use?",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2022-09-12",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+        "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+        "text": "§ 301-10.113 What must I do if I change or do not use a common carrier reservation?\n\nLink to an amendment published at 87 FR 55704, Sept. 12, 2022.\n\nIf you know you will change or not use your reservation, you must take action to change or cancel it as prescribed by your agency. Also, you must report all changes of your reservation according to your agency's procedures in an effort to prevent losses to the Government. Failure to do so may subject you to liability for any resulting losses."
+      },
+      "after": {
+        "date": "2022-10-12",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-10-12/title-41.xml?part=301-10",
+        "snapshot_sha256": "5af0a1c5b1ea546e201564970a3775086b58b576ff7c7f44a98a3a19ab32739a",
+        "text": "§ 301-10.113 What is my liability for unauthorized use of a non-contract carrier when contract service is available and I do not meet one of the exceptions for required use?\n\nYou are responsible for any additional costs or penalties incurred by you resulting from unauthorized use of non-contract service.\n\n[FTR Case 2020-300-1, 87 FR 55704, Sept. 12, 2022]"
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.130__2022-09-12__2022-10-12",
+      "section": "301-10.130",
+      "title": "§ 301-10.130 [Reserved]",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2022-09-12",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+        "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+        "text": "§§ 301-10.130 xxx\n\nLink to an amendment published at 87 FR 55705, Sept. 12, 2022."
+      },
+      "after": {
+        "date": "2022-10-12",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-10-12/title-41.xml?part=301-10",
+        "snapshot_sha256": "5af0a1c5b1ea546e201564970a3775086b58b576ff7c7f44a98a3a19ab32739a",
+        "text": "§ 301-10.130 [Reserved]"
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.120__2022-09-12__2022-10-12",
+      "section": "301-10.120",
+      "title": "§ 301-10.120 What must I do when different airlines furnish the same service at different fares?",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2022-09-12",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+        "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+        "text": "§ 301-10.120 xxx\n\nLink to an amendment published at 87 FR 55704, Sept. 12, 2022."
+      },
+      "after": {
+        "date": "2022-10-12",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-10-12/title-41.xml?part=301-10",
+        "snapshot_sha256": "5af0a1c5b1ea546e201564970a3775086b58b576ff7c7f44a98a3a19ab32739a",
+        "text": "§ 301-10.120 What must I do when different airlines furnish the same service at different fares?\n\nWhen there is no contract City Pair Program fare and other carriers furnish the same service at different fares between the same points for the same type of accommodations, you must use the lowest cost service unless your agency determines that the use of higher cost service is more advantageous to the Government.\n\n[FTR Case 2020-300-1, 87 FR 55704, Sept. 12, 2022]"
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.105__2022-04-22__2022-09-12",
+      "section": "301-10.105",
+      "title": "§ 301-10.105 What are the basic requirements for using common carrier transportation?",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2022-04-22",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-04-22/title-41.xml?part=301-10",
+        "snapshot_sha256": "700c4a608dea9d91d043f8b1dfcc65ce876a398bf2960ef7a503b0b38218bd2e",
+        "text": "§ 301-10.105 What are the basic requirements for using common carrier transportation?\n\nThe basic requirements for using common carrier transportation fall into three categories:\n\n(a) Using contract carriers, when available, and if your agency is a mandatory user of GSA's city-pair contracts for air passenger transportation services, unless you have an approved exception (see §§ 301-10.106 through 301-10.108 of this subpart);\n\n(b) Using coach-class service, unless other than coach-class service is authorized under § 301-10.123 or § 301-10.162, and when travelling by ship, using lowest first-class accommodations, unless other than lowest first-class accommodations are authorized under § 301-10.183 of this subpart; and\n\n(c) You must always use U.S. Flag Air Carrier (or ship) service for air passenger transportation or when travelling by ship, unless your travel circumstances meet one of the exceptions in §§ 301-10.135 through 301-10.138 or § 301-10.183 of this subpart.\n\n[FTR Amdt. 2010-05, 75 FR 63103, Oct. 14, 2010]"
+      },
+      "after": {
+        "date": "2022-09-12",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+        "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+        "text": ""
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.124__2022-09-12__2022-10-12",
+      "section": "301-10.124",
+      "title": "§ 301-10.124 When may I use a reduced group or charter fare?",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2022-09-12",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+        "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+        "text": "§ 301-10.124 What are coach-class Seating Upgrade Programs?\n\nLink to an amendment published at 87 FR 55704, Sept. 12, 2022.\n\nSometimes these programs are called “Coach Elite,” “Coach Plus,” “Preferred Coach” or some other identifier. Under these airline programs, a passenger may obtain for a fee a more desirable seat choice within the coach-class cabin. These airline upgrade or preferred seat choices are generally available for an annual fee, at an airport kiosk or gate or as a frequent flier perk. These coach upgrade options are not considered a new or higher class of accommodation since the seating is still in the coach cabin. However, the use of these upgraded/preferred coach seating options is generally a traveler's personal choice and therefore is at the traveler's personal expense. An agency travel authorization approving official or his/her designee (e.g., supervisor of the traveler) may authorize and reimburse the additional seat choice fee according to internal agency policy (see 301-70.102(k)).\n\n[FTR Amdt. 2009-06, 74 FR 55148, Oct. 27, 2009, as amended by FTR Amdt. 2010-07, 75 FR 72967, Nov. 29, 2010]"
+      },
+      "after": {
+        "date": "2022-10-12",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-10-12/title-41.xml?part=301-10",
+        "snapshot_sha256": "5af0a1c5b1ea546e201564970a3775086b58b576ff7c7f44a98a3a19ab32739a",
+        "text": "§ 301-10.124 When may I use a reduced group or charter fare?\n\nYou may use a reduced group or charter fare when your agency has determined, on an individual case basis before your travel begins, that use of such a fare is cost effective. Chartered aircraft are subject to the same rules as Government aircraft, and agencies in the executive branch of the Federal Government are subject to the requirements of Office of Management and Budget (OMB) Circular A-126 and 41 CFR part 102-33 in making such cost effectiveness determinations.\n\n[FTR Case 2020-300-1, 87 FR 55704, Sept. 12, 2022]"
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.107__2022-04-22__2022-09-12",
+      "section": "301-10.107",
+      "title": "§ 301-10.107 Are there any exceptions to the use of a contract city-pair fare?",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2022-04-22",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-04-22/title-41.xml?part=301-10",
+        "snapshot_sha256": "700c4a608dea9d91d043f8b1dfcc65ce876a398bf2960ef7a503b0b38218bd2e",
+        "text": "§ 301-10.107 Are there any exceptions to the use of a contract city-pair fare?\n\nYes, your agency may authorize use of a fare other-than a contract city-pair fare when -\n\n(a) Space on a scheduled contract flight is not available in time to accomplish the purpose of your travel, or use of contract service would require you to incur unnecessary overnight lodging costs which would increase the total cost of the trip;\n\n(b) The contractor's flight schedule is inconsistent with explicit policies of your Federal department or agency with regard to scheduling travel during normal working hours;\n\n(c) A non-contract carrier offers a lower fare to the general public that, if used, will result in a lower total trip cost to the Government (the combined costs of transportation, lodging, meals, and related expenses considered);\n\nNote to paragraph (c):\n\nThis exception does not apply if the contract carrier offers the same or lower fare and has seats available at that fare, or if the fare offered by the non-contract carrier is restricted to Government and military travelers performing official business and may be purchased only with a contractor-issued charge card, centrally billed account (e.g., YDG, MDG, QDG, VDG, and similar fares) or GTR where the two previous options are not available;\n\n(d) Cost effective rail service is available and is consistent with mission requirements; or\n\n(e) Smoking is permitted on the contract air carrier and the nonsmoking section of the contract aircraft is not acceptable to you.\n\nNote 1 to § 301-10.107:\n\nAny group of 10 or more passengers traveling together on the same day, on the same flight, for the same mission, requiring group integrity and identified as a group by the travel management service upon booking is not a mandatory user of the Government's contract city-pair fares. For group travel, agencies are expected to obtain air passenger transportation service that is practical and cost effective to the Government.\n\nNote 2 to § 301-10.107:\n\nContractors are not authorized to use contract city-pair fares to perform travel under their contracts.\n\nNote 3 to § 301-10.107:\n\nIf the Government contract city-pair carrier offers a lower cost capacity-controlled coach class contract fare (MCA, QCA, VCA, etc.) in addition to the unrestricted coach class contract fares (YCA), the traveler should use the lower cost capacity-controlled fare when it is available and meet mission needs.\n\n[FTR Amdt. 2006-04, 71 FR 49374, Aug. 23, 2006, as amended by FTR Amdt. 2007-05, 72 FR 61537, Oct. 31, 2007]"
+      },
+      "after": {
+        "date": "2022-09-12",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+        "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+        "text": "§ 301-10.107 Are there any exceptions to the use of a contract city-pair fare?\n\nLink to an amendment published at 87 FR 55704, Sept. 12, 2022.\n\nYes, your agency may authorize use of a fare other-than a contract city-pair fare when -\n\n(a) Space on a scheduled contract flight is not available in time to accomplish the purpose of your travel, or use of contract service would require you to incur unnecessary overnight lodging costs which would increase the total cost of the trip;\n\n(b) The contractor's flight schedule is inconsistent with explicit policies of your Federal department or agency with regard to scheduling travel during normal working hours;\n\n(c) A non-contract carrier offers a lower fare to the general public that, if used, will result in a lower total trip cost to the Government (the combined costs of transportation, lodging, meals, and related expenses considered);\n\nNote to paragraph (c):\n\nThis exception does not apply if the contract carrier offers the same or lower fare and has seats available at that fare, or if the fare offered by the non-contract carrier is restricted to Government and military travelers performing official business and may be purchased only with a contractor-issued charge card, centrally billed account (e.g., YDG, MDG, QDG, VDG, and similar fares) or GTR where the two previous options are not available;\n\n(d) Cost effective rail service is available and is consistent with mission requirements; or\n\n(e) Smoking is permitted on the contract air carrier and the nonsmoking section of the contract aircraft is not acceptable to you.\n\nNote 1 to § 301-10.107:\n\nAny group of 10 or more passengers traveling together on the same day, on the same flight, for the same mission, requiring group integrity and identified as a group by the travel management service upon booking is not a mandatory user of the Government's contract city-pair fares. For group travel, agencies are expected to obtain air passenger transportation service that is practical and cost effective to the Government.\n\nNote 2 to § 301-10.107:\n\nContractors are not authorized to use contract city-pair fares to perform travel under their contracts.\n\nNote 3 to § 301-10.107:\n\nIf the Government contract city-pair carrier offers a lower cost capacity-controlled coach class contract fare (MCA, QCA, VCA, etc.) in addition to the unrestricted coach class contract fares (YCA), the traveler should use the lower cost capacity-controlled fare when it is available and meet mission needs.\n\n[FTR Amdt. 2006-04, 71 FR 49374, Aug. 23, 2006, as amended by FTR Amdt. 2007-05, 72 FR 61537, Oct. 31, 2007]"
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.261__2020-07-02__2020-08-03",
+      "section": "301-10.261",
+      "title": "§ 301-10.261 When may I use a Government aircraft for travel?",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2020-07-02",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2020-07-02/title-41.xml?part=301-10",
+        "snapshot_sha256": "e81459a34ebf058b059bfb645be495ebb4bab5257388c0fcc171637a7a9cac5a",
+        "text": "§ 301-10.261 When may I use a Government aircraft for travel?\n\nLink to an amendment published at 85 FR 39848, July 2, 2020.\n\nYou may use Government aircraft -\n\n(a) For official travel only when -\n\n(1) No scheduled commercial airline service is reasonably available (i.e., able to meet your departure and/or arrival requirements within a 24-hour period, unless you demonstrate that extraordinary circumstances require a shorter period) to fulfill your agency's travel requirement; or\n\n(2) The cost of using a Government aircraft is less than the cost of the city-pair fare for scheduled commercial airline service or the cost of the lowest available full coach fare if a city-pair fare is not available to you. The cost of non-productive or lost work time while in travel status and certain other costs should be considered when comparing the cost of using a Government aircraft in lieu of scheduled commercial airline service. Additional information on costs included in this cost comparison may be found in the “U.S. Government Aircraft Cost Accounting Guide,” available from the General Services Administration, Office of Governmentwide Policy, MTA, 1800 F Street, N.W., Washington, DC 20405.\n\n(b) For required-use travel only when you are required to use Government aircraft for bona fide communications (e.g., 24-hour secure communications) or security reasons (e.g., highly unusual circumstances that present a clear and present danger) or exceptional scheduling requirements (e.g., a national emergency or other compelling operational considerations). Required use travel may include travel for official, personal, or political purposes, but must be approved in accordance with §§ 301-10.262(a) and 301-70.803(a).\n\n(c) For space available travel only when -\n\n(1) The aircraft is already scheduled for use for an official purpose, and your use of the aircraft does not require a larger aircraft or result in more than minor additional cost to the Government; or\n\n(2) You are a Federal traveler or a dependent of a Federal traveler stationed by the Government in a remote location not accessible to commercial airline service and authorized to use Government aircraft; or\n\n(3) You are authorized to travel on a space available basis under 10 U.S.C. 2648 and regulations implementing that statute.\n\n[FTR Amdt. 2004-02, 69 FR 34304, June 21, 2004, as amended by FTR Amdt. 2010-04, 75 FR 59095, Sept. 27, 2010]"
+      },
+      "after": {
+        "date": "2020-08-03",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2020-08-03/title-41.xml?part=301-10",
+        "snapshot_sha256": "b64700698b62bd9505c7c3a2c6a652759c92866b5e35727d991a19a499d0bbe7",
+        "text": "§ 301-10.261 When may I use a Government aircraft for travel?\n\nYou may use Government aircraft—\n\n(a) For official travel only when—\n\n(1) No scheduled commercial airline service is reasonably available (i.e., able to meet your departure and/or arrival requirements within a 24-hour period, unless you demonstrate that extraordinary circumstances require a shorter period) to fulfill your agency's travel requirement; or\n\n(2) The cost of using a Government aircraft is less than the cost of the city-pair fare for scheduled commercial airline service or the cost of the lowest available full coach fare if a city-pair fare is not available to you. The cost of non-productive or lost work time while in travel status and certain other costs should be considered when comparing the cost of using a Government aircraft in lieu of scheduled commercial airline service. Additional information on costs included in this cost comparison may be found in the “U.S. Government Aircraft Cost Accounting Guide,” available by emailing aviationpolicy@gsa.gov.\n\n(b) For required-use travel only when you are required to use Government aircraft for bona fide communications (e.g., 24-hour secure communications) or security reasons (e.g., highly unusual circumstances that present a clear and present danger) or exceptional scheduling requirements (e.g., a national emergency or other compelling operational considerations). Required use travel may include travel for official, personal, or political purposes, but must be approved in accordance with §§ 301-10.262(a) and 301-70.803(a).\n\n(c) For space available travel only when—\n\n(1) The aircraft is already scheduled for use for an official purpose, and your use of the aircraft does not require a larger aircraft or result in more than minor additional cost to the Government; or\n\n(2) You are a Federal traveler or a dependent of a Federal traveler stationed by the Government in a remote location not accessible to commercial airline service and authorized to use Government aircraft; or\n\n(3) You are authorized to travel on a space available basis under 10 U.S.C. 2648 and regulations implementing that statute.\n\n[FTR Amdt. 2004-02, 69 FR 34304, June 21, 2004, as amended by FTR Amdt. 2010-04, 75 FR 59095, Sept. 27, 2010; 85 FR 39848, July 2, 2020]"
+      },
+      "kind": "real"
+    },
+    {
+      "id": "301-10.310__2020-07-02__2020-08-03",
+      "section": "301-10.310",
+      "title": "§ 301-10.310 What will I be reimbursed if I am authorized to use a Government-furnished automobile and I use a privately owned automobile instead?",
+      "corpus": "41 CFR Part 301-10",
+      "before": {
+        "date": "2020-07-02",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2020-07-02/title-41.xml?part=301-10",
+        "snapshot_sha256": "e81459a34ebf058b059bfb645be495ebb4bab5257388c0fcc171637a7a9cac5a",
+        "text": "§ 301-10.310 What will I be reimbursed if I am authorized to use a Government-furnished automobile and I use a privately owned automobile instead?\n\nLink to an amendment published at 85 FR 39848, July 2, 2020.\n\nYou will be reimbursed based on a constructive mileage rate limited to the cost that would be incurred for use of a Government-furnished automobile. This rate will be published in an FTR bulletin available at http://www.gsa.gov/ftrbulletins. If your agency determines the cost of providing a Government-furnished automobile would be higher because of unusual circumstances, it may allow reimbursement not to exceed the mileage rate for a privately owned automobile. In addition, you may be reimbursed other allowable expenses as provided in § 301-10.304.\n\n[FTR Amdt. 2015-03, 80 FR 27260, May 13, 2015, as amended by 80 FR 27261, May 13, 2015; 80 FR 37996, July 2, 2015]"
+      },
+      "after": {
+        "date": "2020-08-03",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2020-08-03/title-41.xml?part=301-10",
+        "snapshot_sha256": "b64700698b62bd9505c7c3a2c6a652759c92866b5e35727d991a19a499d0bbe7",
+        "text": "§ 301-10.310 What will I be reimbursed if I am authorized to use a Government-furnished automobile and I use a privately owned automobile instead?\n\nYou will be reimbursed based on a constructive mileage rate limited to the cost that would be incurred for use of a Government-furnished automobile. This rate will be published in an FTR bulletin available at https://www.gsa.gov/ftrbulletins. If your agency determines the cost of providing a Government-furnished automobile would be higher because of unusual circumstances, it may allow reimbursement not to exceed the mileage rate for a privately owned automobile. In addition, you may be reimbursed other allowable expenses as provided in § 301-10.304.\n\n[FTR Amdt. 2015-03, 80 FR 27260, May 13, 2015, as amended by 80 FR 27261, May 13, 2015; 80 FR 37996, July 2, 2015; 85 FR 39848, July 2, 2020]"
+      },
+      "kind": "real"
+    },
+    {
+      "id": "control-11",
+      "section": "control-11",
+      "title": "Synthetic control 11",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "54d069aff14ae2f0be51185043807bfbe629f05d06fc728c228d457b063f1895",
+        "text": "Personal travel is allowed."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "b305dd6054c7d895f5ec380e0a66429823604627d1f6a88a29e3bec99aebf62c",
+        "text": "Personal travel is not allowed."
+      },
+      "kind": "controlled"
+    },
+    {
+      "id": "control-12",
+      "section": "control-12",
+      "title": "Synthetic control 12",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "111c12f2affdef5774147dc7bd1321fe7996398ce131b968eac75a5e5f3d9c67",
+        "text": "Meals must be claimed."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "72cb20da63b9e18de2eeb0de9f1593a881b5d212df477399449762e98408a6df",
+        "text": "Meals must not be claimed."
+      },
+      "kind": "controlled"
+    },
+    {
+      "id": "control-13",
+      "section": "control-13",
+      "title": "Synthetic control 13",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "47897e0d6ec2ad3d5e42943d104e5e5da1a95224d9841c4674e5decb8b7bc71d",
+        "text": "Keep the receipt.\n\nSubmit the form.\n\nAwait approval."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "3c6afcb28e48004a964bf09dc8576509a53f3b24ce8c7c771c5660b6b337e269",
+        "text": "Submit the form.\n\nKeep the receipt.\n\nAwait approval."
+      },
+      "kind": "controlled"
+    },
+    {
+      "id": "control-14",
+      "section": "control-14",
+      "title": "Synthetic control 14",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "4b13917c7392c5900687d245053409618ad782c8c799a4a94821e33f403e94d4",
+        "text": "Keep the receipt.\n\nKeep the receipt."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "f65b0456b8c672319cf005c5b65c950d14ff7352e6e6846fd57625effe9289c9",
+        "text": "Keep the receipt."
+      },
+      "kind": "controlled"
+    },
+    {
+      "id": "control-15",
+      "section": "control-15",
+      "title": "Synthetic control 15",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "4652122e3741d267031cc2ed585d83445ed2472399967ffa52c5c57f296473ed",
+        "text": "The limit is $100. Use form A."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "24eab63f553bdb0ec3690c805534af0b1cb74c019dc1b8384ff2c10ac3d2fb8e",
+        "text": "The limit is $100. Use form B."
+      },
+      "kind": "controlled"
+    },
+    {
+      "id": "control-16",
+      "section": "control-16",
+      "title": "Synthetic control 16",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "e0cf8ee9976143f2a79acb18dccb590594519b0c6c52a4fa88d15b8bd2745ab6",
+        "text": "Keep receipts, then apply."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "30f804a62e4e4474c705ca73c47cca5654fa61927334be04a2054eb4ebefed52",
+        "text": "Keep receipts; then apply."
+      },
+      "kind": "controlled"
+    },
+    {
+      "id": "control-17",
+      "section": "control-17",
+      "title": "Synthetic control 17",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "88a985a97e39d2d156b438ab3705e66d7f32a7b3f6a6c2d1a1dd174aeafd538a",
+        "text": "🧾 Le plafond est de 100 €."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "ca8e989eb8bb2ad1880482289d1a4775a1684d624b46e5f53c4cc436ac3e0917",
+        "text": "🧾 Le plafond est de 150 €."
+      },
+      "kind": "controlled"
+    },
+    {
+      "id": "control-18",
+      "section": "control-18",
+      "title": "Synthetic control 18",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "cee7cee39d4c2a214c3b4c64242b260ec9a1340f0bc8e3f32659a3884b88c4e7",
+        "text": "Meals: limit $100.\n\nHotels: limit $100."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "451932ee5c62662c84472b614112d9bafd6279e107969de731248981fb4a342a",
+        "text": "Meals: limit $150.\n\nHotels: limit $100."
+      },
+      "kind": "controlled"
+    },
+    {
+      "id": "control-19",
+      "section": "control-19",
+      "title": "Synthetic control 19",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "dfc0e32083a30aeee9eb48a24ad9d2db3bfe10895ee87db12828633fefe269cf",
+        "text": "Limit: $100.\n\nDeadline: 2025-07-01."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "1e310b9c64da1637e188c810a7746bed67308796b7bbdf03a28099c4b2f1ac51",
+        "text": "Limit: $150.\n\nDeadline: 2025-08-01."
+      },
+      "kind": "controlled"
+    },
+    {
+      "id": "control-20",
+      "section": "control-20",
+      "title": "Synthetic control 20",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "b330f9f0d742c6adf834463c28ceab70528a3b7485c26830a67b3f059f4d1a83",
+        "text": "The allowed limit is $100 on 2025-07-01."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "b330f9f0d742c6adf834463c28ceab70528a3b7485c26830a67b3f059f4d1a83",
+        "text": "The allowed limit is $100 on 2025-07-01."
+      },
+      "kind": "controlled"
+    }
+  ]
+}

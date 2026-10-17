@@ -1,0 +1,53 @@
+import { createRequire } from 'node:module';
+import { mkdirSync, copyFileSync } from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const require = createRequire(path.join(root, 'frontend/package.json'));
+const { chromium } = require('playwright');
+const base = process.env.CCA_BASE_URL || 'http://127.0.0.1:8791';
+const staging = path.join(root, '.local/demo-video');
+const screenshots = path.join(root, 'docs/screenshots');
+mkdirSync(staging, { recursive: true }); mkdirSync(screenshots, { recursive: true });
+const browser = await chromium.launch({ headless: true, ...(process.env.CCA_BROWSER_EXECUTABLE ? { executablePath: process.env.CCA_BROWSER_EXECUTABLE } : {}) });
+try {
+  const context = await browser.newContext({ viewport: { width: 1440, height: 1000 }, recordVideo: { dir: staging, size: { width: 1440, height: 1000 } } });
+  const page = await context.newPage();
+  const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
+  await page.goto(base);
+  await page.locator('.comparison-heading h1').waitFor();
+  await pause(3500);
+  await page.screenshot({ path: path.join(screenshots, 'desktop.png'), fullPage: true });
+  if (await page.locator('.change-card').count() > 1) await page.locator('.change-card').nth(1).click();
+  await pause(3500);
+  const evidenceJump = page.locator('.source-panel').getByRole('button', { name: /jump to evidence/i }).first();
+  if (await evidenceJump.count()) await evidenceJump.click();
+  await pause(2500);
+  const options = await page.locator('#section option').evaluateAll(els => els.map(e => e.value));
+  await page.selectOption('#section', options.at(-1));
+  await pause(4000);
+  const catalog = await (await page.request.get(new URL('data/catalog.json', base).href)).json();
+  const entry = catalog.comparisons.find(e => e.section === options.at(-1));
+  const report = await (await page.request.get(new URL('data/' + entry.path, base).href)).json();
+  const term = report.changes[0]?.summary.split(/\s+/).map(s => s.replace(/[^a-zA-Z]/g, '')).find(s => s.length > 6) || '';
+  if (term) { await page.getByRole('searchbox').fill(term); await pause(2500); await page.getByRole('searchbox').fill(''); }
+  const download = page.waitForEvent('download');
+  await page.getByRole('button', { name: 'HTML ↓', exact: true }).click();
+  await (await download).saveAs(path.join(staging, 'comparison.html'));
+  await pause(2000);
+  await page.getByRole('button', { name: 'Evaluation', exact: true }).click();
+  await page.locator('.metric-card').first().waitFor();
+  await pause(4500);
+  await page.screenshot({ path: path.join(screenshots, 'evaluation.png'), fullPage: true });
+  await page.getByRole('button', { name: 'Development', exact: true }).click(); await pause(3500);
+  await page.getByRole('button', { name: 'Held out', exact: true }).click(); await pause(2500);
+  await page.getByRole('heading', { name: 'Why two coverage numbers?' }).scrollIntoViewIfNeeded(); await pause(3000);
+  await page.getByRole('button', { name: 'Compare', exact: true }).click(); await pause(2500);
+  const video = page.video(); await context.close();
+  const recorded = await video.path(); copyFileSync(recorded, path.join(staging, 'walkthrough.webm'));
+  const mobile = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, deviceScaleFactor: 1 });
+  const mobilePage = await mobile.newPage(); await mobilePage.goto(base); await mobilePage.locator('.comparison-heading h1').waitFor();
+  await mobilePage.screenshot({ path: path.join(screenshots, 'mobile.png'), fullPage: true }); await mobile.close();
+  console.log(JSON.stringify({ video: path.join(staging, 'walkthrough.webm'), screenshots }, null, 2));
+} finally { await browser.close(); }

@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.420__2018-02-20__2018-06-27__native_codex",
+  "section": "301-10.420",
+  "title": "§ 301-10.420 When may I use a taxi, TNC, innovative mobility technology company, shuttle service or other courtesy transportation?",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2018-02-20",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2018-02-20/title-41.xml?part=301-10",
+    "snapshot_sha256": "fb3f0e29064d512b297bb8998a82d923b2a6830f42beed302cadfe0ab0b35494",
+    "text": "§ 301-10.420 When may I use a taxi, TNC, innovative mobility technology company, shuttle service or other courtesy transportation?\n\n(a) When authorized and approved by your agency, your transportation expenses in the performance of official travel are reimbursable for the usual fare plus tip for use of a taxis, TNCs, or innovative mobility technology companies, shuttle service or other courtesy transportation (if charges result), in the following manner:\n\n(1) At your official station. (i) From your residence or other authorized point of departure, e.g., residence to airport;\n\n(ii) To your residence or other authorized point of return, e.g., airport to residence;\n\n(iii) From your residence to your office on the day you depart the official station on official TDY that requires at least one night's lodging; or\n\n(iv) From your office to your residence on the day you return to the official station from an official TDY assignment that required at least one night's lodging.\n\n(2) At your TDY location. (i) From the TDY transit system station to your place of lodging or place of official business and return;\n\n(ii) To, from, and between your places of lodging and official business;\n\n(iii) Between places of official business; or\n\n(iv) To obtain meals at the nearest available place when the nature and location of the official business or the lodging at a TDY location are such that meals cannot be obtained there. You must attach a statement or include electronic remarks with your travel voucher explaining why such transportation was necessary.\n\n(b) Courtesy transportation. You should use courtesy transportation service furnished by hotels/motels to the maximum extent possible as a first source of transportation between a place of lodging at the TDY station and a common carrier terminal. You will be reimbursed for tips when you use courtesy transportation service.\n\n(c) Restrictions. When appropriate, your agency will restrict or place a monetary limit on the amount of reimbursement for the use of taxis, TNCs, or innovative mobility technology companies under this paragraph when -\n\n(1) Suitable Government or common carrier transportation service, including shuttle service, is available for all or part of the distance involved; or\n\n(2) Courtesy transportation service is provided by hotels/motels between the place of lodging at the TDY station and the common carrier terminal.\n\n[FTR Amdt. 2010-02, 75 FR 24435, May 5, 2010, as amended by FTR Amdt. 2017-01, 83 FR 604, Jan. 5, 2018]"
+  },
+  "after": {
+    "date": "2018-06-27",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2018-06-27/title-41.xml?part=301-10",
+    "snapshot_sha256": "93a51d7ae7b5c256bff18bb8eaaf81581cfd5122c021f28507fde87184d101e8",
+    "text": "§ 301-10.420 When may I use a taxi, TNC, innovative mobility technology company, shuttle service or other courtesy transportation?\n\n(a) When authorized and approved by your agency, your transportation expenses in the performance of official travel are reimbursable for the usual fare plus tip for use of a taxi, TNC, innovative mobility technology company, shuttle service or other courtesy transportation (if charges result), in the following manner:\n\n(1) At your official station. (i) From your residence or other authorized point of departure, e.g., residence to airport;\n\n(ii) To your residence or other authorized point of return, e.g., airport to residence;\n\n(iii) From your residence to your office on the day you depart the official station on official TDY that requires at least one night's lodging; or\n\n(iv) From your office to your residence on the day you return to the official station from an official TDY assignment that required at least one night's lodging.\n\n(2) At your TDY location. (i) From the TDY transit system station to your place of lodging or place of official business and return;\n\n(ii) To, from, and between your places of lodging and official business;\n\n(iii) Between places of official business; or\n\n(iv) To obtain meals at the nearest available place when the nature and location of the official business or the lodging at a TDY location are such that meals cannot be obtained there. You must attach a statement or include electronic remarks with your travel voucher explaining why such transportation was necessary.\n\n(b) Courtesy transportation. You should use courtesy transportation service furnished by hotels/motels to the maximum extent possible as a first source of transportation between a place of lodging at the TDY station and a common carrier terminal. You will be reimbursed for tips when you use courtesy transportation service.\n\n(c) Restrictions. When appropriate, your agency will restrict or place a monetary limit on the amount of reimbursement for the use of taxis, TNCs, or innovative mobility technology companies under this paragraph when—\n\n(1) Suitable Government or common carrier transportation service, including shuttle service, is available for all or part of the distance involved; or\n\n(2) Courtesy transportation service is provided by hotels/motels between the place of lodging at the TDY station and the common carrier terminal.\n\n[FTR Amdt. 2010-02, 75 FR 24435, May 5, 2010, as amended by FTR Amdt. 2017-01, 83 FR 604, Jan. 5, 2018]"
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "wording",
+      "summary": "The fare-plus-tip introduction changes the service list from plural forms and an extra or to singular taxi, TNC, and innovative mobility technology company wording.",
+      "before_evidence": {
+        "start": 293,
+        "end": 412,
+        "quote": "for use of a taxis, TNCs, or innovative mobility technology companies, shuttle service or other courtesy transportation"
+      },
+      "after_evidence": {
+        "start": 293,
+        "end": 405,
+        "quote": "for use of a taxi, TNC, innovative mobility technology company, shuttle service or other courtesy transportation"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-2",
+      "category": "editorial",
+      "summary": "The restrictions introduction replaces the spaced hyphen after when with an em dash.",
+      "before_evidence": {
+        "start": 2074,
+        "end": 2101,
+        "quote": "under this paragraph when -"
+      },
+      "after_evidence": {
+        "start": 2067,
+        "end": 2093,
+        "quote": "under this paragraph when—"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    }
+  ],
+  "warnings": [],
+  "analysis": {
+    "method": "native_codex",
+    "model": "gpt-6.1-sol",
+    "prompt_version": "cca-grounded-v1",
+    "generated_at": "2026-10-17T13:50:54.538192+00:00",
+    "latency_ms": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "usage_available": false,
+    "latency_available": false,
+    "cost_usd": null,
+    "billing_basis": "Existing OpenAI account via native Codex. Credit dollar rate unavailable; not zero model usage.",
+    "input_identity": "8619d8a79a06d7baae903343095812cfe98453928073515b0f918eeda911d6bd"
+  }
+}

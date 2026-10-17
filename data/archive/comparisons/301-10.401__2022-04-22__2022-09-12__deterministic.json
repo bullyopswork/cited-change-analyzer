@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.401__2022-04-22__2022-09-12__deterministic",
+  "section": "301-10.401",
+  "title": "§ 301-10.401 What types of charges are reimbursable for use of a special conveyance?",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2022-04-22",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-04-22/title-41.xml?part=301-10",
+    "snapshot_sha256": "700c4a608dea9d91d043f8b1dfcc65ce876a398bf2960ef7a503b0b38218bd2e",
+    "text": "§ 301-10.401 What types of charges are reimbursable for use of a special conveyance?\n\nLink to an amendment published at 87 FR 24065, Apr. 22, 2022.\n\nActual expenses that your agency determines are necessary, including, but not limited to:\n\n(a) Gasoline and oil;\n\n(b) Rental of a garage, hangar, or boathouse;\n\n(c) Feeding and stabling of horses;\n\n(d) Per diem of operator; and\n\n(e) Ferriage, tolls, etc."
+  },
+  "after": {
+    "date": "2022-09-12",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+    "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+    "text": "§ 301-10.401 What types of charges are reimbursable for use of a special conveyance?\n\nActual expenses that your agency determines are necessary, including, but not limited to:\n\n(a) Fuel and oil;\n\n(b) Rental of a garage, hangar, or boathouse;\n\n(c) Feeding and stabling of horses;\n\n(d) Per diem of operator; and\n\n(e) Ferriage, tolls, etc.\n\n[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by 87 FR 24065, Apr. 22, 2022]"
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "removed",
+      "summary": "Paragraph text removed.",
+      "before_evidence": {
+        "start": 86,
+        "end": 147,
+        "quote": "Link to an amendment published at 87 FR 24065, Apr. 22, 2022."
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    },
+    {
+      "id": "change-2",
+      "category": "wording",
+      "summary": "Paragraph wording revised.",
+      "before_evidence": {
+        "start": 240,
+        "end": 261,
+        "quote": "(a) Gasoline and oil;"
+      },
+      "after_evidence": {
+        "start": 177,
+        "end": 194,
+        "quote": "(a) Fuel and oil;"
+      },
+      "needs_review": true,
+      "review_reason": "Lexical classification only; review legal and semantic significance.",
+      "method": "deterministic"
+    },
+    {
+      "id": "change-3",
+      "category": "added",
+      "summary": "Paragraph text added.",
+      "before_evidence": null,
+      "after_evidence": {
+        "start": 338,
+        "end": 421,
+        "quote": "[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by 87 FR 24065, Apr. 22, 2022]"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    }
+  ],
+  "warnings": [],
+  "analysis": {
+    "method": "deterministic",
+    "model": null,
+    "prompt_version": null,
+    "generated_at": "2026-10-17T13:44:13.433567+00:00",
+    "latency_ms": 0.059,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cost_usd": 0,
+    "input_identity": "45547cf132ee7460ac087507ce45538d77855f5e9a76086f43fb2dbe7e14e137"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.105__2022-04-22__2022-09-12__deterministic",
+  "section": "301-10.105",
+  "title": "§ 301-10.105 What are the basic requirements for using common carrier transportation?",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2022-04-22",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-04-22/title-41.xml?part=301-10",
+    "snapshot_sha256": "700c4a608dea9d91d043f8b1dfcc65ce876a398bf2960ef7a503b0b38218bd2e",
+    "text": "§ 301-10.105 What are the basic requirements for using common carrier transportation?\n\nThe basic requirements for using common carrier transportation fall into three categories:\n\n(a) Using contract carriers, when available, and if your agency is a mandatory user of GSA's city-pair contracts for air passenger transportation services, unless you have an approved exception (see §§ 301-10.106 through 301-10.108 of this subpart);\n\n(b) Using coach-class service, unless other than coach-class service is authorized under § 301-10.123 or § 301-10.162, and when travelling by ship, using lowest first-class accommodations, unless other than lowest first-class accommodations are authorized under § 301-10.183 of this subpart; and\n\n(c) You must always use U.S. Flag Air Carrier (or ship) service for air passenger transportation or when travelling by ship, unless your travel circumstances meet one of the exceptions in §§ 301-10.135 through 301-10.138 or § 301-10.183 of this subpart.\n\n[FTR Amdt. 2010-05, 75 FR 63103, Oct. 14, 2010]"
+  },
+  "after": {
+    "date": "2022-09-12",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+    "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+    "text": ""
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "removed",
+      "summary": "Paragraph text removed.",
+      "before_evidence": {
+        "start": 0,
+        "end": 85,
+        "quote": "§ 301-10.105 What are the basic requirements for using common carrier transportation?"
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    },
+    {
+      "id": "change-2",
+      "category": "removed",
+      "summary": "Paragraph text removed.",
+      "before_evidence": {
+        "start": 87,
+        "end": 177,
+        "quote": "The basic requirements for using common carrier transportation fall into three categories:"
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    },
+    {
+      "id": "change-3",
+      "category": "removed",
+      "summary": "Paragraph text removed.",
+      "before_evidence": {
+        "start": 179,
+        "end": 428,
+        "quote": "(a) Using contract carriers, when available, and if your agency is a mandatory user of GSA's city-pair contracts for air passenger transportation services, unless you have an approved exception (see §§ 301-10.106 through 301-10.108 of this subpart);"
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    },
+    {
+      "id": "change-4",
+      "category": "removed",
+      "summary": "Paragraph text removed.",
+      "before_evidence": {
+        "start": 430,
+        "end": 725,
+        "quote": "(b) Using coach-class service, unless other than coach-class service is authorized under § 301-10.123 or § 301-10.162, and when travelling by ship, using lowest first-class accommodations, unless other than lowest first-class accommodations are authorized under § 301-10.183 of this subpart; and"
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    },
+    {
+      "id": "change-5",
+      "category": "removed",
+      "summary": "Paragraph text removed.",
+      "before_evidence": {
+        "start": 727,
+        "end": 980,
+        "quote": "(c) You must always use U.S. Flag Air Carrier (or ship) service for air passenger transportation or when travelling by ship, unless your travel circumstances meet one of the exceptions in §§ 301-10.135 through 301-10.138 or § 301-10.183 of this subpart."
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    },
+    {
+      "id": "change-6",
+      "category": "removed",
+      "summary": "Paragraph text removed.",
+      "before_evidence": {
+        "start": 982,
+        "end": 1029,
+        "quote": "[FTR Amdt. 2010-05, 75 FR 63103, Oct. 14, 2010]"
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    }
+  ],
+  "warnings": [],
+  "analysis": {
+    "method": "deterministic",
+    "model": null,
+    "prompt_version": null,
+    "generated_at": "2026-10-17T13:44:13.440935+00:00",
+    "latency_ms": 0.04,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cost_usd": 0,
+    "input_identity": "16721f603134c10e8f6855a4bd8429d3bdc33f3109fde1547ebd407684bc5a6f"
+  }
+}

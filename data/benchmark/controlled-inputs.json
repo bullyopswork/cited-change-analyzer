@@ -1,0 +1,406 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "cases": [
+    {
+      "id": "control-01",
+      "section": "control-01",
+      "title": "Synthetic control 1",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "174c959c662f798f451cb771557b504bf505b47015c19a2544e632f1b8fc3a4c",
+        "text": "The reimbursement limit is $100."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "af0892882b772b919352d687c84b7386f4a9a8c274b2273ca18c0e84bf33bfd2",
+        "text": "The reimbursement limit is $150."
+      },
+      "kind": "controlled",
+      "split": "development"
+    },
+    {
+      "id": "control-02",
+      "section": "control-02",
+      "title": "Synthetic control 2",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "3680ef9042a498390af18341c374aecfda1d049112c85fe61711d7082a15ef2d",
+        "text": "The allowed share is 20%."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "2cf4b09ddb4d1e2385484134749a367df13df25216bd0f26a49a34390c5747b7",
+        "text": "The allowed share is 25%."
+      },
+      "kind": "controlled",
+      "split": "development"
+    },
+    {
+      "id": "control-03",
+      "section": "control-03",
+      "title": "Synthetic control 3",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "fd4602b533b8a203622f048d79b8095ec4d06066ba737c3c9d55a2666c24724b",
+        "text": "This policy applies on 2025-07-01."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "d2e788f61133f633eff9e40835032f02628e2f392911c1ec663522261a801cd5",
+        "text": "This policy applies on 2025-08-01."
+      },
+      "kind": "controlled",
+      "split": "development"
+    },
+    {
+      "id": "control-04",
+      "section": "control-04",
+      "title": "Synthetic control 4",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "4d89e597f4cce055a52cc8f48b990e1e72378ede95a2449eed742dbd895cd9bf",
+        "text": "Submit the form by July 15, 2025."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "cae42a18f6764069d4327a1240254a2a413d2949d5e9505a5ebfc52992823cc3",
+        "text": "Submit the form by August 15, 2025."
+      },
+      "kind": "controlled",
+      "split": "development"
+    },
+    {
+      "id": "control-05",
+      "section": "control-05",
+      "title": "Synthetic control 5",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "2d47e739d2c155765e1d37750d01e00ac7f6ec6782fa52f41d81db587ce8597e",
+        "text": "Employees may obtain approval."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "7def89803ee9211c82492bdbe897c52492ea6d67553525c6ae5eb74167c72c6b",
+        "text": "Employees must obtain approval."
+      },
+      "kind": "controlled",
+      "split": "development"
+    },
+    {
+      "id": "control-06",
+      "section": "control-06",
+      "title": "Synthetic control 6",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "fbc1f94816b800c3b7b94bd61873d08f6a1a9297efb83a5f9a0211cdb0305b99",
+        "text": "Claims include travel costs except parking."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "8769fbf962fbcd02ff14f644d9b30853623c5212397076c67297a7f4ba089eeb",
+        "text": "Claims include travel costs including parking."
+      },
+      "kind": "controlled",
+      "split": "development"
+    },
+    {
+      "id": "control-07",
+      "section": "control-07",
+      "title": "Synthetic control 7",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "e3c654b4cb0a437e22078bad14f1c2cd953611aa7b8fb3db10a8f44a99e857d5",
+        "text": "Keep   the receipt."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "f65b0456b8c672319cf005c5b65c950d14ff7352e6e6846fd57625effe9289c9",
+        "text": "Keep the receipt."
+      },
+      "kind": "controlled",
+      "split": "development"
+    },
+    {
+      "id": "control-08",
+      "section": "control-08",
+      "title": "Synthetic control 8",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "181119c030f31b0dd63e1bb181617e55bdad938f079f0b88d21f4624c02c8e01",
+        "text": "Use the\napproved form."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "060a719fb1ddb959f0795f842469d224b4758e2503792c98bc2c394e665f4d18",
+        "text": "Use the approved form."
+      },
+      "kind": "controlled",
+      "split": "development"
+    },
+    {
+      "id": "control-09",
+      "section": "control-09",
+      "title": "Synthetic control 9",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "f65b0456b8c672319cf005c5b65c950d14ff7352e6e6846fd57625effe9289c9",
+        "text": "Keep the receipt."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "c2cf8e1b4ea8ab85497dea30c780067303bd9f06a76132594118f7a2c4dc2690",
+        "text": "Keep the receipt.\n\nSubmit a signed declaration."
+      },
+      "kind": "controlled",
+      "split": "development"
+    },
+    {
+      "id": "control-10",
+      "section": "control-10",
+      "title": "Synthetic control 10",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "c2cf8e1b4ea8ab85497dea30c780067303bd9f06a76132594118f7a2c4dc2690",
+        "text": "Keep the receipt.\n\nSubmit a signed declaration."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "f65b0456b8c672319cf005c5b65c950d14ff7352e6e6846fd57625effe9289c9",
+        "text": "Keep the receipt."
+      },
+      "kind": "controlled",
+      "split": "development"
+    },
+    {
+      "id": "control-11",
+      "section": "control-11",
+      "title": "Synthetic control 11",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "54d069aff14ae2f0be51185043807bfbe629f05d06fc728c228d457b063f1895",
+        "text": "Personal travel is allowed."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "b305dd6054c7d895f5ec380e0a66429823604627d1f6a88a29e3bec99aebf62c",
+        "text": "Personal travel is not allowed."
+      },
+      "kind": "controlled",
+      "split": "held_out"
+    },
+    {
+      "id": "control-12",
+      "section": "control-12",
+      "title": "Synthetic control 12",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "111c12f2affdef5774147dc7bd1321fe7996398ce131b968eac75a5e5f3d9c67",
+        "text": "Meals must be claimed."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "72cb20da63b9e18de2eeb0de9f1593a881b5d212df477399449762e98408a6df",
+        "text": "Meals must not be claimed."
+      },
+      "kind": "controlled",
+      "split": "held_out"
+    },
+    {
+      "id": "control-13",
+      "section": "control-13",
+      "title": "Synthetic control 13",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "47897e0d6ec2ad3d5e42943d104e5e5da1a95224d9841c4674e5decb8b7bc71d",
+        "text": "Keep the receipt.\n\nSubmit the form.\n\nAwait approval."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "3c6afcb28e48004a964bf09dc8576509a53f3b24ce8c7c771c5660b6b337e269",
+        "text": "Submit the form.\n\nKeep the receipt.\n\nAwait approval."
+      },
+      "kind": "controlled",
+      "split": "held_out"
+    },
+    {
+      "id": "control-14",
+      "section": "control-14",
+      "title": "Synthetic control 14",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "4b13917c7392c5900687d245053409618ad782c8c799a4a94821e33f403e94d4",
+        "text": "Keep the receipt.\n\nKeep the receipt."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "f65b0456b8c672319cf005c5b65c950d14ff7352e6e6846fd57625effe9289c9",
+        "text": "Keep the receipt."
+      },
+      "kind": "controlled",
+      "split": "held_out"
+    },
+    {
+      "id": "control-15",
+      "section": "control-15",
+      "title": "Synthetic control 15",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "4652122e3741d267031cc2ed585d83445ed2472399967ffa52c5c57f296473ed",
+        "text": "The limit is $100. Use form A."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "24eab63f553bdb0ec3690c805534af0b1cb74c019dc1b8384ff2c10ac3d2fb8e",
+        "text": "The limit is $100. Use form B."
+      },
+      "kind": "controlled",
+      "split": "held_out"
+    },
+    {
+      "id": "control-16",
+      "section": "control-16",
+      "title": "Synthetic control 16",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "e0cf8ee9976143f2a79acb18dccb590594519b0c6c52a4fa88d15b8bd2745ab6",
+        "text": "Keep receipts, then apply."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "30f804a62e4e4474c705ca73c47cca5654fa61927334be04a2054eb4ebefed52",
+        "text": "Keep receipts; then apply."
+      },
+      "kind": "controlled",
+      "split": "held_out"
+    },
+    {
+      "id": "control-17",
+      "section": "control-17",
+      "title": "Synthetic control 17",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "88a985a97e39d2d156b438ab3705e66d7f32a7b3f6a6c2d1a1dd174aeafd538a",
+        "text": "🧾 Le plafond est de 100 €."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "ca8e989eb8bb2ad1880482289d1a4775a1684d624b46e5f53c4cc436ac3e0917",
+        "text": "🧾 Le plafond est de 150 €."
+      },
+      "kind": "controlled",
+      "split": "held_out"
+    },
+    {
+      "id": "control-18",
+      "section": "control-18",
+      "title": "Synthetic control 18",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "cee7cee39d4c2a214c3b4c64242b260ec9a1340f0bc8e3f32659a3884b88c4e7",
+        "text": "Meals: limit $100.\n\nHotels: limit $100."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "451932ee5c62662c84472b614112d9bafd6279e107969de731248981fb4a342a",
+        "text": "Meals: limit $150.\n\nHotels: limit $100."
+      },
+      "kind": "controlled",
+      "split": "held_out"
+    },
+    {
+      "id": "control-19",
+      "section": "control-19",
+      "title": "Synthetic control 19",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "dfc0e32083a30aeee9eb48a24ad9d2db3bfe10895ee87db12828633fefe269cf",
+        "text": "Limit: $100.\n\nDeadline: 2025-07-01."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "1e310b9c64da1637e188c810a7746bed67308796b7bbdf03a28099c4b2f1ac51",
+        "text": "Limit: $150.\n\nDeadline: 2025-08-01."
+      },
+      "kind": "controlled",
+      "split": "held_out"
+    },
+    {
+      "id": "control-20",
+      "section": "control-20",
+      "title": "Synthetic control 20",
+      "corpus": "Controlled fixtures, synthetic",
+      "before": {
+        "date": "2025-01-01",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "b330f9f0d742c6adf834463c28ceab70528a3b7485c26830a67b3f059f4d1a83",
+        "text": "The allowed limit is $100 on 2025-07-01."
+      },
+      "after": {
+        "date": "2025-01-02",
+        "url": "https://github.com/bullyopswork/cited-change-analyzer/blob/main/data/benchmark/controlled-inputs.json",
+        "snapshot_sha256": "b330f9f0d742c6adf834463c28ceab70528a3b7485c26830a67b3f059f4d1a83",
+        "text": "The allowed limit is $100 on 2025-07-01."
+      },
+      "kind": "controlled",
+      "split": "held_out"
+    }
+  ]
+}

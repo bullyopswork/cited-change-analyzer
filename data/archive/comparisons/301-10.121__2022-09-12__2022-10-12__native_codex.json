@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.121__2022-09-12__2022-10-12__native_codex",
+  "section": "301-10.121",
+  "title": "§ 301-10.121 When may I use coach class seating upgrade programs?",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2022-09-12",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+    "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+    "text": "§ 301-10.121 What classes of airline accommodations are available?\n\nLink to an amendment published at 87 FR 55704, Sept. 12, 2022.\n\nAirlines are constantly updating their offerings. However, for the purposes of this regulation, the classes of available air accommodations are identified and defined as follows:\n\n(a) Coach-class. The basic class of accommodation by airlines that is normally the lowest fare offered regardless of airline terminology used. For reference purposes only, coach-class may also be referred to by airlines as “tourist class,” “economy class,” or as “single class” when the airline offers only one class of accommodations to all travelers.\n\n(b) Other than coach-class. Any class of accommodations above coach-class, e.g., first-class or business-class.\n\n(1) First-class. The highest class of accommodation offered by the airlines in terms of cost and amenities. This is generally termed “first-class” by airlines and reservation systems.\n\n(2) Business-class. A class of accommodation offered by airlines that is higher than coach and lower than first-class, in both cost and amenities. This class of accommodation is generally referred to as “business, business elite, business first, world business, connoisseur, or envoy” depending on the airline.\n\nNote to § 301-10.121:\n\nIf an airline flight has only two classes of accommodations available, i.e., two “cabins”, with two distinctly different seating types (such as girth and pitch) and the front cabin is termed “business-class” or higher by the airline and the tickets are fare-coded as business-class, then the front of the cabin is deemed to be other than coach-class. Alternatively, if an airline flight has only two cabins available but equips both with one type of seating, (i.e., seating girth and pitch are the same in both cabins), and the seats in the front of the airplane are fare coded as full-fare economy class, and only restricted economy fares are available in the back of the aircraft, then the entire aircraft is to be classified as coach-class seating. In this second situation, qualifying for other than coach-class travel is not required to purchase a non-restricted economy fare seat in the front of the aircraft as the entire aircraft is considered “coach-class.”\n\n[FTR Amdt. 2009-06, 74 FR 55147, Oct. 27, 2009]"
+  },
+  "after": {
+    "date": "2022-10-12",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-10-12/title-41.xml?part=301-10",
+    "snapshot_sha256": "5af0a1c5b1ea546e201564970a3775086b58b576ff7c7f44a98a3a19ab32739a",
+    "text": "§ 301-10.121 When may I use coach class seating upgrade programs?\n\nUse of upgraded coach class seating options is generally a traveler's personal choice and therefore is at the traveler's personal expense. However, your agency approving official may approve reimbursement of the additional seat choice fee according to part 301-13 of this chapter or internal agency policy (see § 301-70.102(k)).\n\n[FTR Case 2020-300-1, 87 FR 55704, Sept. 12, 2022]"
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "removed",
+      "summary": "The available-air-accommodation definitions and the note classifying two-cabin aircraft are absent from the later snapshot.",
+      "before_evidence": {
+        "start": 132,
+        "end": 2265,
+        "quote": "Airlines are constantly updating their offerings. However, for the purposes of this regulation, the classes of available air accommodations are identified and defined as follows:\n\n(a) Coach-class. The basic class of accommodation by airlines that is normally the lowest fare offered regardless of airline terminology used. For reference purposes only, coach-class may also be referred to by airlines as “tourist class,” “economy class,” or as “single class” when the airline offers only one class of accommodations to all travelers.\n\n(b) Other than coach-class. Any class of accommodations above coach-class, e.g., first-class or business-class.\n\n(1) First-class. The highest class of accommodation offered by the airlines in terms of cost and amenities. This is generally termed “first-class” by airlines and reservation systems.\n\n(2) Business-class. A class of accommodation offered by airlines that is higher than coach and lower than first-class, in both cost and amenities. This class of accommodation is generally referred to as “business, business elite, business first, world business, connoisseur, or envoy” depending on the airline.\n\nNote to § 301-10.121:\n\nIf an airline flight has only two classes of accommodations available, i.e., two “cabins”, with two distinctly different seating types (such as girth and pitch) and the front cabin is termed “business-class” or higher by the airline and the tickets are fare-coded as business-class, then the front of the cabin is deemed to be other than coach-class. Alternatively, if an airline flight has only two cabins available but equips both with one type of seating, (i.e., seating girth and pitch are the same in both cabins), and the seats in the front of the airplane are fare coded as full-fare economy class, and only restricted economy fares are available in the back of the aircraft, then the entire aircraft is to be classified as coach-class seating. In this second situation, qualifying for other than coach-class travel is not required to purchase a non-restricted economy fare seat in the front of the aircraft as the entire aircraft is considered “coach-class.”"
+      },
+      "after_evidence": null,
+      "needs_review": true,
+      "review_reason": "The same section number covers different topics in these snapshots; the supplied text does not establish whether the former content moved elsewhere.",
+      "method": "native_codex"
+    },
+    {
+      "id": "change-2",
+      "category": "added",
+      "summary": "The later snapshot describes upgraded coach seating as generally a personal expense, with agency approval of the additional seat choice fee under part 301-13 or internal agency policy.",
+      "before_evidence": null,
+      "after_evidence": {
+        "start": 67,
+        "end": 395,
+        "quote": "Use of upgraded coach class seating options is generally a traveler's personal choice and therefore is at the traveler's personal expense. However, your agency approving official may approve reimbursement of the additional seat choice fee according to part 301-13 of this chapter or internal agency policy (see § 301-70.102(k))."
+      },
+      "needs_review": true,
+      "review_reason": "The same section number covers different topics in these snapshots; the supplied text does not establish whether the former content moved elsewhere.; One-sided evidence overlaps a complex revision; review addition versus replacement.",
+      "method": "native_codex"
+    },
+    {
+      "id": "change-3",
+      "category": "editorial",
+      "summary": "The pending-amendment link is absent from the later snapshot.",
+      "before_evidence": {
+        "start": 68,
+        "end": 130,
+        "quote": "Link to an amendment published at 87 FR 55704, Sept. 12, 2022."
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-4",
+      "category": "editorial",
+      "summary": "The source note changes from FTR Amendment 2009-06 to FTR Case 2020-300-1.",
+      "before_evidence": {
+        "start": 2267,
+        "end": 2314,
+        "quote": "[FTR Amdt. 2009-06, 74 FR 55147, Oct. 27, 2009]"
+      },
+      "after_evidence": {
+        "start": 397,
+        "end": 447,
+        "quote": "[FTR Case 2020-300-1, 87 FR 55704, Sept. 12, 2022]"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    }
+  ],
+  "warnings": [
+    "Topic alignment differs across these snapshots. Absence here does not establish repeal or absence elsewhere."
+  ],
+  "analysis": {
+    "method": "native_codex",
+    "model": "gpt-6.1-sol",
+    "prompt_version": "cca-grounded-v1",
+    "generated_at": "2026-10-17T13:50:54.496573+00:00",
+    "latency_ms": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "usage_available": false,
+    "latency_available": false,
+    "cost_usd": null,
+    "billing_basis": "Existing OpenAI account via native Codex. Credit dollar rate unavailable; not zero model usage.",
+    "input_identity": "762f3545a65d2c19c45abdd37f86d2b950048f93e5dff0ea1acd597d17f0da9d"
+  }
+}

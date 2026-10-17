@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.109__2022-04-22__2022-09-12__deterministic",
+  "section": "301-10.109",
+  "title": "§ 301-10.109 What is my liability for unauthorized use of a non-contract carrier when contract service is available and I do not meet one of the exceptions for required use?",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2022-04-22",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-04-22/title-41.xml?part=301-10",
+    "snapshot_sha256": "700c4a608dea9d91d043f8b1dfcc65ce876a398bf2960ef7a503b0b38218bd2e",
+    "text": "§ 301-10.109 What is my liability for unauthorized use of a non-contract carrier when contract service is available and I do not meet one of the exceptions for required use?\n\nAny additional costs or penalties incurred by you resulting from unauthorized use of non-contract service are borne by you."
+  },
+  "after": {
+    "date": "2022-09-12",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+    "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+    "text": "§ 301-10.109 What is my liability for unauthorized use of a non-contract carrier when contract service is available and I do not meet one of the exceptions for required use?\n\nLink to an amendment published at 87 FR 55704, Sept. 12, 2022.\n\nAny additional costs or penalties incurred by you resulting from unauthorized use of non-contract service are borne by you."
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "added",
+      "summary": "Paragraph text added.",
+      "before_evidence": null,
+      "after_evidence": {
+        "start": 175,
+        "end": 237,
+        "quote": "Link to an amendment published at 87 FR 55704, Sept. 12, 2022."
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    }
+  ],
+  "warnings": [],
+  "analysis": {
+    "method": "deterministic",
+    "model": null,
+    "prompt_version": null,
+    "generated_at": "2026-10-17T13:44:13.433370+00:00",
+    "latency_ms": 0.03,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cost_usd": 0,
+    "input_identity": "d002e36453136ce95d12408013797846cdbf9ae9f6ecb5c2c6e7b8b8d23a9d82"
+  }
+}

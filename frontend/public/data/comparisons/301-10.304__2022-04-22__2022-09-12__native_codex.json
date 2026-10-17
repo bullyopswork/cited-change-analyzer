@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.304__2022-04-22__2022-09-12__native_codex",
+  "section": "301-10.304",
+  "title": "§ 301-10.304 What expenses are allowable in addition to the POV mileage rate allowances?",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2022-04-22",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-04-22/title-41.xml?part=301-10",
+    "snapshot_sha256": "700c4a608dea9d91d043f8b1dfcc65ce876a398bf2960ef7a503b0b38218bd2e",
+    "text": "§ 301-10.304 What expenses are allowable in addition to the POV mileage rate allowances?\n\nLink to an amendment published at 87 FR 24065, Apr. 22, 2022.\n\nFollowing is a chart listing the reimbursable and non-reimbursable expenses:\n\nReimbursable expenses in addition to mileage allowance Non-reimbursable expenses included in the mileage allowance\n\nParking fees; ferry fees; bridge, road, and tunnel fees; and aircraft or airplane parking, landing, and tie-down feesCharges for repairs, depreciation, replacements, grease, oil, antifreeze, towage and similar speculative expenses, gasoline, insurance, state and Federal taxes.\n\n[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 108, 67 FR 57965, Sept. 13, 2002]"
+  },
+  "after": {
+    "date": "2022-09-12",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+    "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+    "text": "§ 301-10.304 What expenses are allowable in addition to the POV mileage rate allowances?\n\nFollowing is a chart listing the reimbursable and non-reimbursable expenses:\n\nReimbursable expenses in addition to mileage allowance Non-reimbursable expenses included in the mileage allowance\n\nParking fees; ferry fees; bridge, road, and tunnel fees; and aircraft or airplane parking, landing, and tie-down fees Charges for repairs, depreciation, replacements, grease, oil, antifreeze, towage and similar speculative expenses, fuel, insurance, state and Federal taxes.\n\n[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 108, 67 FR 57965, Sept. 13, 2002; 87 FR 24065, Apr. 22, 2022]"
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "wording",
+      "summary": "The non-reimbursable expenses included in the mileage allowance list uses fuel in place of gasoline.",
+      "before_evidence": {
+        "start": 579,
+        "end": 624,
+        "quote": "gasoline, insurance, state and Federal taxes."
+      },
+      "after_evidence": {
+        "start": 517,
+        "end": 558,
+        "quote": "fuel, insurance, state and Federal taxes."
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-2",
+      "category": "editorial",
+      "summary": "The pending-amendment link is absent from the later snapshot.",
+      "before_evidence": {
+        "start": 90,
+        "end": 151,
+        "quote": "Link to an amendment published at 87 FR 24065, Apr. 22, 2022."
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-3",
+      "category": "editorial",
+      "summary": "The source note adds the April 22, 2022 amendment citation.",
+      "before_evidence": {
+        "start": 626,
+        "end": 725,
+        "quote": "[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 108, 67 FR 57965, Sept. 13, 2002]"
+      },
+      "after_evidence": {
+        "start": 560,
+        "end": 687,
+        "quote": "[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 108, 67 FR 57965, Sept. 13, 2002; 87 FR 24065, Apr. 22, 2022]"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    }
+  ],
+  "warnings": [],
+  "analysis": {
+    "method": "native_codex",
+    "model": "gpt-6.1-sol",
+    "prompt_version": "cca-grounded-v1",
+    "generated_at": "2026-10-17T13:50:54.484306+00:00",
+    "latency_ms": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "usage_available": false,
+    "latency_available": false,
+    "cost_usd": null,
+    "billing_basis": "Existing OpenAI account via native Codex. Credit dollar rate unavailable; not zero model usage.",
+    "input_identity": "279cb6f984e4da9258ca86d03320fb06d498f8c37dfa43e0d4ac5839f40d39cb"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.452__2025-12-07__2025-12-08__deterministic",
+  "section": "301-10.452",
+  "title": "§ 301-10.452 Liability for unauthorized rental automobile use.",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2025-12-07",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-07/title-41.xml?part=301-10",
+    "snapshot_sha256": "c3af54ff8020830b5b2ed8f98ff704de6eed6572d063a744aacf9b652ce2fe53",
+    "text": "§ 301-10.452 May I be reimbursed for personal accident insurance?\n\nNo. That is a personal expense and is not reimbursable."
+  },
+  "after": {
+    "date": "2025-12-08",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-08/title-41.xml?part=301-10",
+    "snapshot_sha256": "7c994b51abe2c310f493295de3fdecc36fe9e28c59567e38bac28e5ebe446d6a",
+    "text": "§ 301-10.452 Liability for unauthorized rental automobile use.\n\nEmployees are responsible for any additional costs resulting from using a Government-funded commercial rental automobile for other than official purposes. Official purposes which include transportation:\n\n(a) Between places of official business;\n\n(b) Between such places and places of temporary lodging when public transportation is unavailable or its use is impractical; or\n\n(c) Between either paragraph (a) or (b) of this section and restaurants, drug stores, barber shops/hair stylists, places of worship, cleaning establishments, and similar places necessary for the sustenance, comfort, or health of the employee to foster the continued efficient performance of Government business."
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "date",
+      "summary": "Date-like wording changed.",
+      "before_evidence": {
+        "start": 0,
+        "end": 65,
+        "quote": "§ 301-10.452 May I be reimbursed for personal accident insurance?"
+      },
+      "after_evidence": {
+        "start": 0,
+        "end": 62,
+        "quote": "§ 301-10.452 Liability for unauthorized rental automobile use."
+      },
+      "needs_review": true,
+      "review_reason": "Lexical classification only; review legal and semantic significance.",
+      "method": "deterministic"
+    },
+    {
+      "id": "change-2",
+      "category": "requirement",
+      "summary": "Requirement or negation wording changed.",
+      "before_evidence": {
+        "start": 67,
+        "end": 122,
+        "quote": "No. That is a personal expense and is not reimbursable."
+      },
+      "after_evidence": {
+        "start": 64,
+        "end": 266,
+        "quote": "Employees are responsible for any additional costs resulting from using a Government-funded commercial rental automobile for other than official purposes. Official purposes which include transportation:"
+      },
+      "needs_review": true,
+      "review_reason": "Lexical classification only; review legal and semantic significance.",
+      "method": "deterministic"
+    },
+    {
+      "id": "change-3",
+      "category": "added",
+      "summary": "Paragraph text added.",
+      "before_evidence": null,
+      "after_evidence": {
+        "start": 268,
+        "end": 308,
+        "quote": "(a) Between places of official business;"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    },
+    {
+      "id": "change-4",
+      "category": "added",
+      "summary": "Paragraph text added.",
+      "before_evidence": null,
+      "after_evidence": {
+        "start": 310,
+        "end": 437,
+        "quote": "(b) Between such places and places of temporary lodging when public transportation is unavailable or its use is impractical; or"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    },
+    {
+      "id": "change-5",
+      "category": "added",
+      "summary": "Paragraph text added.",
+      "before_evidence": null,
+      "after_evidence": {
+        "start": 439,
+        "end": 750,
+        "quote": "(c) Between either paragraph (a) or (b) of this section and restaurants, drug stores, barber shops/hair stylists, places of worship, cleaning establishments, and similar places necessary for the sustenance, comfort, or health of the employee to foster the continued efficient performance of Government business."
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    }
+  ],
+  "warnings": [],
+  "analysis": {
+    "method": "deterministic",
+    "model": null,
+    "prompt_version": null,
+    "generated_at": "2026-10-17T13:44:13.432106+00:00",
+    "latency_ms": 0.314,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cost_usd": 0,
+    "input_identity": "9b3b4354a7401de765252afae2ad8e0ec7ec14b8611a393d1eadd597e9e7a254"
+  }
+}

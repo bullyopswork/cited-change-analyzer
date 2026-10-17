@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "route": "native Codex, existing authenticated OpenAI account",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "runtime_verified": true,
+  "case_count": 30,
+  "first_runtime_event": "2026-10-17T13:48:17.884Z",
+  "last_runtime_event": "2026-10-17T13:50:25.293Z",
+  "runtime_reported_total_usage": {
+    "input_tokens": 320162,
+    "cached_input_tokens": 294912,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 11209,
+    "reasoning_output_tokens": 918,
+    "total_tokens": 331371
+  },
+  "timing_scope": "Whole native batch including file IO and orchestration, not isolated per case inference latency",
+  "cost_usd": null,
+  "billing_basis": "Existing account credits, no verified credit dollar conversion; additional standalone API spend USD0",
+  "input_sha256": "8d53b2c1d25a37705c3fc24a6df66943cf4401c8fb7f09ce91ad711aabcff418",
+  "output_sha256": "c4f9f69692d0ca94225b53cba1a91e6e8de6203adb44fec21b616a46687598a9"
+}
