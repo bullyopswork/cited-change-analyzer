@@ -4,9 +4,11 @@ Compare your own TXT and selectable text PDF documents on your computer. Inspect
 
 [Download v0.2](https://github.com/bullyopswork/cited-change-analyzer/releases/tag/v0.2.0) · [Install and use](docs/INSTALL.md) · [Explore public examples](https://cited-change-analyzer.ed3396.chatgpt.site) · [Architecture](docs/ARCHITECTURE.md)
 
-The installed application processes files locally, with no account or API key required for text comparison. It contains the browser interface, so users do not need Node or Docker. The public website is an example archive with installation guidance, not a hosted upload service.
+The installed application processes files locally, with no account or API key required for text comparison. It contains the browser interface, so users do not need Node or Docker. The public website is an example archive, not a hosted upload service. Installation instructions are linked above.
 
 **v0.2 verification status:** local comparison, package installation and automated own-key API behavior are implemented. A real OpenAI API call still requires a configured developer credential before the optional AI integration can be described as live verified. See the release notes for the final acceptance status. No owner credentials or funded public inference endpoint are included.
+
+The public example website remains on its previous deployed version while the v0.2 demonstration update awaits the hosting tool's permission gate. The installable package and this repository do not depend on that hosting update.
 
 ![Installed local document comparison with highlighted source evidence](docs/screenshots/local-desktop.png)
 
