@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.310__2020-07-02__2020-08-03__native_codex",
+  "section": "301-10.310",
+  "title": "§ 301-10.310 What will I be reimbursed if I am authorized to use a Government-furnished automobile and I use a privately owned automobile instead?",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2020-07-02",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2020-07-02/title-41.xml?part=301-10",
+    "snapshot_sha256": "e81459a34ebf058b059bfb645be495ebb4bab5257388c0fcc171637a7a9cac5a",
+    "text": "§ 301-10.310 What will I be reimbursed if I am authorized to use a Government-furnished automobile and I use a privately owned automobile instead?\n\nLink to an amendment published at 85 FR 39848, July 2, 2020.\n\nYou will be reimbursed based on a constructive mileage rate limited to the cost that would be incurred for use of a Government-furnished automobile. This rate will be published in an FTR bulletin available at http://www.gsa.gov/ftrbulletins. If your agency determines the cost of providing a Government-furnished automobile would be higher because of unusual circumstances, it may allow reimbursement not to exceed the mileage rate for a privately owned automobile. In addition, you may be reimbursed other allowable expenses as provided in § 301-10.304.\n\n[FTR Amdt. 2015-03, 80 FR 27260, May 13, 2015, as amended by 80 FR 27261, May 13, 2015; 80 FR 37996, July 2, 2015]"
+  },
+  "after": {
+    "date": "2020-08-03",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2020-08-03/title-41.xml?part=301-10",
+    "snapshot_sha256": "b64700698b62bd9505c7c3a2c6a652759c92866b5e35727d991a19a499d0bbe7",
+    "text": "§ 301-10.310 What will I be reimbursed if I am authorized to use a Government-furnished automobile and I use a privately owned automobile instead?\n\nYou will be reimbursed based on a constructive mileage rate limited to the cost that would be incurred for use of a Government-furnished automobile. This rate will be published in an FTR bulletin available at https://www.gsa.gov/ftrbulletins. If your agency determines the cost of providing a Government-furnished automobile would be higher because of unusual circumstances, it may allow reimbursement not to exceed the mileage rate for a privately owned automobile. In addition, you may be reimbursed other allowable expenses as provided in § 301-10.304.\n\n[FTR Amdt. 2015-03, 80 FR 27260, May 13, 2015, as amended by 80 FR 27261, May 13, 2015; 80 FR 37996, July 2, 2015; 85 FR 39848, July 2, 2020]"
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "editorial",
+      "summary": "The standalone notice linking to the July 2, 2020 amendment is absent in the after snapshot.",
+      "before_evidence": {
+        "start": 148,
+        "end": 208,
+        "quote": "Link to an amendment published at 85 FR 39848, July 2, 2020."
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-2",
+      "category": "editorial",
+      "summary": "The FTR bulletin URL changes from HTTP to HTTPS.",
+      "before_evidence": {
+        "start": 419,
+        "end": 450,
+        "quote": "http://www.gsa.gov/ftrbulletins"
+      },
+      "after_evidence": {
+        "start": 357,
+        "end": 389,
+        "quote": "https://www.gsa.gov/ftrbulletins"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-3",
+      "category": "editorial",
+      "summary": "The source history adds 85 FR 39848, July 2, 2020.",
+      "before_evidence": {
+        "start": 766,
+        "end": 880,
+        "quote": "[FTR Amdt. 2015-03, 80 FR 27260, May 13, 2015, as amended by 80 FR 27261, May 13, 2015; 80 FR 37996, July 2, 2015]"
+      },
+      "after_evidence": {
+        "start": 705,
+        "end": 846,
+        "quote": "[FTR Amdt. 2015-03, 80 FR 27260, May 13, 2015, as amended by 80 FR 27261, May 13, 2015; 80 FR 37996, July 2, 2015; 85 FR 39848, July 2, 2020]"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    }
+  ],
+  "warnings": [],
+  "analysis": {
+    "method": "native_codex",
+    "model": "gpt-6.1-sol",
+    "prompt_version": "cca-grounded-v1",
+    "generated_at": "2026-10-17T13:50:54.927683+00:00",
+    "latency_ms": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "usage_available": false,
+    "latency_available": false,
+    "cost_usd": null,
+    "billing_basis": "Existing OpenAI account via native Codex. Credit dollar rate unavailable; not zero model usage.",
+    "input_identity": "26c0b876b23ca5bdcc3cd6104e7c0ac81050c517a4017023c1ac8a58ccc8995c"
+  }
+}

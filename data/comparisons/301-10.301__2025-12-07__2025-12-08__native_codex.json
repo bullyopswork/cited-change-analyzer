@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.301__2025-12-07__2025-12-08__native_codex",
+  "section": "301-10.301",
+  "title": "§ 301-10.301 Reimbursement for advantageous POV use.",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2025-12-07",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-07/title-41.xml?part=301-10",
+    "snapshot_sha256": "c3af54ff8020830b5b2ed8f98ff704de6eed6572d063a744aacf9b652ce2fe53",
+    "text": "§ 301-10.301 How do I compute my mileage reimbursement?\n\nYou compute mileage reimbursement by multiplying the distance traveled, determined under § 301-10.302 of this subpart by the applicable mileage rate.\n\n[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 2010-07, 75 FR 72967, Nov. 29, 2010]"
+  },
+  "after": {
+    "date": "2025-12-08",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-08/title-41.xml?part=301-10",
+    "snapshot_sha256": "7c994b51abe2c310f493295de3fdecc36fe9e28c59567e38bac28e5ebe446d6a",
+    "text": "§ 301-10.301 Reimbursement for advantageous POV use.\n\nEmployees will be reimbursed an applicable mileage rate based on the type of POV actually used, including privately owned airplane, automobile, or motorcycle. These rates will be published in an FTR bulletin and displayed on the General Services Administration website at https://www.gsa.gov/mileage."
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "removed",
+      "summary": "The before snapshot's mileage-computation heading and instruction to multiply distance under § 301-10.302 by the applicable mileage rate are absent at this identifier in the after snapshot.",
+      "before_evidence": {
+        "start": 0,
+        "end": 206,
+        "quote": "§ 301-10.301 How do I compute my mileage reimbursement?\n\nYou compute mileage reimbursement by multiplying the distance traveled, determined under § 301-10.302 of this subpart by the applicable mileage rate."
+      },
+      "after_evidence": null,
+      "needs_review": true,
+      "review_reason": "The identifier contains a different subject in the after snapshot; this does not establish removal of the computation rule elsewhere.; One-sided evidence overlaps a complex revision; review removal versus replacement.",
+      "method": "native_codex"
+    },
+    {
+      "id": "change-2",
+      "category": "added",
+      "summary": "The after snapshot uses this identifier for reimbursement for advantageous POV use: a mileage rate based on the airplane, automobile, or motorcycle actually used, with rates published in an FTR bulletin and on the GSA mileage website.",
+      "before_evidence": null,
+      "after_evidence": {
+        "start": 0,
+        "end": 354,
+        "quote": "§ 301-10.301 Reimbursement for advantageous POV use.\n\nEmployees will be reimbursed an applicable mileage rate based on the type of POV actually used, including privately owned airplane, automobile, or motorcycle. These rates will be published in an FTR bulletin and displayed on the General Services Administration website at https://www.gsa.gov/mileage."
+      },
+      "needs_review": true,
+      "review_reason": "The section identifier is repurposed; these excerpts do not establish that this text is globally new.; One-sided evidence overlaps a complex revision; review addition versus replacement.",
+      "method": "native_codex"
+    },
+    {
+      "id": "change-3",
+      "category": "editorial",
+      "summary": "The before snapshot's source-history citation is absent in the after snapshot.",
+      "before_evidence": {
+        "start": 208,
+        "end": 310,
+        "quote": "[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 2010-07, 75 FR 72967, Nov. 29, 2010]"
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    }
+  ],
+  "warnings": [
+    "Section 301-10.301 has different subjects across the snapshots; alignment is uncertain. No repeal or global addition is inferred."
+  ],
+  "analysis": {
+    "method": "native_codex",
+    "model": "gpt-6.1-sol",
+    "prompt_version": "cca-grounded-v1",
+    "generated_at": "2026-10-17T13:50:54.822077+00:00",
+    "latency_ms": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "usage_available": false,
+    "latency_available": false,
+    "cost_usd": null,
+    "billing_basis": "Existing OpenAI account via native Codex. Credit dollar rate unavailable; not zero model usage.",
+    "input_identity": "ee8a43e2607f92b155476a6abd623af985b38ed2fe6efe11cdae36af7223a3d5"
+  }
+}

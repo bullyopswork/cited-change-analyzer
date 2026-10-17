@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.110__2022-04-22__2022-09-12__deterministic",
+  "section": "301-10.110",
+  "title": "§ 301-10.110 May I use contract passenger transportation service for personal travel?",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2022-04-22",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-04-22/title-41.xml?part=301-10",
+    "snapshot_sha256": "700c4a608dea9d91d043f8b1dfcc65ce876a398bf2960ef7a503b0b38218bd2e",
+    "text": "§ 301-10.110 May I use contract passenger transportation service for personal travel?\n\nNo."
+  },
+  "after": {
+    "date": "2022-09-12",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+    "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+    "text": "§ 301-10.110 May I use contract passenger transportation service for personal travel?\n\nLink to an amendment published at 87 FR 55704, Sept. 12, 2022.\n\nNo."
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "added",
+      "summary": "Paragraph text added.",
+      "before_evidence": null,
+      "after_evidence": {
+        "start": 87,
+        "end": 149,
+        "quote": "Link to an amendment published at 87 FR 55704, Sept. 12, 2022."
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    }
+  ],
+  "warnings": [],
+  "analysis": {
+    "method": "deterministic",
+    "model": null,
+    "prompt_version": null,
+    "generated_at": "2026-10-17T13:44:13.438241+00:00",
+    "latency_ms": 0.025,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cost_usd": 0,
+    "input_identity": "0f66de698ab5d50915f6b09d2694855aaf96a7c8f2990239c2cfe68ab108dcbe"
+  }
+}

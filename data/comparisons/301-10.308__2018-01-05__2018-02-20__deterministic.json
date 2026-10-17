@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.308__2018-01-05__2018-02-20__deterministic",
+  "section": "301-10.308",
+  "title": "§ 301-10.308 What will I be reimbursed if I park my POV at a common carrier terminal while I am away from my official station?",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2018-01-05",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2018-01-05/title-41.xml?part=301-10",
+    "snapshot_sha256": "09c77061fa8273cca52cf552de93c0085864908cd0aea2768e9450c2f9a7a4a1",
+    "text": "§ 301-10.308 What will I be reimbursed if I park my POV at a common carrier terminal while I am away from my official station?\n\nLink to an amendment published at 82 FR 604, Jan. 5, 2018.\n\nYour agency may reimburse your parking fee as an allowable transportation expense not to exceed the cost of taxi fare to/from the terminal."
+  },
+  "after": {
+    "date": "2018-02-20",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2018-02-20/title-41.xml?part=301-10",
+    "snapshot_sha256": "fb3f0e29064d512b297bb8998a82d923b2a6830f42beed302cadfe0ab0b35494",
+    "text": "§ 301-10.308 What will I be reimbursed if I park my POV at a common carrier terminal while I am away from my official station?\n\nYour agency may reimburse your parking fee as an allowable transportation expense not to exceed the cost of one of the following to/from the terminal as determined by your agency:\n\n(a) The cost of a taxi.\n\n(b) The cost of a TNC fare.\n\n(c) The cost of using an innovative mobility technology company.\n\n[FTR Amdt. 2017-01, 83 FR 604, Jan. 5, 2018]"
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "date",
+      "summary": "Date-like wording changed.",
+      "before_evidence": {
+        "start": 128,
+        "end": 186,
+        "quote": "Link to an amendment published at 82 FR 604, Jan. 5, 2018."
+      },
+      "after_evidence": {
+        "start": 128,
+        "end": 307,
+        "quote": "Your agency may reimburse your parking fee as an allowable transportation expense not to exceed the cost of one of the following to/from the terminal as determined by your agency:"
+      },
+      "needs_review": true,
+      "review_reason": "Lexical classification only; review legal and semantic significance.",
+      "method": "deterministic"
+    },
+    {
+      "id": "change-2",
+      "category": "date",
+      "summary": "Date-like wording changed.",
+      "before_evidence": {
+        "start": 188,
+        "end": 327,
+        "quote": "Your agency may reimburse your parking fee as an allowable transportation expense not to exceed the cost of taxi fare to/from the terminal."
+      },
+      "after_evidence": {
+        "start": 309,
+        "end": 332,
+        "quote": "(a) The cost of a taxi."
+      },
+      "needs_review": true,
+      "review_reason": "Lexical classification only; review legal and semantic significance.",
+      "method": "deterministic"
+    },
+    {
+      "id": "change-3",
+      "category": "added",
+      "summary": "Paragraph text added.",
+      "before_evidence": null,
+      "after_evidence": {
+        "start": 334,
+        "end": 361,
+        "quote": "(b) The cost of a TNC fare."
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    },
+    {
+      "id": "change-4",
+      "category": "added",
+      "summary": "Paragraph text added.",
+      "before_evidence": null,
+      "after_evidence": {
+        "start": 363,
+        "end": 427,
+        "quote": "(c) The cost of using an innovative mobility technology company."
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    },
+    {
+      "id": "change-5",
+      "category": "added",
+      "summary": "Paragraph text added.",
+      "before_evidence": null,
+      "after_evidence": {
+        "start": 429,
+        "end": 473,
+        "quote": "[FTR Amdt. 2017-01, 83 FR 604, Jan. 5, 2018]"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    }
+  ],
+  "warnings": [],
+  "analysis": {
+    "method": "deterministic",
+    "model": null,
+    "prompt_version": null,
+    "generated_at": "2026-10-17T13:44:13.435112+00:00",
+    "latency_ms": 0.079,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cost_usd": 0,
+    "input_identity": "f218b193f2370b72a018bf0066c305ae04460ae81ad75ffc6a9371ad497efc80"
+  }
+}

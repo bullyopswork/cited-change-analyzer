@@ -1,0 +1,572 @@
+{
+  "schema_version": "1.0",
+  "title": "Cited Change Analyzer",
+  "corpus": "41 CFR Part 301-10",
+  "generated_at": "2026-10-17T13:58:29.228496+00:00",
+  "description": "A curated archive of factual textual changes with dated source evidence. Precomputed analyses, no live model calls.",
+  "comparisons": [
+    {
+      "id": "301-10.2__2025-12-07__2025-12-08__native_codex",
+      "section": "301-10.2",
+      "title": "§ 301-10.2 Authorized transportation methods.",
+      "before_date": "2025-12-07",
+      "after_date": "2025-12-08",
+      "change_count": 2,
+      "categories": [
+        "added",
+        "removed"
+      ],
+      "path": "comparisons/301-10.2__2025-12-07__2025-12-08__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.112__2025-12-07__2025-12-08__native_codex",
+      "section": "301-10.112",
+      "title": "§ 301-10.112 Liability for unauthorized non-contract carrier use.",
+      "before_date": "2025-12-07",
+      "after_date": "2025-12-08",
+      "change_count": 3,
+      "categories": [
+        "added",
+        "editorial",
+        "removed"
+      ],
+      "path": "comparisons/301-10.112__2025-12-07__2025-12-08__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.133__2025-12-07__2025-12-08__native_codex",
+      "section": "301-10.133",
+      "title": "§ 301-10.133 U.S. flag air carrier service.",
+      "before_date": "2025-12-07",
+      "after_date": "2025-12-08",
+      "change_count": 2,
+      "categories": [
+        "added",
+        "wording"
+      ],
+      "path": "comparisons/301-10.133__2025-12-07__2025-12-08__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.142__2025-12-07__2025-12-08__native_codex",
+      "section": "301-10.142",
+      "title": "§ 301-10.142 Liability for improper or unauthorized foreign air carrier use.",
+      "before_date": "2025-12-07",
+      "after_date": "2025-12-08",
+      "change_count": 2,
+      "categories": [
+        "added",
+        "removed"
+      ],
+      "path": "comparisons/301-10.142__2025-12-07__2025-12-08__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.201__2025-12-07__2025-12-08__native_codex",
+      "section": "301-10.201",
+      "title": "§ 301-10.201 Liability for unauthorized Government vehicle use.",
+      "before_date": "2025-12-07",
+      "after_date": "2025-12-08",
+      "change_count": 2,
+      "categories": [
+        "added",
+        "removed"
+      ],
+      "path": "comparisons/301-10.201__2025-12-07__2025-12-08__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.300__2025-12-07__2025-12-08__native_codex",
+      "section": "301-10.300",
+      "title": "§ 301-10.300 Determining and computing mileage reimbursement.",
+      "before_date": "2025-12-07",
+      "after_date": "2025-12-08",
+      "change_count": 5,
+      "categories": [
+        "added",
+        "removed"
+      ],
+      "path": "comparisons/301-10.300__2025-12-07__2025-12-08__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.301__2025-12-07__2025-12-08__native_codex",
+      "section": "301-10.301",
+      "title": "§ 301-10.301 Reimbursement for advantageous POV use.",
+      "before_date": "2025-12-07",
+      "after_date": "2025-12-08",
+      "change_count": 3,
+      "categories": [
+        "added",
+        "editorial",
+        "removed"
+      ],
+      "path": "comparisons/301-10.301__2025-12-07__2025-12-08__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.302__2025-12-07__2025-12-08__native_codex",
+      "section": "301-10.302",
+      "title": "§ 301-10.302 Allowable expenses beyond POV mileage rate.",
+      "before_date": "2025-12-07",
+      "after_date": "2025-12-08",
+      "change_count": 4,
+      "categories": [
+        "added",
+        "editorial",
+        "removed"
+      ],
+      "path": "comparisons/301-10.302__2025-12-07__2025-12-08__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.452__2025-12-07__2025-12-08__native_codex",
+      "section": "301-10.452",
+      "title": "§ 301-10.452 Liability for unauthorized rental automobile use.",
+      "before_date": "2025-12-07",
+      "after_date": "2025-12-08",
+      "change_count": 3,
+      "categories": [
+        "added",
+        "removed"
+      ],
+      "path": "comparisons/301-10.452__2025-12-07__2025-12-08__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.262__2024-02-16__2024-04-16__native_codex",
+      "section": "301-10.262",
+      "title": "§ 301-10.262 How will my agency authorize travel on Government aircraft?",
+      "before_date": "2024-02-16",
+      "after_date": "2024-04-16",
+      "change_count": 6,
+      "categories": [
+        "editorial",
+        "wording"
+      ],
+      "path": "comparisons/301-10.262__2024-02-16__2024-04-16__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.309__2023-01-18__2023-02-17__native_codex",
+      "section": "301-10.309",
+      "title": "§ 301-10.309 What will I be reimbursed if I am authorized to use common carrier transportation or a rental vehicle and I use a POV instead?",
+      "before_date": "2023-01-18",
+      "after_date": "2023-02-17",
+      "change_count": 4,
+      "categories": [
+        "editorial",
+        "requirement"
+      ],
+      "path": "comparisons/301-10.309__2023-01-18__2023-02-17__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.113__2022-09-12__2022-10-12__native_codex",
+      "section": "301-10.113",
+      "title": "§ 301-10.113 What is my liability for unauthorized use of a non-contract carrier when contract service is available and I do not meet one of the exceptions for required use?",
+      "before_date": "2022-09-12",
+      "after_date": "2022-10-12",
+      "change_count": 4,
+      "categories": [
+        "added",
+        "editorial",
+        "removed"
+      ],
+      "path": "comparisons/301-10.113__2022-09-12__2022-10-12__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.114__2022-09-12__2022-10-12__native_codex",
+      "section": "301-10.114",
+      "title": "§ 301-10.114 May I use contract passenger transportation service for personal travel?",
+      "before_date": "2022-09-12",
+      "after_date": "2022-10-12",
+      "change_count": 4,
+      "categories": [
+        "added",
+        "editorial",
+        "removed"
+      ],
+      "path": "comparisons/301-10.114__2022-09-12__2022-10-12__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.120__2022-09-12__2022-10-12__native_codex",
+      "section": "301-10.120",
+      "title": "§ 301-10.120 What must I do when different airlines furnish the same service at different fares?",
+      "before_date": "2022-09-12",
+      "after_date": "2022-10-12",
+      "change_count": 4,
+      "categories": [
+        "added",
+        "editorial",
+        "wording"
+      ],
+      "path": "comparisons/301-10.120__2022-09-12__2022-10-12__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.121__2022-09-12__2022-10-12__native_codex",
+      "section": "301-10.121",
+      "title": "§ 301-10.121 When may I use coach class seating upgrade programs?",
+      "before_date": "2022-09-12",
+      "after_date": "2022-10-12",
+      "change_count": 4,
+      "categories": [
+        "added",
+        "editorial",
+        "removed"
+      ],
+      "path": "comparisons/301-10.121__2022-09-12__2022-10-12__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.122__2022-09-12__2022-10-12__native_codex",
+      "section": "301-10.122",
+      "title": "§ 301-10.122 What must I do with compensation an airline gives me if it denies me a seat on a plane?",
+      "before_date": "2022-09-12",
+      "after_date": "2022-10-12",
+      "change_count": 4,
+      "categories": [
+        "added",
+        "editorial",
+        "removed"
+      ],
+      "path": "comparisons/301-10.122__2022-09-12__2022-10-12__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.124__2022-09-12__2022-10-12__native_codex",
+      "section": "301-10.124",
+      "title": "§ 301-10.124 When may I use a reduced group or charter fare?",
+      "before_date": "2022-09-12",
+      "after_date": "2022-10-12",
+      "change_count": 4,
+      "categories": [
+        "added",
+        "editorial",
+        "removed"
+      ],
+      "path": "comparisons/301-10.124__2022-09-12__2022-10-12__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.130__2022-09-12__2022-10-12__native_codex",
+      "section": "301-10.130",
+      "title": "§ 301-10.130 [Reserved]",
+      "before_date": "2022-09-12",
+      "after_date": "2022-10-12",
+      "change_count": 2,
+      "categories": [
+        "editorial",
+        "wording"
+      ],
+      "path": "comparisons/301-10.130__2022-09-12__2022-10-12__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.160__2022-09-12__2022-10-12__native_codex",
+      "section": "301-10.160",
+      "title": "§ 301-10.160 When may I use extra-fare train service?",
+      "before_date": "2022-09-12",
+      "after_date": "2022-10-12",
+      "change_count": 4,
+      "categories": [
+        "added",
+        "editorial",
+        "removed"
+      ],
+      "path": "comparisons/301-10.160__2022-09-12__2022-10-12__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.161__2022-09-12__2022-10-12__native_codex",
+      "section": "301-10.161",
+      "title": "§ 301-10.161 When may I use sleeping accommodations aboard train service?",
+      "before_date": "2022-09-12",
+      "after_date": "2022-10-12",
+      "change_count": 4,
+      "categories": [
+        "added",
+        "editorial",
+        "removed"
+      ],
+      "path": "comparisons/301-10.161__2022-09-12__2022-10-12__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.105__2022-04-22__2022-09-12__native_codex",
+      "section": "301-10.105",
+      "title": "§ 301-10.105 What are the basic requirements for using common carrier transportation?",
+      "before_date": "2022-04-22",
+      "after_date": "2022-09-12",
+      "change_count": 2,
+      "categories": [
+        "editorial",
+        "removed"
+      ],
+      "path": "comparisons/301-10.105__2022-04-22__2022-09-12__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.107__2022-04-22__2022-09-12__native_codex",
+      "section": "301-10.107",
+      "title": "§ 301-10.107 Are there any exceptions to the use of a contract city-pair fare?",
+      "before_date": "2022-04-22",
+      "after_date": "2022-09-12",
+      "change_count": 1,
+      "categories": [
+        "editorial"
+      ],
+      "path": "comparisons/301-10.107__2022-04-22__2022-09-12__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.108__2022-04-22__2022-09-12__native_codex",
+      "section": "301-10.108",
+      "title": "§ 301-10.108 What requirements must be met to use a non-contract fare?",
+      "before_date": "2022-04-22",
+      "after_date": "2022-09-12",
+      "change_count": 1,
+      "categories": [
+        "editorial"
+      ],
+      "path": "comparisons/301-10.108__2022-04-22__2022-09-12__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.109__2022-04-22__2022-09-12__native_codex",
+      "section": "301-10.109",
+      "title": "§ 301-10.109 What is my liability for unauthorized use of a non-contract carrier when contract service is available and I do not meet one of the exceptions for required use?",
+      "before_date": "2022-04-22",
+      "after_date": "2022-09-12",
+      "change_count": 1,
+      "categories": [
+        "editorial"
+      ],
+      "path": "comparisons/301-10.109__2022-04-22__2022-09-12__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.110__2022-04-22__2022-09-12__native_codex",
+      "section": "301-10.110",
+      "title": "§ 301-10.110 May I use contract passenger transportation service for personal travel?",
+      "before_date": "2022-04-22",
+      "after_date": "2022-09-12",
+      "change_count": 1,
+      "categories": [
+        "editorial"
+      ],
+      "path": "comparisons/301-10.110__2022-04-22__2022-09-12__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.304__2022-04-22__2022-09-12__native_codex",
+      "section": "301-10.304",
+      "title": "§ 301-10.304 What expenses are allowable in addition to the POV mileage rate allowances?",
+      "before_date": "2022-04-22",
+      "after_date": "2022-09-12",
+      "change_count": 3,
+      "categories": [
+        "editorial",
+        "wording"
+      ],
+      "path": "comparisons/301-10.304__2022-04-22__2022-09-12__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.401__2022-04-22__2022-09-12__native_codex",
+      "section": "301-10.401",
+      "title": "§ 301-10.401 What types of charges are reimbursable for use of a special conveyance?",
+      "before_date": "2022-04-22",
+      "after_date": "2022-09-12",
+      "change_count": 3,
+      "categories": [
+        "editorial",
+        "wording"
+      ],
+      "path": "comparisons/301-10.401__2022-04-22__2022-09-12__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.450__2022-04-22__2022-09-12__native_codex",
+      "section": "301-10.450",
+      "title": "§ 301-10.450 What are the policies when authorized to rent a vehicle for official travel?",
+      "before_date": "2022-04-22",
+      "after_date": "2022-09-12",
+      "change_count": 3,
+      "categories": [
+        "added",
+        "editorial"
+      ],
+      "path": "comparisons/301-10.450__2022-04-22__2022-09-12__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.451__2022-04-22__2022-09-12__native_codex",
+      "section": "301-10.451",
+      "title": "§ 301-10.451 May I be reimbursed for the cost of collision damage waiver (CDW) or theft insurance?",
+      "before_date": "2022-04-22",
+      "after_date": "2022-09-12",
+      "change_count": 4,
+      "categories": [
+        "editorial",
+        "requirement",
+        "wording"
+      ],
+      "path": "comparisons/301-10.451__2022-04-22__2022-09-12__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.106__2020-07-02__2020-08-03__native_codex",
+      "section": "301-10.106",
+      "title": "§ 301-10.106 When must I use a contract city-pair fare?",
+      "before_date": "2020-07-02",
+      "after_date": "2020-08-03",
+      "change_count": 3,
+      "categories": [
+        "editorial"
+      ],
+      "path": "comparisons/301-10.106__2020-07-02__2020-08-03__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.135__2020-07-02__2020-08-03__native_codex",
+      "section": "301-10.135",
+      "title": "§ 301-10.135 When must I travel using U.S. flag air carrier service?",
+      "before_date": "2020-07-02",
+      "after_date": "2020-08-03",
+      "change_count": 5,
+      "categories": [
+        "editorial",
+        "requirement"
+      ],
+      "path": "comparisons/301-10.135__2020-07-02__2020-08-03__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.180__2020-07-02__2020-08-03__native_codex",
+      "section": "301-10.180",
+      "title": "§ 301-10.180 Must I travel by a U.S. flag ship?",
+      "before_date": "2020-07-02",
+      "after_date": "2020-08-03",
+      "change_count": 3,
+      "categories": [
+        "editorial"
+      ],
+      "path": "comparisons/301-10.180__2020-07-02__2020-08-03__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.261__2020-07-02__2020-08-03__native_codex",
+      "section": "301-10.261",
+      "title": "§ 301-10.261 When may I use a Government aircraft for travel?",
+      "before_date": "2020-07-02",
+      "after_date": "2020-08-03",
+      "change_count": 6,
+      "categories": [
+        "editorial",
+        "wording"
+      ],
+      "path": "comparisons/301-10.261__2020-07-02__2020-08-03__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.303__2020-07-02__2020-08-03__native_codex",
+      "section": "301-10.303",
+      "title": "§ 301-10.303 What am I reimbursed when use of POV is determined by my agency to be advantageous to the Government?",
+      "before_date": "2020-07-02",
+      "after_date": "2020-08-03",
+      "change_count": 3,
+      "categories": [
+        "editorial"
+      ],
+      "path": "comparisons/301-10.303__2020-07-02__2020-08-03__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.310__2020-07-02__2020-08-03__native_codex",
+      "section": "301-10.310",
+      "title": "§ 301-10.310 What will I be reimbursed if I am authorized to use a Government-furnished automobile and I use a privately owned automobile instead?",
+      "before_date": "2020-07-02",
+      "after_date": "2020-08-03",
+      "change_count": 3,
+      "categories": [
+        "editorial"
+      ],
+      "path": "comparisons/301-10.310__2020-07-02__2020-08-03__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.3__2018-02-20__2018-06-27__native_codex",
+      "section": "301-10.3",
+      "title": "§ 301-10.3 What methods of transportation may my agency authorize me to use?",
+      "before_date": "2018-02-20",
+      "after_date": "2018-06-27",
+      "change_count": 1,
+      "categories": [
+        "wording"
+      ],
+      "path": "comparisons/301-10.3__2018-02-20__2018-06-27__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.420__2018-02-20__2018-06-27__native_codex",
+      "section": "301-10.420",
+      "title": "§ 301-10.420 When may I use a taxi, TNC, innovative mobility technology company, shuttle service or other courtesy transportation?",
+      "before_date": "2018-02-20",
+      "after_date": "2018-06-27",
+      "change_count": 2,
+      "categories": [
+        "editorial",
+        "wording"
+      ],
+      "path": "comparisons/301-10.420__2018-02-20__2018-06-27__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.308__2018-01-05__2018-02-20__native_codex",
+      "section": "301-10.308",
+      "title": "§ 301-10.308 What will I be reimbursed if I park my POV at a common carrier terminal while I am away from my official station?",
+      "before_date": "2018-01-05",
+      "after_date": "2018-02-20",
+      "change_count": 3,
+      "categories": [
+        "editorial",
+        "requirement"
+      ],
+      "path": "comparisons/301-10.308__2018-01-05__2018-02-20__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.400__2018-01-05__2018-02-20__native_codex",
+      "section": "301-10.400",
+      "title": "§ 301-10.400 What types of special conveyances may my agency authorize me to use?",
+      "before_date": "2018-01-05",
+      "after_date": "2018-02-20",
+      "change_count": 3,
+      "categories": [
+        "editorial",
+        "requirement"
+      ],
+      "path": "comparisons/301-10.400__2018-01-05__2018-02-20__native_codex.json",
+      "method": "native_codex"
+    },
+    {
+      "id": "301-10.421__2018-01-05__2018-02-20__native_codex",
+      "section": "301-10.421",
+      "title": "§ 301-10.421 How much will my agency reimburse me for a tip to a taxi, TNC, innovative mobility technology company, shuttle service, courtesy transportation driver, or valet parking attendant?",
+      "before_date": "2018-01-05",
+      "after_date": "2018-02-20",
+      "change_count": 2,
+      "categories": [
+        "editorial",
+        "requirement"
+      ],
+      "path": "comparisons/301-10.421__2018-01-05__2018-02-20__native_codex.json",
+      "method": "native_codex"
+    }
+  ]
+}

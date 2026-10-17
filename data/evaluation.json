@@ -1,0 +1,522 @@
+{
+  "schema_version": "1.0",
+  "status": "Measured, agent reviewed",
+  "generated_at": "2026-10-17T13:58:28.868566+00:00",
+  "dataset": {
+    "real_cases": 40,
+    "controlled_cases": 20,
+    "reference_events": 128,
+    "source_snapshots": 14,
+    "frozen_at": "2026-10-17T13:43:14.216110+00:00",
+    "reference_method": "Separate source-only Codex agent reference annotation, parent exact-quote checks; not human expert validation",
+    "limitations": [
+      "Curated small single-corpus benchmark, not representative regulatory or legal validation",
+      "Agent references and model use same model family, so correlated errors remain possible",
+      "No independent human expert labels",
+      "Input selection revised before inference to reduce amendment-notice-only cases; initial selection retained internally"
+    ]
+  },
+  "metrics": {
+    "all": {
+      "cases": 60,
+      "reference_events": 128,
+      "emitted_findings": 141,
+      "source_supported_findings": 141,
+      "informative_findings": 141,
+      "category_correct_findings": 137,
+      "strict_single_finding_covered_events": 87,
+      "collectively_covered_events": 113,
+      "exact_evidence_checks": 201,
+      "invalid_evidence": 0,
+      "unsupported_assertions": 0,
+      "factual_precision": 1.0,
+      "category_accuracy": 0.971631,
+      "strict_single_finding_recall": 0.679688,
+      "collective_event_recall": 0.882812,
+      "evidence_validity": 1.0
+    },
+    "development": {
+      "cases": 30,
+      "reference_events": 66,
+      "emitted_findings": 68,
+      "source_supported_findings": 68,
+      "informative_findings": 68,
+      "category_correct_findings": 65,
+      "strict_single_finding_covered_events": 44,
+      "collectively_covered_events": 52,
+      "exact_evidence_checks": 92,
+      "invalid_evidence": 0,
+      "unsupported_assertions": 0,
+      "factual_precision": 1.0,
+      "category_accuracy": 0.955882,
+      "strict_single_finding_recall": 0.666667,
+      "collective_event_recall": 0.787879,
+      "evidence_validity": 1.0
+    },
+    "held_out": {
+      "cases": 30,
+      "reference_events": 62,
+      "emitted_findings": 73,
+      "source_supported_findings": 73,
+      "informative_findings": 73,
+      "category_correct_findings": 72,
+      "strict_single_finding_covered_events": 43,
+      "collectively_covered_events": 61,
+      "exact_evidence_checks": 109,
+      "invalid_evidence": 0,
+      "unsupported_assertions": 0,
+      "factual_precision": 1.0,
+      "category_accuracy": 0.986301,
+      "strict_single_finding_recall": 0.693548,
+      "collective_event_recall": 0.983871,
+      "evidence_validity": 1.0
+    },
+    "held_out_real": {
+      "cases": 20,
+      "reference_events": 52,
+      "emitted_findings": 63,
+      "source_supported_findings": 63,
+      "informative_findings": 63,
+      "category_correct_findings": 62,
+      "strict_single_finding_covered_events": 33,
+      "collectively_covered_events": 51,
+      "exact_evidence_checks": 89,
+      "invalid_evidence": 0,
+      "unsupported_assertions": 0,
+      "factual_precision": 1.0,
+      "category_accuracy": 0.984127,
+      "strict_single_finding_recall": 0.634615,
+      "collective_event_recall": 0.980769,
+      "evidence_validity": 1.0
+    },
+    "held_out_controlled": {
+      "cases": 10,
+      "reference_events": 10,
+      "emitted_findings": 10,
+      "source_supported_findings": 10,
+      "informative_findings": 10,
+      "category_correct_findings": 10,
+      "strict_single_finding_covered_events": 10,
+      "collectively_covered_events": 10,
+      "exact_evidence_checks": 20,
+      "invalid_evidence": 0,
+      "unsupported_assertions": 0,
+      "factual_precision": 1.0,
+      "category_accuracy": 1.0,
+      "strict_single_finding_recall": 1.0,
+      "collective_event_recall": 1.0,
+      "evidence_validity": 1.0
+    }
+  },
+  "baselines": {
+    "normalized_word_diff": {
+      "findings": 159,
+      "exact_evidence_checks": 277,
+      "localized_events": 114,
+      "elapsed_ms": 6.572,
+      "negative_controls_with_findings": 0,
+      "reference_span_overlap_coverage": 0.890625,
+      "semantic_precision": null,
+      "interpretation": "Span overlap detects location only; not a semantic accuracy result. Baseline explanations were not independently adjudicated."
+    },
+    "deterministic_paragraph": {
+      "findings": 176,
+      "exact_evidence_checks": 273,
+      "localized_events": 101,
+      "elapsed_ms": 7.481,
+      "negative_controls_with_findings": 0,
+      "reference_span_overlap_coverage": 0.789062,
+      "semantic_precision": null,
+      "interpretation": "Span overlap detects location only; not a semantic accuracy result. Baseline explanations were not independently adjudicated."
+    }
+  },
+  "model": {
+    "name": "gpt-6.1-sol",
+    "reasoning_effort": "high",
+    "prompt_version": "cca-grounded-v1",
+    "route": "Existing authenticated OpenAI account via verified native Codex batches"
+  },
+  "latency_and_usage": {
+    "development": {
+      "schema_version": "1.0",
+      "route": "native Codex, existing authenticated OpenAI account",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "runtime_verified": true,
+      "case_count": 30,
+      "first_runtime_event": "2026-10-17T13:43:27.708Z",
+      "last_runtime_event": "2026-10-17T13:44:50.345Z",
+      "runtime_reported_total_usage": {
+        "input_tokens": 198566,
+        "cached_input_tokens": 167552,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 7091,
+        "reasoning_output_tokens": 1051,
+        "total_tokens": 205657
+      },
+      "timing_scope": "Whole native batch including file IO and agent orchestration, not isolated per case inference latency",
+      "cost_usd": null,
+      "billing_basis": "Existing account credits, no verified credit dollar conversion; additional standalone API spend USD0",
+      "input_sha256": "d090adfd92e318dcf737c68c6c7a1e732c14b17bf3eb643553fe56b07416375c",
+      "output_sha256": "41d6136a3214ce78b8be980563ef11f9ff68576512609c45fea1d977fcf3c53b"
+    },
+    "held_out": {
+      "schema_version": "1.0",
+      "route": "native Codex, existing authenticated OpenAI account",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "runtime_verified": true,
+      "case_count": 30,
+      "first_runtime_event": "2026-10-17T13:48:17.884Z",
+      "last_runtime_event": "2026-10-17T13:50:25.293Z",
+      "runtime_reported_total_usage": {
+        "input_tokens": 320162,
+        "cached_input_tokens": 294912,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 11209,
+        "reasoning_output_tokens": 918,
+        "total_tokens": 331371
+      },
+      "timing_scope": "Whole native batch including file IO and orchestration, not isolated per case inference latency",
+      "cost_usd": null,
+      "billing_basis": "Existing account credits, no verified credit dollar conversion; additional standalone API spend USD0",
+      "input_sha256": "8d53b2c1d25a37705c3fc24a6df66943cf4401c8fb7f09ce91ad711aabcff418",
+      "output_sha256": "c4f9f69692d0ca94225b53cba1a91e6e8de6203adb44fec21b616a46687598a9"
+    }
+  },
+  "cost": {
+    "additional_standalone_api_spend_usd": 0,
+    "model_credit_dollar_cost": null,
+    "basis": "Included/existing account credit usage is not priced here. Native runtime token totals are recorded, no claimed zero model usage."
+  },
+  "release_gate": {
+    "passed": true,
+    "factual_precision_target": 0.95,
+    "collective_event_recall_target": 0.85,
+    "exact_evidence_target": 1.0,
+    "observed_unsupported_release_assertions_target": 0,
+    "scope": "Held out raw model findings. Separate agent source review, no human expert validation. Strict single finding recall also reported; references unchanged."
+  },
+  "failures": [
+    {
+      "case_id": "301-10.114__2022-09-12__2022-10-12",
+      "missed_event_id": "301-10.114__2022-09-12__2022-10-12__e01",
+      "reason": "Frozen reference event not fully described, including collectively, by the raw model findings.",
+      "split": "development",
+      "kind": "real"
+    },
+    {
+      "case_id": "301-10.452__2025-12-07__2025-12-08",
+      "missed_event_id": "301-10.452__2025-12-07__2025-12-08__e01",
+      "reason": "Frozen reference event not fully described, including collectively, by the raw model findings.",
+      "split": "development",
+      "kind": "real"
+    },
+    {
+      "case_id": "301-10.142__2025-12-07__2025-12-08",
+      "missed_event_id": "301-10.142__2025-12-07__2025-12-08__e01",
+      "reason": "Frozen reference event not fully described, including collectively, by the raw model findings.",
+      "split": "development",
+      "kind": "real"
+    },
+    {
+      "case_id": "301-10.133__2025-12-07__2025-12-08",
+      "finding_index": 0,
+      "supported": true,
+      "category_correct": false,
+      "reason": "The summary accurately identifies the shift from carrier to service and the newly explicit certificate/exemption/regulation authorization condition. However, that condition changes the defined service's eligibility scope, so merely wording is not the appropriate semantic category.",
+      "split": "development",
+      "kind": "real"
+    },
+    {
+      "case_id": "301-10.133__2025-12-07__2025-12-08",
+      "missed_event_id": "301-10.133__2025-12-07__2025-12-08__e01",
+      "reason": "Frozen reference event not fully described, including collectively, by the raw model findings.",
+      "split": "development",
+      "kind": "real"
+    },
+    {
+      "case_id": "301-10.133__2025-12-07__2025-12-08",
+      "missed_event_id": "301-10.133__2025-12-07__2025-12-08__e02",
+      "reason": "Frozen reference event not fully described, including collectively, by the raw model findings.",
+      "split": "development",
+      "kind": "real"
+    },
+    {
+      "case_id": "301-10.304__2022-04-22__2022-09-12",
+      "finding_index": 0,
+      "supported": true,
+      "category_correct": false,
+      "reason": "The flattened table's nonreimbursable column changes gasoline to fuel exactly as summarized. Fuel is broader than gasoline, so this affects the scope of included mileage expenses and is not merely wording; no particular external entitlement is inferred.",
+      "split": "development",
+      "kind": "real"
+    },
+    {
+      "case_id": "301-10.304__2022-04-22__2022-09-12",
+      "missed_event_id": "301-10.304__2022-04-22__2022-09-12__e01",
+      "reason": "Frozen reference event not fully described, including collectively, by the raw model findings.",
+      "split": "development",
+      "kind": "real"
+    },
+    {
+      "case_id": "301-10.304__2022-04-22__2022-09-12",
+      "missed_event_id": "301-10.304__2022-04-22__2022-09-12__e02",
+      "reason": "Frozen reference event not fully described, including collectively, by the raw model findings.",
+      "split": "development",
+      "kind": "real"
+    },
+    {
+      "case_id": "301-10.401__2022-04-22__2022-09-12",
+      "finding_index": 0,
+      "supported": true,
+      "category_correct": false,
+      "reason": "The reimbursable special-conveyance example changes Gasoline and oil to Fuel and oil. Because fuel is a broader expense class, this is a scope-affecting reimbursement change, not merely wording. The nonexclusive list limits any inference that all other fuels were previously forbidden.",
+      "split": "development",
+      "kind": "real"
+    },
+    {
+      "case_id": "301-10.401__2022-04-22__2022-09-12",
+      "missed_event_id": "301-10.401__2022-04-22__2022-09-12__e01",
+      "reason": "Frozen reference event not fully described, including collectively, by the raw model findings.",
+      "split": "development",
+      "kind": "real"
+    },
+    {
+      "case_id": "301-10.2__2025-12-07__2025-12-08",
+      "missed_event_id": "301-10.2__2025-12-07__2025-12-08__e01",
+      "reason": "Frozen reference event not fully described, including collectively, by the raw model findings.",
+      "split": "development",
+      "kind": "real"
+    },
+    {
+      "case_id": "301-10.121__2022-09-12__2022-10-12",
+      "missed_event_id": "301-10.121__2022-09-12__2022-10-12__e01",
+      "reason": "Frozen reference event not fully described, including collectively, by the raw model findings.",
+      "split": "development",
+      "kind": "real"
+    },
+    {
+      "case_id": "301-10.112__2025-12-07__2025-12-08",
+      "missed_event_id": "301-10.112__2025-12-07__2025-12-08__e01",
+      "reason": "Frozen reference event not fully described, including collectively, by the raw model findings.",
+      "split": "development",
+      "kind": "real"
+    },
+    {
+      "case_id": "301-10.161__2022-09-12__2022-10-12",
+      "missed_event_id": "301-10.161__2022-09-12__2022-10-12__e01",
+      "reason": "Frozen reference event not fully described, including collectively, by the raw model findings.",
+      "split": "development",
+      "kind": "real"
+    },
+    {
+      "case_id": "301-10.300__2025-12-07__2025-12-08",
+      "missed_event_id": "301-10.300__2025-12-07__2025-12-08__e01",
+      "reason": "Frozen reference event not fully described, including collectively, by the raw model findings.",
+      "split": "development",
+      "kind": "real"
+    },
+    {
+      "case_id": "301-10.122__2022-09-12__2022-10-12",
+      "missed_event_id": "301-10.122__2022-09-12__2022-10-12__e01",
+      "reason": "Frozen reference event not fully described, including collectively, by the raw model findings.",
+      "split": "development",
+      "kind": "real"
+    },
+    {
+      "case_id": "301-10.451__2022-04-22__2022-09-12",
+      "finding_index": 2,
+      "supported": true,
+      "category_correct": false,
+      "reason": "All stated text changes are supported: CDW, OCONUS and or both. However requirement implies a demonstrated rule-scope change; the former or need not be exclusive, so these excerpts establish explicit clarification, not a newly created combined-insurance entitlement. Category is ambiguous, and wording would be better supported.",
+      "split": "held_out",
+      "kind": "real"
+    },
+    {
+      "case_id": "301-10.160__2022-09-12__2022-10-12",
+      "missed_event_id": "301-10.160__2022-09-12__2022-10-12__e01",
+      "reason": "Frozen reference event not fully described, including collectively, by the raw model findings.",
+      "split": "held_out",
+      "kind": "real"
+    }
+  ],
+  "methodology": {
+    "factual_precision": "Entire raw summary must be source supported; all emitted findings remain in denominator. Separate source review agent, not generation self grading.",
+    "recall": "A frozen reference event is covered only when one or more supported informative predictions describe all of its facts. Grouped reference events may be covered collectively by separate findings. Strict one finding coverage is separately reported. No reference edits after inference.",
+    "category_accuracy": "Independent source judgment, not automatic equality to overlapping gold taxonomy. Ambiguities recorded in full review files.",
+    "baseline_comparison": "Same 60 cases. Exact quote and reference span overlap coverage plus local elapsed time. Span overlap is not semantic correctness, so no claim that these metrics prove semantic superiority.",
+    "independence_limit": "Generation, references and reviews use the same model family in separate fresh contexts; correlated errors remain possible. Not legal or representative regulatory validation.",
+    "timing": "Native batch elapsed includes tools and orchestration. It is not directly comparable to per case local diff time.",
+    "reproduction": "Run scripts/freeze_benchmark.py, then scripts/evaluate.py. Evaluation reuses immutable published outputs and makes no model calls."
+  },
+  "review_schema_notes": {
+    "summary": "Redundant reviewer missed_event_ids fields mix strict, category-aware and collective conventions. Metrics derive from explicit per-finding matched_event_ids and per-event coverage records. Raw review files and frozen references remain unchanged.",
+    "affected_cases": 17,
+    "details": [
+      {
+        "case_id": "301-10.133__2025-12-07__2025-12-08",
+        "reviewer_reported_missed": [
+          "301-10.133__2025-12-07__2025-12-08__e01",
+          "301-10.133__2025-12-07__2025-12-08__e02"
+        ],
+        "derived_strict_fact_missed": [
+          "301-10.133__2025-12-07__2025-12-08__e01"
+        ],
+        "derived_collective_missed": [
+          "301-10.133__2025-12-07__2025-12-08__e01",
+          "301-10.133__2025-12-07__2025-12-08__e02"
+        ]
+      },
+      {
+        "case_id": "301-10.304__2022-04-22__2022-09-12",
+        "reviewer_reported_missed": [
+          "301-10.304__2022-04-22__2022-09-12__e01",
+          "301-10.304__2022-04-22__2022-09-12__e02",
+          "301-10.304__2022-04-22__2022-09-12__e03"
+        ],
+        "derived_strict_fact_missed": [
+          "301-10.304__2022-04-22__2022-09-12__e02",
+          "301-10.304__2022-04-22__2022-09-12__e03"
+        ],
+        "derived_collective_missed": [
+          "301-10.304__2022-04-22__2022-09-12__e01",
+          "301-10.304__2022-04-22__2022-09-12__e02"
+        ]
+      },
+      {
+        "case_id": "301-10.401__2022-04-22__2022-09-12",
+        "reviewer_reported_missed": [
+          "301-10.401__2022-04-22__2022-09-12__e01",
+          "301-10.401__2022-04-22__2022-09-12__e02"
+        ],
+        "derived_strict_fact_missed": [
+          "301-10.401__2022-04-22__2022-09-12__e02"
+        ],
+        "derived_collective_missed": [
+          "301-10.401__2022-04-22__2022-09-12__e01"
+        ]
+      },
+      {
+        "case_id": "301-10.303__2020-07-02__2020-08-03",
+        "reviewer_reported_missed": [],
+        "derived_strict_fact_missed": [
+          "301-10.303__2020-07-02__2020-08-03__e02"
+        ],
+        "derived_collective_missed": []
+      },
+      {
+        "case_id": "301-10.262__2024-02-16__2024-04-16",
+        "reviewer_reported_missed": [],
+        "derived_strict_fact_missed": [
+          "301-10.262__2024-02-16__2024-04-16__e01",
+          "301-10.262__2024-02-16__2024-04-16__e02"
+        ],
+        "derived_collective_missed": []
+      },
+      {
+        "case_id": "301-10.451__2022-04-22__2022-09-12",
+        "reviewer_reported_missed": [],
+        "derived_strict_fact_missed": [
+          "301-10.451__2022-04-22__2022-09-12__e03"
+        ],
+        "derived_collective_missed": []
+      },
+      {
+        "case_id": "301-10.400__2018-01-05__2018-02-20",
+        "reviewer_reported_missed": [],
+        "derived_strict_fact_missed": [
+          "301-10.400__2018-01-05__2018-02-20__e02"
+        ],
+        "derived_collective_missed": []
+      },
+      {
+        "case_id": "301-10.135__2020-07-02__2020-08-03",
+        "reviewer_reported_missed": [],
+        "derived_strict_fact_missed": [
+          "301-10.135__2020-07-02__2020-08-03__e02"
+        ],
+        "derived_collective_missed": []
+      },
+      {
+        "case_id": "301-10.302__2025-12-07__2025-12-08",
+        "reviewer_reported_missed": [],
+        "derived_strict_fact_missed": [
+          "301-10.302__2025-12-07__2025-12-08__e01",
+          "301-10.302__2025-12-07__2025-12-08__e03"
+        ],
+        "derived_collective_missed": []
+      },
+      {
+        "case_id": "301-10.160__2022-09-12__2022-10-12",
+        "reviewer_reported_missed": [
+          "301-10.160__2022-09-12__2022-10-12__e01"
+        ],
+        "derived_strict_fact_missed": [
+          "301-10.160__2022-09-12__2022-10-12__e01",
+          "301-10.160__2022-09-12__2022-10-12__e04"
+        ],
+        "derived_collective_missed": [
+          "301-10.160__2022-09-12__2022-10-12__e01"
+        ]
+      },
+      {
+        "case_id": "301-10.301__2025-12-07__2025-12-08",
+        "reviewer_reported_missed": [],
+        "derived_strict_fact_missed": [
+          "301-10.301__2025-12-07__2025-12-08__e01"
+        ],
+        "derived_collective_missed": []
+      },
+      {
+        "case_id": "301-10.201__2025-12-07__2025-12-08",
+        "reviewer_reported_missed": [],
+        "derived_strict_fact_missed": [
+          "301-10.201__2025-12-07__2025-12-08__e01"
+        ],
+        "derived_collective_missed": []
+      },
+      {
+        "case_id": "301-10.113__2022-09-12__2022-10-12",
+        "reviewer_reported_missed": [],
+        "derived_strict_fact_missed": [
+          "301-10.113__2022-09-12__2022-10-12__e01",
+          "301-10.113__2022-09-12__2022-10-12__e04"
+        ],
+        "derived_collective_missed": []
+      },
+      {
+        "case_id": "301-10.130__2022-09-12__2022-10-12",
+        "reviewer_reported_missed": [],
+        "derived_strict_fact_missed": [
+          "301-10.130__2022-09-12__2022-10-12__e01"
+        ],
+        "derived_collective_missed": []
+      },
+      {
+        "case_id": "301-10.120__2022-09-12__2022-10-12",
+        "reviewer_reported_missed": [],
+        "derived_strict_fact_missed": [
+          "301-10.120__2022-09-12__2022-10-12__e03"
+        ],
+        "derived_collective_missed": []
+      },
+      {
+        "case_id": "301-10.124__2022-09-12__2022-10-12",
+        "reviewer_reported_missed": [],
+        "derived_strict_fact_missed": [
+          "301-10.124__2022-09-12__2022-10-12__e01",
+          "301-10.124__2022-09-12__2022-10-12__e04"
+        ],
+        "derived_collective_missed": []
+      },
+      {
+        "case_id": "301-10.261__2020-07-02__2020-08-03",
+        "reviewer_reported_missed": [],
+        "derived_strict_fact_missed": [
+          "301-10.261__2020-07-02__2020-08-03__e02"
+        ],
+        "derived_collective_missed": []
+      }
+    ]
+  }
+}

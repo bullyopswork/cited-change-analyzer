@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.400__2018-01-05__2018-02-20__native_codex",
+  "section": "301-10.400",
+  "title": "§ 301-10.400 What types of special conveyances may my agency authorize me to use?",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2018-01-05",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2018-01-05/title-41.xml?part=301-10",
+    "snapshot_sha256": "09c77061fa8273cca52cf552de93c0085864908cd0aea2768e9450c2f9a7a4a1",
+    "text": "§ 301-10.400 What types of special conveyances may my agency authorize me to use?\n\nLink to an amendment published at 82 FR 604, Jan. 5, 2018.\n\nYour agency may authorize/approve use of:\n\n(a) Taxicabs as specified in §§ 301-10.420 through 301-10.421 of this chapter;\n\n(b) Commercial rental automobiles as specified in §§ 301-10.450 through 301-10.453 of this chapter; or\n\n(c) Any other special conveyance when determined to be advantageous to the Government."
+  },
+  "after": {
+    "date": "2018-02-20",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2018-02-20/title-41.xml?part=301-10",
+    "snapshot_sha256": "fb3f0e29064d512b297bb8998a82d923b2a6830f42beed302cadfe0ab0b35494",
+    "text": "§ 301-10.400 What types of special conveyances may my agency authorize me to use?\n\nYour agency may authorize/approve use of:\n\n(a) Taxis, TNCs, or innovative mobility technology companies as specified in §§ 301-10.420 through 301-10.421 of this chapter;\n\n(b) Commercial rental automobiles as specified in §§ 301-10.450 through 301-10.453 of this chapter; or\n\n(c) Any other special conveyance when determined to be advantageous to the Government.\n\n[ FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 2017-01, 83 FR 604, Jan. 5, 2018]"
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "editorial",
+      "summary": "The standalone notice linking to an amendment at 82 FR 604 is absent in the after snapshot.",
+      "before_evidence": {
+        "start": 83,
+        "end": 141,
+        "quote": "Link to an amendment published at 82 FR 604, Jan. 5, 2018."
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-2",
+      "category": "requirement",
+      "summary": "Paragraph (a) replaces “Taxicabs” with “Taxis, TNCs, or innovative mobility technology companies” in the list of conveyances the agency may authorize or approve.",
+      "before_evidence": {
+        "start": 186,
+        "end": 264,
+        "quote": "(a) Taxicabs as specified in §§ 301-10.420 through 301-10.421 of this chapter;"
+      },
+      "after_evidence": {
+        "start": 126,
+        "end": 252,
+        "quote": "(a) Taxis, TNCs, or innovative mobility technology companies as specified in §§ 301-10.420 through 301-10.421 of this chapter;"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-3",
+      "category": "editorial",
+      "summary": "The after snapshot adds source-history citations, including FTR Amendment 2017-01 at 83 FR 604.",
+      "before_evidence": null,
+      "after_evidence": {
+        "start": 446,
+        "end": 546,
+        "quote": "[ FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 2017-01, 83 FR 604, Jan. 5, 2018]"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    }
+  ],
+  "warnings": [],
+  "analysis": {
+    "method": "native_codex",
+    "model": "gpt-6.1-sol",
+    "prompt_version": "cca-grounded-v1",
+    "generated_at": "2026-10-17T13:50:54.759723+00:00",
+    "latency_ms": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "usage_available": false,
+    "latency_available": false,
+    "cost_usd": null,
+    "billing_basis": "Existing OpenAI account via native Codex. Credit dollar rate unavailable; not zero model usage.",
+    "input_identity": "a4bf782fcbf8fa31b35a8d6c1f0cee50e599d117f8cca00cf1d663ec8eb1c721"
+  }
+}

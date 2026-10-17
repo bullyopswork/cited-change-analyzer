@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.113__2022-09-12__2022-10-12__native_codex",
+  "section": "301-10.113",
+  "title": "§ 301-10.113 What is my liability for unauthorized use of a non-contract carrier when contract service is available and I do not meet one of the exceptions for required use?",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2022-09-12",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+    "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+    "text": "§ 301-10.113 What must I do if I change or do not use a common carrier reservation?\n\nLink to an amendment published at 87 FR 55704, Sept. 12, 2022.\n\nIf you know you will change or not use your reservation, you must take action to change or cancel it as prescribed by your agency. Also, you must report all changes of your reservation according to your agency's procedures in an effort to prevent losses to the Government. Failure to do so may subject you to liability for any resulting losses."
+  },
+  "after": {
+    "date": "2022-10-12",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-10-12/title-41.xml?part=301-10",
+    "snapshot_sha256": "5af0a1c5b1ea546e201564970a3775086b58b576ff7c7f44a98a3a19ab32739a",
+    "text": "§ 301-10.113 What is my liability for unauthorized use of a non-contract carrier when contract service is available and I do not meet one of the exceptions for required use?\n\nYou are responsible for any additional costs or penalties incurred by you resulting from unauthorized use of non-contract service.\n\n[FTR Case 2020-300-1, 87 FR 55704, Sept. 12, 2022]"
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "removed",
+      "summary": "The before snapshot's reservation-change heading and instructions to change or cancel reservations under agency prescriptions and report all changes under agency procedures, with possible liability for losses from failure to do so, are absent at this identifier in the after snapshot.",
+      "before_evidence": {
+        "start": 0,
+        "end": 493,
+        "quote": "§ 301-10.113 What must I do if I change or do not use a common carrier reservation?\n\nLink to an amendment published at 87 FR 55704, Sept. 12, 2022.\n\nIf you know you will change or not use your reservation, you must take action to change or cancel it as prescribed by your agency. Also, you must report all changes of your reservation according to your agency's procedures in an effort to prevent losses to the Government. Failure to do so may subject you to liability for any resulting losses."
+      },
+      "after_evidence": null,
+      "needs_review": true,
+      "review_reason": "The after snapshot uses the same identifier for unauthorized non-contract service; these excerpts cannot establish the location or status of the reservation rule elsewhere.; One-sided evidence overlaps a complex revision; review removal versus replacement.",
+      "method": "native_codex"
+    },
+    {
+      "id": "change-2",
+      "category": "added",
+      "summary": "At this identifier, the after snapshot addresses unauthorized non-contract service when contract service is available and no exception is met, stating responsibility for resulting additional costs or penalties incurred by the traveler.",
+      "before_evidence": null,
+      "after_evidence": {
+        "start": 0,
+        "end": 305,
+        "quote": "§ 301-10.113 What is my liability for unauthorized use of a non-contract carrier when contract service is available and I do not meet one of the exceptions for required use?\n\nYou are responsible for any additional costs or penalties incurred by you resulting from unauthorized use of non-contract service."
+      },
+      "needs_review": true,
+      "review_reason": "The identifier has changed subjects; this is only a snapshot-level addition, not proof of a globally new rule.; One-sided evidence overlaps a complex revision; review addition versus replacement.",
+      "method": "native_codex"
+    },
+    {
+      "id": "change-3",
+      "category": "editorial",
+      "summary": "The standalone amendment-link notice is absent in the after snapshot.",
+      "before_evidence": {
+        "start": 85,
+        "end": 147,
+        "quote": "Link to an amendment published at 87 FR 55704, Sept. 12, 2022."
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-4",
+      "category": "editorial",
+      "summary": "The after snapshot adds a source citation for FTR Case 2020-300-1.",
+      "before_evidence": null,
+      "after_evidence": {
+        "start": 307,
+        "end": 357,
+        "quote": "[FTR Case 2020-300-1, 87 FR 55704, Sept. 12, 2022]"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    }
+  ],
+  "warnings": [
+    "Section 301-10.113 has different subjects across the snapshots; alignment is uncertain. No repeal or global addition is inferred."
+  ],
+  "analysis": {
+    "method": "native_codex",
+    "model": "gpt-6.1-sol",
+    "prompt_version": "cca-grounded-v1",
+    "generated_at": "2026-10-17T13:50:54.830555+00:00",
+    "latency_ms": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "usage_available": false,
+    "latency_available": false,
+    "cost_usd": null,
+    "billing_basis": "Existing OpenAI account via native Codex. Credit dollar rate unavailable; not zero model usage.",
+    "input_identity": "3b7c77e2d92f0b3f4e483fb0df236488b060bd86d48386ade1b72a4901817f1f"
+  }
+}

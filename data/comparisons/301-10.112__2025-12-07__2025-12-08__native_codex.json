@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.112__2025-12-07__2025-12-08__native_codex",
+  "section": "301-10.112",
+  "title": "§ 301-10.112 Liability for unauthorized non-contract carrier use.",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2025-12-07",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-07/title-41.xml?part=301-10",
+    "snapshot_sha256": "c3af54ff8020830b5b2ed8f98ff704de6eed6572d063a744aacf9b652ce2fe53",
+    "text": "§ 301-10.112 What requirements must be met to use a non-contract fare?\n\n(a) Before purchasing a non-contract fare you must meet one of the exception requirements listed in § 301-10.111 and show approval on your travel authorization to use a non-contract fare; and\n\n(b) If the non-contract fare is non-refundable, restricted, or has specific eligibility requirements, you must know or reasonably anticipate, based on your planned trip, that you will use the ticket; and\n\n(c) Your agency must determine that the proposed non-contract transportation is practical and cost effective for the Government.\n\n[FTR Case 2020-300-1, 87 FR 55704, Sept. 12, 2022]"
+  },
+  "after": {
+    "date": "2025-12-08",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-08/title-41.xml?part=301-10",
+    "snapshot_sha256": "7c994b51abe2c310f493295de3fdecc36fe9e28c59567e38bac28e5ebe446d6a",
+    "text": "§ 301-10.112 Liability for unauthorized non-contract carrier use.\n\nEmployees are responsible for any additional costs or penalties incurred by using a non-contract carrier when contract service is available and no authorized exception applies."
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "removed",
+      "summary": "The conditions for purchasing non-contract fares, including an exception, travel-authorization approval, anticipated ticket use and an agency practicality and cost-effectiveness determination, are absent from the later snapshot.",
+      "before_evidence": {
+        "start": 72,
+        "end": 598,
+        "quote": "(a) Before purchasing a non-contract fare you must meet one of the exception requirements listed in § 301-10.111 and show approval on your travel authorization to use a non-contract fare; and\n\n(b) If the non-contract fare is non-refundable, restricted, or has specific eligibility requirements, you must know or reasonably anticipate, based on your planned trip, that you will use the ticket; and\n\n(c) Your agency must determine that the proposed non-contract transportation is practical and cost effective for the Government."
+      },
+      "after_evidence": null,
+      "needs_review": true,
+      "review_reason": "The same section number covers different topics in these snapshots; the supplied text does not establish whether the former content moved elsewhere.; One-sided evidence overlaps a complex revision; review removal versus replacement.",
+      "method": "native_codex"
+    },
+    {
+      "id": "change-2",
+      "category": "added",
+      "summary": "The later snapshot assigns employees additional costs or penalties for non-contract carrier use when contract service is available and no authorized exception applies.",
+      "before_evidence": null,
+      "after_evidence": {
+        "start": 67,
+        "end": 243,
+        "quote": "Employees are responsible for any additional costs or penalties incurred by using a non-contract carrier when contract service is available and no authorized exception applies."
+      },
+      "needs_review": true,
+      "review_reason": "The same section number covers different topics in these snapshots; the supplied text does not establish whether the former content moved elsewhere.; One-sided evidence overlaps a complex revision; review addition versus replacement.",
+      "method": "native_codex"
+    },
+    {
+      "id": "change-3",
+      "category": "editorial",
+      "summary": "The FTR Case 2020-300-1 source note is absent from the later snapshot.",
+      "before_evidence": {
+        "start": 600,
+        "end": 650,
+        "quote": "[FTR Case 2020-300-1, 87 FR 55704, Sept. 12, 2022]"
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    }
+  ],
+  "warnings": [
+    "Topic alignment differs across these snapshots. Absence here does not establish repeal or absence elsewhere."
+  ],
+  "analysis": {
+    "method": "native_codex",
+    "model": "gpt-6.1-sol",
+    "prompt_version": "cca-grounded-v1",
+    "generated_at": "2026-10-17T13:50:54.499049+00:00",
+    "latency_ms": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "usage_available": false,
+    "latency_available": false,
+    "cost_usd": null,
+    "billing_basis": "Existing OpenAI account via native Codex. Credit dollar rate unavailable; not zero model usage.",
+    "input_identity": "f0ba2e37428c6af220b1efd0f66a3c9775746e52fe3f7be1d607d0c3475a9c43"
+  }
+}

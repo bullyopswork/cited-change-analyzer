@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.112__2025-12-07__2025-12-08__deterministic",
+  "section": "301-10.112",
+  "title": "§ 301-10.112 Liability for unauthorized non-contract carrier use.",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2025-12-07",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-07/title-41.xml?part=301-10",
+    "snapshot_sha256": "c3af54ff8020830b5b2ed8f98ff704de6eed6572d063a744aacf9b652ce2fe53",
+    "text": "§ 301-10.112 What requirements must be met to use a non-contract fare?\n\n(a) Before purchasing a non-contract fare you must meet one of the exception requirements listed in § 301-10.111 and show approval on your travel authorization to use a non-contract fare; and\n\n(b) If the non-contract fare is non-refundable, restricted, or has specific eligibility requirements, you must know or reasonably anticipate, based on your planned trip, that you will use the ticket; and\n\n(c) Your agency must determine that the proposed non-contract transportation is practical and cost effective for the Government.\n\n[FTR Case 2020-300-1, 87 FR 55704, Sept. 12, 2022]"
+  },
+  "after": {
+    "date": "2025-12-08",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-08/title-41.xml?part=301-10",
+    "snapshot_sha256": "7c994b51abe2c310f493295de3fdecc36fe9e28c59567e38bac28e5ebe446d6a",
+    "text": "§ 301-10.112 Liability for unauthorized non-contract carrier use.\n\nEmployees are responsible for any additional costs or penalties incurred by using a non-contract carrier when contract service is available and no authorized exception applies."
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "requirement",
+      "summary": "Requirement or negation wording changed.",
+      "before_evidence": {
+        "start": 0,
+        "end": 70,
+        "quote": "§ 301-10.112 What requirements must be met to use a non-contract fare?"
+      },
+      "after_evidence": {
+        "start": 0,
+        "end": 65,
+        "quote": "§ 301-10.112 Liability for unauthorized non-contract carrier use."
+      },
+      "needs_review": true,
+      "review_reason": "Lexical classification only; review legal and semantic significance.",
+      "method": "deterministic"
+    },
+    {
+      "id": "change-2",
+      "category": "amount",
+      "summary": "Numeric or amount wording changed.",
+      "before_evidence": {
+        "start": 72,
+        "end": 263,
+        "quote": "(a) Before purchasing a non-contract fare you must meet one of the exception requirements listed in § 301-10.111 and show approval on your travel authorization to use a non-contract fare; and"
+      },
+      "after_evidence": {
+        "start": 67,
+        "end": 243,
+        "quote": "Employees are responsible for any additional costs or penalties incurred by using a non-contract carrier when contract service is available and no authorized exception applies."
+      },
+      "needs_review": true,
+      "review_reason": "Lexical classification only; review legal and semantic significance.",
+      "method": "deterministic"
+    },
+    {
+      "id": "change-3",
+      "category": "removed",
+      "summary": "Paragraph text removed.",
+      "before_evidence": {
+        "start": 265,
+        "end": 468,
+        "quote": "(b) If the non-contract fare is non-refundable, restricted, or has specific eligibility requirements, you must know or reasonably anticipate, based on your planned trip, that you will use the ticket; and"
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    },
+    {
+      "id": "change-4",
+      "category": "removed",
+      "summary": "Paragraph text removed.",
+      "before_evidence": {
+        "start": 470,
+        "end": 598,
+        "quote": "(c) Your agency must determine that the proposed non-contract transportation is practical and cost effective for the Government."
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    },
+    {
+      "id": "change-5",
+      "category": "removed",
+      "summary": "Paragraph text removed.",
+      "before_evidence": {
+        "start": 600,
+        "end": 650,
+        "quote": "[FTR Case 2020-300-1, 87 FR 55704, Sept. 12, 2022]"
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    }
+  ],
+  "warnings": [],
+  "analysis": {
+    "method": "deterministic",
+    "model": null,
+    "prompt_version": null,
+    "generated_at": "2026-10-17T13:44:13.434503+00:00",
+    "latency_ms": 0.096,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cost_usd": 0,
+    "input_identity": "439dec584e955f529878f387a7a3fc9c6b6fc4766d921244e16b8d2e5232e828"
+  }
+}

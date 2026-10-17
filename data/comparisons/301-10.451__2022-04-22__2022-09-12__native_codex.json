@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.451__2022-04-22__2022-09-12__native_codex",
+  "section": "301-10.451",
+  "title": "§ 301-10.451 May I be reimbursed for the cost of collision damage waiver (CDW) or theft insurance?",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2022-04-22",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-04-22/title-41.xml?part=301-10",
+    "snapshot_sha256": "700c4a608dea9d91d043f8b1dfcc65ce876a398bf2960ef7a503b0b38218bd2e",
+    "text": "§ 301-10.451 May I be reimbursed for the cost of collision damage waiver (CDW) or theft insurance?\n\nLink to an amendment published at 87 FR 24065, Apr. 22, 2022.\n\n(a) General rule - no. You will not be reimbursed for CDW or theft insurance for travel within CONUS for the following reasons:\n\n(1) The Government is a self-insurer.\n\n(2) Rental vehicles available under agreement(s) with the Government includes full coverage insurance for damages resulting from an accident while performing official travel.\n\n(3) Any deductible amount paid by you may be reimbursed directly to you or directly to the rental agency if the damage occurred while you were performing official business.\n\n(b) Exception. You will be reimbursed for collision damage waiver or theft insurance when you travel outside CONUS and such insurance is necessary because the rental or leasing agency requirements, foreign statute, or legal procedures could cause extreme difficulty for an employee involved in an accident."
+  },
+  "after": {
+    "date": "2022-09-12",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+    "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+    "text": "§ 301-10.451 May I be reimbursed for the cost of collision damage waiver (CDW) or theft insurance?\n\n(a) General rule—no. You will not be reimbursed for CDW or theft insurance for travel within CONUS for the following reasons:\n\n(1) The Government is a self-insurer.\n\n(2) Rental vehicles available under agreement(s) with the Government includes full coverage insurance for damages resulting from an accident while performing official travel.\n\n(3) Any deductible amount paid by you may be reimbursed directly to you or directly to the rental agency if the damage occurred while you were performing official business.\n\n(b) Exception. You will be reimbursed for CDW or theft insurance, or both, when you travel OCONUS and such insurance is necessary because the rental or leasing agency requirements, foreign statute, or legal procedures could cause extreme difficulty for an employee involved in an accident.\n\n[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by 87 FR 24065, Apr. 22, 2022]"
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "editorial",
+      "summary": "The standalone notice linking to the April 22, 2022 amendment is absent in the after snapshot.",
+      "before_evidence": {
+        "start": 100,
+        "end": 161,
+        "quote": "Link to an amendment published at 87 FR 24065, Apr. 22, 2022."
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-2",
+      "category": "wording",
+      "summary": "The general-rule label replaces the spaced hyphen with an em dash.",
+      "before_evidence": {
+        "start": 163,
+        "end": 185,
+        "quote": "(a) General rule - no."
+      },
+      "after_evidence": {
+        "start": 100,
+        "end": 120,
+        "quote": "(a) General rule—no."
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-3",
+      "category": "requirement",
+      "summary": "The exception now explicitly mentions reimbursement for CDW or theft insurance, “or both”; it also replaces “collision damage waiver” with “CDW” and “outside CONUS” with “OCONUS.”",
+      "before_evidence": {
+        "start": 681,
+        "end": 987,
+        "quote": "(b) Exception. You will be reimbursed for collision damage waiver or theft insurance when you travel outside CONUS and such insurance is necessary because the rental or leasing agency requirements, foreign statute, or legal procedures could cause extreme difficulty for an employee involved in an accident."
+      },
+      "after_evidence": {
+        "start": 616,
+        "end": 905,
+        "quote": "(b) Exception. You will be reimbursed for CDW or theft insurance, or both, when you travel OCONUS and such insurance is necessary because the rental or leasing agency requirements, foreign statute, or legal procedures could cause extreme difficulty for an employee involved in an accident."
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-4",
+      "category": "editorial",
+      "summary": "The after snapshot adds a source-history citation for the 1998 text and the April 22, 2022 amendment.",
+      "before_evidence": null,
+      "after_evidence": {
+        "start": 907,
+        "end": 990,
+        "quote": "[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by 87 FR 24065, Apr. 22, 2022]"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    }
+  ],
+  "warnings": [],
+  "analysis": {
+    "method": "native_codex",
+    "model": "gpt-6.1-sol",
+    "prompt_version": "cca-grounded-v1",
+    "generated_at": "2026-10-17T13:50:54.755667+00:00",
+    "latency_ms": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "usage_available": false,
+    "latency_available": false,
+    "cost_usd": null,
+    "billing_basis": "Existing OpenAI account via native Codex. Credit dollar rate unavailable; not zero model usage.",
+    "input_identity": "68f516dcd901101ad74aeb0920bf15828b35fccc77216def83637825a4d651fe"
+  }
+}

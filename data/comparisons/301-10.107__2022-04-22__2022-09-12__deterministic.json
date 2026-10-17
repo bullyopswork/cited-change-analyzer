@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.107__2022-04-22__2022-09-12__deterministic",
+  "section": "301-10.107",
+  "title": "§ 301-10.107 Are there any exceptions to the use of a contract city-pair fare?",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2022-04-22",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-04-22/title-41.xml?part=301-10",
+    "snapshot_sha256": "700c4a608dea9d91d043f8b1dfcc65ce876a398bf2960ef7a503b0b38218bd2e",
+    "text": "§ 301-10.107 Are there any exceptions to the use of a contract city-pair fare?\n\nYes, your agency may authorize use of a fare other-than a contract city-pair fare when -\n\n(a) Space on a scheduled contract flight is not available in time to accomplish the purpose of your travel, or use of contract service would require you to incur unnecessary overnight lodging costs which would increase the total cost of the trip;\n\n(b) The contractor's flight schedule is inconsistent with explicit policies of your Federal department or agency with regard to scheduling travel during normal working hours;\n\n(c) A non-contract carrier offers a lower fare to the general public that, if used, will result in a lower total trip cost to the Government (the combined costs of transportation, lodging, meals, and related expenses considered);\n\nNote to paragraph (c):\n\nThis exception does not apply if the contract carrier offers the same or lower fare and has seats available at that fare, or if the fare offered by the non-contract carrier is restricted to Government and military travelers performing official business and may be purchased only with a contractor-issued charge card, centrally billed account (e.g., YDG, MDG, QDG, VDG, and similar fares) or GTR where the two previous options are not available;\n\n(d) Cost effective rail service is available and is consistent with mission requirements; or\n\n(e) Smoking is permitted on the contract air carrier and the nonsmoking section of the contract aircraft is not acceptable to you.\n\nNote 1 to § 301-10.107:\n\nAny group of 10 or more passengers traveling together on the same day, on the same flight, for the same mission, requiring group integrity and identified as a group by the travel management service upon booking is not a mandatory user of the Government's contract city-pair fares. For group travel, agencies are expected to obtain air passenger transportation service that is practical and cost effective to the Government.\n\nNote 2 to § 301-10.107:\n\nContractors are not authorized to use contract city-pair fares to perform travel under their contracts.\n\nNote 3 to § 301-10.107:\n\nIf the Government contract city-pair carrier offers a lower cost capacity-controlled coach class contract fare (MCA, QCA, VCA, etc.) in addition to the unrestricted coach class contract fares (YCA), the traveler should use the lower cost capacity-controlled fare when it is available and meet mission needs.\n\n[FTR Amdt. 2006-04, 71 FR 49374, Aug. 23, 2006, as amended by FTR Amdt. 2007-05, 72 FR 61537, Oct. 31, 2007]"
+  },
+  "after": {
+    "date": "2022-09-12",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+    "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+    "text": "§ 301-10.107 Are there any exceptions to the use of a contract city-pair fare?\n\nLink to an amendment published at 87 FR 55704, Sept. 12, 2022.\n\nYes, your agency may authorize use of a fare other-than a contract city-pair fare when -\n\n(a) Space on a scheduled contract flight is not available in time to accomplish the purpose of your travel, or use of contract service would require you to incur unnecessary overnight lodging costs which would increase the total cost of the trip;\n\n(b) The contractor's flight schedule is inconsistent with explicit policies of your Federal department or agency with regard to scheduling travel during normal working hours;\n\n(c) A non-contract carrier offers a lower fare to the general public that, if used, will result in a lower total trip cost to the Government (the combined costs of transportation, lodging, meals, and related expenses considered);\n\nNote to paragraph (c):\n\nThis exception does not apply if the contract carrier offers the same or lower fare and has seats available at that fare, or if the fare offered by the non-contract carrier is restricted to Government and military travelers performing official business and may be purchased only with a contractor-issued charge card, centrally billed account (e.g., YDG, MDG, QDG, VDG, and similar fares) or GTR where the two previous options are not available;\n\n(d) Cost effective rail service is available and is consistent with mission requirements; or\n\n(e) Smoking is permitted on the contract air carrier and the nonsmoking section of the contract aircraft is not acceptable to you.\n\nNote 1 to § 301-10.107:\n\nAny group of 10 or more passengers traveling together on the same day, on the same flight, for the same mission, requiring group integrity and identified as a group by the travel management service upon booking is not a mandatory user of the Government's contract city-pair fares. For group travel, agencies are expected to obtain air passenger transportation service that is practical and cost effective to the Government.\n\nNote 2 to § 301-10.107:\n\nContractors are not authorized to use contract city-pair fares to perform travel under their contracts.\n\nNote 3 to § 301-10.107:\n\nIf the Government contract city-pair carrier offers a lower cost capacity-controlled coach class contract fare (MCA, QCA, VCA, etc.) in addition to the unrestricted coach class contract fares (YCA), the traveler should use the lower cost capacity-controlled fare when it is available and meet mission needs.\n\n[FTR Amdt. 2006-04, 71 FR 49374, Aug. 23, 2006, as amended by FTR Amdt. 2007-05, 72 FR 61537, Oct. 31, 2007]"
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "added",
+      "summary": "Paragraph text added.",
+      "before_evidence": null,
+      "after_evidence": {
+        "start": 80,
+        "end": 142,
+        "quote": "Link to an amendment published at 87 FR 55704, Sept. 12, 2022."
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    }
+  ],
+  "warnings": [],
+  "analysis": {
+    "method": "deterministic",
+    "model": null,
+    "prompt_version": null,
+    "generated_at": "2026-10-17T13:44:13.441474+00:00",
+    "latency_ms": 0.103,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cost_usd": 0,
+    "input_identity": "166de54931f9ba880627cde3790817cd16f75451220be48dc61bfe5eee4e6e49"
+  }
+}

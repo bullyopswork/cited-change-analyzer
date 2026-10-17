@@ -1,0 +1,185 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.160__2022-09-12__2022-10-12__deterministic",
+  "section": "301-10.160",
+  "title": "§ 301-10.160 When may I use extra-fare train service?",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2022-09-12",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+    "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+    "text": "§ 301-10.160 What classes of train accommodations are available?\n\nLink to an amendment published at 87 FR 55705, Sept. 12, 2022.\n\n(a) Coach-class - The basic class of accommodations offered by a rail carrier to passengers that includes a level of service available to all passengers regardless of the fare paid. Coach-class includes reserved coach accommodations as well as slumber coach accommodations when overnight train travel is involved.\n\n(b) Slumber coach - Includes slumber coach accommodations on trains offering such accommodations, or the lowest level of sleeping accommodations available on a train that does not offer slumber coach accommodations.\n\n(c) Other than coach-class - Any class of accommodations above coach, e.g., first-class or business-class.\n\n(1) First-class - Includes bedrooms, roomettes, club service, parlor car accommodations or other premium accommodations.\n\n(2) Business-class - A class of extra fare train service that is offered above coach class, but is lower than first-class, as described above.\n\nNote to § 301-10.160:\n\nIf a train only has two classes of accommodations available, i.e., first and business class, then the business class is deemed to be classified as coach-class for purposes of official travel, as it is the lowest class offered.\n\n[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 108, 67 FR 57965, Sept. 13, 2002; FTR Amdt. 2009-06, 74 FR 55148, Oct. 27, 2009]"
+  },
+  "after": {
+    "date": "2022-10-12",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-10-12/title-41.xml?part=301-10",
+    "snapshot_sha256": "5af0a1c5b1ea546e201564970a3775086b58b576ff7c7f44a98a3a19ab32739a",
+    "text": "§ 301-10.160 When may I use extra-fare train service?\n\nYou may use extra-fare train service whenever your agency determines it is more advantageous to the Government or is required for security reasons. Use of extra-fare train service must be authorized or approved as other than coach class accommodations as provided in §§ 301-10.103(b) and 301-10.103(c).\n\n[FTR Case 2020-300-1, 87 FR 55705, Sept. 12, 2022]"
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "date",
+      "summary": "Date-like wording changed.",
+      "before_evidence": {
+        "start": 0,
+        "end": 64,
+        "quote": "§ 301-10.160 What classes of train accommodations are available?"
+      },
+      "after_evidence": {
+        "start": 0,
+        "end": 53,
+        "quote": "§ 301-10.160 When may I use extra-fare train service?"
+      },
+      "needs_review": true,
+      "review_reason": "Lexical classification only; review legal and semantic significance.",
+      "method": "deterministic"
+    },
+    {
+      "id": "change-2",
+      "category": "date",
+      "summary": "Date-like wording changed.",
+      "before_evidence": {
+        "start": 66,
+        "end": 128,
+        "quote": "Link to an amendment published at 87 FR 55705, Sept. 12, 2022."
+      },
+      "after_evidence": {
+        "start": 55,
+        "end": 357,
+        "quote": "You may use extra-fare train service whenever your agency determines it is more advantageous to the Government or is required for security reasons. Use of extra-fare train service must be authorized or approved as other than coach class accommodations as provided in §§ 301-10.103(b) and 301-10.103(c)."
+      },
+      "needs_review": true,
+      "review_reason": "Lexical classification only; review legal and semantic significance.",
+      "method": "deterministic"
+    },
+    {
+      "id": "change-3",
+      "category": "date",
+      "summary": "Date-like wording changed.",
+      "before_evidence": {
+        "start": 130,
+        "end": 443,
+        "quote": "(a) Coach-class - The basic class of accommodations offered by a rail carrier to passengers that includes a level of service available to all passengers regardless of the fare paid. Coach-class includes reserved coach accommodations as well as slumber coach accommodations when overnight train travel is involved."
+      },
+      "after_evidence": {
+        "start": 359,
+        "end": 409,
+        "quote": "[FTR Case 2020-300-1, 87 FR 55705, Sept. 12, 2022]"
+      },
+      "needs_review": true,
+      "review_reason": "Lexical classification only; review legal and semantic significance.",
+      "method": "deterministic"
+    },
+    {
+      "id": "change-4",
+      "category": "removed",
+      "summary": "Paragraph text removed.",
+      "before_evidence": {
+        "start": 445,
+        "end": 660,
+        "quote": "(b) Slumber coach - Includes slumber coach accommodations on trains offering such accommodations, or the lowest level of sleeping accommodations available on a train that does not offer slumber coach accommodations."
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    },
+    {
+      "id": "change-5",
+      "category": "removed",
+      "summary": "Paragraph text removed.",
+      "before_evidence": {
+        "start": 662,
+        "end": 768,
+        "quote": "(c) Other than coach-class - Any class of accommodations above coach, e.g., first-class or business-class."
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    },
+    {
+      "id": "change-6",
+      "category": "removed",
+      "summary": "Paragraph text removed.",
+      "before_evidence": {
+        "start": 770,
+        "end": 890,
+        "quote": "(1) First-class - Includes bedrooms, roomettes, club service, parlor car accommodations or other premium accommodations."
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    },
+    {
+      "id": "change-7",
+      "category": "removed",
+      "summary": "Paragraph text removed.",
+      "before_evidence": {
+        "start": 892,
+        "end": 1034,
+        "quote": "(2) Business-class - A class of extra fare train service that is offered above coach class, but is lower than first-class, as described above."
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    },
+    {
+      "id": "change-8",
+      "category": "removed",
+      "summary": "Paragraph text removed.",
+      "before_evidence": {
+        "start": 1036,
+        "end": 1057,
+        "quote": "Note to § 301-10.160:"
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    },
+    {
+      "id": "change-9",
+      "category": "removed",
+      "summary": "Paragraph text removed.",
+      "before_evidence": {
+        "start": 1059,
+        "end": 1285,
+        "quote": "If a train only has two classes of accommodations available, i.e., first and business class, then the business class is deemed to be classified as coach-class for purposes of official travel, as it is the lowest class offered."
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    },
+    {
+      "id": "change-10",
+      "category": "removed",
+      "summary": "Paragraph text removed.",
+      "before_evidence": {
+        "start": 1287,
+        "end": 1433,
+        "quote": "[FTR Amdt. 70, 63 FR 15955, Apr. 1, 1998, as amended by FTR Amdt. 108, 67 FR 57965, Sept. 13, 2002; FTR Amdt. 2009-06, 74 FR 55148, Oct. 27, 2009]"
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    }
+  ],
+  "warnings": [],
+  "analysis": {
+    "method": "deterministic",
+    "model": null,
+    "prompt_version": null,
+    "generated_at": "2026-10-17T13:44:13.439512+00:00",
+    "latency_ms": 0.155,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cost_usd": 0,
+    "input_identity": "6768ba6503437f797fd8a882812b2acbb936363de048b925ad9b57ba3f525a15"
+  }
+}

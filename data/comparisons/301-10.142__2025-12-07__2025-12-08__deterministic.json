@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.142__2025-12-07__2025-12-08__deterministic",
+  "section": "301-10.142",
+  "title": "§ 301-10.142 Liability for improper or unauthorized foreign air carrier use.",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2025-12-07",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-07/title-41.xml?part=301-10",
+    "snapshot_sha256": "c3af54ff8020830b5b2ed8f98ff704de6eed6572d063a744aacf9b652ce2fe53",
+    "text": "§ 301-10.142 What must the certification include?\n\nThe certification must include:\n\n(a) Your name;\n\n(b) The dates that you traveled;\n\n(c) The origin and the destination of your travel;\n\n(d) A detailed itinerary of your travel, name of the air carrier and flight number for each leg of the trip; and\n\n(e) A statement explaining why you met one of the exceptions in § 301-10.135, § 301-10.136, or § 301-10.137 or a copy of your agency's written approval that foreign air carrier service was deemed a matter of necessity in accordance with § 301-10.138."
+  },
+  "after": {
+    "date": "2025-12-08",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2025-12-08/title-41.xml?part=301-10",
+    "snapshot_sha256": "7c994b51abe2c310f493295de3fdecc36fe9e28c59567e38bac28e5ebe446d6a",
+    "text": "§ 301-10.142 Liability for improper or unauthorized foreign air carrier use.\n\nEmployees will not be reimbursed for transportation costs incurred through improper or unauthorized use of foreign air carrier service."
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "requirement",
+      "summary": "Requirement or negation wording changed.",
+      "before_evidence": {
+        "start": 0,
+        "end": 49,
+        "quote": "§ 301-10.142 What must the certification include?"
+      },
+      "after_evidence": {
+        "start": 0,
+        "end": 76,
+        "quote": "§ 301-10.142 Liability for improper or unauthorized foreign air carrier use."
+      },
+      "needs_review": true,
+      "review_reason": "Lexical classification only; review legal and semantic significance.",
+      "method": "deterministic"
+    },
+    {
+      "id": "change-2",
+      "category": "requirement",
+      "summary": "Requirement or negation wording changed.",
+      "before_evidence": {
+        "start": 51,
+        "end": 82,
+        "quote": "The certification must include:"
+      },
+      "after_evidence": {
+        "start": 78,
+        "end": 213,
+        "quote": "Employees will not be reimbursed for transportation costs incurred through improper or unauthorized use of foreign air carrier service."
+      },
+      "needs_review": true,
+      "review_reason": "Lexical classification only; review legal and semantic significance.",
+      "method": "deterministic"
+    },
+    {
+      "id": "change-3",
+      "category": "removed",
+      "summary": "Paragraph text removed.",
+      "before_evidence": {
+        "start": 84,
+        "end": 98,
+        "quote": "(a) Your name;"
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    },
+    {
+      "id": "change-4",
+      "category": "removed",
+      "summary": "Paragraph text removed.",
+      "before_evidence": {
+        "start": 100,
+        "end": 132,
+        "quote": "(b) The dates that you traveled;"
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    },
+    {
+      "id": "change-5",
+      "category": "removed",
+      "summary": "Paragraph text removed.",
+      "before_evidence": {
+        "start": 134,
+        "end": 184,
+        "quote": "(c) The origin and the destination of your travel;"
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    },
+    {
+      "id": "change-6",
+      "category": "removed",
+      "summary": "Paragraph text removed.",
+      "before_evidence": {
+        "start": 186,
+        "end": 298,
+        "quote": "(d) A detailed itinerary of your travel, name of the air carrier and flight number for each leg of the trip; and"
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    },
+    {
+      "id": "change-7",
+      "category": "removed",
+      "summary": "Paragraph text removed.",
+      "before_evidence": {
+        "start": 300,
+        "end": 550,
+        "quote": "(e) A statement explaining why you met one of the exceptions in § 301-10.135, § 301-10.136, or § 301-10.137 or a copy of your agency's written approval that foreign air carrier service was deemed a matter of necessity in accordance with § 301-10.138."
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "deterministic"
+    }
+  ],
+  "warnings": [],
+  "analysis": {
+    "method": "deterministic",
+    "model": null,
+    "prompt_version": null,
+    "generated_at": "2026-10-17T13:44:13.432394+00:00",
+    "latency_ms": 0.089,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cost_usd": 0,
+    "input_identity": "8b884848e0e40a44265fc789f01a0950e82a08d1eedd33a72e84013b7ec08014"
+  }
+}

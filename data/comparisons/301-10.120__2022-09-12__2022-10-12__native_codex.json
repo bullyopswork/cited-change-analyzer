@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "id": "301-10.120__2022-09-12__2022-10-12__native_codex",
+  "section": "301-10.120",
+  "title": "§ 301-10.120 What must I do when different airlines furnish the same service at different fares?",
+  "corpus": "41 CFR Part 301-10",
+  "before": {
+    "date": "2022-09-12",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-09-12/title-41.xml?part=301-10",
+    "snapshot_sha256": "c4f46e02bb7ad13952daf286536bb722acade7ddc73cbaf971d1d2cb10776211",
+    "text": "§ 301-10.120 xxx\n\nLink to an amendment published at 87 FR 55704, Sept. 12, 2022."
+  },
+  "after": {
+    "date": "2022-10-12",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2022-10-12/title-41.xml?part=301-10",
+    "snapshot_sha256": "5af0a1c5b1ea546e201564970a3775086b58b576ff7c7f44a98a3a19ab32739a",
+    "text": "§ 301-10.120 What must I do when different airlines furnish the same service at different fares?\n\nWhen there is no contract City Pair Program fare and other carriers furnish the same service at different fares between the same points for the same type of accommodations, you must use the lowest cost service unless your agency determines that the use of higher cost service is more advantageous to the Government.\n\n[FTR Case 2020-300-1, 87 FR 55704, Sept. 12, 2022]"
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "wording",
+      "summary": "The placeholder section heading is replaced with a question about different airlines furnishing the same service at different fares.",
+      "before_evidence": {
+        "start": 0,
+        "end": 16,
+        "quote": "§ 301-10.120 xxx"
+      },
+      "after_evidence": {
+        "start": 0,
+        "end": 96,
+        "quote": "§ 301-10.120 What must I do when different airlines furnish the same service at different fares?"
+      },
+      "needs_review": true,
+      "review_reason": "The before heading is a placeholder, so correspondence with substantive prior text is uncertain.",
+      "method": "native_codex"
+    },
+    {
+      "id": "change-2",
+      "category": "added",
+      "summary": "The after snapshot contains an instruction to use the lowest cost service when there is no contract City Pair Program fare and carriers offer the same service between the same points for the same accommodations at different fares, unless the agency finds higher cost service more advantageous.",
+      "before_evidence": null,
+      "after_evidence": {
+        "start": 98,
+        "end": 413,
+        "quote": "When there is no contract City Pair Program fare and other carriers furnish the same service at different fares between the same points for the same type of accommodations, you must use the lowest cost service unless your agency determines that the use of higher cost service is more advantageous to the Government."
+      },
+      "needs_review": true,
+      "review_reason": "The before snapshot contains only a placeholder and publication notice; this is text present only in the supplied after snapshot, not proof of a globally new requirement.; One-sided evidence overlaps a complex revision; review addition versus replacement.",
+      "method": "native_codex"
+    },
+    {
+      "id": "change-3",
+      "category": "editorial",
+      "summary": "The standalone amendment-link notice is absent in the after snapshot.",
+      "before_evidence": {
+        "start": 18,
+        "end": 80,
+        "quote": "Link to an amendment published at 87 FR 55704, Sept. 12, 2022."
+      },
+      "after_evidence": null,
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    },
+    {
+      "id": "change-4",
+      "category": "editorial",
+      "summary": "The after snapshot adds the source citation for FTR Case 2020-300-1.",
+      "before_evidence": null,
+      "after_evidence": {
+        "start": 415,
+        "end": 465,
+        "quote": "[FTR Case 2020-300-1, 87 FR 55704, Sept. 12, 2022]"
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "native_codex"
+    }
+  ],
+  "warnings": [
+    "The before snapshot contains an “xxx” placeholder; prior substantive text and section alignment cannot be established."
+  ],
+  "analysis": {
+    "method": "native_codex",
+    "model": "gpt-6.1-sol",
+    "prompt_version": "cca-grounded-v1",
+    "generated_at": "2026-10-17T13:50:54.831541+00:00",
+    "latency_ms": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "usage_available": false,
+    "latency_available": false,
+    "cost_usd": null,
+    "billing_basis": "Existing OpenAI account via native Codex. Credit dollar rate unavailable; not zero model usage.",
+    "input_identity": "3fc7cd8078a15b86988f6f971c3a0388d9f31efb230abc1f982fdeec7cae74c5"
+  }
+}
