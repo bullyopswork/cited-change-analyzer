@@ -4,7 +4,7 @@
 
 The local application supports explicit optional OpenAI Responses analysis using only the installer's own OPENAI_API_KEY. Model, current input/output prices and per-analysis application cap are explicit environment settings. See [installation and configuration](INSTALL.md). The server never returns the key to the interface. The public demo has no API backend and cannot spend the project owner's account credits.
 
-The new local integration is covered by offline configuration, window mapping, Unicode/PDF evidence, budget, failed/unknown transport, replay and result preservation tests. Live provider verification remains pending an available developer API credential. The earlier native Codex generation described below is not a substitute for that live API check.
+The local integration is covered by offline configuration, window mapping, Unicode/PDF evidence, budget, failed/unknown transport, replay and result preservation tests. Live provider verification passed on October 17, 2026 using the published v0.2.0 package and `gpt-6.1-sol`. The two controlled comparisons produced five source supported explanations. A separate real provider rejection preserved local findings without retrying. [Saved proof and limits](LIVE_API_VERIFICATION.md). The earlier native Codex generation described below is separate from this API check.
 
 Windows are at most 20,000 source code points per side and eight calls per analysis. A persistent shared ledger bounds cost reservations, request count and deadline. Parent processing additionally has a 180 second outer wall limit. Source passages too large for a window or left uncovered by a model response remain deterministic findings with explicit partial coverage. A failed AI call never erases the local result. Exact citations do not establish factual or semantic correctness.
 
@@ -20,7 +20,7 @@ The repository does not extract, copy or publish agent OAuth credentials. Origin
 
 ## Optional Responses adapter
 
-This path is implemented and mock tested, but was not live tested in this build. It sends only the supplied public source material and requires `OPENAI_API_KEY` in the caller's environment. Do not put credentials in source, browser code, output files or shell arguments.
+This path passed both mocked transport tests and the recorded live provider check. The live check used synthetic documents, not private client files. A user's optional analysis sends the extracted source sections they consent to process and requires their own `OPENAI_API_KEY` in the local process environment. Do not put credentials in source, browser code, output files or shell arguments.
 
 The caller chooses a supported model and verifies its current pricing. No model prices are hard coded or inferred from an account's credit balance.
 
@@ -64,4 +64,6 @@ The single case model output contains `changes` and `warnings`, as specified by 
 
 ## Cost record
 
-Additional standalone API spend for this release was USD 0. Native generation consumed existing account credits. No credit to dollar conversion or remaining credit balance was verified. Token totals and batch timestamps come from runtime records, are sanitized before publication and include agent context and file operations. They are not token counts or latencies for isolated per case API requests.
+Original native archive generation used existing account credits and incurred no additional standalone API charges. No credit to dollar conversion is assigned to that generation. Its token totals include agent context and file operations and are not isolated per case API measurements.
+
+The subsequent installed package smoke proof made two successful Responses requests and one deliberately invalid model request, which returned HTTP 404. The successful calls used 1,806 input tokens and 520 output tokens at the default service tier, with no cached input or cache write tokens. At USD 2 per million input tokens and USD 10 per million output tokens, their usage estimate is USD 0.008812. The persistent ledger records USD 0.06655 including the rejected call's retained reservation. This conservative ledger amount is not a provider billing statement. The proof used a USD 1 limit inside the approved USD 10 development allowance and did not add an API endpoint or credentials for public visitors.

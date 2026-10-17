@@ -1,0 +1,221 @@
+{
+  "release": "0.2.0",
+  "installed_model_py_sha256": "d180f47e6d422fff796a95d95389dc34c68799ac11b9712e779095f82fcd21da",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-6.1-sol",
+  "transport": "Real HTTPS provider calls through destination-bound protected Gateway proxy; network routing shim only, no provider responses mocked.",
+  "scope": "Synthetic TXT, selectable-text PDF and mixed-format documents; smoke proof, not an accuracy benchmark.",
+  "prices_usd_per_million": {
+    "input": 2,
+    "output": 10
+  },
+  "pricing_source": "https://developers.openai.com/api/docs/pricing",
+  "approved_cap_usd": 10,
+  "proof_cap_usd": 1,
+  "proof_max_requests": 3,
+  "cases": [
+    {
+      "case": "text-policy",
+      "coverage": {
+        "status": "complete",
+        "local_changes": 3,
+        "covered_local_changes": 3,
+        "retained_local_changes": 0,
+        "planned_chunks": 1,
+        "attempted_chunks": 1,
+        "succeeded_chunks": 1,
+        "failed_chunks": 0,
+        "skipped_local_changes": 0,
+        "budget": {
+          "charged_or_reserved_usd": 0.004362,
+          "requests": 1,
+          "cap_usd": 1.0,
+          "max_requests": 8,
+          "seconds_remaining": 590.2904117107391
+        }
+      },
+      "latency_seconds": 9.713,
+      "findings": 3,
+      "analysis": {
+        "method": "openai_responses",
+        "model": "gpt-6.1-sol",
+        "prompt_version": "cca-grounded-v1",
+        "generated_at": "2026-10-17T19:06:21.358946+00:00",
+        "latency_ms": 9704.189,
+        "input_tokens": 861,
+        "output_tokens": 264,
+        "usage_available": true,
+        "latency_available": true,
+        "cost_usd": 0.004362,
+        "billing_basis": "Measured successful API requests only; failed outcomes retain conservative reservations in ai_coverage.budget. Caller-supplied token rates; no cache discount assumed.",
+        "ai_coverage": {
+          "status": "complete",
+          "local_changes": 3,
+          "covered_local_changes": 3,
+          "retained_local_changes": 0,
+          "planned_chunks": 1,
+          "attempted_chunks": 1,
+          "succeeded_chunks": 1,
+          "failed_chunks": 0,
+          "skipped_local_changes": 0,
+          "budget": {
+            "charged_or_reserved_usd": 0.004362,
+            "requests": 1,
+            "cap_usd": 1.0,
+            "max_requests": 8,
+            "seconds_remaining": 590.2904117107391
+          }
+        }
+      },
+      "sources_unchanged": true,
+      "citations_valid": true
+    },
+    {
+      "case": "pdf-fee",
+      "coverage": {
+        "status": "partial",
+        "local_changes": 1,
+        "covered_local_changes": 0,
+        "retained_local_changes": 1,
+        "planned_chunks": 1,
+        "attempted_chunks": 1,
+        "succeeded_chunks": 1,
+        "failed_chunks": 0,
+        "skipped_local_changes": 0,
+        "budget": {
+          "charged_or_reserved_usd": 0.008812,
+          "requests": 2,
+          "cap_usd": 1.0,
+          "max_requests": 8,
+          "seconds_remaining": 583.5688338279724
+        }
+      },
+      "latency_seconds": 6.649,
+      "findings": 3,
+      "analysis": {
+        "method": "openai_responses",
+        "model": "gpt-6.1-sol",
+        "prompt_version": "cca-grounded-v1",
+        "generated_at": "2026-10-17T19:06:28.080541+00:00",
+        "latency_ms": 6641.509,
+        "input_tokens": 945,
+        "output_tokens": 256,
+        "usage_available": true,
+        "latency_available": true,
+        "cost_usd": 0.00445,
+        "billing_basis": "Measured successful API requests only; failed outcomes retain conservative reservations in ai_coverage.budget. Caller-supplied token rates; no cache discount assumed.",
+        "ai_coverage": {
+          "status": "partial",
+          "local_changes": 1,
+          "covered_local_changes": 0,
+          "retained_local_changes": 1,
+          "planned_chunks": 1,
+          "attempted_chunks": 1,
+          "succeeded_chunks": 1,
+          "failed_chunks": 0,
+          "skipped_local_changes": 0,
+          "budget": {
+            "charged_or_reserved_usd": 0.008812,
+            "requests": 2,
+            "cap_usd": 1.0,
+            "max_requests": 8,
+            "seconds_remaining": 583.5688338279724
+          }
+        }
+      },
+      "sources_unchanged": true,
+      "citations_valid": true
+    },
+    {
+      "case": "unchanged-mixed-formats",
+      "passed": true,
+      "api_calls": 0
+    },
+    {
+      "case": "provider-rejection-preserves-local",
+      "passed": true,
+      "http_status": 404,
+      "local_findings_preserved": true,
+      "retry_count": 0
+    },
+    {
+      "case": "budget-overflow-blocked",
+      "passed": true,
+      "api_calls": 0
+    }
+  ],
+  "wire": [
+    {
+      "model": "gpt-6.1-sol",
+      "store": false,
+      "strict_schema": true,
+      "status": 200
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "store": false,
+      "strict_schema": true,
+      "status": 200
+    },
+    {
+      "model": "cca-deliberately-invalid-model-4090",
+      "store": false,
+      "strict_schema": true,
+      "status": 404
+    }
+  ],
+  "responses": [
+    {
+      "model": "gpt-6.1-sol",
+      "service_tier": "default",
+      "usage": {
+        "input_tokens": 861,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 264,
+        "output_tokens_details": {
+          "reasoning_tokens": 88
+        },
+        "total_tokens": 1125
+      }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "service_tier": "default",
+      "usage": {
+        "input_tokens": 945,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 256,
+        "output_tokens_details": {
+          "reasoning_tokens": 57
+        },
+        "total_tokens": 1201
+      }
+    }
+  ],
+  "budget": {
+    "charged_or_reserved_usd": 0.06655,
+    "requests": 3,
+    "cap_usd": 1.0,
+    "max_requests": 8,
+    "seconds_remaining": 583.1566526889801
+  },
+  "completed_usage_estimate_usd": 0.008812,
+  "secret_values_read_or_written_by_harness": false,
+  "passed": true,
+  "review": {
+    "reviewer": "implementing agent",
+    "independent_review": false,
+    "supported_ai_findings": 5,
+    "unsupported_ai_findings_found": 0,
+    "pdf_status": "partial, broader local finding retained",
+    "accuracy_benchmark": false,
+    "application_code_changed": false
+  },
+  "release_wheel_sha256": "0590a40d4c8945c18ba05765125d402d845cb4c84d0cc38bcbb4aba73d76144a"
+}

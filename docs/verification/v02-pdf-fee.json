@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0",
+  "id": "local__0b45bfb1a7cd58123ce3b523b4414730bf3f6815f3466b9ffe0c6ca243e57e5b__b0928d3adb6c200d3299f2f4e21ad970e74a8a194b00efcd9b401569101d73ac",
+  "section": "document",
+  "title": "before.pdf → after.pdf",
+  "corpus": "Local documents",
+  "before": {
+    "date": "2026-10-17",
+    "url": "",
+    "snapshot_sha256": "0b45bfb1a7cd58123ce3b523b4414730bf3f6815f3466b9ffe0c6ca243e57e5b",
+    "source_kind": "local",
+    "filename": "before.pdf",
+    "format": "pdf",
+    "extraction_warnings": [
+      "PDF text is extracted in reading order reported by the parser; layout, tables, images and signatures are not compared. No OCR is performed."
+    ],
+    "pages": [
+      {
+        "number": 1,
+        "start": 0,
+        "end": 54
+      }
+    ],
+    "text": "The service fee is $75. Payment is due within 30 days."
+  },
+  "after": {
+    "date": "2026-10-17",
+    "url": "",
+    "snapshot_sha256": "b0928d3adb6c200d3299f2f4e21ad970e74a8a194b00efcd9b401569101d73ac",
+    "source_kind": "local",
+    "filename": "after.pdf",
+    "format": "pdf",
+    "extraction_warnings": [
+      "PDF text is extracted in reading order reported by the parser; layout, tables, images and signatures are not compared. No OCR is performed."
+    ],
+    "pages": [
+      {
+        "number": 1,
+        "start": 0,
+        "end": 54
+      }
+    ],
+    "text": "The service fee is $90. Payment is due within 15 days."
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "amount",
+      "summary": "Numeric or amount wording changed.",
+      "before_evidence": {
+        "start": 0,
+        "end": 54,
+        "quote": "The service fee is $75. Payment is due within 30 days."
+      },
+      "after_evidence": {
+        "start": 0,
+        "end": 54,
+        "quote": "The service fee is $90. Payment is due within 15 days."
+      },
+      "needs_review": true,
+      "review_reason": "Lexical classification only; review legal and semantic significance.",
+      "method": "deterministic"
+    },
+    {
+      "id": "change-2",
+      "category": "amount",
+      "summary": "The service fee changes from $75 to $90.",
+      "before_evidence": {
+        "start": 0,
+        "end": 23,
+        "quote": "The service fee is $75."
+      },
+      "after_evidence": {
+        "start": 0,
+        "end": 23,
+        "quote": "The service fee is $90."
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "openai_responses"
+    },
+    {
+      "id": "change-3",
+      "category": "requirement",
+      "summary": "The payment deadline changes from within 30 days to within 15 days.",
+      "before_evidence": {
+        "start": 24,
+        "end": 54,
+        "quote": "Payment is due within 30 days."
+      },
+      "after_evidence": {
+        "start": 24,
+        "end": 54,
+        "quote": "Payment is due within 15 days."
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "openai_responses"
+    }
+  ],
+  "warnings": [
+    "Local source dates record UTC import, not publication or effective dates. This is lexical comparison, not legal or semantic verification.",
+    "Earlier document: PDF text is extracted in reading order reported by the parser; layout, tables, images and signatures are not compared. No OCR is performed.",
+    "Revised document: PDF text is extracted in reading order reported by the parser; layout, tables, images and signatures are not compared. No OCR is performed.",
+    "Both PDFs were compared using extracted text in parser-reported reading order. Layout, tables, images and signatures were not compared; no OCR was performed.",
+    "AI coverage incomplete: 1 local changes remain because AI did not fully cover their exact evidence. Local findings are not silently removed."
+  ],
+  "analysis": {
+    "method": "openai_responses",
+    "model": "gpt-6.1-sol",
+    "prompt_version": "cca-grounded-v1",
+    "generated_at": "2026-10-17T19:06:28.080541+00:00",
+    "latency_ms": 6641.509,
+    "input_tokens": 945,
+    "output_tokens": 256,
+    "usage_available": true,
+    "latency_available": true,
+    "cost_usd": 0.00445,
+    "billing_basis": "Measured successful API requests only; failed outcomes retain conservative reservations in ai_coverage.budget. Caller-supplied token rates; no cache discount assumed.",
+    "ai_coverage": {
+      "status": "partial",
+      "local_changes": 1,
+      "covered_local_changes": 0,
+      "retained_local_changes": 1,
+      "planned_chunks": 1,
+      "attempted_chunks": 1,
+      "succeeded_chunks": 1,
+      "failed_chunks": 0,
+      "skipped_local_changes": 0,
+      "budget": {
+        "charged_or_reserved_usd": 0.008812,
+        "requests": 2,
+        "cap_usd": 1.0,
+        "max_requests": 8,
+        "seconds_remaining": 583.5688338279724
+      }
+    }
+  }
+}

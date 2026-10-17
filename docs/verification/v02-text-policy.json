@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "id": "local__52e806015d43d141a26aeedbda51ad206fa2e50d2ab9a2f0371bfc68231b4a33__238115527bfd39aa0b635ae56cb5bebd0ded04851a9c9b7b1a0484adac6ee80f",
+  "section": "document",
+  "title": "before.txt → after.txt",
+  "corpus": "Local documents",
+  "before": {
+    "date": "2026-10-17",
+    "url": "",
+    "snapshot_sha256": "52e806015d43d141a26aeedbda51ad206fa2e50d2ab9a2f0371bfc68231b4a33",
+    "source_kind": "local",
+    "filename": "before.txt",
+    "format": "text",
+    "extraction_warnings": [],
+    "text": "Reimbursement is limited to $100.\n\nSubmit claims within 30 days.\n\nReceipts may be attached."
+  },
+  "after": {
+    "date": "2026-10-17",
+    "url": "",
+    "snapshot_sha256": "238115527bfd39aa0b635ae56cb5bebd0ded04851a9c9b7b1a0484adac6ee80f",
+    "source_kind": "local",
+    "filename": "after.txt",
+    "format": "text",
+    "extraction_warnings": [],
+    "text": "Reimbursement is limited to $150.\n\nSubmit claims within 45 days.\n\nReceipts must be attached."
+  },
+  "changes": [
+    {
+      "id": "change-1",
+      "category": "amount",
+      "summary": "The reimbursement limit increases from $100 to $150.",
+      "before_evidence": {
+        "start": 0,
+        "end": 33,
+        "quote": "Reimbursement is limited to $100."
+      },
+      "after_evidence": {
+        "start": 0,
+        "end": 33,
+        "quote": "Reimbursement is limited to $150."
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "openai_responses"
+    },
+    {
+      "id": "change-2",
+      "category": "date",
+      "summary": "The claim submission period changes from 30 days to 45 days.",
+      "before_evidence": {
+        "start": 35,
+        "end": 64,
+        "quote": "Submit claims within 30 days."
+      },
+      "after_evidence": {
+        "start": 35,
+        "end": 64,
+        "quote": "Submit claims within 45 days."
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "openai_responses"
+    },
+    {
+      "id": "change-3",
+      "category": "requirement",
+      "summary": "Attaching receipts changes from optional to mandatory.",
+      "before_evidence": {
+        "start": 66,
+        "end": 91,
+        "quote": "Receipts may be attached."
+      },
+      "after_evidence": {
+        "start": 66,
+        "end": 92,
+        "quote": "Receipts must be attached."
+      },
+      "needs_review": false,
+      "review_reason": null,
+      "method": "openai_responses"
+    }
+  ],
+  "warnings": [
+    "Local source dates record UTC import, not publication or effective dates. This is lexical comparison, not legal or semantic verification.",
+    "No case ID was supplied; the supplied section is \"document\"."
+  ],
+  "analysis": {
+    "method": "openai_responses",
+    "model": "gpt-6.1-sol",
+    "prompt_version": "cca-grounded-v1",
+    "generated_at": "2026-10-17T19:06:21.358946+00:00",
+    "latency_ms": 9704.189,
+    "input_tokens": 861,
+    "output_tokens": 264,
+    "usage_available": true,
+    "latency_available": true,
+    "cost_usd": 0.004362,
+    "billing_basis": "Measured successful API requests only; failed outcomes retain conservative reservations in ai_coverage.budget. Caller-supplied token rates; no cache discount assumed.",
+    "ai_coverage": {
+      "status": "complete",
+      "local_changes": 3,
+      "covered_local_changes": 3,
+      "retained_local_changes": 0,
+      "planned_chunks": 1,
+      "attempted_chunks": 1,
+      "succeeded_chunks": 1,
+      "failed_chunks": 0,
+      "skipped_local_changes": 0,
+      "budget": {
+        "charged_or_reserved_usd": 0.004362,
+        "requests": 1,
+        "cap_usd": 1.0,
+        "max_requests": 8,
+        "seconds_remaining": 590.2904117107391
+      }
+    }
+  }
+}

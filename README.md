@@ -6,7 +6,7 @@ Compare your own TXT and selectable text PDF documents on your computer. Inspect
 
 The installed application processes files locally, with no account or API key required for text comparison. It contains the browser interface, so users do not need Node or Docker. The public website is an example archive, not a hosted upload service. Installation instructions are linked above.
 
-**v0.2 verification status:** local comparison, package installation and automated own-key API behavior are implemented. A real OpenAI API call still requires a configured developer credential before the optional AI integration can be described as live verified. See the release notes for the final acceptance status. No owner credentials or funded public inference endpoint are included.
+**v0.2 verification status:** local comparison, package installation and optional OpenAI integration have passed their release checks. The installed release produced five source supported AI explanations in two controlled TXT/PDF comparisons. A real provider rejection preserved local findings without retrying. These small smoke checks are not a general accuracy benchmark. See [live API verification](docs/LIVE_API_VERIFICATION.md). No owner credentials or funded public inference endpoint are included.
 
 The public example website now runs the v0.2 viewer on GitHub Pages, with the installation link and the original 40 comparison archive. It does not accept documents or make live AI calls. The installable package works independently of the website. See [deployment and hosting](docs/DEPLOYMENT.md).
 
@@ -95,9 +95,9 @@ Normalized word diff and paragraph alignment run on the same cases. Their span c
 
 The recorded analyses were generated with `gpt-6.1-sol`, high reasoning, through verified native Codex runs on the existing authenticated OpenAI account. The complete prompt, input files, raw outputs and sanitized runtime usage are published under [prompts](prompts) and [data/inference](data/inference).
 
-No additional standalone API charges were incurred. Existing account credits were consumed; their dollar conversion is unavailable and is not represented as free inference. Runtime token totals include agent context and file access. Batch elapsed time is not isolated request latency.
+The original archive generation incurred no additional standalone API charges. Existing account credits were consumed; their dollar conversion is unavailable and is not represented as free inference. Runtime token totals include agent context and file access. Batch elapsed time is not isolated request latency.
 
-An optional OpenAI Responses adapter is included for developers with an API key. It requires explicit model pricing and a persistent spending ledger capped at USD 10. It is covered by mocked transport tests, not a live API test in this build. It reads only `OPENAI_API_KEY`, never agent OAuth files. No credential belongs in this repository or browser bundle. See [AI execution](docs/AI_EXECUTION.md).
+The optional OpenAI Responses adapter requires the installer's API key, explicit model pricing and a persistent spending ledger capped at USD 10. Live verification on October 17, 2026 used the published v0.2.0 package with `gpt-6.1-sol`. Two completed requests used 1,806 input tokens and 520 output tokens, about USD 0.008812 at the published standard rates. The ledger retained USD 0.06655 including a conservative reservation for a deliberately rejected request; that reservation is not a billing receipt. The adapter reads only `OPENAI_API_KEY`, never agent OAuth files. No credential belongs in this repository or browser bundle. See [AI execution](docs/AI_EXECUTION.md) and [the scoped live proof](docs/LIVE_API_VERIFICATION.md).
 
 ## Verification
 
