@@ -123,4 +123,17 @@ class LocalServerTests(unittest.TestCase):
         self.assertIsNone(self.app.job(identifier))
 
 
+class LocalStartupTests(unittest.TestCase):
+    def test_numeric_loopback_startup_never_uses_dns(self):
+        app = LocalApplication(web_root=Path(__file__).parent)
+        with patch('socket.getfqdn', side_effect=AssertionError('Startup must not resolve DNS.')), \
+                patch('socket.getaddrinfo', side_effect=AssertionError('Startup must not resolve DNS.')):
+            server = LocalHTTPServer(('127.0.0.1', 0), app)
+        try:
+            self.assertEqual(server.server_name, 'localhost')
+            self.assertGreater(server.server_port, 0)
+        finally:
+            server.server_close()
+
+
 if __name__=='__main__': unittest.main()

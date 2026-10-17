@@ -15,6 +15,7 @@ import multiprocessing
 import os
 from pathlib import Path
 import secrets
+from socketserver import TCPServer
 import threading
 import time
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -217,6 +218,14 @@ class LocalHTTPServer(ThreadingHTTPServer):
             raise ValueError("Local processing binds only to 127.0.0.1.")
         self.application = application
         super().__init__(address, LocalHandler)
+
+    def server_bind(self):
+        # HTTPServer's implementation performs a reverse DNS lookup through
+        # getfqdn. A loopback application needs no DNS identity, and offline or
+        # misconfigured resolvers must not delay startup or cause any egress.
+        TCPServer.server_bind(self)
+        self.server_name = "localhost"
+        self.server_port = self.server_address[1]
 
     def server_close(self):
         self.application.stop.set()
