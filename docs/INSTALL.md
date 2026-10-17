@@ -2,7 +2,7 @@
 
 The installed application compares your own TXT and selectable text PDF documents. Python 3.11 or newer is required. No Node, Docker, API key or source checkout is needed for ordinary use. The release wheel contains the browser interface.
 
-Download `cited_change_analyzer-0.2.0-py3-none-any.whl` from the [v0.2 release](https://github.com/bullyopswork/cited-change-analyzer/releases/tag/v0.2.0). Compare its SHA256 with the release's SHA256SUMS file. The GitHub release notes identify whether this is a preview and whether optional AI has a completed live verification.
+Download `cited_change_analyzer-0.2.0-py3-none-any.whl` from the [v0.2 release](https://github.com/bullyopswork/cited-change-analyzer/releases/tag/v0.2.0). Compare its SHA256 with the release's SHA256SUMS file. This is the completed v0.2 release, including the [recorded live verification of optional AI](LIVE_API_VERIFICATION.md).
 
 ## macOS and Linux
 
