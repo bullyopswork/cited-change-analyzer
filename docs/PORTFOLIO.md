@@ -2,7 +2,7 @@
 
 ## Short description
 
-Built an installable Python and TypeScript tool for comparing local TXT and selectable text PDF documents, with exact source highlights, PDF page provenance and report exports. Packaged the complete browser interface in a Python wheel, added bounded offline processing and optional user owned API integration, and retained a separate reproducible regulatory AI evaluation. Live provider verification of the optional v0.2 API path is still pending access to a developer credential.
+Built an installable Python and TypeScript tool for comparing local TXT and selectable text PDF documents, with exact source highlights, PDF page provenance and report exports. Packaged the complete browser interface in a Python wheel, added bounded offline processing and optional user owned API integration, and retained a separate reproducible regulatory AI evaluation. Live provider smoke checks of the optional v0.2 API path passed: five source supported explanations across two controlled comparisons, with a real provider rejection preserving local findings. These small checks are not a general accuracy benchmark. See [live API verification](LIVE_API_VERIFICATION.md).
 
 ## Local application demonstration
 

@@ -1,5 +1,19 @@
 # Cited Change Analyzer
 
+## In 30 seconds
+
+**Problem:** a document comparison is hard to trust when a finding cannot be traced to the exact source text.
+
+**Solution:** an installable Python and TypeScript tool that compares local TXT and selectable text PDF documents, shows exact citation spans and exports HTML or JSON reports.
+
+**Try it:** [install v0.2](docs/INSTALL.md) to compare your own files. The [public example archive](https://bullyopswork.github.io/cited-change-analyzer/) is static and accepts no uploads or live AI requests.
+
+**Proof:** [34 synthetic document regression checks](data/evaluation/local-documents-v02.json), released package checks and [small live provider smoke checks](docs/LIVE_API_VERIFICATION.md). These are separate from the frozen regulatory benchmark and are not a general accuracy claim.
+
+**Engineering decision:** deterministic source alignment works without an API key. Optional AI explanations require explicit consent and the user's own key; provider failures preserve the local findings.
+
+**Project work:** comparison, interface, packaging and validation used AI assistance. Reference annotations and prediction reviews are agent reviewed, not independent human legal assessment. No legal reliability or unaided authorship is claimed.
+
 Compare your own TXT and selectable text PDF documents on your computer. Inspect cited changes, then export a report. Optional AI explanations use your own OpenAI API key.
 
 [Download v0.2](https://github.com/bullyopswork/cited-change-analyzer/releases/tag/v0.2.0) · [Install and use](docs/INSTALL.md) · [Explore public examples](https://bullyopswork.github.io/cited-change-analyzer/) · [Architecture](docs/ARCHITECTURE.md)
